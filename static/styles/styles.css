@@ -77,8 +77,6 @@ audio,
 canvas,
 video {
     display: inline-block;
-    *display: inline;
-    *zoom: 1;
     max-width: 100%;
 }
 
@@ -138,7 +136,7 @@ legend {
     border: 0; 
     padding: 0;
     white-space: normal; 
-    *margin-left: -7px; 
+    margin-left: -7px; 
 }
 
 button,
@@ -148,7 +146,6 @@ textarea {
     font-size: 100%; /* 1 */
     margin: 0; /* 2 */
     vertical-align: baseline; /* 3 */
-    *vertical-align: middle; /* 3 */
 }
 
 button,
@@ -181,8 +178,8 @@ input[type="checkbox"],
 input[type="radio"] {
     box-sizing: border-box; /* 1 */
     padding: 0; /* 2 */
-    *height: 13px; /* 3 */
-    *width: 13px; /* 3 */
+    height: 13px; /* 3 */
+    width: 13px; /* 3 */
 }
 
 
