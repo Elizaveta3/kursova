@@ -271,3 +271,10 @@ textarea {
     font-weight: 700;
     src: url('../fonts/arsenal-v12-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
+/*коректне обчислення розмірів елементів */
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
