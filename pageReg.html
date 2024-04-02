@@ -6,23 +6,45 @@
     <link rel="stylesheet" href="static/styles/styles.css">
     <title>Registratoin</title>
 </head>
-<body>
-    <header class="header"></header>
-    <div class="wrapper"> 
-        <div class="header_wrapper">
-            <div class="header_logo"> 
-                <a href="/" class="header_logo_link">
-                    <img src="./static/images/LOGO 2.svg" alt="logo" class="header_logo_pic">
-                </a>
+<body class="page_reg">
+    <header class="header">
+        <div class="wrapper"> 
+            <div class="header_wrapper">
+                <div class="header_logo"> 
+                    <a href="/" class="header_logo_link">
+                        <img src="./static/images/LOGO 2.svg" alt="logo" class="header_logo_pic">
+                    </a>
+                </div>
+                <nav class="header_nav"> 
+                    <ul class="header_list">
+                        <li class="header_item">
+                            <a href="#!" class="header_link">Головна сторінка</a> 
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="header_nav"> 
-                <ul class="header_list">
-                    <li class="header_item">
-                        <a href="#!" class="header_link">Головна сторінка</a> 
-                    </li>
-                </ul>
-            </nav>
         </div>
-    </div>
+    </header>
+    <main class="main">
+        <section>
+            <form class="form_reg">
+                <h1>Реєстрація</h1>
+                <h2>Реєстрація</h2>
+                <fieldset class="form_reg_wrap ">
+                    <p class="form_input">
+                        <input type="text" class="form_input" placeholder="Username">
+                        <input type="text" class="form_input" placeholder="E-mail">
+                        <input type="text" class="form_input" placeholder="Password">
+                    </p>
+                    <p class="form_buttom">
+                        <button type="submit" class="submit_button">Зареєструватися</button>
+                        <button type="submit" class="submit_button_enter">Увійти</button>
+                    </p>
+                </fieldset>
+            </form>
+
+        </section>
+    </main>
 </body>
+
 </html>
