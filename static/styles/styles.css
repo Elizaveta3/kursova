@@ -279,13 +279,14 @@ html{
     box-sizing: inherit;
 }
 
-.page_enter, .page_reg{
+.page_enter, .page_reg {
     font-family: 'inter';
-    color:#655247;
+    color: #655247;
     font-size: 24px;
     font-weight: 400px;
-    background: url(../images/bg-reg.jpg) no-repeat center;
+    background: url(../images/bg-reg.jpg) no-repeat;
     background-size: cover;
+    position: relative;
     height: 100vh;
 }
 
@@ -301,7 +302,7 @@ html{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding-top: 30px;
+    margin-top: 30px;
 }
 
 .header_link{
@@ -320,6 +321,20 @@ html{
 
 .header_item{
     margin-right: 10px;
+    
+}
+
+.header_button{
+    width: 287px;
+    height: 57px;
+    font-size: 29px;
+    font-family: 'arsenal';
+    color:#655247;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: #D7DFAF;
+
 }
 
 .header_item:last-child{
@@ -334,15 +349,28 @@ html{
 
 /*Form styles starts*/
 
+.main {
+    display: flex;
+    justify-content: center; /* Центрування по горизонталі */
+}
 .form_enter{
+    margin-top: 42px;
+   width: 1030px;
+    height: 795px;
     background-color: #FAF7E8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Додано для центрування форми по вертикалі */
+    align-items: center;
+    border-radius: 30px;
+    
 }
 
 .form_input{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 262px;
+    margin-top: 23px;
     
 }
 
@@ -350,7 +378,11 @@ html{
     margin-bottom: 34px; /* Додатковий відступ між елементами, якщо потрібно */
     width: 564px;
     background-color: #D7DFAF;
-    
+    border: 0;
+    height: 74px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    padding-left: 20px;
+    padding-top: 7px;
 }
 
 .form_enter h1{
@@ -359,12 +391,33 @@ html{
     text-align: center;
     font-weight: bold;
     padding-top: 54px;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .form_input_field::placeholder{
     font-family: 'arsenal';
     color:#655247;
     font-size: 40px;
+
+}
+
+.submit_button{
+    width: 564px;
+    height: 74px;
+    font-family: 'arsenal';
+    font-size: 40px;
+    color: #FAF7E8;
+    background-color: #655247;
+    border: none;
+    box-shadow: 3px 9px 35px 0 #d1baa8;
+    border-radius: 30px;
+    margin-top: 114px;
+}
+
+.text_input{
+    align-items: center;
+    margin-top: 86px;
+    font-size: 20px;
 }
 
 /*Form styles ends*/
