@@ -353,7 +353,7 @@ html{
     display: flex;
     justify-content: center; /* Центрування по горизонталі */
 }
-.form_enter{
+.form_enter, .form_reg{
     margin-top: 42px;
    width: 1030px;
     height: 795px;
@@ -385,7 +385,7 @@ html{
     padding-top: 7px;
 }
 
-.form_enter h1{
+.form_enter h1, .form_reg h1{
     font-family: 'arsenal';
     font-size: 100px;
     text-align: center;
@@ -413,7 +413,29 @@ html{
     border-radius: 30px;
     margin-top: 114px;
 }
-
+.submit_button_reg{
+    width: 564px;
+    height: 74px;
+    font-family: 'arsenal';
+    font-size: 40px;
+    color: #FAF7E8;
+    background-color: #655247;
+    border: none;
+    box-shadow: 3px 9px 35px 0 #d1baa8;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+.submit_button_enter{
+    font-family: 'arsenal';
+    color:#655247 ;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    background-color: transparent;
+    border: none;
+    width: 564px;
+    height: 74px;
+}
 .text_input{
     align-items: center;
     margin-top: 86px;
