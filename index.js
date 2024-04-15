@@ -9,7 +9,7 @@ app.get('/', (req,res) => {
     res.send('Hello');
 });
 
-app.post('/auth/login', (res,req) => {
+app.post('/auth/login', (req,res) => {
     res.json({
         success:true
     });
