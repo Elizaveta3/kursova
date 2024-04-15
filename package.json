@@ -13,7 +13,12 @@
   "dependencies": {
     "-": "^0.0.1",
     "express": "^4.19.2",
+<<<<<<< HEAD
     "g": "^2.0.1",
+=======
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.1",
+>>>>>>> d8514d683cd4a0da97bdc101d20ea4fcf260d256
     "nodemon": "^3.1.0"
   }
 }
