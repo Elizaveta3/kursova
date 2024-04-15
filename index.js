@@ -1,3 +1,5 @@
+// Відео 56 хвилина рядок 43-50
+
 import express from 'express';
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcrypt';
@@ -7,7 +9,7 @@ import { validationResult } from 'express-validator';
 import { registerValidation }from './validations/auth.js';
 import AccountModel from './models/Account.js';
 
-mongoose.connect('mongodb+srv://kursova2024:1111@cluster0.vvaabpa.mongodb.net/')
+mongoose.connect('mongodb+srv://kursova2024:1111@cluster0.vvaabpa.mongodb.net/app')
 .then(() => console.log('DB ok'))
 .catch((err) => console.log('DB error', err));
 
@@ -16,7 +18,9 @@ const app = express();
 app.use(express.json());
 
 app.post('/auth/register', registerValidation, async (req,res) => {
-    const errors = validationResult(req);
+    try {
+
+        const errors = validationResult(req);
     if(!errors.isEmpty()){
         return res.status(400).json(errors.array());
     }
@@ -36,7 +40,23 @@ app.post('/auth/register', registerValidation, async (req,res) => {
 
     const account = await doc.save();
 
+    const token = jwt.sign({
+        _id: user._id,
+    },
+     'secret123',
+     {
+        expiresIn: '30d',
+     }
+    )
+
     res.json(account);
+
+    } catch (err) {
+        console.log(err);
+        res.status(500).json({
+            message: 'Не вдалося зареєструватися',
+        })
+    }
 });
 
 app.listen(8083, (err) => {
