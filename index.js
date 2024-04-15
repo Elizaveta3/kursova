@@ -7,7 +7,7 @@ app.use(express.json());
 
 
 app.get('/', (req,res) => {
-    res.send('Hello');
+    res.send('Hcddddello');
 });
 
 app.post('/auth/login', (req,res) => {
