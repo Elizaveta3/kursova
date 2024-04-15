@@ -2,4 +2,24 @@ import express from 'express';
 
 const app = express();
 
-app.listen(8083)
+app.use(express.json());
+
+
+app.get('/', (req,res) => {
+    res.send('Hello');
+});
+
+app.post('/auth/login', (res,req) => {
+    res.json({
+        success:true
+    });
+})
+
+app.listen(8083, (err) => {
+    if(err){
+        return console.log(err);
+    }
+
+    console.log("Server Ok");
+});
+
