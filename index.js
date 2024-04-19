@@ -123,18 +123,18 @@ app.get('/auth/me', checkAuth, async (req, res) => {
         const account = await AccountModel.findById(req.accountId);
         if (!account) {
             return res.status(404).json({
-                message: 'Користувача не знайдено';
+                message: 'Користувача не знайдено'
             })
         }
         const { passwordHash, ...accountData } = account._doc;
 
-        res.json({
-            ...accountData, token
-        }
-        );
+        res.json(accountData);
 
     } catch (err) {
-
+        console.log(err);
+        res.status(500).json({
+            message: 'Немає доступа',
+        })
     }
 });
 
