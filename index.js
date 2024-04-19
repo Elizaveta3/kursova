@@ -7,7 +7,10 @@ import mongoose from 'mongoose';
 import { validationResult } from 'express-validator';
 
 import { registerValidation }from './validations/auth.js';
+
 import AccountModel from './models/Account.js';
+import checkAuth from './utils/checkAuth.js';
+import Account from './models/Account.js';
 
 mongoose.connect('mongodb+srv://kursova2024:1111@cluster0.vvaabpa.mongodb.net/app')
 .then(() => console.log('DB ok'))
@@ -16,6 +19,57 @@ mongoose.connect('mongodb+srv://kursova2024:1111@cluster0.vvaabpa.mongodb.net/ap
 const app = express();
 
 app.use(express.json());
+
+app.post('/auth/login', async (req,res) => {
+
+    try{
+         const account = await AccountModel.findOne({
+            email: req.body.email
+         });
+
+         // Не знайдено пошту
+
+         if (!account){
+            return res.status(404).json({
+                message: 'Користувача не знайдено',
+            })
+         }
+
+       const isValidPass = await bcrypt.compare(req.body.password, account._doc.passwordHash);
+
+       // Не знайдено пароль
+
+       if (!isValidPass){
+        return res.status(400).json({
+            message: 'Не правильний логін або пароль',
+        });
+     }
+
+     const token = jwt.sign({
+        _id: account._id,
+    },
+     'secret123',
+     {
+        expiresIn: '30d',
+     }
+    );
+
+    const { passwordHash, ...accountData} = account._doc;
+
+    res.json({
+        ...accountData, 
+        token
+    }
+    );
+
+    }catch(err) {
+        console.log(err);
+        res.status(500).json({
+            message: 'Не вдалося авторизуватися',
+        })
+    }
+
+});
 
 app.post('/auth/register', registerValidation, async (req,res) => {
     try {
@@ -30,32 +84,48 @@ app.post('/auth/register', registerValidation, async (req,res) => {
     //Шифрування паролю
 
     const salt = await bcrypt.genSalt(10);
-    const passwordHash = await bcrypt.hash(password, salt);
+    const hash = await bcrypt.hash(password, salt);
 
     const doc = new AccountModel({
         email: req.body.email,
-        passwordHash,
+        passwordHash:hash,
         userName: req.body.userName,
     });
 
     const account = await doc.save();
 
     const token = jwt.sign({
-        _id: user._id,
+        _id: account._id,
     },
      'secret123',
      {
         expiresIn: '30d',
      }
-    )
+    );
 
-    res.json(account);
+    const { passwordHash, ...accountData} = account._doc;
+
+    res.json({
+        ...accountData, token
+    }
+    );
 
     } catch (err) {
         console.log(err);
         res.status(500).json({
             message: 'Не вдалося зареєструватися',
         })
+    }
+});
+
+app.get('/auth/me', checkAuth, async (req,res) =>{
+    try{
+            const account = await AccountModel.findById(req.accountId);
+        res.json({
+            success:true,
+        });
+    }catch(err){
+
     }
 });
 
