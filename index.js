@@ -4,11 +4,12 @@ import express from 'express';
 
 import mongoose from 'mongoose';
 
-import { registerValidation, loginValidation } from './validations.js';
+import { registerValidation, loginValidation, profileValidation } from './validations.js';
 
 import checkAuth from './utils/checkAuth.js';
 import Account from './models/Account.js';
 import * as AccountController from './controllers/AccountController.js'
+import * as ProfileController from './controllers/ProfileController.js'
 
 mongoose.connect('mongodb+srv://kursova2024:1111@cluster0.vvaabpa.mongodb.net/app')
     .then(() => console.log('DB ok'))
@@ -21,6 +22,10 @@ app.use(express.json());
 app.post('/auth/login',loginValidation, AccountController.login);
 app.post('/auth/register', registerValidation, AccountController.register);
 app.get('/auth/me', checkAuth, AccountController.getMe);
+
+//app.get('/profile', ProfileController.fillProfile);
+app.post('/profile',checkAuth, profileValidation,  ProfileController.fillProfile);
+
 
 app.listen(8083, (err) => {
     if (err) {

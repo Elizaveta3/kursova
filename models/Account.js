@@ -1,4 +1,7 @@
+// Таблиця Акаунт
+
 import mongoose from 'mongoose';
+
 const AccountSchema = new mongoose.Schema({
     userName: {
         type: String,
