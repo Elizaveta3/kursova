@@ -23,7 +23,7 @@ app.post('/auth/login',loginValidation, AccountController.login);
 app.post('/auth/register', registerValidation, AccountController.register);
 app.get('/auth/me', checkAuth, AccountController.getMe);
 
-//app.get('/profile', ProfileController.fillProfile);
+app.get('/profile', ProfileController.getProfile);
 app.post('/profile',checkAuth, profileValidation,  ProfileController.fillProfile);
 
 

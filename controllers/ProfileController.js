@@ -1,10 +1,16 @@
 import ProfileModel from '../models/Profile.js';
 
-/*export const getProfile (req,res) => {
+export const getProfile = async (req,res) => {
     try {
-
+        const profileInfo = await ProfileModel.find();
+        res.json(profileInfo);
+    } catch(err) {
+        console.log(err);
+        res.status(500).json({
+            message: 'Не вдалося знайти інформацію з профіля',
+        })
     }
-}*/
+}
 
 export const fillProfile = async (req,res) => {
     try{
