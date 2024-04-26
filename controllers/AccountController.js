@@ -46,7 +46,7 @@ export const register = async (req, res) => {
 export const login = async (req, res) => {
     try {
         const account = await AccountModel.findOne({
-            email: req.body.email
+            userName: req.body.userName,
         });
 
         // Не знайдено пошту
