@@ -30,7 +30,7 @@ app.patch('/profile/:id', checkAuth, profileValidation,handleValidationErrors,Pr
 app.post('/profile',checkAuth, profileValidation, handleValidationErrors, ProfileController.fillProfile);
 
 
-app.listen(8083, (err) => {
+app.listen(8084, (err) => {
     if (err) {
         return console.log(err);
     }
