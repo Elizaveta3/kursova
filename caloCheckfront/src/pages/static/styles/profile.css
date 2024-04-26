@@ -1,0 +1,114 @@
+.page_profile {
+    font-family: 'inter';
+    color: #655247;
+    font-size: 24px;
+    font-weight: 400px;
+    background: #D7DFAF;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+.wrapper{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+/* header - коричнева полоска */
+.header {
+    background: #655247;
+    width: 100%;
+    max-width: 1440px; 
+    height: 134px;
+}
+.header_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 17px;
+    /* margin-top: 30px; */
+}
+
+.header_link{
+    font-family: 'arsenal';
+    font-size: 30px;
+    text-decoration: none;
+    color:#655247;
+}
+
+.header_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*відступи між елементами меню*/
+
+.header_item{
+    margin-right: 33px; 
+}
+.header_item:last-child{
+    margin-right: 0;
+}
+/* styles for button start */
+.header_button{
+    width: 287px;
+    height: 57px;
+    font-size: 29px;
+    font-family: 'arsenal';
+    color:#655247;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: #FAF7E8;
+
+}
+/* зміна кольору при наведенні */
+.header_button:hover {
+    background-color: #ddd9c6; 
+    color: #563f34; 
+}
+
+/* нічого не змінює */
+/* .header_link:hover, .header_link:focus, .header_link:active{
+    opacity: .75;
+} */
+/* styles for button end */
+
+/* styles for form profile start */
+
+.profile_wrap {
+    background-color: #FAF7E8;
+    border-radius: 30px 30px 0 0;
+    width: 1349px;
+    height: 853px;
+    margin: 0 auto;
+    margin-top: 37px;
+    position: relative;
+}
+
+.profile_background {
+    background-color: #7FAC84;
+    border-radius: 30px 30px 0 0;
+    width: 1329px;
+    height: 318px;
+    margin: 9px 10px 9px 10px;
+    position: absolute; /* Змінено на relative */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_background_pic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.profile_background_pic_editor {
+    position: absolute;
+    bottom: 8px; /* Зсув вниз на 8px */
+    right: 8px; /* Зсув вправо на 8px */
+}
+
+
+/* styles for form profile end */
