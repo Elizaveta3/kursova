@@ -1,0 +1,12 @@
+.header_button{
+    width: 287px;
+    height: 57px;
+    font-size: 29px;
+    font-family: 'arsenal';
+    color:#655247;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: #D7DFAF;
+
+}
