@@ -8,10 +8,10 @@ export const RegisterPage = () => {
    
 
     return (
+        <>
         <div className="page_reg">
-
-            <main className="main">
-                <Header />
+            <Header />
+            <main className="main">          
                 <section>
                     <form className="form_reg">
                         <h1>Реєстрація</h1>
@@ -33,6 +33,6 @@ export const RegisterPage = () => {
                 </section>
             </main>
         </div>
+        </>
     )
-
 }

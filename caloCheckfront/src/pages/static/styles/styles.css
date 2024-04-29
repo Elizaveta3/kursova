@@ -6,16 +6,18 @@ html{
     box-sizing: inherit;
 }
 
-.page_enter, .page_reg {
+.page_reg {
     font-family: 'inter';
     color: #655247;
     font-size: 24px;
-    font-weight: 400px;
+    font-weight: 400;
     background: url(../images/bg-reg.jpg) no-repeat;
     background-size: cover;
     position: relative;
-    height: 100vh;
+    height: 100%;
+    min-height: 100vh; /* Доданий min-height, щоб забезпечити, що елемент займає хоча б 100% висоти екрана */
 }
+
 
 .wrapper{
     max-width: 1320px;
@@ -77,8 +79,8 @@ html{
 /*Form styles starts*/
 
 .main {
-    display: block;
-    margin: auto; /* Центрування по горизонталі */
+    display: flex;
+    justify-content: center; /* Центрування по горизонталі */
 }
 .form_enter, .form_reg{
     margin-top: 42px;
@@ -171,25 +173,24 @@ html{
 
 /*Form styles ends*/
 
-
 @media screen and (max-width: 3000px) {
-    .main {
+    .wrapper {
         max-width: 100%;
     }
 }
 @media screen and (max-width: 2000px) {
-    .main {
+    .wrapper {
         max-width: 90%;
     }
 }
 @media screen and (max-width: 1000px) {
-    .main {
+    .wrapper {
         max-width: 80%;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .main {
+    .wrapper {
         max-width: 60%;
     }
 }

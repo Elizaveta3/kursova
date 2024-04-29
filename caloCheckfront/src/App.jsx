@@ -5,6 +5,8 @@ import {RegisterPage} from './pages/registerPage'
 import {AuthPage} from './pages/authPage'
 import '../src/pages/static/styles/reset.css'
 
+
+
 function App() {
   return (
     <>
