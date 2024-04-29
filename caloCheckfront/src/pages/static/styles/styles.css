@@ -84,6 +84,7 @@ html{
 }
 .form_enter, .form_reg{
     margin-top: 42px;
+    margin-bottom: 60px;
    width: 1030px;
     height: 795px;
     background-color: #FAF7E8;
