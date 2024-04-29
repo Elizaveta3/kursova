@@ -37,24 +37,3 @@
     opacity: .75;
 }
 
-@media screen and (max-width: 3000px) {
-    .wrapper {
-        max-width: 100%;
-    }
-}
-@media screen and (max-width: 2000px) {
-    .wrapper {
-        max-width: 90%;
-    }
-}
-@media screen and (max-width: 1000px) {
-    .wrapper {
-        max-width: 80%;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .wrapper {
-        max-width: 60%;
-    }
-}

@@ -77,8 +77,8 @@ html{
 /*Form styles starts*/
 
 .main {
-    display: flex;
-    justify-content: center; /* Центрування по горизонталі */
+    display: block;
+    margin: auto; /* Центрування по горизонталі */
 }
 .form_enter, .form_reg{
     margin-top: 42px;
@@ -170,3 +170,26 @@ html{
 }
 
 /*Form styles ends*/
+
+
+@media screen and (max-width: 3000px) {
+    .main {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 2000px) {
+    .main {
+        max-width: 90%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .main {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main {
+        max-width: 60%;
+    }
+}

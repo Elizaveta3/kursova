@@ -1,8 +1,12 @@
 import React from 'react'
 import Header from '../components/Header/Header'
+import './static/styles/styles.css'
+
 
 
 export const RegisterPage = () => {
+   
+
     return (
         <div className="page_reg">
 
