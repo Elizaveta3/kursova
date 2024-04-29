@@ -6,7 +6,7 @@ html{
     box-sizing: inherit;
 }
 
-.page_reg {
+.page_reg, .page_enter {
     font-family: 'inter';
     color: #655247;
     font-size: 24px;
@@ -173,6 +173,103 @@ html{
 }
 
 /*Form styles ends*/
+
+/*Styles for page Main begin*/
+
+.sections-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.page_main {
+    font-family: 'inter';
+    color: #FAF7E8;
+    font-size: 24px;
+    font-weight: 400;
+    background: url(../images/bg_main.png) no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.first .main_text {
+    font-family: 'arsenal';
+    font-size: 120px;
+    color: #655247;
+    width: 610px;
+    margin-left: 800px;
+    font-weight: 700;
+}
+
+.first .little_text {
+    font-family: 'arsenal';
+    font-size: 25px;
+    color: #655247;
+    width: 610px;
+    margin-top: 310px;
+    margin-left: 800px;
+    
+}
+
+.second .main_text {
+    font-family: 'arsenal';
+    font-size: 120px;
+    color: #FAF7E8;
+    width: 665px;
+    margin-top: 305px;
+    margin-left:780px;
+    font-weight: 400;
+}
+
+.second .little_text {
+    font-family: 'arsenal';
+    font-size: 50px;
+    color: #FAF7E8;
+    width: 215px;
+    margin-top: 70px;
+    margin-left: 1290px;
+    
+}
+
+.third .little_text {
+    font-size: 24px;
+    text-align: center;
+    color: #655247;
+    width: 490px;
+    margin-top: 550px;
+    margin-left: 130px;
+}
+
+.fourth .little_text {
+    font-size: 24px;
+    color: #655247;
+    width: 440px;
+    margin-top: 80px;
+    margin-left: 960px;  
+}
+
+.fourth .main_text {
+    font-family: 'arsenal';
+    text-align: center;
+    font-size: 80px;
+    color: #FAF7E8;
+    width: 310px;
+    margin-top: 200px;
+    margin-left: 960px;  
+}
+
+.fifth .main_text {
+    font-family: 'arsenal';
+    text-align: center;
+    font-size: 200px;
+    color: #655247;
+    width: 700px;
+    margin-top: 550px;
+    margin-left: 330px;  
+}
+
+/*Styles for page Main ends*/
 
 @media screen and (max-width: 3000px) {
     .wrapper {
