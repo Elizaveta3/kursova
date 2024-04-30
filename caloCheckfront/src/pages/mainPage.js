@@ -41,6 +41,7 @@ export const MainPage = () => {
             </p>
           </section>
           <section className="third">
+            <p className="main_text">Що таке <span style={{ fontWeight: 700 }}>калорії</span>?</p>
             <p className="little_text">
               <span style={{ fontWeight: 700 }}>Калорії</span> - це одиниця виміру енергії, яка використовується для
               визначення кількості енергії, яку отримуємо з їжі та
@@ -55,19 +56,25 @@ export const MainPage = () => {
 
           <section className="fourth">
             <p className="main_text">Чому важливо рахувати <span style={{ fontWeight: 700 }} >калорії</span>?</p>
-            <p className="little_text">
-              Рахування калорій важливо з кількох причин. По-перше, це допомагає
+            <p className="little_text" >
+              Рахування калорій важливо з кількох причин. 
+            </p>
+            <p className="little_text" style={{ marginTop: 60 }}>
+            <span style={{ fontWeight: 700, textDecoration: "underline"}} >ПО-ПЕРШЕ</span>, це допомагає
               контролювати вагу та зберігати здоровий рівень фізичної форми.
               Збалансована кількість калорій відповідає потребам організму,
               дозволяючи уникнути надмірної ваги або недостатнього харчування.
-              По-друге, контроль калорій може сприяти здоровому способу життя та
+            </p>
+            <p className="little_text" style={{ marginTop: 60 }}>
+            <span style={{ fontWeight: 700, textDecoration: "underline"}} >ПО-ДРУГЕ</span>, контроль калорій може сприяти здоровому способу життя та
               запобіганню хворобам. Надмірне споживання калорій може призводити
               до розвитку ожиріння, діабету, серцево-судинних захворювань та
               інших проблем зі здоров'ям.
             </p>
           </section>
           <section className="fifth">
-            <p className="main_text">Готові почати?</p>
+            <p className="main_text">Готові <span style={{ fontWeight: 700}} >почати</span>?</p>
+            <div style={{ display: "flex", flexDirection: "column"  }}>
             <Button
               buttonClass="button_main_fifth_register"
               handleClick={handleGoToRegisterPage}
@@ -77,6 +84,7 @@ export const MainPage = () => {
             <Button buttonClass="button_main_fifth_auth" handleClick={handleGoToAuthPage}>
               Увійти
             </Button>
+            </div>  
           </section>
         </div>
       </main>

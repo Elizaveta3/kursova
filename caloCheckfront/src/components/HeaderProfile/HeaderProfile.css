@@ -1,0 +1,44 @@
+.header_profile{
+    background-color: #655247;
+}
+
+.wrapper_profile {
+    max-width: 1320px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header_wrappper_profile{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.header_link_profile{
+    font-family: 'arsenal';
+    font-size: 29px;
+    text-decoration: none;
+    color:#655247;
+}
+
+.header_list_profile{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*відступи між елементами меню*/
+
+.header_item_profile{
+    margin-right: 10px;
+    
+}
+.header_item:last-child_profile{
+    margin-right: 0;
+}
+
+.header_link_profile:hover, .header_link_profile:focus, .header_link_profile:active{
+    opacity: .75;
+}

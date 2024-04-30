@@ -25,6 +25,25 @@
 
 }
 
+.header_button_profile{
+    width: 287px;
+    height: 57px;
+    font-size: 30px;
+    font-family: 'arsenal';
+    color:#655247;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: #FAF7E8;
+    margin-right: 22px;
+
+}
+
+.header_button_profile:hover {
+    background-color: #D7DFAF; 
+
+}
+
 .header_button_main:last-child {
     margin-right: 0; /* Видаляємо відступ для останньої кнопки */
 }
@@ -55,7 +74,7 @@
     border-radius: 30px;
     background-color: #655247;
     margin-top: 120px;
-    margin-left: 1000px;
+    margin-left: 530px;
     font-weight: 700;
 }
 
@@ -69,8 +88,9 @@
     border: none;
     background-color: transparent;
     color:#655247;
-    margin-top: 120px;
-    margin-left: 1120px;
+    margin-top: 10px;
+    margin-bottom: 120px;
+    margin-left: 530px;
     font-weight: 700;
 }
 

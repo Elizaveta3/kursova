@@ -1,77 +1,79 @@
 /*коректне обчислення розмірів елементів */
-html{
-    box-sizing: border-box;
+html {
+  box-sizing: border-box;
 }
-*, *::before, *::after{
-    box-sizing: inherit;
-}
-
-.page_reg, .page_enter {
-    font-family: 'inter';
-    color: #655247;
-    font-size: 24px;
-    font-weight: 400;
-    background: url(../images/bg-reg.jpg) no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 100%;
-    min-height: 100vh; /* Доданий min-height, щоб забезпечити, що елемент займає хоча б 100% висоти екрана */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
+.page_reg,
+.page_enter {
+  font-family: "inter";
+  color: #655247;
+  font-size: 24px;
+  font-weight: 400;
+  background: url(../images/bg-reg.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  min-height: 100vh; /* Доданий min-height, щоб забезпечити, що елемент займає хоча б 100% висоти екрана */
+}
 
-.wrapper{
-    max-width: 1320px;
-    margin: 0 auto;
+.wrapper {
+  max-width: 1320px;
+  margin: 0 auto;
 }
 
 /*Header styles starts*/
 
-.header_wrappper{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 30px;
+.header_wrappper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
 }
 
-.header_link{
-    font-family: 'arsenal';
-    font-size: 29px;
-    text-decoration: none;
-    color:#655247;
+.header_link {
+  font-family: "arsenal";
+  font-size: 29px;
+  text-decoration: none;
+  color: #655247;
 }
 
-.header_list{
-    display: flex;
-    flex-wrap: wrap;
+.header_list {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /*відступи між елементами меню*/
 
-.header_item{
-    margin-right: 10px;
-    
+.header_item {
+  margin-right: 10px;
 }
 
-.header_button{
-    width: 287px;
-    height: 57px;
-    font-size: 29px;
-    font-family: 'arsenal';
-    color:#655247;
-    border: none;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-    background-color: #D7DFAF;
-
+.header_button {
+  width: 287px;
+  height: 57px;
+  font-size: 29px;
+  font-family: "arsenal";
+  color: #655247;
+  border: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  background-color: #d7dfaf;
 }
 
-.header_item:last-child{
-    margin-right: 0;
+.header_item:last-child {
+  margin-right: 0;
 }
 
-.header_link:hover, .header_link:focus, .header_link:active{
-    opacity: .75;
+.header_link:hover,
+.header_link:focus,
+.header_link:active {
+  opacity: 0.75;
 }
 
 /*Header styles ends*/
@@ -79,97 +81,96 @@ html{
 /*Form styles starts*/
 
 .main {
-    display: flex;
-    justify-content: center; /* Центрування по горизонталі */
+  display: flex;
+  justify-content: center; /* Центрування по горизонталі */
 }
-.form_enter, .form_reg{
-    margin-top: 42px;
-    margin-bottom: 60px;
-   width: 1030px;
-    height: 795px;
-    background-color: #FAF7E8;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Додано для центрування форми по вертикалі */
-    align-items: center;
-    border-radius: 30px;
-    
+.form_enter,
+.form_reg {
+  margin-top: 42px;
+  margin-bottom: 60px;
+  width: 1030px;
+  height: 795px;
+  background-color: #faf7e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Додано для центрування форми по вертикалі */
+  align-items: center;
+  border-radius: 30px;
 }
 
-.form_input{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 23px;
-    
+.form_input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 23px;
 }
 
 .form_input_field {
-    margin-bottom: 34px; /* Додатковий відступ між елементами, якщо потрібно */
-    width: 564px;
-    background-color: #D7DFAF;
-    border: 0;
-    height: 74px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    padding-left: 20px;
-    padding-top: 7px;
+  margin-bottom: 34px; /* Додатковий відступ між елементами, якщо потрібно */
+  width: 564px;
+  background-color: #d7dfaf;
+  border: 0;
+  height: 74px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  padding-left: 20px;
+  padding-top: 7px;
 }
 
-.form_enter h1, .form_reg h1{
-    font-family: 'arsenal';
-    font-size: 100px;
-    text-align: center;
-    font-weight: bold;
-    padding-top: 54px;
-    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+.form_enter h1,
+.form_reg h1 {
+  font-family: "arsenal";
+  font-size: 100px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 54px;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
-.form_input_field::placeholder{
-    font-family: 'arsenal';
-    color:#655247;
-    font-size: 40px;
-
+.form_input_field::placeholder {
+  font-family: "arsenal";
+  color: #655247;
+  font-size: 40px;
 }
 
-.submit_button{
-    width: 564px;
-    height: 74px;
-    font-family: 'arsenal';
-    font-size: 40px;
-    color: #FAF7E8;
-    background-color: #655247;
-    border: none;
-    box-shadow: 3px 9px 35px 0 #d1baa8;
-    border-radius: 30px;
-    margin-top: 114px;
+.submit_button {
+  width: 564px;
+  height: 74px;
+  font-family: "arsenal";
+  font-size: 40px;
+  color: #faf7e8;
+  background-color: #655247;
+  border: none;
+  box-shadow: 3px 9px 35px 0 #d1baa8;
+  border-radius: 30px;
+  margin-top: 114px;
 }
-.submit_button_reg{
-    width: 564px;
-    height: 74px;
-    font-family: 'arsenal';
-    font-size: 40px;
-    color: #FAF7E8;
-    background-color: #655247;
-    border: none;
-    box-shadow: 3px 9px 35px 0 #d1baa8;
-    border-radius: 30px;
-    margin-top: 40px;
+.submit_button_reg {
+  width: 564px;
+  height: 74px;
+  font-family: "arsenal";
+  font-size: 40px;
+  color: #faf7e8;
+  background-color: #655247;
+  border: none;
+  box-shadow: 3px 9px 35px 0 #d1baa8;
+  border-radius: 30px;
+  margin-top: 40px;
 }
-.submit_button_enter{
-    font-family: 'arsenal';
-    color:#655247 ;
-    font-size: 40px;
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    background-color: transparent;
-    border: none;
-    width: 564px;
-    height: 74px;
+.submit_button_enter {
+  font-family: "arsenal";
+  color: #655247;
+  font-size: 40px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  background-color: transparent;
+  border: none;
+  width: 564px;
+  height: 74px;
 }
-.text_input{
-    align-items: center;
-    margin-top: 86px;
-    font-size: 20px;
+.text_input {
+  align-items: center;
+  margin-top: 86px;
+  font-size: 20px;
 }
 
 /*Form styles ends*/
@@ -177,118 +178,193 @@ html{
 /*Styles for page Main begin*/
 
 .sections-wrapper {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .page_main {
-    font-family: 'inter';
-    color: #FAF7E8;
-    font-size: 24px;
-    font-weight: 400;
-    background: url(../images/bg_main.png) no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 100%;
-    min-height: 100vh;
+  font-family: "inter";
+  color: #faf7e8;
+  font-size: 24px;
+  font-weight: 400;
+  background: url(../images/bg_main.png) no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  min-height: 100vh;
 }
 
 .first .main_text {
-    font-family: 'arsenal';
-    font-size: 120px;
-    color: #655247;
-    width: 610px;
-    margin-left: 800px;
-    font-weight: 700;
+  font-family: "arsenal";
+  font-size: 120px;
+  color: #655247;
+  width: 610px;
+  margin-left: 750px;
+  font-weight: 700;
 }
 
 .first .little_text {
-    font-family: 'arsenal';
-    font-size: 25px;
-    color: #655247;
-    width: 610px;
-    margin-top: 310px;
-    margin-left: 800px;
-    
+  font-family: "arsenal";
+  font-size: 25px;
+  color: #655247;
+  width: 610px;
+  margin-top: 420px;
+  margin-left: 750px;
 }
 
 .second .main_text {
-    font-family: 'arsenal';
-    font-size: 120px;
-    color: #FAF7E8;
-    width: 665px;
-    margin-top: 305px;
-    margin-left:780px;
-    font-weight: 400;
+  font-family: "arsenal";
+  font-size: 120px;
+  color: #faf7e8;
+  width: 665px;
+  margin-top: 465px;
+  margin-left: 750px;
+  font-weight: 400;
 }
 
 .second .little_text {
-    font-family: 'arsenal';
-    font-size: 50px;
-    color: #FAF7E8;
-    width: 215px;
-    margin-top: 70px;
-    margin-left: 1290px;
-    
+  font-family: "arsenal";
+  font-size: 50px;
+  color: #faf7e8;
+  width: 215px;
+  margin-top: 200px;
+  margin-left: 1590px;
+}
+
+.third .main_text {
+  font-family: "arsenal";
+  font-size: 150px;
+  color: #655247;
+  width: 540px;
+  margin-top: 375px;
+  margin-left: 920px;
+  font-weight: 400;
 }
 
 .third .little_text {
-    font-size: 24px;
-    text-align: center;
-    color: #655247;
-    width: 490px;
-    margin-top: 550px;
-    margin-left: 130px;
+  font-size: 24px;
+  text-align: center;
+  color: #655247;
+  width: 490px;
+  margin-top: 300px;
+  margin-left: 230px;
 }
 
 .fourth .little_text {
-    font-size: 24px;
-    color: #655247;
-    width: 440px;
-    margin-top: 80px;
-    margin-left: 960px;  
+  font-size: 24px;
+  color: #655247;
+  width: 440px;
+  margin-top: 380px;
+  margin-left: 1340px;
 }
 
 .fourth .main_text {
-    font-family: 'arsenal';
-    text-align: center;
-    font-size: 80px;
-    color: #FAF7E8;
-    width: 310px;
-    margin-top: 200px;
-    margin-left: 960px;  
+  font-family: "arsenal";
+  text-align: center;
+  font-size: 80px;
+  color: #faf7e8;
+  width: 310px;
+  margin-top: 340px;
+  margin-left: 980px;
 }
 
 .fifth .main_text {
-    font-family: 'arsenal';
-    text-align: center;
-    font-size: 200px;
-    color: #655247;
-    width: 700px;
-    margin-top: 550px;
-    margin-left: 330px;  
+  font-family: "arsenal";
+  text-align: center;
+  font-size: 200px;
+  color: #655247;
+  width: 700px;
+  margin-top: 550px;
+  margin-left: 330px;
 }
 
 /*Styles for page Main ends*/
 
 @media screen and (max-width: 3000px) {
-    .wrapper {
-        max-width: 100%;
-    }
+  .wrapper {
+    max-width: 100%;
+  }
+  .first .main_text {
+    margin-left: 750px;
+  }
 }
-@media screen and (max-width: 2000px) {
-    .wrapper {
-        max-width: 90%;
-    }
+@media screen and (max-width: 1800px) {
+  .wrapper {
+    max-width: 90%;
+  }
+  .first .main_text {
+    margin-left: 700px;
+  }
+  .first .little_text {
+    margin-top: 420px;
+    margin-left: 700px;
+  }
+  .second .main_text {
+    margin-top: 490px;
+    margin-left: 750px;
+  }
+  .second .little_text {
+    margin-top: 70px;
+    margin-left: 1180px;
+  }
+  .third .main_text {
+    margin-top: 350px;
+    margin-left: 850px;
+  }
+  .third .little_text {
+    margin-top: 200px;
+    margin-left: 220px;
+  }
+  .fourth .main_text {
+    margin-top: 500px;
+    margin-left: 930px;
+  }
+  .fourth .little_text {
+    width: 380px;
+    margin-top: 240px;
+    margin-left: 1135px;
+  }
 }
 @media screen and (max-width: 1000px) {
-    .wrapper {
-        max-width: 80%;
-    }
+  .wrapper {
+    max-width: 80%;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    .wrapper {
-        max-width: 60%;
-    }
+  .wrapper {
+    max-width: 60%;
+  }
+}
+
+/*Styles for Main Page Ends*/
+
+/*Styles for Profile Page starts*/
+
+.page_profile {
+    font-family: "inter";
+    color: #655247;
+    font-size: 24px;
+    font-weight: 400;
+    background: #d7dfaf;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+.form_profile {
+    margin-top: 60px;
+    position: absolute;
+    left: 5%; /* Відступ зліва 5% */
+    width: 90%; /* Ширина 90% */
+    background-color: #faf7e8;
+    padding: 6px;
+    text-align: center;
+    height: 785px;
+    border-radius: 30px;
+}
+
+.profile{
+    background: #d7dfaf;
+    height: 100vh;
 }
