@@ -27,7 +27,7 @@ app.get('/profile', ProfileController.getProfile);
 app.get('/profile/:id', ProfileController.getOneProfile);
 app.delete('/profile/:id', checkAuth,ProfileController.removeProfile);
 app.patch('/profile/:id', checkAuth, profileValidation,handleValidationErrors,ProfileController.updateProfile);
-app.post('/profile',checkAuth, profileValidation, handleValidationErrors, ProfileController.fillProfile);
+app.post('/fillProfile',checkAuth, profileValidation, handleValidationErrors, ProfileController.fillProfile);
 
 
 app.listen(8084, (err) => {

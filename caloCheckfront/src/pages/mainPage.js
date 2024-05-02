@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../components/Button/Button";
 import HeaderMain from "../components/HeaderMain/HeaderMain";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export const MainPage = () => {
   const navigate = useNavigate();
