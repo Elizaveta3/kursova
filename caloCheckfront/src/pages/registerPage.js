@@ -47,7 +47,7 @@ export const RegisterPage = () => {
                             <fieldset className="form_reg_wrap">
                                 <p className="text_input">Введіть дані.</p>
                                 <p className="form_input">
-                                    <input type="text" className="form_input_field" placeholder="Username" id='username' onChange={handleChange} />
+                                    <input type="text" className="form_input_field" placeholder="Username" id='userName' onChange={handleChange} />
                                     <input type="email" className="form_input_field" placeholder="E-mail" id='email' onChange={handleChange} />
                                     <input type="password" className="form_input_field" placeholder="Password" id='password' onChange={handleChange} />
                                 </p>
