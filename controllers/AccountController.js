@@ -49,7 +49,7 @@ export const login = async (req, res) => {
             userName: req.body.userName,
         });
 
-        // Не знайдено пошту
+        // Не знайдено ім’я користувача
 
         if (!account) {
             return res.status(404).json({

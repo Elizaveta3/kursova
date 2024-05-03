@@ -94,6 +94,19 @@
     font-weight: 700;
 }
 
+.submit_button_diary {
+    width: 564px;
+    height: 74px;
+    font-family: "arsenal";
+    font-size: 40px;
+    color: #faf7e8;
+    background-color: #655247;
+    border: none;
+    box-shadow: 3px 9px 35px 0 #d1baa8;
+    border-radius: 30px;
+    margin-top: 40px;
+  }
+
 @media screen and (max-width: 3000px) {
     .button_main {
         margin-top: 300px;

@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../components/Header/Header';
-import { Alert } from 'flowbite-react';
+import { Alert } from '@mui/material';
 import Button from "../components/Button/Button";
 import { useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
@@ -50,7 +50,7 @@ export const AuthPage = () => {
                 <Header />
                 <main className="main">
                     <section>
-                        <form className="form_enter" >
+                        <form className="form_enter"  onSubmit={handleSubmit} >
                             <h1>Вхід</h1>
                             <fieldset className="form_enter_wrap">
                                 <p className="text_input">Введіть дані.</p>
@@ -58,6 +58,11 @@ export const AuthPage = () => {
                                     <input type="text" className="form_input_field" placeholder="Username" id='userName' onChange={handleChange}/>
                                     <input type="password" className="form_input_field" placeholder="Password" id='password'onChange={handleChange}/>
                                 </div>
+                                {errorMessage && (
+                                    <Alert severity="error">
+                                        {errorMessage}
+                                    </Alert>
+                                )}
                                 <p className="form_button">
                                     <Button
                                         buttonClass="submit_button" type="submit" onSubmit={handleSubmit}
@@ -65,11 +70,7 @@ export const AuthPage = () => {
                                         Увійти
                                     </Button>
                                 </p>
-                                {errorMessage && (
-                                    <Alert className='mt-5' color='failure'>
-                                        {errorMessage}
-                                    </Alert>
-                                )}
+                                
                             </fieldset>
                         </form>
                     </section>

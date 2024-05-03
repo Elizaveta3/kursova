@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Header from '../components/Header/Header'
-import { Alert } from 'flowbite-react';
+import { Alert } from '@mui/material';
 import './static/styles/styles.css'
 import Button from "../components/Button/Button";
 import { useNavigate } from "react-router-dom";
@@ -13,7 +13,7 @@ export const RegisterPage = () => {
         navigate("/auth");
     };
     const handleGoToFillPage = () => {
-        navigate("/fillProfile");
+        navigate("/fillProfile", { state: { accountId: formData.accountId } });
     };
     const [formData, setFormData] = useState({});
     const [errorMessage, setErrorMessage] = useState(null);
@@ -39,7 +39,8 @@ export const RegisterPage = () => {
                 return setErrorMessage(data.message);
             }
             if (res.ok) {
-                navigate('/fillProfile');
+                setFormData({ ...formData, accountId: data.accountId });
+                handleGoToFillPage();
             }
             console.log('Отримані дані:', data); // Виводимо отримані дані в консоль
         } catch (error) {
@@ -63,6 +64,11 @@ export const RegisterPage = () => {
                                     <input type="email" className="form_input_field" placeholder="E-mail" id='email' onChange={handleChange} />
                                     <input type="password" className="form_input_field" placeholder="Password" id='password' onChange={handleChange} />
                                 </p>
+                                {errorMessage && (
+                                    <Alert severity="error">
+                                        {errorMessage}
+                                    </Alert>
+                                )}
                                 <p className="form_buttom">
                                     <Button
                                         buttonClass="submit_button_reg" type='submit'
@@ -79,11 +85,7 @@ export const RegisterPage = () => {
                                         Увійти
                                     </Button>
                                 </p>
-                                {errorMessage && (
-                                    <Alert className='mt-5' color='failure'>
-                                        {errorMessage}
-                                    </Alert>
-                                )};
+                                
                             </fieldset>
                         </form>
                     </section>
