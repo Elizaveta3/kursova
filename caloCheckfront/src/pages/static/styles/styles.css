@@ -367,7 +367,7 @@ html {
   color: #655247;
   font-size: 24px;
   font-weight: 400;
-  background: url(../images/bg_profile.jpg) no-repeat;
+  background-image: url(../images/bg_profile.jpg) no-repeat;
   background-size: cover;
   position: relative;
   height: 100%;

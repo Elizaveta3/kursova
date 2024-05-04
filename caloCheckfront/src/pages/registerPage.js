@@ -13,7 +13,7 @@ export const RegisterPage = () => {
         navigate("/auth");
     };
     const handleGoToFillPage = () => {
-        navigate("/fillProfile", { state: { accountId: formData.accountId } });
+        navigate("/fillProfile", { state: { account: formData.userName } });
     };
     const [formData, setFormData] = useState({});
     const [errorMessage, setErrorMessage] = useState(null);
