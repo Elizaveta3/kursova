@@ -506,13 +506,13 @@ html {
   background-color: #faf7e8;
   padding: 6px;
   text-align: center;
-  height: 407px;
+  height: 500px;
   border-radius: 30px;
 }
 
 .submit_button_diary {
   display: block;
-  margin: 500px auto;
+  margin: 600px auto;
   /* Це розміщає кнопку по центру по горизонталі */
 }
 
@@ -524,6 +524,27 @@ html {
   text-align: left;
   padding-left: 60px;
   padding-top: 50px;
+}
+
+.little_text_diary {
+  color: #655247;
+  font-size: 40px;
+  text-align: left;
+  padding-left: 60px;
+  padding-top: 50px;
+}
+
+.section_diary {
+  margin-top: 60px; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 100px; /* для вирівнювання по вертикалі */
+}
+
+.text_diary,
+.little_text_diary{
+  margin-right: 300px; /* простір між елементами */
 }
 
 /*Styles for Diary ends*/
