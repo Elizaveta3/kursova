@@ -547,4 +547,9 @@ html {
   margin-right: 300px; /* простір між елементами */
 }
 
+.cancel_button_diary {
+  margin-top: 50px;
+  margin-right: 20px; /* Додайте відстань між кнопкою "Відмінити" і полем пошуку */
+}
+
 /*Styles for Diary ends*/

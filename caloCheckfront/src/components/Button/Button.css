@@ -122,6 +122,19 @@
     line-height: 90px; /* Выравнивание текста по вертикали */
 }
 
+.cancel_button_diary {
+    border-radius: 30px;
+    width: 194px;
+    height: 88px;
+    font-size: 30px; /* Уменьшим размер текста для лучшего соответствия */
+    text-align: center;
+    color: #655247;
+    background-color: #FFFFFF;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    line-height: 90px; /* Выравнивание текста по вертикали */
+}
+
 
 @media screen and (max-width: 3000px) {
     .button_main {
