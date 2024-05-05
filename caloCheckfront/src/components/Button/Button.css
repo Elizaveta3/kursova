@@ -1,0 +1,159 @@
+.header_button{
+    width: 287px;
+    height: 57px;
+    font-size: 29px;
+    font-family: 'arsenal';
+    color:#655247;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: #D7DFAF;
+
+}
+
+.header_button_main{
+    width: 287px;
+    height: 57px;
+    font-size: 29px;
+    font-family: 'arsenal';
+    color:#FAF7E8;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: #655247;
+    margin-right: 22px;
+
+}
+
+.header_button_profile{
+    width: 287px;
+    height: 57px;
+    font-size: 30px;
+    font-family: 'arsenal';
+    color:#655247;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: #FAF7E8;
+    margin-right: 22px;
+
+}
+
+.header_button_profile:hover {
+    background-color: #D7DFAF; 
+
+}
+
+.header_button_main:last-child {
+    margin-right: 0; /* Видаляємо відступ для останньої кнопки */
+}
+
+.button_main{
+    width: 317px;
+    height: 102px;
+    font-size: 40px;
+    font-family: 'arsenal';
+    color:#FAF7E8;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: #655247;
+    margin-top: 120px;
+    margin-left: 1120px;
+    font-weight: 700;
+}
+
+.button_main_fifth_register{
+    width: 317px;
+    height: 102px;
+    font-size: 40px;
+    font-family: 'arsenal';
+    color:#FAF7E8;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: #655247;
+    margin-top: 120px;
+    margin-left: 530px;
+    font-weight: 700;
+}
+
+.button_main_fifth_auth{
+    width: 317px;
+    height: 102px;
+    font-size: 35px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    font-family: 'arsenal';
+    border: none;
+    background-color: transparent;
+    color:#655247;
+    margin-top: 10px;
+    margin-bottom: 120px;
+    margin-left: 530px;
+    font-weight: 700;
+}
+
+.submit_button_diary {
+    width: 564px;
+    height: 74px;
+    font-family: "arsenal";
+    font-size: 40px;
+    color: #faf7e8;
+    background-color: #655247;
+    border: none;
+    box-shadow: 3px 9px 35px 0 #d1baa8;
+    border-radius: 30px;
+    margin-top: 40px;
+  }
+
+  .add_button_diary {
+    width: 90px;
+    height: 90px;
+    font-family: "arsenal";
+    font-weight: 700;
+    font-size: 30px; /* Уменьшим размер текста для лучшего соответствия */
+    text-align: center;
+    color: #655247;
+    background-color: #ADC177;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 100%;
+    line-height: 90px; /* Выравнивание текста по вертикали */
+}
+
+.cancel_button_diary {
+    border-radius: 30px;
+    width: 194px;
+    height: 88px;
+    font-size: 30px; /* Уменьшим размер текста для лучшего соответствия */
+    text-align: center;
+    color: #655247;
+    background-color: #FFFFFF;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    line-height: 90px; /* Выравнивание текста по вертикали */
+}
+
+
+@media screen and (max-width: 3000px) {
+    .button_main {
+        margin-top: 300px;
+    }
+}
+@media screen and (max-width: 2000px) {
+    .button_main {
+    margin-top: 260px;
+    }
+}
+@media screen and (max-width: 1800px) {
+    .button_main {
+    margin-top: 120px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .button_main {
+    margin-top: 120px;
+    }
+}

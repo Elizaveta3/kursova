@@ -1,0 +1,563 @@
+/*коректне обчислення розмірів елементів */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.page_reg,
+.page_enter {
+  font-family: "inter";
+  color: #655247;
+  font-size: 24px;
+  font-weight: 400;
+  background: url(../images/bg-reg.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  min-height: 100vh;
+  /* Доданий min-height, щоб забезпечити, що елемент займає хоча б 100% висоти екрана */
+}
+
+.wrapper {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+/*Header styles starts*/
+
+.header_wrappper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.header_link {
+  font-family: "arsenal";
+  font-size: 29px;
+  text-decoration: none;
+  color: #655247;
+}
+
+.header_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*відступи між елементами меню*/
+
+.header_item {
+  margin-right: 10px;
+}
+
+.header_button {
+  width: 287px;
+  height: 57px;
+  font-size: 29px;
+  font-family: "arsenal";
+  color: #655247;
+  border: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  background-color: #d7dfaf;
+}
+
+.header_item:last-child {
+  margin-right: 0;
+}
+
+.header_link:hover,
+.header_link:focus,
+.header_link:active {
+  opacity: 0.75;
+}
+
+/*Header styles ends*/
+
+/*Form styles starts*/
+
+.main {
+  display: flex;
+  justify-content: center;
+  /* Центрування по горизонталі */
+}
+
+.form_enter,
+.form_reg {
+  margin-top: 42px;
+  margin-bottom: 60px;
+  width: 1030px;
+  height: 795px;
+  background-color: #faf7e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Додано для центрування форми по вертикалі */
+  align-items: center;
+  border-radius: 30px;
+}
+
+.form_input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 23px;
+}
+
+.form_input_field {
+  margin-bottom: 34px;
+  /* Додатковий відступ між елементами, якщо потрібно */
+  width: 564px;
+  background-color: #d7dfaf;
+  border: 0;
+  height: 74px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  padding-left: 20px;
+  padding-top: 7px;
+}
+
+.form_enter h1,
+.form_reg h1 {
+  font-family: "arsenal";
+  font-size: 100px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 54px;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.form_input_field::placeholder {
+  font-family: "arsenal";
+  color: #655247;
+  font-size: 40px;
+}
+
+.submit_button {
+  width: 564px;
+  height: 74px;
+  font-family: "arsenal";
+  font-size: 40px;
+  color: #faf7e8;
+  background-color: #655247;
+  border: none;
+  box-shadow: 3px 9px 35px 0 #d1baa8;
+  border-radius: 30px;
+  margin-top: 114px;
+}
+
+.submit_button_reg {
+  width: 564px;
+  height: 74px;
+  font-family: "arsenal";
+  font-size: 40px;
+  color: #faf7e8;
+  background-color: #655247;
+  border: none;
+  box-shadow: 3px 9px 35px 0 #d1baa8;
+  border-radius: 30px;
+  margin-top: 40px;
+}
+
+.submit_button_enter {
+  font-family: "arsenal";
+  color: #655247;
+  font-size: 40px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  background-color: transparent;
+  border: none;
+  width: 564px;
+  height: 74px;
+  margin-bottom: 60px;
+}
+
+.text_input {
+  align-items: center;
+  margin-top: 86px;
+  font-size: 20px;
+}
+
+/*Form styles ends*/
+
+/*Styles for page Main begin*/
+
+.sections-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.page_main {
+  font-family: "inter";
+  color: #faf7e8;
+  font-size: 24px;
+  font-weight: 400;
+  background: url(../images/bg_main.png) no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.first .main_text {
+  font-family: "arsenal";
+  font-size: 120px;
+  color: #655247;
+  width: 610px;
+  margin-left: 750px;
+  font-weight: 700;
+}
+
+.first .little_text {
+  font-family: "arsenal";
+  font-size: 25px;
+  color: #655247;
+  width: 610px;
+  margin-top: 420px;
+  margin-left: 750px;
+}
+
+.second .main_text {
+  font-family: "arsenal";
+  font-size: 120px;
+  color: #faf7e8;
+  width: 665px;
+  margin-top: 465px;
+  margin-left: 750px;
+  font-weight: 400;
+}
+
+.second .little_text {
+  font-family: "arsenal";
+  font-size: 50px;
+  color: #faf7e8;
+  width: 215px;
+  margin-top: 200px;
+  margin-left: 1590px;
+}
+
+.third .main_text {
+  font-family: "arsenal";
+  font-size: 150px;
+  color: #655247;
+  width: 540px;
+  margin-top: 375px;
+  margin-left: 920px;
+  font-weight: 400;
+}
+
+.third .little_text {
+  font-size: 24px;
+  text-align: center;
+  color: #655247;
+  width: 490px;
+  margin-top: 300px;
+  margin-left: 230px;
+}
+
+.fourth .little_text {
+  font-size: 24px;
+  color: #655247;
+  width: 440px;
+  margin-top: 380px;
+  margin-left: 1340px;
+}
+
+.fourth .main_text {
+  font-family: "arsenal";
+  text-align: center;
+  font-size: 80px;
+  color: #faf7e8;
+  width: 310px;
+  margin-top: 340px;
+  margin-left: 980px;
+}
+
+.fifth .main_text {
+  font-family: "arsenal";
+  text-align: center;
+  font-size: 200px;
+  color: #655247;
+  width: 700px;
+  margin-top: 550px;
+  margin-left: 330px;
+}
+
+/*Styles for page Main ends*/
+
+@media screen and (max-width: 3000px) {
+  .wrapper {
+    max-width: 100%;
+  }
+
+  .first .main_text {
+    margin-left: 750px;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .wrapper {
+    max-width: 90%;
+  }
+
+  .first .main_text {
+    margin-left: 700px;
+  }
+
+  .first .little_text {
+    margin-top: 420px;
+    margin-left: 700px;
+  }
+
+  .second .main_text {
+    margin-top: 490px;
+    margin-left: 750px;
+  }
+
+  .second .little_text {
+    margin-top: 70px;
+    margin-left: 1180px;
+  }
+
+  .third .main_text {
+    margin-top: 350px;
+    margin-left: 850px;
+  }
+
+  .third .little_text {
+    margin-top: 200px;
+    margin-left: 220px;
+  }
+
+  .fourth .main_text {
+    margin-top: 500px;
+    margin-left: 930px;
+  }
+
+  .fourth .little_text {
+    width: 380px;
+    margin-top: 240px;
+    margin-left: 1135px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .wrapper {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    max-width: 60%;
+  }
+}
+
+/*Styles for Main Page Ends*/
+
+/*Styles for Profile Page starts*/
+
+.page_profile {
+  font-family: "inter";
+  color: #655247;
+  font-size: 24px;
+  font-weight: 400;
+  background: url(../images/bg_profile.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  min-height: 100vh;
+}
+.form_profile {
+  margin-top: 57px;
+  margin-bottom: 48px;
+  width: 1349px;
+  height: 785px;
+  background-color: #faf7e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Додано для центрування форми по вертикалі */
+  align-items: center;
+  border-radius: 30px;
+}
+/* .form_profile {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%; 
+  max-width: 1349px; 
+  background-color: #faf7e8;
+  padding: 6px;
+  text-align: center;
+  height: 785px;
+  border-radius: 30px;
+  margin-top: 191px;
+} */
+
+
+/*Styles for page fillProf begin*/
+
+.page_fill_profile {
+  font-family: "inter";
+  color: #655247;
+  font-size: 24px;
+  font-weight: 400;
+  background: url(../images/bg_fillProf.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  min-height: 100vh;
+  /* Доданий min-height, щоб забезпечити, що елемент займає хоча б 100% висоти екрана */
+}
+
+.form_fill_profile {
+  margin-top: 42px;
+  margin-bottom: 60px;
+  width: 1030px;
+  height: 1681px;
+  background-color: #faf7e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Додано для центрування форми по вертикалі */
+  align-items: center;
+  border-radius: 30px;
+}
+
+.form_fill_profile h1 {
+  font-family: "arsenal";
+  font-size: 100px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 54px;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.text_input_sex {
+  align-items: center;
+  margin-top: 123px;
+  font-size: 20px;
+}
+
+/* form to select sex */
+.form_sex {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.form_sex label {
+  font-family: "arsenal";
+  font-size: 40px;
+  color: #655247;
+
+}
+
+/* form to fill age, weight, height */
+.form_input_fill_prof {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 93px;
+  font-family: "arsenal";
+  color: #655247;
+  font-size: 40px;
+}
+
+.text_input_goal {
+  align-items: center;
+  font-size: 20px;
+}
+
+/* form to select goal */
+.form_goal {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 40px;
+}
+
+.form_goal label {
+  margin-bottom: 50px;
+}
+
+/*Styles for fillProf Ends*/
+
+/*Styles for Diary begin*/
+
+.page_diary {
+  font-family: "inter";
+  color: #faf7e8;
+  font-size: 24px;
+  font-weight: 400;
+  background-image: url(../images/diary.png), linear-gradient(#ADC177, #ADC177);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.form_diary {
+  margin-top: 60px;
+  position: absolute;
+  left: 5%;
+  width: 90%;
+  background-color: #faf7e8;
+  padding: 6px;
+  text-align: center;
+  height: 500px;
+  border-radius: 30px;
+}
+
+.submit_button_diary {
+  display: block;
+  margin: 600px auto;
+  /* Це розміщає кнопку по центру по горизонталі */
+}
+
+.text_diary {
+  font-family: "arsenal";
+  color: #655247;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: left;
+  padding-left: 60px;
+  padding-top: 50px;
+}
+
+.little_text_diary {
+  color: #655247;
+  font-size: 40px;
+  text-align: left;
+  padding-left: 60px;
+  padding-top: 50px;
+}
+
+.section_diary {
+  margin-top: 60px; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 100px; /* для вирівнювання по вертикалі */
+}
+
+.text_diary,
+.little_text_diary{
+  margin-right: 300px; /* простір між елементами */
+}
+
+.cancel_button_diary {
+  margin-top: 50px;
+  margin-right: 20px; /* Додайте відстань між кнопкою "Відмінити" і полем пошуку */
+}
+
+/*Styles for Diary ends*/

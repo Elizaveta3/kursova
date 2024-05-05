@@ -1,0 +1,15 @@
+.form_input_field_fill_prof {
+    margin-bottom: 70px; /* Додатковий відступ між елементами, якщо потрібно */
+    width: 564px;
+    background-color: #d7dfaf;
+    border: 0;
+    height: 74px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    padding-left: 20px;
+    padding-top: 7px;
+  }
+  .form_input_field_fill_prof::placeholder {
+    font-family: "arsenal";
+    color: #655247;
+    font-size: 40px;
+  }
