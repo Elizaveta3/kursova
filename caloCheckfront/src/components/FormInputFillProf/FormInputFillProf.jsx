@@ -1,8 +1,15 @@
 import React from 'react';
 import './FormInputFillProf.css'; 
-const FormInput = ({ placeholder }) => {
+
+const FormInput = ({ placeholder, id}) => {
+  
   return (
-    <input type="text" className="form_input_field_fill_prof" placeholder={placeholder} />
+    <input 
+      type="number" 
+      className="form_input_field_fill_prof" 
+      placeholder={placeholder} 
+      id={id} 
+    />
   );
 }
 

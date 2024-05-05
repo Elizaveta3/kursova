@@ -12,8 +12,28 @@ export const RegisterPage = () => {
     const handleGoToAuthPage = () => {
         navigate("/auth");
     };
-    const handleGoToFillPage = () => {
-        navigate("/fillProfile", { state: { account: formData.userName } });
+    const handleGoToFillPage = async () => {
+        try {
+            // Отримуємо токен з сервера
+            const res = await fetch('/auth/login', {
+                method: 'POST',
+                body: JSON.stringify(formData), 
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+            const data = await res.json();
+            if (res.ok) {
+                // Зберігаємо токен у localStorage
+                localStorage.setItem('token', data.token);
+                // Переходимо на сторінку заповнення профілю з передачею об'єкта state, що містить токен
+                navigate("/fillProfile", { state: { token: data.token} });
+            } else {
+                setErrorMessage(data.message);
+            }
+        } catch (error) {
+            console.error('Помилка під час відправлення запиту:', error);
+        }
     };
     const [formData, setFormData] = useState({});
     const [errorMessage, setErrorMessage] = useState(null);
@@ -39,7 +59,6 @@ export const RegisterPage = () => {
                 return setErrorMessage(data.message);
             }
             if (res.ok) {
-                setFormData({ ...formData, accountId: data.accountId });
                 handleGoToFillPage();
             }
             console.log('Отримані дані:', data); // Виводимо отримані дані в консоль
