@@ -23,10 +23,10 @@ app.post('/auth/login',loginValidation,handleValidationErrors, AccountController
 app.post('/auth/register', registerValidation,handleValidationErrors, AccountController.register);
 app.get('/auth/me', checkAuth, AccountController.getMe);
 
-app.get('/profile', ProfileController.getProfile);
-app.get('/profile/:id', ProfileController.getOneProfile);
-app.delete('/profile/:id', checkAuth,ProfileController.removeProfile);
-app.patch('/profile/:id', checkAuth, profileValidation,handleValidationErrors,ProfileController.updateProfile);
+app.get('/auth/profile', ProfileController.getProfile);
+app.get('/auth/profile/:id', ProfileController.getOneProfile);
+app.delete('/auth/profile/:id', checkAuth,ProfileController.removeProfile);
+app.patch('/auth/profile/:id', checkAuth, profileValidation,handleValidationErrors,ProfileController.updateProfile);
 app.post('/auth/fillProfile',checkAuth, profileValidation, handleValidationErrors, ProfileController.fillProfile);
 
 
