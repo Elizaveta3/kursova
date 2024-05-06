@@ -367,32 +367,40 @@ html {
   color: #655247;
   font-size: 24px;
   font-weight: 400;
-  background-image: url(../images/bg_profile.jpg) no-repeat;
+  background: url(../images/bg_profile.jpg) no-repeat;
   background-size: cover;
   position: relative;
   height: 100%;
   min-height: 100vh;
 }
- 
 .form_profile {
+  margin-top: 57px;
+  margin-bottom: 48px;
+  width: 1349px;
+  height: 785px;
+  background-color: #faf7e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Додано для центрування форми по вертикалі */
+  align-items: center;
+  border-radius: 30px;
+}
+/* .form_profile {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 90%; /* Змінено з 1349px на 90% */
-  max-width: 1349px; /* Додано максимальну ширину для випадків, коли вміст менше 90% */
+  width: 90%; 
+  max-width: 1349px; 
   background-color: #faf7e8;
   padding: 6px;
   text-align: center;
   height: 785px;
   border-radius: 30px;
   margin-top: 191px;
-}
-
-
-/* .profile {
-  height: 100vh;
 } */
+
 
 /*Styles for page fillProf begin*/
 
