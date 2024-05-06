@@ -34,8 +34,14 @@ export const FillPage = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log()
         try {
+            // Перевірка на наявність обов'язкових полів
+            const requiredFields = ['gender', 'age', 'height', 'weight', 'goal'];
+            const missingFields = requiredFields.filter(field => !formData[field]);
+            if (missingFields.length > 0) {
+                throw new Error(`Будь-ласка, заповніть всі обов'язкові поля: ${missingFields.join(', ')}`);
+            }
+    
             setErrorMessage(null);
             const res = await fetch('/auth/fillProfile', {
                 method: 'POST',
@@ -45,18 +51,19 @@ export const FillPage = () => {
                     'Authorization': `Bearer ${token}`
                 }
             });
-
+    
             if (!res.ok) {
                 const data = await res.json();
                 throw new Error(data.message);
             }
-
+    
             navigate('/profile');
         } catch (error) {
             console.error('Помилка під час відправлення запиту:', error.message);
             setErrorMessage(error.message);
         }
     };
+    
 
     return (
         <div className="page_fill_profile">

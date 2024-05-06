@@ -16,7 +16,6 @@
     "-": "^0.0.1",
     "@mui/material": "^5.15.16",
     "@mui/styled-engine-sc": "^6.0.0-alpha.18",
-    "@reduxjs/toolkit": "^2.2.3",
     "bcryptjs": "^2.4.3",
     "express": "^4.19.2",
     "express-validator": "^7.0.1",
