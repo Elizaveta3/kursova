@@ -9,7 +9,7 @@ import { Alert } from '@mui/material';
 
 export const FillPage = () => {
     const navigate = useNavigate();
-    const { token } = useLocation().state;
+    // const { token } = useLocation().state;
 
     const handleGoToAuthPage = () => {
         navigate('/auth');
@@ -45,11 +45,11 @@ export const FillPage = () => {
             setErrorMessage(null);
             const res = await fetch('/auth/fillProfile', {
                 method: 'POST',
-                body: JSON.stringify(formData),
                 headers: {
                     'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${token}`
-                }
+                    // 'Authorization': `Bearer ${token}`
+                },
+                body: JSON.stringify(formData)
             });
     
             if (!res.ok) {

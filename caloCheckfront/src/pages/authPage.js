@@ -40,6 +40,7 @@ export const AuthPage = () => {
                 dispatch(signInSuccess(data));
                 navigate('/profile');
             }
+            console.log('Отримані дані:', data);
         } catch (error) {
             dispatch(signInFailure(error.message));
         }
