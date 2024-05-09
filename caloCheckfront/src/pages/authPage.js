@@ -55,7 +55,7 @@ export const AuthPage = () => {
                         <form className="form_enter"  onSubmit={handleSubmit} >
                             <h1>Вхід</h1>
                             <fieldset className="form_enter_wrap">
-                                <p className="text_input">Введіть дані.</p>
+                                <p className="text_input">Підтвердіть дані.</p>
                                 <div className="form_input">
                                     <input type="text" className="form_input_field" placeholder="Username" id='userName' onChange={handleChange}/>
                                     <input type="password" className="form_input_field" placeholder="Password" id='password'onChange={handleChange}/>
