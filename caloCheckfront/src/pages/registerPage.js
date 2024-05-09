@@ -27,7 +27,7 @@ export const RegisterPage = () => {
                 // Зберігаємо токен у localStorage
                 localStorage.setItem('token', data.token);
                 // Переходимо на сторінку заповнення профілю з передачею об'єкта state, що містить токен
-                navigate("/fillProfile", { state: { token: data.token} });
+                navigate("/auth", { state: { token: data.token} });
             } else {
                 setErrorMessage(data.message);
             }

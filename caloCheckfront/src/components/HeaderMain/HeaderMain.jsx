@@ -7,7 +7,7 @@ export default function HeaderMain() {
     const navigate = useNavigate();
 
     const handleGoToAuthPage = () => {
-        navigate('/auth');
+        navigate('/authEnter');
     };
     const handleGoToRegisterPage = () => {
         navigate('/register');
