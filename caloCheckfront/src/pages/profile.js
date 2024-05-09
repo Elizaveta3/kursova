@@ -9,6 +9,7 @@ export const Profile = () => {
     const navigate = useNavigate();
     const { currentUser } = useSelector(state => state.user);
     const [profileData, setProfileData] = useState(null);
+    const [secondResponse, setSecondResponse] = useState(null);
 
     const handleGoToDiary = () => {
         navigate('/diary');
@@ -19,15 +20,27 @@ export const Profile = () => {
 
     useEffect(() => {
         const accountId = currentUser._id;
-        fetch(`/auth/profile/${accountId}`, {
-            method: 'GET',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-        })
-            .then(response => response.json())
-            .then(profileData => {
-                setProfileData(profileData); // Зберігаємо дані профілю у стані
+
+        // Виконання двох асинхронних запитів паралельно
+        Promise.all([
+            fetch(`/auth/profile/${accountId}`, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            }),
+            fetch(`/auth/profile/calo/${accountId}`, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            }),
+        ])
+            .then(responses => Promise.all(responses.map(response => response.json())))
+            .then(([profileDataResponse, secondResponseData]) => {
+                setProfileData(profileDataResponse); 
+                setSecondResponse(secondResponseData); 
+                console.log('Second response data:', secondResponseData);
             })
             .catch(error => {
                 console.error('Error fetching profile data:', error);
@@ -47,6 +60,9 @@ export const Profile = () => {
                     <section>
                         <div className="form_profile">
                             <h1>{currentUser.userName}</h1>
+                                <div>{secondResponse && secondResponse.caloriesNorm && (
+                                    <p>{secondResponse.caloriesNorm}</p>
+                                )}</div>
                             <div>
                                 <p>Gender</p>
                                 {/* Перевірка, чи є дані профілю і чи є значення гендера */}

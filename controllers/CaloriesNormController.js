@@ -89,3 +89,16 @@ export const calculateNorm = async (req, res) => {
         });
     }
 };
+
+export const getCalculateNorm = async (req, res) => {
+    try {
+        const accountId = req.params.id;
+        const profile = await CaloriesNormModel.findOne({ account: accountId });
+        res.status(200).json(profile); // Відправлення знайденого профілю у відповідь
+    } catch (err) {
+        console.log(err);
+        res.status(500).json({
+            message: 'Не вдалося знайти інформацію про норму калорій',
+        });
+    }
+};

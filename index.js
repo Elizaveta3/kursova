@@ -28,7 +28,9 @@ app.get('/auth/profile/:id', ProfileController.getOneProfile);
 app.delete('/auth/profile/:id', checkAuth,ProfileController.removeProfile);
 app.patch('/auth/profile/:id', checkAuth, profileValidation,handleValidationErrors,ProfileController.updateProfile);
 app.post('/auth/fillProfile',checkAuth, profileValidation, handleValidationErrors, ProfileController.fillProfile);
+
 app.post('/auth/profile/calo', CaloriesNormController.calculateNorm)
+app.get('/auth/profile/calo/:id', CaloriesNormController.getCalculateNorm)
 
 app.listen(8084, (err) => {
     if (err) {
