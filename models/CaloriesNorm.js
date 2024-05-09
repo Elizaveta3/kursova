@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 const CaloriesNormSchema = new mongoose.Schema({
-    account: {
+    profile: {
         type: mongoose.Schema.Types.ObjectId,
         ref:'Profile',
         required: true,

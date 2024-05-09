@@ -8,7 +8,7 @@ import { registerValidation, loginValidation, profileValidation } from './valida
 
 import {handleValidationErrors, checkAuth} from './utils/index.js';
 
-import {AccountController, ProfileController} from './controllers/index.js'
+import {AccountController, ProfileController, CaloriesNormController} from './controllers/index.js'
 
 
 mongoose.connect('mongodb+srv://kursova2024:1111@cluster0.vvaabpa.mongodb.net/app')
@@ -28,7 +28,7 @@ app.get('/auth/profile/:id', ProfileController.getOneProfile);
 app.delete('/auth/profile/:id', checkAuth,ProfileController.removeProfile);
 app.patch('/auth/profile/:id', checkAuth, profileValidation,handleValidationErrors,ProfileController.updateProfile);
 app.post('/auth/fillProfile',checkAuth, profileValidation, handleValidationErrors, ProfileController.fillProfile);
-
+app.post('/auth/profile/calo', CaloriesNormController.calculateNorm)
 
 app.listen(8084, (err) => {
     if (err) {
@@ -37,4 +37,6 @@ app.listen(8084, (err) => {
 
     console.log("Server Ok");
 });
+
+
 
