@@ -13,8 +13,8 @@ export const getProfile = async (req,res) => {
 }
 export const getOneProfile = async (req, res) => {
     try {
-        const profileId = req.params.id;
-        const profile = await ProfileModel.findOne({ _id: profileId });
+        const accountId = req.params.id;
+        const profile = await ProfileModel.findOne({ account: accountId });
         res.status(200).json(profile); // Відправлення знайденого профілю у відповідь
     } catch (err) {
         console.log(err);
