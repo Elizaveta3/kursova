@@ -1,20 +1,22 @@
 import mongoose from 'mongoose';
 
 const CaloriesNormSchema = new mongoose.Schema({
-    profile: {
+    account: {
         type: mongoose.Schema.Types.ObjectId,
-        ref:'Profile',
+        ref: 'Account',
         required: true,
-        unique: true
+    },
+    profile: {
+        type: Number,
+        default: 1,// Значення за замовчуванням - null
     },
     caloriesNorm: {
         type: Number,
         required: true,
     },  
-},
-{
+}, {
     timestamps: true,
-}
-);
+});
 
-export default mongoose.model('CaloriesNorm',CaloriesNormSchema);
+
+export default mongoose.model('CaloriesNorm', CaloriesNormSchema);

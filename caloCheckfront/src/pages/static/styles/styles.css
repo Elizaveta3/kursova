@@ -379,13 +379,19 @@ html {
   width: 1349px;
   height: 785px;
   background-color: #faf7e8;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* Додано для центрування форми по вертикалі */
   align-items: center;
   border-radius: 30px;
 }
+
+.page_profile h1 {
+  font-family: "arsenal";
+  font-weight: 700;
+  font-size: 50px;
+  padding-top: 49px;
+  padding-left: 60px; /* Відстань від верхнього краю сторінки */
+}
+
+
 /* .form_profile {
   position: absolute;
   left: 50%;
