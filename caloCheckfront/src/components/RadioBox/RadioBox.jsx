@@ -1,9 +1,16 @@
 import React from 'react';
 import './RadioBox.css'; 
-const RadioBox = ({ label, name }) => {
+
+const RadioBox = ({ label, name, value, onChange }) => {
   return (
     <label>
-      <input className="radio-box" type="radio" name={name}/>
+      <input 
+        type="radio"
+        className="radio-box" 
+        name={name} 
+        value={value} 
+        onChange={onChange} 
+      />
       <span className='radio-style'></span>
       {label}
     </label>

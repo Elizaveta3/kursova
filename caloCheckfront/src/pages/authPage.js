@@ -38,7 +38,8 @@ export const AuthPage = () => {
 
             if (res.ok) {
                 dispatch(signInSuccess(data));
-                navigate('/profile');
+                localStorage.setItem('token', data.token);
+                navigate('/fillProfile');
             }
             console.log('Отримані дані:', data);
         } catch (error) {

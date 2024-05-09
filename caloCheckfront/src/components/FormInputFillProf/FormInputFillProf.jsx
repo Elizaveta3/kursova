@@ -1,14 +1,16 @@
 import React from 'react';
 import './FormInputFillProf.css'; 
 
-const FormInput = ({ placeholder, id}) => {
+const FormInput = ({ placeholder, name, id, onChange }) => {
   
   return (
     <input 
       type="number" 
       className="form_input_field_fill_prof" 
       placeholder={placeholder} 
-      id={id} 
+      name={name} 
+      id={id}
+      onChange={onChange} 
     />
   );
 }
