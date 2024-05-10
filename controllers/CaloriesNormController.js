@@ -23,22 +23,22 @@ const getNextProfileValue = async () => {
 
 export const calculateNorm = async (req, res) => {
     try {
-        const accountId = req.body.accountId;
+        const accountId = req.params.id;
         let profileValue = req.body.profile;
 
         if (!profileValue) {
-            // Якщо profile відсутнє або має значення null, отримати нове значення
+            
             profileValue = await getNextProfileValue();
         }
 
-        // Знаходимо профіль за айді акаунта
+      
         const profile = await ProfileModel.findOne({ account: accountId });
 
         if (!profile) {
             return res.status(404).json({ message: 'Профіль не знайдено' });
         }
 
-        // Расчет нормы калорий
+        
         let caloriesNorm;
         if (profile.gender === 'female') {
             switch (profile.goal) {

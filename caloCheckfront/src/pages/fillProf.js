@@ -6,6 +6,7 @@ import FormInput from '../components/FormInputFillProf/FormInputFillProf';
 import './static/styles/styles.css';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Alert } from '@mui/material';
+import { useSelector } from 'react-redux';
 
 export const FillPage = () => {
     const navigate = useNavigate();
@@ -17,6 +18,7 @@ export const FillPage = () => {
 
     const [formData, setFormData] = useState({});
     const [errorMessage, setErrorMessage] = useState(null);
+    const { currentUser } = useSelector(state => state.user);
 
     const handleChange = (e) => {
 
@@ -65,7 +67,21 @@ export const FillPage = () => {
                 const data = await res.json();
                 throw new Error(data.message);
             }
+
+            const accountId = currentUser._id;
+            const afterRes = await fetch(`/auth/profile/calo/${accountId}`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            });
+            const secondData = await afterRes.json();
+            if (!afterRes.ok) {
+                const secondData = await afterRes.json();
+                throw new Error(secondData.message);
+            }
             console.log('Отримані дані:', data);
+            console.log('Отримані дані:', secondData);
             navigate('/profile');
         } catch (error) {
             console.error('Помилка під час відправлення запиту:', error.message);
