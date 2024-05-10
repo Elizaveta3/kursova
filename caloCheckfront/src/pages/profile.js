@@ -38,8 +38,8 @@ export const Profile = () => {
         ])
             .then(responses => Promise.all(responses.map(response => response.json())))
             .then(([profileDataResponse, secondResponseData]) => {
-                setProfileData(profileDataResponse); 
-                setSecondResponse(secondResponseData); 
+                setProfileData(profileDataResponse);
+                setSecondResponse(secondResponseData);
                 console.log('Second response data:', secondResponseData);
             })
             .catch(error => {
@@ -59,27 +59,48 @@ export const Profile = () => {
                 <main className="main">
                     <section>
                         <div className="form_profile">
-                            <h1>{currentUser.userName}</h1>
+                            <h1>@{currentUser.userName}</h1>
+                            <section className='profile_section_calories'>
+                                <div className='profile_calories_user'>
+                                    <p>цифра</p>
+                                    <p>з’їдено</p>
+                                </div>
                                 <div>{secondResponse && secondResponse.caloriesNorm && (
-                                    <p>{secondResponse.caloriesNorm}</p>
+                                    <p className='profile_calories'>{secondResponse.caloriesNorm}</p>
                                 )}</div>
-                            <div>
-                                <p>Gender</p>
+                                <div className='profile_calories_user'>
+                                    <p>цифра</p>
+                                    <p >спалено</p>
+                                </div>
+                            </section>
+
+                        <section className='profile_section_inf'>
+                            <div className="profile_row">
+                                <p className='profile_item'>Gender:</p>
                                 {/* Перевірка, чи є дані профілю і чи є значення гендера */}
                                 {profileData && profileData.gender && (
-                                    <p>{profileData.gender}</p>
+                                    <p className='profile_user_info'>{profileData.gender}</p>
                                 )}
-                                <p>Age</p>
+                                <p className='profile_item'>Age:</p>
                                 {profileData && profileData.age && (
-                                    <p>{profileData.age}</p>
+                                    <p className='profile_user_info'>{profileData.age}</p>
                                 )}
-                                <p>Weight</p>
+                            </div>
+                            <div className="profile_row">
+                                <p className='profile_item'>Weight:</p>
                                 {profileData && profileData.weight && (
-                                    <p>{profileData.weight}</p>
+                                    <p className='profile_user_info'>{profileData.weight}</p>
                                 )}
-                                <p>Height</p>
+                                <p className='profile_item'>Height:</p>
                                 {profileData && profileData.height && (
-                                    <p>{profileData.height}</p>
+                                    <p className='profile_user_info'>{profileData.height}</p>
+                                )}
+                            </div>
+                            </section>
+                            <div className='profile_goal'>
+                                <p className='profile_item'>My goal:</p>
+                                {profileData && profileData.goal && (
+                                    <p className='profile_user_info'>{profileData.goal}</p>
                                 )}
                             </div>
                         </div>

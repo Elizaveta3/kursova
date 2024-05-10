@@ -391,22 +391,78 @@ html {
   padding-left: 60px; /* Відстань від верхнього краю сторінки */
 }
 
+.profile_item{
+  font-family: "arsenal";
+  font-size: 30px;
+  margin: 0 15px; 
+}
 
-/* .form_profile {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 90%; 
-  max-width: 1349px; 
-  background-color: #faf7e8;
-  padding: 6px;
-  text-align: center;
-  height: 785px;
-  border-radius: 30px;
-  margin-top: 191px;
-} */
+.profile_user_info{
+  font-weight: 700;
+font-size: 30px;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+}
 
+.profile_calories{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Заокруглені кути для створення кола */
+    background-color: #7fac84;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-family: "arsenal";
+    font-weight: 700;
+    font-size: 80px;
+    color: #FAF7E8;
+}
+
+.profile_calories_user{
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.profile_section_calories{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 40px; 
+}
+
+.profile_section_inf{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  margin: 0 40px; 
+  padding-top: 70px;
+}
+
+.profile_section_calories > div {
+  margin: 0 40px; /* Встановлюємо відступи між елементами */
+}
+
+.profile_row{
+    display: flex;
+    justify-content: space-between; /* Рівномірно розподіляє елементи по горизонталі */
+    align-items: center;
+    padding-top: 30px;
+}
+
+.profile_goal{
+  display: flex;
+  padding-top: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile_goal p{
+  font-size: 40px;
+  margin: 0 10px; 
+}
 
 /*Styles for page fillProf begin*/
 
