@@ -19,72 +19,72 @@ export const MainPage = () => {
         <div className="sections-wrapper">
           <section className="first">
             <p className="little_text">
-              Відстежуй своє споживання калорій та витрати енергії
+              Track your calorie intake and energy expenditure
             </p>
-            <p className="main_text">Почувайся вільно з CaloCheck</p>
+            <p className="main_text">Feel free with CaloCheck</p>
             <Button
               buttonClass="button_main"
               handleClick={handleGoToRegisterPage}
             >
-              Детальніше
+              Read more
             </Button>
           </section>
           <section className="second">
             <p className="main_text">
-              користувачів вже харчуються{" "}
+              users are already eating {" "}
               <span style={{ fontWeight: 700, textDecoration: "underline" }}>
-                правильно!
+                properly!
               </span>
             </p>
             <p className="little_text">
-              Що <span style={{ fontWeight: 700 }}>заважає</span> тобі?
+              What <span style={{ fontWeight: 700 }}>prevents</span> you?
             </p>
           </section>
           <section className="third">
-            <p className="main_text">Що таке <span style={{ fontWeight: 700 }}>калорії</span>?</p>
+            <p className="main_text">What are calories<span style={{ fontWeight: 700 }}>calories</span>?</p>
             <p className="little_text">
-              <span style={{ fontWeight: 700 }}>Калорії</span> - це одиниця виміру енергії, яка використовується для
-              визначення кількості енергії, яку отримуємо з їжі та
-              використовуємо для підтримки життєвих процесів організму.{" "}
+              <span style={{ fontWeight: 700 }}>Calories</span> - is the unit of energy used for
+              determining the amount of energy obtained from food and
+              we use to support the vital processes of the body.{" "}
             </p>
             <p className="little_text" style={{ marginTop: 60 }} >
-              Калорії важливі для <span style={{ fontWeight: 700 }}>забезпечення енергії</span>, необхідної для роботи
-              органів, виконання фізичних вправ та інших повсякденних
-              активностей.
+              Calories are important for <span style={{ fontWeight: 700 }}>provision of energy </span>, equired for operation
+              organs, exercise and other daily activities
+              activities.
             </p>
           </section>
 
           <section className="fourth">
-            <p className="main_text">Чому важливо рахувати <span style={{ fontWeight: 700 }} >калорії</span>?</p>
+            <p className="main_text">Why it is important to count <span style={{ fontWeight: 700 }} >calories</span>?</p>
             <p className="little_text" >
-              Рахування калорій важливо з кількох причин. 
+              Calorie counting is important for certain reasons.
             </p>
             <p className="little_text" style={{ marginTop: 60 }}>
-            <span style={{ fontWeight: 700, textDecoration: "underline"}} >ПО-ПЕРШЕ</span>, це допомагає
-              контролювати вагу та зберігати здоровий рівень фізичної форми.
-              Збалансована кількість калорій відповідає потребам організму,
-              дозволяючи уникнути надмірної ваги або недостатнього харчування.
+              <span style={{ fontWeight: 700, textDecoration: "underline" }} >FIRSTLY</span>, it helps
+              control weight and maintain a healthy level of fitness.
+              A balanced amount of calories meets the needs of the body,
+              avoiding overweight or malnutrition.
             </p>
             <p className="little_text" style={{ marginTop: 60 }}>
-            <span style={{ fontWeight: 700, textDecoration: "underline"}} >ПО-ДРУГЕ</span>, контроль калорій може сприяти здоровому способу життя та
-              запобіганню хворобам. Надмірне споживання калорій може призводити
-              до розвитку ожиріння, діабету, серцево-судинних захворювань та
-              інших проблем зі здоров'ям.
+              <span style={{ fontWeight: 700, textDecoration: "underline" }} >SECONDLY</span>, calorie control can promote a healthy lifestyle and
+              prevention of diseases. Excessive calorie intake can lead
+              to the development of obesity, diabetes, cardiovascular disease and
+              other health problems.
             </p>
           </section>
           <section className="fifth">
-            <p className="main_text">Готові <span style={{ fontWeight: 700}} >почати</span>?</p>
-            <div style={{ display: "flex", flexDirection: "column"  }}>
-            <Button
-              buttonClass="button_main_fifth_register"
-              handleClick={handleGoToRegisterPage}
-            >
-              Зареєструватися
-            </Button>
-            <Button buttonClass="button_main_fifth_auth" handleClick={handleGoToAuthPage}>
-              Увійти
-            </Button>
-            </div>  
+            <p className="main_text">Are you ready <span style={{ fontWeight: 700 }} >to start</span>?</p>
+            <div style={{ display: "flex", flexDirection: "column" }}>
+              <Button
+                buttonClass="button_main_fifth_register"
+                handleClick={handleGoToRegisterPage}
+              >
+                Sign up
+              </Button>
+              <Button buttonClass="button_main_fifth_auth" handleClick={handleGoToAuthPage}>
+                Sign in
+              </Button>
+            </div>
           </section>
         </div>
       </main>

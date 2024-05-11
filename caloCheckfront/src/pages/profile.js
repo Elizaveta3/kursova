@@ -53,8 +53,8 @@ export const Profile = () => {
                 <HeaderProfile
                     click1={handleGoToDiary}
                     click2={handleGoToAuthPage}
-                    child1="Щоденник"
-                    child2="Вийти"
+                    child1="Diary"
+                    child2="Log out"
                 ></HeaderProfile>
                 <main className="main">
                     <section>
@@ -63,14 +63,14 @@ export const Profile = () => {
                             <section className='profile_section_calories'>
                                 <div className='profile_calories_user'>
                                     <p>цифра</p>
-                                    <p>з’їдено</p>
+                                    <p>eaten</p>
                                 </div>
                                 <div>{secondResponse && secondResponse.caloriesNorm && (
                                     <p className='profile_calories'>{secondResponse.caloriesNorm}</p>
                                 )}</div>
                                 <div className='profile_calories_user'>
                                     <p>цифра</p>
-                                    <p >спалено</p>
+                                    <p >burned</p>
                                 </div>
                             </section>
 

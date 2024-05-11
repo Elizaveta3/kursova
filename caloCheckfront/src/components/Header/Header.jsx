@@ -20,7 +20,7 @@ export default function Header() {
                 <nav className="header_nav">
                     <ul className="header_list">
                         <li className="header_item">
-                            <Button buttonClass="header_button" handleClick={handleGoToMainPage}>Головна сторінка</Button>
+                            <Button buttonClass="header_button" handleClick={handleGoToMainPage}>Main page</Button>
                         </li>
                     </ul>
                 </nav>

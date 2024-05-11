@@ -23,8 +23,8 @@ export default function HeaderMain() {
                 <nav className="header_nav">
                     <ul className="header_list">
                         <li className="header_item">
-                            <Button buttonClass="header_button_main" handleClick={handleGoToRegisterPage}>Зареєструватися</Button>
-                            <Button buttonClass="header_button_main" handleClick={handleGoToAuthPage}>Увійти</Button>
+                            <Button buttonClass="header_button_main" handleClick={handleGoToRegisterPage}>Sign up</Button>
+                            <Button buttonClass="header_button_main" handleClick={handleGoToAuthPage}>Sign in</Button>
                         </li>
                     </ul>
                 </nav>

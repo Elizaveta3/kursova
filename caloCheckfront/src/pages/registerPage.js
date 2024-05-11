@@ -32,7 +32,7 @@ export const RegisterPage = () => {
                 setErrorMessage(data.message);
             }
         } catch (error) {
-            console.error('Помилка під час відправлення запиту:', error);
+            console.error('Error sending request:', error);
         }
     };
     const [formData, setFormData] = useState({});
@@ -43,7 +43,7 @@ export const RegisterPage = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         if (!formData.userName || !formData.email || !formData.password) {
-            return setErrorMessage('Будь-ласка, заповність всі поля.');
+            return setErrorMessage('Please fill all fields.');
         }
         try {
             setErrorMessage(null);
@@ -61,9 +61,9 @@ export const RegisterPage = () => {
             if (res.ok) {
                 handleGoToFillPage();
             }
-            console.log('Отримані дані:', data); // Виводимо отримані дані в консоль
+            console.log('The received data:', data); // Виводимо отримані дані в консоль
         } catch (error) {
-            console.error('Помилка під час відправлення запиту:', error);
+            console.error('Error sending request:', error);
         }
     };
 
@@ -75,9 +75,9 @@ export const RegisterPage = () => {
                 <main className="main">
                     <section>
                         <form className="form_reg" onSubmit={handleSubmit}>
-                            <h1>Реєстрація</h1>
+                            <h1>Sign up</h1>
                             <fieldset className="form_reg_wrap">
-                                <p className="text_input">Введіть дані.</p>
+                                <p className="text_input">Enter the data.</p>
                                 <p className="form_input">
                                     <input type="text" className="form_input_field" placeholder="Username" id='userName' onChange={handleChange} />
                                     <input type="email" className="form_input_field" placeholder="E-mail" id='email' onChange={handleChange} />
@@ -93,7 +93,7 @@ export const RegisterPage = () => {
                                         buttonClass="submit_button_reg" type='submit'
 
                                     >
-                                        Далі
+                                        Next
                                     </Button>
                                 </p>
                                 <p>
@@ -101,7 +101,7 @@ export const RegisterPage = () => {
                                         buttonClass="submit_button_enter"
                                         handleClick={handleGoToAuthPage}
                                     >
-                                        Увійти
+                                        Sign in
                                     </Button>
                                 </p>
                                 

@@ -22,7 +22,7 @@ export const AuthPageEnter = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         if (!formData.userName || !formData.password) {
-            return dispatch(signInFailure('Будь-ласка, заповніть всі поля'));
+            return dispatch(signInFailure('Please fill in all fields'));
         }
         try {
             dispatch(signInStart());
@@ -41,7 +41,7 @@ export const AuthPageEnter = () => {
                 localStorage.setItem('token', data.token);
                 navigate('/profile');
             }
-            console.log('Отримані дані:', data);
+            console.log('The received data:', data);
         } catch (error) {
             dispatch(signInFailure(error.message));
         }
@@ -53,9 +53,9 @@ export const AuthPageEnter = () => {
                 <main className="main">
                     <section>
                         <form className="form_enter"  onSubmit={handleSubmit} >
-                            <h1>Вхід</h1>
+                            <h1>Login</h1>
                             <fieldset className="form_enter_wrap">
-                                <p className="text_input">Введіть дані.</p>
+                                <p className="text_input">Enter the data.</p>
                                 <div className="form_input">
                                     <input type="text" className="form_input_field" placeholder="Username" id='userName' onChange={handleChange}/>
                                     <input type="password" className="form_input_field" placeholder="Password" id='password'onChange={handleChange}/>
@@ -69,7 +69,7 @@ export const AuthPageEnter = () => {
                                     <Button
                                         buttonClass="submit_button" type="submit" onSubmit={handleSubmit}
                                     >
-                                        Увійти
+                                        Sign in
                                     </Button>
                                 </p>
                                 

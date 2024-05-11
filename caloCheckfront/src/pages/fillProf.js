@@ -33,7 +33,7 @@ export const FillPage = () => {
             setFormData({ ...formData, [name]: value });
         }
         else {
-            console.log('Введіть коректне значення для поля', name);
+            console.log('Enter a valid value for the field', name);
         }
     };
 
@@ -50,7 +50,7 @@ export const FillPage = () => {
             const requiredFields = ['gender', 'age', 'height', 'weight', 'goal'];
             const missingFields = requiredFields.filter(field => !formData[field]);
             if (missingFields.length > 0) {
-                throw new Error(`Будь-ласка, заповніть всі обов'язкові поля: ${missingFields.join(', ')}`);
+                throw new Error(`Please fill in all required fields: ${missingFields.join(', ')}`);
             }
 
             setErrorMessage(null);
@@ -84,7 +84,7 @@ export const FillPage = () => {
             console.log('Отримані дані:', secondData);
             navigate('/profile');
         } catch (error) {
-            console.error('Помилка під час відправлення запиту:', error.message);
+            console.error('Error sending request:', error.message);
             setErrorMessage(error.message);
         }
     };
@@ -96,9 +96,9 @@ export const FillPage = () => {
             <main className="main">
                 <section>
                     <form className="form_fill_profile" onSubmit={handleSubmit}>
-                        <h1>Реєстрація</h1>
+                        <h1>Sign up</h1>
                         <fieldset className="form_reg_wrap">
-                            <p className="text_input_sex">Оберіть стать</p>
+                            <p className="text_input_sex">Choose your gender</p>
                             <p className="form_sex">
                                 <RadioBox
                                     label="Female"
@@ -115,41 +115,41 @@ export const FillPage = () => {
                             </p>
                             <p className="form_input_fill_prof">
                                 <FormInput
-                                    placeholder="Напишіть свій вік(роки)"
+                                    placeholder="Write your age (years)"
                                     name="age"
                                     onChange={handleChange}
                                     id="age"
                                 />
 
                                 <FormInput
-                                    placeholder="Напишіть свій зріст(см)"
+                                    placeholder="Write your height (cm)"
                                     name="height"
                                     onChange={handleChange}
                                     id="height"
                                 />
                                 <FormInput
-                                    placeholder="Напишіть свій вагу(кг)"
+                                    placeholder="Write your weight (kg)"
                                     name="weight"
                                     onChange={handleChange}
                                     id="weight"
                                 />
                             </p>
-                            <p className="text_input_goal">Оберіть мету</p>
+                            <p className="text_input_goal">Choose your goal</p>
                             <p className="form_goal">
                                 <RadioBox
-                                    label="Худну"
+                                    label="losing weight"
                                     name="goal"
                                     value="lose_weight"
                                     onChange={handleChange}
                                 />
                                 <RadioBox
-                                    label="Підтримую поточну вагу"
+                                    label="Maintain current weight"
                                     name="goal"
                                     value="maintain_weight"
                                     onChange={handleChange}
                                 />
                                 <RadioBox
-                                    label="Набираю вагу"
+                                    label="Gain weight"
                                     name="goal"
                                     value="gain_weight"
                                     onChange={handleChange}
@@ -159,12 +159,12 @@ export const FillPage = () => {
                             {errorMessage && <Alert severity="error">{errorMessage}</Alert>}
                             <p className="form_buttom">
                                 <Button buttonClass="submit_button_reg" type="submit" onSubmit={handleSubmit}>
-                                    Зареєструватися
+                                    Sign up
                                 </Button>
                             </p>
                             <p>
                                 <Button buttonClass="submit_button_enter" handleClick={handleGoToAuthPage}>
-                                    Увійти
+                                    Sign in
                                 </Button>
                             </p>
                         </fieldset>

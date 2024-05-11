@@ -52,43 +52,43 @@ export const DiaryPage = () => {
 
     return (
         <div className="page_diary">
-            <HeaderProfile click1={handleGoToProfile} click2={handleGoToAuthPage} child1="Профіль" child2="Вийти" />
+            <HeaderProfile click1={handleGoToProfile} click2={handleGoToAuthPage} child1="Profile" child2="Log out" />
             <div className="form_diary">
                 <section className='section_diary'>
-                    <p className='text_diary' style={{ marginRight: '465px' }}>Їжа:</p>
+                    <p className='text_diary' style={{ marginRight: '465px' }}>Food:</p>
                     {showSearch1 && (
                         <Autocomplete
                         options={jsonResults}
                         sx={{ width: 600 }} // Змінено ширину на 400 пікселів
-                        renderInput={(params) => <TextField {...params} label="Пошук продукту" />}
+                        renderInput={(params) => <TextField {...params} label="Product search" />}
                     />
                     )}
-                    {showText1 && <p className='little_text_diary'>Натисніть, щоб обрати:</p>}
+                    {showText1 && <p className='little_text_diary'>Click here to select:</p>}
                     {showSearch1 ? (
-                        <Button buttonClass="cancel_button_diary" handleClick={handleCancel1}>Відмінити</Button>
+                        <Button buttonClass="cancel_button_diary" handleClick={handleCancel1}>Cancel</Button>
                     ) : (
                         <Button buttonClass="add_button_diary" handleClick={handlePlusButtonClick1}>+</Button>
                     )}
                     
                 </section>
                 <section className='section_diary'>
-                    <p className='text_diary'>Активності:</p>
+                    <p className='text_diary'>Activities:</p>
                     {showSearch2 && (
                         <Autocomplete
                             options={jsonResults}
                             sx={{ width: 300 }}
-                            renderInput={(params) => <TextField {...params} label="Пошук продукту" />}
+                            renderInput={(params) => <TextField {...params} label="Activities search" />}
                         />
                     )}
-                    {showText2 && <p className='little_text_diary'>Натисніть, щоб обрати:</p>}
+                    {showText2 && <p className='little_text_diary'>Click here to select:</p>}
                     {showSearch2 ? (
-                        <Button buttonClass="cancel_button_diary" handleClick={handleCancel2}>Відмінити</Button>
+                        <Button buttonClass="cancel_button_diary" handleClick={handleCancel2}>Cancel</Button>
                     ) : (
                         <Button buttonClass="add_button_diary" handleClick={handlePlusButtonClick2}>+</Button>
                     )}
                 </section>
             </div>
-            <Button buttonClass="submit_button_diary">Підтвердити</Button>
+            <Button buttonClass="submit_button_diary">Submit</Button>
         </div>
     );
 };
