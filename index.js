@@ -1,18 +1,20 @@
-// Відео 56 хвилина рядок 43-50
-
 import express from 'express';
 
 import mongoose from 'mongoose';
+
+import cron from 'node-cron';
 
 import { registerValidation, loginValidation, profileValidation } from './validations.js';
 
 import {handleValidationErrors, checkAuth} from './utils/index.js';
 
-import {AccountController, ProfileController, CaloriesNormController} from './controllers/index.js'
+import {AccountController, ProfileController, CaloriesNormController, FoodController} from './controllers/index.js'
+import foodForDay from './models/foodForDay.js';
 
 
 mongoose.connect('mongodb+srv://kursova2024:1111@cluster0.vvaabpa.mongodb.net/app')
     .then(() => console.log('DB ok'))
+
     .catch((err) => console.log('DB error', err));
 
 const app = express();
@@ -32,12 +34,29 @@ app.post('/auth/fillProfile',checkAuth, profileValidation, handleValidationError
 app.post('/auth/profile/calo/:id', CaloriesNormController.calculateNorm)
 app.get('/auth/profile/calo/:id', CaloriesNormController.getCalculateNorm)
 
+app.post('/auth/diary/food/:id', FoodController.calculateFoodForDay)
+
+cron.schedule('02 18 * * *', () => {
+    // Видаляємо всі дані з колекції CaloriesForDay
+    foodForDay.deleteMany({})
+        .then(() => {
+            console.log('Дані з таблиці CaloriesForDay успішно очищені');
+        })
+        .catch(error => {
+            console.error('Помилка при очищенні даних з таблиці CaloriesForDay:', error);
+        });
+});
+
+
 app.listen(8084, (err) => {
     if (err) {
         return console.log(err);
     }
 
     console.log("Server Ok");
+    // cron.schedule('* * * * *', () => {
+    //     console.log('running a task every minute');
+    //   });
 });
 
 

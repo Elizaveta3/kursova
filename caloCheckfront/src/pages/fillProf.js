@@ -4,7 +4,7 @@ import Header from '../components/Header/Header';
 import RadioBox from '../components/RadioBox/RadioBox';
 import FormInput from '../components/FormInputFillProf/FormInputFillProf';
 import './static/styles/styles.css';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { Alert } from '@mui/material';
 import { useSelector } from 'react-redux';
 

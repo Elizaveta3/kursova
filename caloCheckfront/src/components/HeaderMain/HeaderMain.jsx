@@ -1,7 +1,7 @@
 import logo from './LOGO 2.svg'
 import Button from '../Button/Button'
 import './HeaderMain.css'
-import {  Link, useNavigate } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 
 export default function HeaderMain() {
     const navigate = useNavigate();

@@ -3,9 +3,9 @@ import HeaderProfile from '../components/HeaderProfile/HeaderProfile';
 import { useNavigate } from 'react-router-dom';
 import Button from '../components/Button/Button';
 import TextField from '@mui/material/TextField';
-import Stack from '@mui/material/Stack';
+// import Stack from '@mui/material/Stack';
 import Autocomplete from '@mui/material/Autocomplete';
-import { Box } from '@mui/system';
+// import { Box } from '@mui/system';
 import jsonData from '../data/calories.json';
 
 export const DiaryPage = () => {
@@ -69,8 +69,8 @@ export const DiaryPage = () => {
                     ) : (
                         <Button buttonClass="add_button_diary" handleClick={handlePlusButtonClick1}>+</Button>
                     )}
-                    
                 </section>
+                <Button>Submit</Button>
                 <section className='section_diary'>
                     <p className='text_diary'>Activities:</p>
                     {showSearch2 && (
@@ -87,8 +87,9 @@ export const DiaryPage = () => {
                         <Button buttonClass="add_button_diary" handleClick={handlePlusButtonClick2}>+</Button>
                     )}
                 </section>
+                <Button>Submit</Button>
             </div>
-            <Button buttonClass="submit_button_diary">Submit</Button>
+
         </div>
     );
 };
