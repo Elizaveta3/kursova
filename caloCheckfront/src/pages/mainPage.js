@@ -41,7 +41,7 @@ export const MainPage = () => {
             </p>
           </section>
           <section className="third">
-            <p className="main_text">What are calories<span style={{ fontWeight: 700 }}>calories</span>?</p>
+            <p className="main_text">What are <span style={{ fontWeight: 700 }}>calories</span>?</p>
             <p className="little_text">
               <span style={{ fontWeight: 700 }}>Calories</span> - is the unit of energy used for
               determining the amount of energy obtained from food and
