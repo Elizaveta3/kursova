@@ -5,6 +5,7 @@ import Button from '../components/Button/Button';
 import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
 import jsonData from '../data/calories.json';
+import FormInput from '../components/FormInputFillProf/FormInputFillProf';
 import { useSelector } from 'react-redux';
 
 export const DiaryPage = () => {
@@ -13,7 +14,9 @@ export const DiaryPage = () => {
     const [showText2, setShowText2] = useState(true);
     const [showSearch1, setShowSearch1] = useState(false);
     const [showSearch2, setShowSearch2] = useState(false);
-    const [formData, setFormData] = useState({ foodItem: '', quantityGrams: '' });
+    const [errorMessage, setErrorMessage] = useState(null)
+    const [formData, setFormData] = useState({ foodItemName: '', quantityGrams: '' });
+
     const [jsonResults, setJsonResults] = useState([]);
     const { currentUser } = useSelector(state => state.user);
 
@@ -50,14 +53,14 @@ export const DiaryPage = () => {
         setShowSearch2(false);
     };
 
-    const handleChange = (e) => {
-        const { name, value } = e.target;
+    const handleChange = (value, name) => {
         setFormData({ ...formData, [name]: value });
     };
 
+
     const handleSubmit = async (e) => {
         e.preventDefault();
-        if (!formData.foodItem || !formData.quantityGrams) {
+        if (!formData.foodItemName || !formData.quantityGrams) {
             return console.log('Please fill all fields.');
         }
         try {
@@ -70,17 +73,19 @@ export const DiaryPage = () => {
                 body: JSON.stringify(formData)
             });
             const data = await res.json();
-            if (data.success === false) {
-                return console.log(data.message);
+            if (!res.ok) {
+                const data = await res.json();
+                throw new Error(data.message);
             }
             if (res.ok) {
                 console.log('Added');
                 // Reset form data after successful submission
-                setFormData({ foodItem: '', quantityGrams: '' });
+                setFormData({ foodItemName: '', quantityGrams: '' });
             }
             console.log('The received data:', data);
         } catch (error) {
-            console.error('Error sending request:', error);
+            console.error('Error sending request:', error.message);
+            setErrorMessage(error.message);
         }
     };
 
@@ -88,27 +93,34 @@ export const DiaryPage = () => {
         <div className="page_diary">
             <HeaderProfile click1={handleGoToProfile} click2={handleGoToAuthPage} child1="Profile" child2="Log out" />
             <div className="form_diary">
-                <section className='section_diary' onSubmit={handleSubmit}>
+                <form className='section_diary' onSubmit={handleSubmit}>
                     <p className='text_diary' style={{ marginRight: '465px' }}>Food:</p>
                     {showSearch1 && (
-                    <>
-                        <div className="search-container">
-                        <Autocomplete
-                            options={jsonResults}
-                            sx={{ width: 400 }}
-                            renderInput={(params) => <TextField {...params} label="Product search" />}
-                            onChange={(e, value) => setFormData({ ...formData, foodItem: value })}
-                        />
-                        <TextField
-                            label="Grams"
-                            name="quantityGrams"
-                            sx={{ width: 200 }}
-                            value={formData.quantityGrams}
-                            onChange={handleChange}
-                        />
-                    
-                            <Button buttonClass="submit_button_diary" type="submit">Submit</Button> {/* Додано кнопку "Submit" для відправлення введених даних */
-                            }
+                        <>
+                            <div className="search-container">
+                                <Autocomplete
+                                    options={jsonResults}
+                                    name="foodItemName"
+                                    sx={{ width: 400 }}
+                                    renderInput={(params) => <TextField {...params} label="Product search" />}
+                                    onChange={(e, value) => handleChange(value, 'foodItemName')}
+                                />
+
+                                {/* <TextField
+                                    label="Grams"
+                                    name="quantityGrams"
+                                    sx={{ width: 200 }}
+                                    // value={formData.quantityGrams}
+                                    onChange={handleChange}
+                                /> */}
+                                <FormInput
+                                    placeholder="Write your weight (kg)"
+                                    name="quantityGrams"
+                                    onChange={(e) => handleChange(e.target.value, 'quantityGrams')}
+                                    id="quantityGrams"
+                                />
+                                <Button buttonClass="submit_button_diary" type="submit" onSubmit={handleSubmit}>Submit</Button> {/* Додано кнопку "Submit" для відправлення введених даних */
+                                }
                             </div>
                         </>
                     )}
@@ -120,26 +132,26 @@ export const DiaryPage = () => {
                     ) : (
                         <Button buttonClass="add_button_diary" handleClick={handlePlusButtonClick1}>+</Button>
                     )}
-                </section>
+                </form>
                 <section className='section_diary'>
                     <p className='text_diary'>Activities:</p>
                     {showSearch2 && (
                         <>
-                        <div className="search-container">
-                        <Autocomplete
-                            options={jsonResults}
-                            sx={{ width: 400 }}
-                            renderInput={(params) => <TextField {...params} label="Activities search" />}
-                        />
-                        <TextField
-                            label="Minutes"
-                            //value={gramValue}
-                            //onChange={handleGramChange}
-                            sx={{ width: 200 }}
-                        />
-                    
-                            <Button buttonClass="submit_button_diary">Submit</Button> {/* Додано кнопку "Submit" для відправлення введених даних */
-                            }
+                            <div className="search-container">
+                                <Autocomplete
+                                    options={jsonResults}
+                                    sx={{ width: 400 }}
+                                    renderInput={(params) => <TextField {...params} label="Activities search" />}
+                                />
+                                <TextField
+                                    label="Minutes"
+                                    //value={gramValue}
+                                    //onChange={handleGramChange}
+                                    sx={{ width: 200 }}
+                                />
+
+                                <Button buttonClass="submit_button_diary">Submit</Button> {/* Додано кнопку "Submit" для відправлення введених даних */
+                                }
                             </div>
                         </>
                     )}
