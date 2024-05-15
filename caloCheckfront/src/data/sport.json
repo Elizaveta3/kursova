@@ -1,0 +1,1986 @@
+[
+  {
+    "Activity": "Cycling, mountain bike, bmx",
+    "130 lb": 502,
+    "typVaga": 598,
+    "180 lb": 695,
+    "205 lb": 791,
+    "Calories per kg": 1.75072971940299
+  },
+  {
+    "Activity": "Cycling, <10 mph, leisure bicycling",
+    "130 lb": 236,
+    "typVaga": 281,
+    "180 lb": 327,
+    "205 lb": 372,
+    "Calories per kg": 0.823235629850746
+  },
+  {
+    "Activity": "Cycling, >20 mph, racing",
+    "130 lb": 944,
+    "typVaga": 1126,
+    "180 lb": 1308,
+    "205 lb": 1489,
+    "Calories per kg": 3.29497352835821
+  },
+  {
+    "Activity": "Cycling, 10-11.9 mph, light",
+    "130 lb": 354,
+    "typVaga": 422,
+    "180 lb": 490,
+    "205 lb": 558,
+    "Calories per kg": 1.23485344477612
+  },
+  {
+    "Activity": "Cycling, 12-13.9 mph, moderate",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Cycling, 14-15.9 mph, vigorous",
+    "130 lb": 590,
+    "typVaga": 704,
+    "180 lb": 817,
+    "205 lb": 931,
+    "Calories per kg": 2.05944308059702
+  },
+  {
+    "Activity": "Cycling, 16-19 mph, very fast, racing",
+    "130 lb": 708,
+    "typVaga": 844,
+    "180 lb": 981,
+    "205 lb": 1117,
+    "Calories per kg": 2.47106089552239
+  },
+  {
+    "Activity": "Unicycling",
+    "130 lb": 295,
+    "typVaga": 352,
+    "180 lb": 409,
+    "205 lb": 465,
+    "Calories per kg": 1.02972154029851
+  },
+  {
+    "Activity": "Stationary cycling, very light",
+    "130 lb": 177,
+    "typVaga": 211,
+    "180 lb": 245,
+    "205 lb": 279,
+    "Calories per kg": 0.61742672238806
+  },
+  {
+    "Activity": "Stationary cycling, light",
+    "130 lb": 325,
+    "typVaga": 387,
+    "180 lb": 449,
+    "205 lb": 512,
+    "Calories per kg": 1.13262599402985
+  },
+  {
+    "Activity": "Stationary cycling, moderate",
+    "130 lb": 413,
+    "typVaga": 493,
+    "180 lb": 572,
+    "205 lb": 651,
+    "Calories per kg": 1.44133935522388
+  },
+  {
+    "Activity": "Stationary cycling, vigorous",
+    "130 lb": 620,
+    "typVaga": 739,
+    "180 lb": 858,
+    "205 lb": 977,
+    "Calories per kg": 2.16234753432836
+  },
+  {
+    "Activity": "Stationary cycling, very vigorous",
+    "130 lb": 738,
+    "typVaga": 880,
+    "180 lb": 1022,
+    "205 lb": 1163,
+    "Calories per kg": 2.57464235223881
+  },
+  {
+    "Activity": "Calisthenics, vigorous, pushups, situps…",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Calisthenics, light",
+    "130 lb": 207,
+    "typVaga": 246,
+    "180 lb": 286,
+    "205 lb": 326,
+    "Calories per kg": 0.721008179104478
+  },
+  {
+    "Activity": "Circuit training, minimal rest",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Weight lifting, body building, vigorous",
+    "130 lb": 354,
+    "typVaga": 422,
+    "180 lb": 490,
+    "205 lb": 558,
+    "Calories per kg": 1.23485344477612
+  },
+  {
+    "Activity": "Weight lifting, light workout",
+    "130 lb": 177,
+    "typVaga": 211,
+    "180 lb": 245,
+    "205 lb": 279,
+    "Calories per kg": 0.61742672238806
+  },
+  {
+    "Activity": "Health club exercise",
+    "130 lb": 325,
+    "typVaga": 387,
+    "180 lb": 449,
+    "205 lb": 512,
+    "Calories per kg": 1.13262599402985
+  },
+  {
+    "Activity": "Stair machine",
+    "130 lb": 531,
+    "typVaga": 633,
+    "180 lb": 735,
+    "205 lb": 838,
+    "Calories per kg": 1.85295717014925
+  },
+  {
+    "Activity": "Rowing machine, light",
+    "130 lb": 207,
+    "typVaga": 246,
+    "180 lb": 286,
+    "205 lb": 326,
+    "Calories per kg": 0.721008179104478
+  },
+  {
+    "Activity": "Rowing machine, moderate",
+    "130 lb": 413,
+    "typVaga": 493,
+    "180 lb": 572,
+    "205 lb": 651,
+    "Calories per kg": 1.44133935522388
+  },
+  {
+    "Activity": "Rowing machine, vigorous",
+    "130 lb": 502,
+    "typVaga": 598,
+    "180 lb": 695,
+    "205 lb": 791,
+    "Calories per kg": 1.75072971940299
+  },
+  {
+    "Activity": "Rowing machine, very vigorous",
+    "130 lb": 708,
+    "typVaga": 844,
+    "180 lb": 981,
+    "205 lb": 1117,
+    "Calories per kg": 2.47106089552239
+  },
+  {
+    "Activity": "Ski machine",
+    "130 lb": 413,
+    "typVaga": 493,
+    "180 lb": 572,
+    "205 lb": 651,
+    "Calories per kg": 1.44133935522388
+  },
+  {
+    "Activity": "Aerobics, low impact",
+    "130 lb": 295,
+    "typVaga": 352,
+    "180 lb": 409,
+    "205 lb": 465,
+    "Calories per kg": 1.02972154029851
+  },
+  {
+    "Activity": "Aerobics, high impact",
+    "130 lb": 413,
+    "typVaga": 493,
+    "180 lb": 572,
+    "205 lb": 651,
+    "Calories per kg": 1.44133935522388
+  },
+  {
+    "Activity": "Aerobics, step aerobics",
+    "130 lb": 502,
+    "typVaga": 598,
+    "180 lb": 695,
+    "205 lb": 791,
+    "Calories per kg": 1.75072971940299
+  },
+  {
+    "Activity": "Aerobics, general",
+    "130 lb": 384,
+    "typVaga": 457,
+    "180 lb": 531,
+    "205 lb": 605,
+    "Calories per kg": 1.33843490149254
+  },
+  {
+    "Activity": "Jazzercise",
+    "130 lb": 354,
+    "typVaga": 422,
+    "180 lb": 490,
+    "205 lb": 558,
+    "Calories per kg": 1.23485344477612
+  },
+  {
+    "Activity": "Stretching, hatha yoga",
+    "130 lb": 236,
+    "typVaga": 281,
+    "180 lb": 327,
+    "205 lb": 372,
+    "Calories per kg": 0.823235629850746
+  },
+  {
+    "Activity": "Mild stretching",
+    "130 lb": 148,
+    "typVaga": 176,
+    "180 lb": 204,
+    "205 lb": 233,
+    "Calories per kg": 0.515199271641791
+  },
+  {
+    "Activity": "Instructing aerobic class",
+    "130 lb": 354,
+    "typVaga": 422,
+    "180 lb": 490,
+    "205 lb": 558,
+    "Calories per kg": 1.23485344477612
+  },
+  {
+    "Activity": "Water aerobics",
+    "130 lb": 236,
+    "typVaga": 281,
+    "180 lb": 327,
+    "205 lb": 372,
+    "Calories per kg": 0.823235629850746
+  },
+  {
+    "Activity": "Ballet, twist, jazz, tap",
+    "130 lb": 266,
+    "typVaga": 317,
+    "180 lb": 368,
+    "205 lb": 419,
+    "Calories per kg": 0.927494089552239
+  },
+  {
+    "Activity": "Ballroom dancing, slow",
+    "130 lb": 177,
+    "typVaga": 211,
+    "180 lb": 245,
+    "205 lb": 279,
+    "Calories per kg": 0.61742672238806
+  },
+  {
+    "Activity": "Ballroom dancing, fast",
+    "130 lb": 325,
+    "typVaga": 387,
+    "180 lb": 449,
+    "205 lb": 512,
+    "Calories per kg": 1.13262599402985
+  },
+  {
+    "Activity": "Running, 5 mph (12 minute mile)",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Running, 5.2 mph (11.5 minute mile)",
+    "130 lb": 531,
+    "typVaga": 633,
+    "180 lb": 735,
+    "205 lb": 838,
+    "Calories per kg": 1.85295717014925
+  },
+  {
+    "Activity": "Running, 6 mph (10 min mile)",
+    "130 lb": 590,
+    "typVaga": 704,
+    "180 lb": 817,
+    "205 lb": 931,
+    "Calories per kg": 2.05944308059702
+  },
+  {
+    "Activity": "Running, 6.7 mph (9 min mile)",
+    "130 lb": 649,
+    "typVaga": 774,
+    "180 lb": 899,
+    "205 lb": 1024,
+    "Calories per kg": 2.2652519880597
+  },
+  {
+    "Activity": "Running, 7 mph (8.5 min mile)",
+    "130 lb": 679,
+    "typVaga": 809,
+    "180 lb": 940,
+    "205 lb": 1070,
+    "Calories per kg": 2.36815644179104
+  },
+  {
+    "Activity": "Running, 7.5mph (8 min mile)",
+    "130 lb": 738,
+    "typVaga": 880,
+    "180 lb": 1022,
+    "205 lb": 1163,
+    "Calories per kg": 2.57464235223881
+  },
+  {
+    "Activity": "Running, 8 mph (7.5 min mile)",
+    "130 lb": 797,
+    "typVaga": 950,
+    "180 lb": 1103,
+    "205 lb": 1256,
+    "Calories per kg": 2.77977425671642
+  },
+  {
+    "Activity": "Running, 8.6 mph (7 min mile)",
+    "130 lb": 826,
+    "typVaga": 985,
+    "180 lb": 1144,
+    "205 lb": 1303,
+    "Calories per kg": 2.88267871044776
+  },
+  {
+    "Activity": "Running, 9 mph (6.5 min mile)",
+    "130 lb": 885,
+    "typVaga": 1056,
+    "180 lb": 1226,
+    "205 lb": 1396,
+    "Calories per kg": 3.08916462089552
+  },
+  {
+    "Activity": "Running, 10 mph (6 min mile)",
+    "130 lb": 944,
+    "typVaga": 1126,
+    "180 lb": 1308,
+    "205 lb": 1489,
+    "Calories per kg": 3.29497352835821
+  },
+  {
+    "Activity": "Running, 10.9 mph (5.5 min mile)",
+    "130 lb": 1062,
+    "typVaga": 1267,
+    "180 lb": 1471,
+    "205 lb": 1675,
+    "Calories per kg": 3.70659134328358
+  },
+  {
+    "Activity": "Running, cross country",
+    "130 lb": 531,
+    "typVaga": 633,
+    "180 lb": 735,
+    "205 lb": 838,
+    "Calories per kg": 1.85295717014925
+  },
+  {
+    "Activity": "Running, general",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Running, on a track, team practice",
+    "130 lb": 590,
+    "typVaga": 704,
+    "180 lb": 817,
+    "205 lb": 931,
+    "Calories per kg": 2.05944308059702
+  },
+  {
+    "Activity": "Running, stairs, up",
+    "130 lb": 885,
+    "typVaga": 1056,
+    "180 lb": 1226,
+    "205 lb": 1396,
+    "Calories per kg": 3.08916462089552
+  },
+  {
+    "Activity": "Track and field (shot, discus)",
+    "130 lb": 236,
+    "typVaga": 281,
+    "180 lb": 327,
+    "205 lb": 372,
+    "Calories per kg": 0.823235629850746
+  },
+  {
+    "Activity": "Track and field (high jump, pole vault)",
+    "130 lb": 354,
+    "typVaga": 422,
+    "180 lb": 490,
+    "205 lb": 558,
+    "Calories per kg": 1.23485344477612
+  },
+  {
+    "Activity": "Track and field (hurdles)",
+    "130 lb": 590,
+    "typVaga": 704,
+    "180 lb": 817,
+    "205 lb": 931,
+    "Calories per kg": 2.05944308059702
+  },
+  {
+    "Activity": "Archery",
+    "130 lb": 207,
+    "typVaga": 246,
+    "180 lb": 286,
+    "205 lb": 326,
+    "Calories per kg": 0.721008179104478
+  },
+  {
+    "Activity": "Badminton",
+    "130 lb": 266,
+    "typVaga": 317,
+    "180 lb": 368,
+    "205 lb": 419,
+    "Calories per kg": 0.927494089552239
+  },
+  {
+    "Activity": "Basketball game, competitive",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Playing basketball, non game",
+    "130 lb": 354,
+    "typVaga": 422,
+    "180 lb": 490,
+    "205 lb": 558,
+    "Calories per kg": 1.23485344477612
+  },
+  {
+    "Activity": "Basketball, officiating",
+    "130 lb": 413,
+    "typVaga": 493,
+    "180 lb": 572,
+    "205 lb": 651,
+    "Calories per kg": 1.44133935522388
+  },
+  {
+    "Activity": "Basketball, shooting baskets",
+    "130 lb": 266,
+    "typVaga": 317,
+    "180 lb": 368,
+    "205 lb": 419,
+    "Calories per kg": 0.927494089552239
+  },
+  {
+    "Activity": "Basketball, wheelchair",
+    "130 lb": 384,
+    "typVaga": 457,
+    "180 lb": 531,
+    "205 lb": 605,
+    "Calories per kg": 1.33843490149254
+  },
+  {
+    "Activity": "Running, training, pushing wheelchair",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Billiards",
+    "130 lb": 148,
+    "typVaga": 176,
+    "180 lb": 204,
+    "205 lb": 233,
+    "Calories per kg": 0.515199271641791
+  },
+  {
+    "Activity": "Bowling",
+    "130 lb": 177,
+    "typVaga": 211,
+    "180 lb": 245,
+    "205 lb": 279,
+    "Calories per kg": 0.61742672238806
+  },
+  {
+    "Activity": "Boxing, in ring",
+    "130 lb": 708,
+    "typVaga": 844,
+    "180 lb": 981,
+    "205 lb": 1117,
+    "Calories per kg": 2.47106089552239
+  },
+  {
+    "Activity": "Boxing, punching bag",
+    "130 lb": 354,
+    "typVaga": 422,
+    "180 lb": 490,
+    "205 lb": 558,
+    "Calories per kg": 1.23485344477612
+  },
+  {
+    "Activity": "Boxing, sparring",
+    "130 lb": 531,
+    "typVaga": 633,
+    "180 lb": 735,
+    "205 lb": 838,
+    "Calories per kg": 1.85295717014925
+  },
+  {
+    "Activity": "Coaching: football, basketball, soccer…",
+    "130 lb": 236,
+    "typVaga": 281,
+    "180 lb": 327,
+    "205 lb": 372,
+    "Calories per kg": 0.823235629850746
+  },
+  {
+    "Activity": "Cricket (batting, bowling)",
+    "130 lb": 295,
+    "typVaga": 352,
+    "180 lb": 409,
+    "205 lb": 465,
+    "Calories per kg": 1.02972154029851
+  },
+  {
+    "Activity": "Croquet",
+    "130 lb": 148,
+    "typVaga": 176,
+    "180 lb": 204,
+    "205 lb": 233,
+    "Calories per kg": 0.515199271641791
+  },
+  {
+    "Activity": "Curling",
+    "130 lb": 236,
+    "typVaga": 281,
+    "180 lb": 327,
+    "205 lb": 372,
+    "Calories per kg": 0.823235629850746
+  },
+  {
+    "Activity": "Darts (wall or lawn)",
+    "130 lb": 148,
+    "typVaga": 176,
+    "180 lb": 204,
+    "205 lb": 233,
+    "Calories per kg": 0.515199271641791
+  },
+  {
+    "Activity": "Fencing",
+    "130 lb": 354,
+    "typVaga": 422,
+    "180 lb": 490,
+    "205 lb": 558,
+    "Calories per kg": 1.23485344477612
+  },
+  {
+    "Activity": "Football, competitive",
+    "130 lb": 531,
+    "typVaga": 633,
+    "180 lb": 735,
+    "205 lb": 838,
+    "Calories per kg": 1.85295717014925
+  },
+  {
+    "Activity": "Football, touch, flag, general",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Football or baseball, playing catch",
+    "130 lb": 148,
+    "typVaga": 176,
+    "180 lb": 204,
+    "205 lb": 233,
+    "Calories per kg": 0.515199271641791
+  },
+  {
+    "Activity": "Frisbee playing, general",
+    "130 lb": 177,
+    "typVaga": 211,
+    "180 lb": 245,
+    "205 lb": 279,
+    "Calories per kg": 0.61742672238806
+  },
+  {
+    "Activity": "Frisbee, ultimate frisbee",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Golf, general",
+    "130 lb": 266,
+    "typVaga": 317,
+    "180 lb": 368,
+    "205 lb": 419,
+    "Calories per kg": 0.927494089552239
+  },
+  {
+    "Activity": "Golf, walking and carrying clubs",
+    "130 lb": 266,
+    "typVaga": 317,
+    "180 lb": 368,
+    "205 lb": 419,
+    "Calories per kg": 0.927494089552239
+  },
+  {
+    "Activity": "Golf, driving range",
+    "130 lb": 177,
+    "typVaga": 211,
+    "180 lb": 245,
+    "205 lb": 279,
+    "Calories per kg": 0.61742672238806
+  },
+  {
+    "Activity": "Golf, miniature golf",
+    "130 lb": 177,
+    "typVaga": 211,
+    "180 lb": 245,
+    "205 lb": 279,
+    "Calories per kg": 0.61742672238806
+  },
+  {
+    "Activity": "Golf, walking and pulling clubs",
+    "130 lb": 254,
+    "typVaga": 303,
+    "180 lb": 351,
+    "205 lb": 400,
+    "Calories per kg": 0.885519904477612
+  },
+  {
+    "Activity": "Golf, using power cart",
+    "130 lb": 207,
+    "typVaga": 246,
+    "180 lb": 286,
+    "205 lb": 326,
+    "Calories per kg": 0.721008179104478
+  },
+  {
+    "Activity": "Gymnastics",
+    "130 lb": 236,
+    "typVaga": 281,
+    "180 lb": 327,
+    "205 lb": 372,
+    "Calories per kg": 0.823235629850746
+  },
+  {
+    "Activity": "Hacky sack",
+    "130 lb": 236,
+    "typVaga": 281,
+    "180 lb": 327,
+    "205 lb": 372,
+    "Calories per kg": 0.823235629850746
+  },
+  {
+    "Activity": "Handball",
+    "130 lb": 708,
+    "typVaga": 844,
+    "180 lb": 981,
+    "205 lb": 1117,
+    "Calories per kg": 2.47106089552239
+  },
+  {
+    "Activity": "Handball, team",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Hockey, field hockey",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Hockey, ice hockey",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Riding a horse, general",
+    "130 lb": 236,
+    "typVaga": 281,
+    "180 lb": 327,
+    "205 lb": 372,
+    "Calories per kg": 0.823235629850746
+  },
+  {
+    "Activity": "Horesback riding, saddling horse",
+    "130 lb": 207,
+    "typVaga": 246,
+    "180 lb": 286,
+    "205 lb": 326,
+    "Calories per kg": 0.721008179104478
+  },
+  {
+    "Activity": "Horseback riding, grooming horse",
+    "130 lb": 207,
+    "typVaga": 246,
+    "180 lb": 286,
+    "205 lb": 326,
+    "Calories per kg": 0.721008179104478
+  },
+  {
+    "Activity": "Horseback riding, trotting",
+    "130 lb": 384,
+    "typVaga": 457,
+    "180 lb": 531,
+    "205 lb": 605,
+    "Calories per kg": 1.33843490149254
+  },
+  {
+    "Activity": "Horseback riding, walking",
+    "130 lb": 148,
+    "typVaga": 176,
+    "180 lb": 204,
+    "205 lb": 233,
+    "Calories per kg": 0.515199271641791
+  },
+  {
+    "Activity": "Horse racing, galloping",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Horse grooming, moderate",
+    "130 lb": 354,
+    "typVaga": 422,
+    "180 lb": 490,
+    "205 lb": 558,
+    "Calories per kg": 1.23485344477612
+  },
+  {
+    "Activity": "Horseshoe pitching",
+    "130 lb": 177,
+    "typVaga": 211,
+    "180 lb": 245,
+    "205 lb": 279,
+    "Calories per kg": 0.61742672238806
+  },
+  {
+    "Activity": "Jai alai",
+    "130 lb": 708,
+    "typVaga": 844,
+    "180 lb": 981,
+    "205 lb": 1117,
+    "Calories per kg": 2.47106089552239
+  },
+  {
+    "Activity": "Martial arts, judo, karate, jujitsu",
+    "130 lb": 590,
+    "typVaga": 704,
+    "180 lb": 817,
+    "205 lb": 931,
+    "Calories per kg": 2.05944308059702
+  },
+  {
+    "Activity": "Martial arts, kick boxing",
+    "130 lb": 590,
+    "typVaga": 704,
+    "180 lb": 817,
+    "205 lb": 931,
+    "Calories per kg": 2.05944308059702
+  },
+  {
+    "Activity": "Martial arts, tae kwan do",
+    "130 lb": 590,
+    "typVaga": 704,
+    "180 lb": 817,
+    "205 lb": 931,
+    "Calories per kg": 2.05944308059702
+  },
+  {
+    "Activity": "Krav maga training",
+    "130 lb": 590,
+    "typVaga": 704,
+    "180 lb": 817,
+    "205 lb": 931,
+    "Calories per kg": 2.05944308059702
+  },
+  {
+    "Activity": "Juggling",
+    "130 lb": 236,
+    "typVaga": 281,
+    "180 lb": 327,
+    "205 lb": 372,
+    "Calories per kg": 0.823235629850746
+  },
+  {
+    "Activity": "Kickball",
+    "130 lb": 413,
+    "typVaga": 493,
+    "180 lb": 572,
+    "205 lb": 651,
+    "Calories per kg": 1.44133935522388
+  },
+  {
+    "Activity": "Lacrosse",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Orienteering",
+    "130 lb": 531,
+    "typVaga": 633,
+    "180 lb": 735,
+    "205 lb": 838,
+    "Calories per kg": 1.85295717014925
+  },
+  {
+    "Activity": "Playing paddleball",
+    "130 lb": 354,
+    "typVaga": 422,
+    "180 lb": 490,
+    "205 lb": 558,
+    "Calories per kg": 1.23485344477612
+  },
+  {
+    "Activity": "Paddleball, competitive",
+    "130 lb": 590,
+    "typVaga": 704,
+    "180 lb": 817,
+    "205 lb": 931,
+    "Calories per kg": 2.05944308059702
+  },
+  {
+    "Activity": "Polo",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Racquetball, competitive",
+    "130 lb": 590,
+    "typVaga": 704,
+    "180 lb": 817,
+    "205 lb": 931,
+    "Calories per kg": 2.05944308059702
+  },
+  {
+    "Activity": "Playing racquetball",
+    "130 lb": 413,
+    "typVaga": 493,
+    "180 lb": 572,
+    "205 lb": 651,
+    "Calories per kg": 1.44133935522388
+  },
+  {
+    "Activity": "Rock climbing, ascending rock",
+    "130 lb": 649,
+    "typVaga": 774,
+    "180 lb": 899,
+    "205 lb": 1024,
+    "Calories per kg": 2.2652519880597
+  },
+  {
+    "Activity": "Rock climbing, rappelling",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Jumping rope, fast",
+    "130 lb": 708,
+    "typVaga": 844,
+    "180 lb": 981,
+    "205 lb": 1117,
+    "Calories per kg": 2.47106089552239
+  },
+  {
+    "Activity": "Jumping rope, moderate",
+    "130 lb": 590,
+    "typVaga": 704,
+    "180 lb": 817,
+    "205 lb": 931,
+    "Calories per kg": 2.05944308059702
+  },
+  {
+    "Activity": "Jumping rope, slow",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Rugby",
+    "130 lb": 590,
+    "typVaga": 704,
+    "180 lb": 817,
+    "205 lb": 931,
+    "Calories per kg": 2.05944308059702
+  },
+  {
+    "Activity": "Shuffleboard, lawn bowling",
+    "130 lb": 177,
+    "typVaga": 211,
+    "180 lb": 245,
+    "205 lb": 279,
+    "Calories per kg": 0.61742672238806
+  },
+  {
+    "Activity": "Skateboarding",
+    "130 lb": 295,
+    "typVaga": 352,
+    "180 lb": 409,
+    "205 lb": 465,
+    "Calories per kg": 1.02972154029851
+  },
+  {
+    "Activity": "Roller skating",
+    "130 lb": 413,
+    "typVaga": 493,
+    "180 lb": 572,
+    "205 lb": 651,
+    "Calories per kg": 1.44133935522388
+  },
+  {
+    "Activity": "Roller blading, in-line skating",
+    "130 lb": 708,
+    "typVaga": 844,
+    "180 lb": 981,
+    "205 lb": 1117,
+    "Calories per kg": 2.47106089552239
+  },
+  {
+    "Activity": "Sky diving",
+    "130 lb": 177,
+    "typVaga": 211,
+    "180 lb": 245,
+    "205 lb": 279,
+    "Calories per kg": 0.61742672238806
+  },
+  {
+    "Activity": "Soccer, competitive",
+    "130 lb": 590,
+    "typVaga": 704,
+    "180 lb": 817,
+    "205 lb": 931,
+    "Calories per kg": 2.05944308059702
+  },
+  {
+    "Activity": "Playing soccer",
+    "130 lb": 413,
+    "typVaga": 493,
+    "180 lb": 572,
+    "205 lb": 651,
+    "Calories per kg": 1.44133935522388
+  },
+  {
+    "Activity": "Softball or baseball",
+    "130 lb": 295,
+    "typVaga": 352,
+    "180 lb": 409,
+    "205 lb": 465,
+    "Calories per kg": 1.02972154029851
+  },
+  {
+    "Activity": "Softball, officiating",
+    "130 lb": 236,
+    "typVaga": 281,
+    "180 lb": 327,
+    "205 lb": 372,
+    "Calories per kg": 0.823235629850746
+  },
+  {
+    "Activity": "Softball, pitching",
+    "130 lb": 354,
+    "typVaga": 422,
+    "180 lb": 490,
+    "205 lb": 558,
+    "Calories per kg": 1.23485344477612
+  },
+  {
+    "Activity": "Squash",
+    "130 lb": 708,
+    "typVaga": 844,
+    "180 lb": 981,
+    "205 lb": 1117,
+    "Calories per kg": 2.47106089552239
+  },
+  {
+    "Activity": "Table tennis, ping pong",
+    "130 lb": 236,
+    "typVaga": 281,
+    "180 lb": 327,
+    "205 lb": 372,
+    "Calories per kg": 0.823235629850746
+  },
+  {
+    "Activity": "Tai chi",
+    "130 lb": 236,
+    "typVaga": 281,
+    "180 lb": 327,
+    "205 lb": 372,
+    "Calories per kg": 0.823235629850746
+  },
+  {
+    "Activity": "Playing tennis",
+    "130 lb": 413,
+    "typVaga": 493,
+    "180 lb": 572,
+    "205 lb": 651,
+    "Calories per kg": 1.44133935522388
+  },
+  {
+    "Activity": "Tennis, doubles",
+    "130 lb": 354,
+    "typVaga": 422,
+    "180 lb": 490,
+    "205 lb": 558,
+    "Calories per kg": 1.23485344477612
+  },
+  {
+    "Activity": "Tennis, singles",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Trampoline",
+    "130 lb": 207,
+    "typVaga": 246,
+    "180 lb": 286,
+    "205 lb": 326,
+    "Calories per kg": 0.721008179104478
+  },
+  {
+    "Activity": "Volleyball, competitive",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Playing volleyball",
+    "130 lb": 177,
+    "typVaga": 211,
+    "180 lb": 245,
+    "205 lb": 279,
+    "Calories per kg": 0.61742672238806
+  },
+  {
+    "Activity": "Volleyball, beach",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Wrestling",
+    "130 lb": 354,
+    "typVaga": 422,
+    "180 lb": 490,
+    "205 lb": 558,
+    "Calories per kg": 1.23485344477612
+  },
+  {
+    "Activity": "Wallyball",
+    "130 lb": 413,
+    "typVaga": 493,
+    "180 lb": 572,
+    "205 lb": 651,
+    "Calories per kg": 1.44133935522388
+  },
+  {
+    "Activity": "Backpacking, Hiking with pack",
+    "130 lb": 413,
+    "typVaga": 493,
+    "180 lb": 572,
+    "205 lb": 651,
+    "Calories per kg": 1.44133935522388
+  },
+  {
+    "Activity": "Carrying infant, level ground",
+    "130 lb": 207,
+    "typVaga": 246,
+    "180 lb": 286,
+    "205 lb": 326,
+    "Calories per kg": 0.721008179104478
+  },
+  {
+    "Activity": "Carrying infant, upstairs",
+    "130 lb": 295,
+    "typVaga": 352,
+    "180 lb": 409,
+    "205 lb": 465,
+    "Calories per kg": 1.02972154029851
+  },
+  {
+    "Activity": "Carrying 16 to 24 lbs, upstairs",
+    "130 lb": 354,
+    "typVaga": 422,
+    "180 lb": 490,
+    "205 lb": 558,
+    "Calories per kg": 1.23485344477612
+  },
+  {
+    "Activity": "Carrying 25 to 49 lbs, upstairs",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Standing, playing with children, light",
+    "130 lb": 165,
+    "typVaga": 197,
+    "180 lb": 229,
+    "205 lb": 261,
+    "Calories per kg": 0.576806543283582
+  },
+  {
+    "Activity": "Walk/run, playing with children, moderate",
+    "130 lb": 236,
+    "typVaga": 281,
+    "180 lb": 327,
+    "205 lb": 372,
+    "Calories per kg": 0.823235629850746
+  },
+  {
+    "Activity": "Walk/run, playing with children, vigorous",
+    "130 lb": 295,
+    "typVaga": 352,
+    "180 lb": 409,
+    "205 lb": 465,
+    "Calories per kg": 1.02972154029851
+  },
+  {
+    "Activity": "Carrying small children",
+    "130 lb": 177,
+    "typVaga": 211,
+    "180 lb": 245,
+    "205 lb": 279,
+    "Calories per kg": 0.61742672238806
+  },
+  {
+    "Activity": "Loading, unloading car",
+    "130 lb": 177,
+    "typVaga": 211,
+    "180 lb": 245,
+    "205 lb": 279,
+    "Calories per kg": 0.61742672238806
+  },
+  {
+    "Activity": "Climbing hills, carrying up to 9 lbs",
+    "130 lb": 413,
+    "typVaga": 493,
+    "180 lb": 572,
+    "205 lb": 651,
+    "Calories per kg": 1.44133935522388
+  },
+  {
+    "Activity": "Climbing hills, carrying 10 to 20 lb",
+    "130 lb": 443,
+    "typVaga": 528,
+    "180 lb": 613,
+    "205 lb": 698,
+    "Calories per kg": 1.5449208119403
+  },
+  {
+    "Activity": "Climbing hills, carrying 21 to 42 lb",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Climbing hills, carrying over 42 lb",
+    "130 lb": 531,
+    "typVaga": 633,
+    "180 lb": 735,
+    "205 lb": 838,
+    "Calories per kg": 1.85295717014925
+  },
+  {
+    "Activity": "Walking downstairs",
+    "130 lb": 177,
+    "typVaga": 211,
+    "180 lb": 245,
+    "205 lb": 279,
+    "Calories per kg": 0.61742672238806
+  },
+  {
+    "Activity": "Hiking, cross country",
+    "130 lb": 354,
+    "typVaga": 422,
+    "180 lb": 490,
+    "205 lb": 558,
+    "Calories per kg": 1.23485344477612
+  },
+  {
+    "Activity": "Bird watching",
+    "130 lb": 148,
+    "typVaga": 176,
+    "180 lb": 204,
+    "205 lb": 233,
+    "Calories per kg": 0.515199271641791
+  },
+  {
+    "Activity": "Marching, rapidly, military",
+    "130 lb": 384,
+    "typVaga": 457,
+    "180 lb": 531,
+    "205 lb": 605,
+    "Calories per kg": 1.33843490149254
+  },
+  {
+    "Activity": "Children's games, hopscotch, dodgeball",
+    "130 lb": 295,
+    "typVaga": 352,
+    "180 lb": 409,
+    "205 lb": 465,
+    "Calories per kg": 1.02972154029851
+  },
+  {
+    "Activity": "Pushing stroller or walking with children",
+    "130 lb": 148,
+    "typVaga": 176,
+    "180 lb": 204,
+    "205 lb": 233,
+    "Calories per kg": 0.515199271641791
+  },
+  {
+    "Activity": "Pushing a wheelchair",
+    "130 lb": 236,
+    "typVaga": 281,
+    "180 lb": 327,
+    "205 lb": 372,
+    "Calories per kg": 0.823235629850746
+  },
+  {
+    "Activity": "Race walking",
+    "130 lb": 384,
+    "typVaga": 457,
+    "180 lb": 531,
+    "205 lb": 605,
+    "Calories per kg": 1.33843490149254
+  },
+  {
+    "Activity": "Rock climbing, mountain climbing",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Walking using crutches",
+    "130 lb": 295,
+    "typVaga": 352,
+    "180 lb": 409,
+    "205 lb": 465,
+    "Calories per kg": 1.02972154029851
+  },
+  {
+    "Activity": "Walking the dog",
+    "130 lb": 177,
+    "typVaga": 211,
+    "180 lb": 245,
+    "205 lb": 279,
+    "Calories per kg": 0.61742672238806
+  },
+  {
+    "Activity": "Walking, under 2.0 mph, very slow",
+    "130 lb": 118,
+    "typVaga": 141,
+    "180 lb": 163,
+    "205 lb": 186,
+    "Calories per kg": 0.411617814925373
+  },
+  {
+    "Activity": "Walking 2.0 mph, slow",
+    "130 lb": 148,
+    "typVaga": 176,
+    "180 lb": 204,
+    "205 lb": 233,
+    "Calories per kg": 0.515199271641791
+  },
+  {
+    "Activity": "Walking 2.5 mph",
+    "130 lb": 177,
+    "typVaga": 211,
+    "180 lb": 245,
+    "205 lb": 279,
+    "Calories per kg": 0.61742672238806
+  },
+  {
+    "Activity": "Walking 3.0 mph, moderate",
+    "130 lb": 195,
+    "typVaga": 232,
+    "180 lb": 270,
+    "205 lb": 307,
+    "Calories per kg": 0.679710997014925
+  },
+  {
+    "Activity": "Walking 3.5 mph, brisk pace",
+    "130 lb": 224,
+    "typVaga": 267,
+    "180 lb": 311,
+    "205 lb": 354,
+    "Calories per kg": 0.782615450746269
+  },
+  {
+    "Activity": "Walking 3.5 mph, uphill",
+    "130 lb": 354,
+    "typVaga": 422,
+    "180 lb": 490,
+    "205 lb": 558,
+    "Calories per kg": 1.23485344477612
+  },
+  {
+    "Activity": "Walking 4.0 mph, very brisk",
+    "130 lb": 295,
+    "typVaga": 352,
+    "180 lb": 409,
+    "205 lb": 465,
+    "Calories per kg": 1.02972154029851
+  },
+  {
+    "Activity": "Walking 4.5 mph",
+    "130 lb": 372,
+    "typVaga": 443,
+    "180 lb": 515,
+    "205 lb": 586,
+    "Calories per kg": 1.29713771940299
+  },
+  {
+    "Activity": "Walking 5.0 mph",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Boating, power, speed boat",
+    "130 lb": 148,
+    "typVaga": 176,
+    "180 lb": 204,
+    "205 lb": 233,
+    "Calories per kg": 0.515199271641791
+  },
+  {
+    "Activity": "Canoeing, camping trip",
+    "130 lb": 236,
+    "typVaga": 281,
+    "180 lb": 327,
+    "205 lb": 372,
+    "Calories per kg": 0.823235629850746
+  },
+  {
+    "Activity": "Canoeing, rowing, light",
+    "130 lb": 177,
+    "typVaga": 211,
+    "180 lb": 245,
+    "205 lb": 279,
+    "Calories per kg": 0.61742672238806
+  },
+  {
+    "Activity": "Canoeing, rowing, moderate",
+    "130 lb": 413,
+    "typVaga": 493,
+    "180 lb": 572,
+    "205 lb": 651,
+    "Calories per kg": 1.44133935522388
+  },
+  {
+    "Activity": "Canoeing, rowing, vigorous",
+    "130 lb": 708,
+    "typVaga": 844,
+    "180 lb": 981,
+    "205 lb": 1117,
+    "Calories per kg": 2.47106089552239
+  },
+  {
+    "Activity": "Crew, sculling, rowing, competition",
+    "130 lb": 708,
+    "typVaga": 844,
+    "180 lb": 981,
+    "205 lb": 1117,
+    "Calories per kg": 2.47106089552239
+  },
+  {
+    "Activity": "Kayaking",
+    "130 lb": 295,
+    "typVaga": 352,
+    "180 lb": 409,
+    "205 lb": 465,
+    "Calories per kg": 1.02972154029851
+  },
+  {
+    "Activity": "Paddle boat",
+    "130 lb": 236,
+    "typVaga": 281,
+    "180 lb": 327,
+    "205 lb": 372,
+    "Calories per kg": 0.823235629850746
+  },
+  {
+    "Activity": "Windsurfing, sailing",
+    "130 lb": 177,
+    "typVaga": 211,
+    "180 lb": 245,
+    "205 lb": 279,
+    "Calories per kg": 0.61742672238806
+  },
+  {
+    "Activity": "Sailing, competition",
+    "130 lb": 295,
+    "typVaga": 352,
+    "180 lb": 409,
+    "205 lb": 465,
+    "Calories per kg": 1.02972154029851
+  },
+  {
+    "Activity": "Sailing, yachting, ocean sailing",
+    "130 lb": 177,
+    "typVaga": 211,
+    "180 lb": 245,
+    "205 lb": 279,
+    "Calories per kg": 0.61742672238806
+  },
+  {
+    "Activity": "Skiing, water skiing",
+    "130 lb": 354,
+    "typVaga": 422,
+    "180 lb": 490,
+    "205 lb": 558,
+    "Calories per kg": 1.23485344477612
+  },
+  {
+    "Activity": "Ski mobiling",
+    "130 lb": 413,
+    "typVaga": 493,
+    "180 lb": 572,
+    "205 lb": 651,
+    "Calories per kg": 1.44133935522388
+  },
+  {
+    "Activity": "Skin diving, fast",
+    "130 lb": 944,
+    "typVaga": 1126,
+    "180 lb": 1308,
+    "205 lb": 1489,
+    "Calories per kg": 3.29497352835821
+  },
+  {
+    "Activity": "Skin diving, moderate",
+    "130 lb": 738,
+    "typVaga": 880,
+    "180 lb": 1022,
+    "205 lb": 1163,
+    "Calories per kg": 2.57464235223881
+  },
+  {
+    "Activity": "Skin diving, scuba diving",
+    "130 lb": 413,
+    "typVaga": 493,
+    "180 lb": 572,
+    "205 lb": 651,
+    "Calories per kg": 1.44133935522388
+  },
+  {
+    "Activity": "Snorkeling",
+    "130 lb": 295,
+    "typVaga": 352,
+    "180 lb": 409,
+    "205 lb": 465,
+    "Calories per kg": 1.02972154029851
+  },
+  {
+    "Activity": "Surfing, body surfing or board surfing",
+    "130 lb": 177,
+    "typVaga": 211,
+    "180 lb": 245,
+    "205 lb": 279,
+    "Calories per kg": 0.61742672238806
+  },
+  {
+    "Activity": "Whitewater rafting, kayaking, canoeing",
+    "130 lb": 295,
+    "typVaga": 352,
+    "180 lb": 409,
+    "205 lb": 465,
+    "Calories per kg": 1.02972154029851
+  },
+  {
+    "Activity": "Swimming laps, freestyle, fast",
+    "130 lb": 590,
+    "typVaga": 704,
+    "180 lb": 817,
+    "205 lb": 931,
+    "Calories per kg": 2.05944308059702
+  },
+  {
+    "Activity": "Swimming laps, freestyle, slow",
+    "130 lb": 413,
+    "typVaga": 493,
+    "180 lb": 572,
+    "205 lb": 651,
+    "Calories per kg": 1.44133935522388
+  },
+  {
+    "Activity": "Swimming backstroke",
+    "130 lb": 413,
+    "typVaga": 493,
+    "180 lb": 572,
+    "205 lb": 651,
+    "Calories per kg": 1.44133935522388
+  },
+  {
+    "Activity": "Swimming breaststroke",
+    "130 lb": 590,
+    "typVaga": 704,
+    "180 lb": 817,
+    "205 lb": 931,
+    "Calories per kg": 2.05944308059702
+  },
+  {
+    "Activity": "Swimming butterfly",
+    "130 lb": 649,
+    "typVaga": 774,
+    "180 lb": 899,
+    "205 lb": 1024,
+    "Calories per kg": 2.2652519880597
+  },
+  {
+    "Activity": "Swimming leisurely, not laps",
+    "130 lb": 354,
+    "typVaga": 422,
+    "180 lb": 490,
+    "205 lb": 558,
+    "Calories per kg": 1.23485344477612
+  },
+  {
+    "Activity": "Swimming sidestroke",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Swimming synchronized",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Swimming, treading water, fast, vigorous",
+    "130 lb": 590,
+    "typVaga": 704,
+    "180 lb": 817,
+    "205 lb": 931,
+    "Calories per kg": 2.05944308059702
+  },
+  {
+    "Activity": "Swimming, treading water, moderate",
+    "130 lb": 236,
+    "typVaga": 281,
+    "180 lb": 327,
+    "205 lb": 372,
+    "Calories per kg": 0.823235629850746
+  },
+  {
+    "Activity": "Water aerobics, water calisthenics",
+    "130 lb": 236,
+    "typVaga": 281,
+    "180 lb": 327,
+    "205 lb": 372,
+    "Calories per kg": 0.823235629850746
+  },
+  {
+    "Activity": "Water polo",
+    "130 lb": 590,
+    "typVaga": 704,
+    "180 lb": 817,
+    "205 lb": 931,
+    "Calories per kg": 2.05944308059702
+  },
+  {
+    "Activity": "Water volleyball",
+    "130 lb": 177,
+    "typVaga": 211,
+    "180 lb": 245,
+    "205 lb": 279,
+    "Calories per kg": 0.61742672238806
+  },
+  {
+    "Activity": "Water jogging",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Diving, springboard or platform",
+    "130 lb": 177,
+    "typVaga": 211,
+    "180 lb": 245,
+    "205 lb": 279,
+    "Calories per kg": 0.61742672238806
+  },
+  {
+    "Activity": "Ice skating, < 9 mph",
+    "130 lb": 325,
+    "typVaga": 387,
+    "180 lb": 449,
+    "205 lb": 512,
+    "Calories per kg": 1.13262599402985
+  },
+  {
+    "Activity": "Ice skating, average speed",
+    "130 lb": 413,
+    "typVaga": 493,
+    "180 lb": 572,
+    "205 lb": 651,
+    "Calories per kg": 1.44133935522388
+  },
+  {
+    "Activity": "Ice skating, rapidly",
+    "130 lb": 531,
+    "typVaga": 633,
+    "180 lb": 735,
+    "205 lb": 838,
+    "Calories per kg": 1.85295717014925
+  },
+  {
+    "Activity": "Speed skating, ice, competitive",
+    "130 lb": 885,
+    "typVaga": 1056,
+    "180 lb": 1226,
+    "205 lb": 1396,
+    "Calories per kg": 3.08916462089552
+  },
+  {
+    "Activity": "Cross country snow skiing, slow",
+    "130 lb": 413,
+    "typVaga": 493,
+    "180 lb": 572,
+    "205 lb": 651,
+    "Calories per kg": 1.44133935522388
+  },
+  {
+    "Activity": "Cross country skiing, moderate",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Cross country skiing, vigorous",
+    "130 lb": 531,
+    "typVaga": 633,
+    "180 lb": 735,
+    "205 lb": 838,
+    "Calories per kg": 1.85295717014925
+  },
+  {
+    "Activity": "Cross country skiing, racing",
+    "130 lb": 826,
+    "typVaga": 985,
+    "180 lb": 1144,
+    "205 lb": 1303,
+    "Calories per kg": 2.88267871044776
+  },
+  {
+    "Activity": "Cross country skiing, uphill",
+    "130 lb": 974,
+    "typVaga": 1161,
+    "180 lb": 1348,
+    "205 lb": 1536,
+    "Calories per kg": 3.39787798208955
+  },
+  {
+    "Activity": "Snow skiing, downhill skiing, light",
+    "130 lb": 295,
+    "typVaga": 352,
+    "180 lb": 409,
+    "205 lb": 465,
+    "Calories per kg": 1.02972154029851
+  },
+  {
+    "Activity": "Downhill snow skiing, moderate",
+    "130 lb": 354,
+    "typVaga": 422,
+    "180 lb": 490,
+    "205 lb": 558,
+    "Calories per kg": 1.23485344477612
+  },
+  {
+    "Activity": "Downhill snow skiing, racing",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Sledding, tobagganing, luge",
+    "130 lb": 413,
+    "typVaga": 493,
+    "180 lb": 572,
+    "205 lb": 651,
+    "Calories per kg": 1.44133935522388
+  },
+  {
+    "Activity": "Snow shoeing",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Snowmobiling",
+    "130 lb": 207,
+    "typVaga": 246,
+    "180 lb": 286,
+    "205 lb": 326,
+    "Calories per kg": 0.721008179104478
+  },
+  {
+    "Activity": "General housework",
+    "130 lb": 207,
+    "typVaga": 246,
+    "180 lb": 286,
+    "205 lb": 326,
+    "Calories per kg": 0.721008179104478
+  },
+  {
+    "Activity": "Cleaning gutters",
+    "130 lb": 295,
+    "typVaga": 352,
+    "180 lb": 409,
+    "205 lb": 465,
+    "Calories per kg": 1.02972154029851
+  },
+  {
+    "Activity": "Painting",
+    "130 lb": 266,
+    "typVaga": 317,
+    "180 lb": 368,
+    "205 lb": 419,
+    "Calories per kg": 0.927494089552239
+  },
+  {
+    "Activity": "Sit, playing with animals",
+    "130 lb": 148,
+    "typVaga": 176,
+    "180 lb": 204,
+    "205 lb": 233,
+    "Calories per kg": 0.515199271641791
+  },
+  {
+    "Activity": "Walk / run, playing with animals",
+    "130 lb": 236,
+    "typVaga": 281,
+    "180 lb": 327,
+    "205 lb": 372,
+    "Calories per kg": 0.823235629850746
+  },
+  {
+    "Activity": "Bathing dog",
+    "130 lb": 207,
+    "typVaga": 246,
+    "180 lb": 286,
+    "205 lb": 326,
+    "Calories per kg": 0.721008179104478
+  },
+  {
+    "Activity": "Mowing lawn, walk, power mower",
+    "130 lb": 325,
+    "typVaga": 387,
+    "180 lb": 449,
+    "205 lb": 512,
+    "Calories per kg": 1.13262599402985
+  },
+  {
+    "Activity": "Mowing lawn, riding mower",
+    "130 lb": 148,
+    "typVaga": 176,
+    "180 lb": 204,
+    "205 lb": 233,
+    "Calories per kg": 0.515199271641791
+  },
+  {
+    "Activity": "Walking, snow blower",
+    "130 lb": 207,
+    "typVaga": 246,
+    "180 lb": 286,
+    "205 lb": 326,
+    "Calories per kg": 0.721008179104478
+  },
+  {
+    "Activity": "Riding, snow blower",
+    "130 lb": 177,
+    "typVaga": 211,
+    "180 lb": 245,
+    "205 lb": 279,
+    "Calories per kg": 0.61742672238806
+  },
+  {
+    "Activity": "Shoveling snow by hand",
+    "130 lb": 354,
+    "typVaga": 422,
+    "180 lb": 490,
+    "205 lb": 558,
+    "Calories per kg": 1.23485344477612
+  },
+  {
+    "Activity": "Raking lawn",
+    "130 lb": 254,
+    "typVaga": 303,
+    "180 lb": 351,
+    "205 lb": 400,
+    "Calories per kg": 0.885519904477612
+  },
+  {
+    "Activity": "Gardening, general",
+    "130 lb": 236,
+    "typVaga": 281,
+    "180 lb": 327,
+    "205 lb": 372,
+    "Calories per kg": 0.823235629850746
+  },
+  {
+    "Activity": "Bagging grass, leaves",
+    "130 lb": 236,
+    "typVaga": 281,
+    "180 lb": 327,
+    "205 lb": 372,
+    "Calories per kg": 0.823235629850746
+  },
+  {
+    "Activity": "Watering lawn or garden",
+    "130 lb": 89,
+    "typVaga": 106,
+    "180 lb": 123,
+    "205 lb": 140,
+    "Calories per kg": 0.310067367164179
+  },
+  {
+    "Activity": "Weeding, cultivating garden",
+    "130 lb": 266,
+    "typVaga": 317,
+    "180 lb": 368,
+    "205 lb": 419,
+    "Calories per kg": 0.927494089552239
+  },
+  {
+    "Activity": "Carpentry, general",
+    "130 lb": 207,
+    "typVaga": 246,
+    "180 lb": 286,
+    "205 lb": 326,
+    "Calories per kg": 0.721008179104478
+  },
+  {
+    "Activity": "Carrying heavy loads",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "Carrying moderate loads upstairs",
+    "130 lb": 472,
+    "typVaga": 563,
+    "180 lb": 654,
+    "205 lb": 745,
+    "Calories per kg": 1.64782526567164
+  },
+  {
+    "Activity": "General cleaning",
+    "130 lb": 207,
+    "typVaga": 246,
+    "180 lb": 286,
+    "205 lb": 326,
+    "Calories per kg": 0.721008179104478
+  },
+  {
+    "Activity": "Cleaning, dusting",
+    "130 lb": 148,
+    "typVaga": 176,
+    "180 lb": 204,
+    "205 lb": 233,
+    "Calories per kg": 0.515199271641791
+  },
+  {
+    "Activity": "Taking out trash",
+    "130 lb": 177,
+    "typVaga": 211,
+    "180 lb": 245,
+    "205 lb": 279,
+    "Calories per kg": 0.61742672238806
+  },
+  {
+    "Activity": "Walking, pushing a wheelchair",
+    "130 lb": 236,
+    "typVaga": 281,
+    "180 lb": 327,
+    "205 lb": 372,
+    "Calories per kg": 0.823235629850746
+  },
+  {
+    "Activity": "Teach physical education,exercise class",
+    "130 lb": 236,
+    "typVaga": 281,
+    "180 lb": 327,
+    "205 lb": 372,
+    "Calories per kg": 0.823235629850746
+  }
+]

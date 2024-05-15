@@ -8,7 +8,7 @@ import { registerValidation, loginValidation, profileValidation } from './valida
 
 import {handleValidationErrors, checkAuth} from './utils/index.js';
 
-import {AccountController, ProfileController, CaloriesNormController, FoodController} from './controllers/index.js'
+import {AccountController, ProfileController, CaloriesNormController, FoodController, ActivityController} from './controllers/index.js'
 import foodForDay from './models/foodForDay.js';
 
 
@@ -35,6 +35,8 @@ app.post('/auth/profile/calo/:id', CaloriesNormController.calculateNorm)
 app.get('/auth/profile/calo/:id', CaloriesNormController.getCalculateNorm)
 
 app.post('/auth/diary/food/:id', FoodController.calculateFoodForDay)
+
+app.post('/auth/diary/activity/:id', ActivityController.calculateActivityForDay)
 
 cron.schedule('02 18 * * *', () => {
     // Видаляємо всі дані з колекції CaloriesForDay

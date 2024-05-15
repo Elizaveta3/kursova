@@ -5,6 +5,7 @@ import Button from '../components/Button/Button';
 import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
 import jsonData from '../data/calories.json';
+import jsonData2 from '../data/sport.json'
 import FormInput from '../components/FormInputFillProf/FormInputFillProf';
 import { useSelector } from 'react-redux';
 
@@ -18,11 +19,14 @@ export const DiaryPage = () => {
     const [formData, setFormData] = useState({ foodItemName: '', quantityGrams: '' });
 
     const [jsonResults, setJsonResults] = useState([]);
+    const [jsonResults2, setJsonResults2] = useState([]);
     const { currentUser } = useSelector(state => state.user);
 
     useEffect(() => {
         const productNames = jsonData.map(item => item.FoodItem);
         setJsonResults(productNames);
+        const activityNames = jsonData2.map(item => item.Activity);
+        setJsonResults2(activityNames);
     }, []);
 
     const handleGoToProfile = () => {
@@ -139,9 +143,11 @@ export const DiaryPage = () => {
                         <>
                             <div className="search-container">
                                 <Autocomplete
-                                    options={jsonResults}
+                                    options={jsonResults2}
+                                    name="activityItemName"
                                     sx={{ width: 400 }}
-                                    renderInput={(params) => <TextField {...params} label="Activities search" />}
+                                    renderInput={(params) => <TextField {...params} label="Activity search" />}
+                                    onChange={(e, value) => handleChange(value, 'activityItemName')}
                                 />
                                 <TextField
                                     label="Minutes"
