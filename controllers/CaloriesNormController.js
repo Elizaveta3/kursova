@@ -71,7 +71,7 @@ export const calculateNorm = async (req, res) => {
         } else {
             throw new Error('Неправильный пол');
         }
-
+        caloriesNorm = Math.round(caloriesNorm);
         const doc = new CaloriesNormModel({
             account: accountId,
             profile: profileValue, // Додаємо значення profile

@@ -10,6 +10,7 @@ import {handleValidationErrors, checkAuth} from './utils/index.js';
 
 import {AccountController, ProfileController, CaloriesNormController, FoodController, ActivityController} from './controllers/index.js'
 import foodForDay from './models/foodForDay.js';
+import activityForDay from './models/activityForDay.js'; 
 
 
 mongoose.connect('mongodb+srv://kursova2024:1111@cluster0.vvaabpa.mongodb.net/app')
@@ -38,7 +39,7 @@ app.post('/auth/diary/food/:id', FoodController.calculateFoodForDay)
 
 app.post('/auth/diary/activity/:id', ActivityController.calculateActivityForDay)
 
-cron.schedule('02 18 * * *', () => {
+cron.schedule('00 00 * * *', () => {
     // Видаляємо всі дані з колекції CaloriesForDay
     foodForDay.deleteMany({})
         .then(() => {
@@ -48,7 +49,16 @@ cron.schedule('02 18 * * *', () => {
             console.error('Помилка при очищенні даних з таблиці CaloriesForDay:', error);
         });
 });
-
+cron.schedule('09 22 * * *', () => {
+    // Видаляємо всі дані з колекції activityForDay
+    activityForDay.deleteMany({})
+        .then(() => {
+            console.log('Дані з таблиці activityForDay успішно очищені');
+        })
+        .catch(error => {
+            console.error('Помилка при очищенні даних з таблиці activityForDay:', error);
+        });
+});
 
 app.listen(8084, (err) => {
     if (err) {

@@ -6,7 +6,6 @@ import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
 import jsonData from '../data/calories.json';
 import jsonData2 from '../data/sport.json'
-import FormInput from '../components/FormInputFillProf/FormInputFillProf';
 import { useSelector } from 'react-redux';
 
 export const DiaryPage = () => {
@@ -16,7 +15,7 @@ export const DiaryPage = () => {
     const [showSearch1, setShowSearch1] = useState(false);
     const [showSearch2, setShowSearch2] = useState(false);
     const [errorMessage, setErrorMessage] = useState(null)
-    const [formData, setFormData] = useState({ foodItemName: '', quantityGrams: '' });
+    const [formData, setFormData] = useState({ foodItemName: '', quantityGrams: '', activityItemName: '', quantityMinutes: '' });
 
     const [jsonResults, setJsonResults] = useState([]);
     const [jsonResults2, setJsonResults2] = useState([]);
@@ -92,6 +91,37 @@ export const DiaryPage = () => {
             setErrorMessage(error.message);
         }
     };
+    const handleSubmitActivity = async (e) => {
+        e.preventDefault();
+        if (!formData.activityItemName || !formData.quantityMinutes) {
+            return console.log('Please fill all fields.');
+        }
+        try {
+            const accountId = currentUser._id;
+            const res = await fetch(`/auth/diary/activity/${accountId}`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData)
+            });
+            const data = await res.json();
+            if (!res.ok) {
+                const data = await res.json();
+                throw new Error(data.message);
+            }
+            if (res.ok) {
+                console.log('Added');
+                // Reset form data after successful submission
+                setFormData({ activityItemName: '', quantityMinutes: '' });
+            }
+            console.log('The received data:', data);
+        } catch (error) {
+            console.error('Error sending request:', error.message);
+            setErrorMessage(error.message);
+        }
+    };
+
 
     return (
         <div className="page_diary">
@@ -130,7 +160,7 @@ export const DiaryPage = () => {
                         <Button buttonClass="add_button_diary" handleClick={handlePlusButtonClick1}>+</Button>
                     )}
                 </form>
-                <section className='section_diary'>
+                <form className='section_diary' onSubmit={handleSubmitActivity}>
                     <p className='text_diary'>Activities:</p>
                     {showSearch2 && (
                         <>
@@ -144,12 +174,15 @@ export const DiaryPage = () => {
                                 />
                                 <TextField
                                     label="Minutes"
+                                    name="quantityMinutes"
                                     //value={gramValue}
                                     //onChange={handleGramChange}
                                     sx={{ width: 200 }}
+                                    onChange={(e) => handleChange(e.target.value, 'quantityMinutes')}
+                                    id="quantityMinutes"
                                 />
 
-                                <Button buttonClass="submit_button_diary">Submit</Button> {/* Додано кнопку "Submit" для відправлення введених даних */
+                                <Button buttonClass="submit_button_diary" type="submit" onSubmit={handleSubmitActivity}>Submit</Button> {/* Додано кнопку "Submit" для відправлення введених даних */
                                 }
                             </div>
                         </>
@@ -160,7 +193,7 @@ export const DiaryPage = () => {
                     ) : (
                         <Button buttonClass="add_button_diary" handleClick={handlePlusButtonClick2}>+</Button>
                     )}
-                </section>
+                </form>
             </div>
         </div>
     );
