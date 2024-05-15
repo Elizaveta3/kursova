@@ -5,11 +5,8 @@ import Button from '../components/Button/Button';
 import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
 import jsonData from '../data/calories.json';
-<<<<<<< HEAD
 import jsonData2 from '../data/sport.json'
 import FormInput from '../components/FormInputFillProf/FormInputFillProf';
-=======
->>>>>>> 124df7f022b5273eb6e0d04aab99a5ae64856697
 import { useSelector } from 'react-redux';
 
 export const DiaryPage = () => {
