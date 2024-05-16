@@ -10,6 +10,8 @@ export const Profile = () => {
     const { currentUser } = useSelector(state => state.user);
     const [profileData, setProfileData] = useState(null);
     const [secondResponse, setSecondResponse] = useState(null);
+    const [thirdResponse, setThirdResponse] = useState(null);
+    const [fourthResponse, setFourthResponse] = useState(null);
 
     const handleGoToDiary = () => {
         navigate('/diary');
@@ -35,12 +37,28 @@ export const Profile = () => {
                     'Content-Type': 'application/json',
                 },
             }),
+            fetch(`/auth/diary/food/${accountId}`, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            }),
+            fetch(`/auth/diary/activity/${accountId}`, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            }),
         ])
             .then(responses => Promise.all(responses.map(response => response.json())))
-            .then(([profileDataResponse, secondResponseData]) => {
+            .then(([profileDataResponse, secondResponseData, thirdResponseData, fourthResponseData]) => {
                 setProfileData(profileDataResponse);
                 setSecondResponse(secondResponseData);
+                setThirdResponse(thirdResponseData);
+                setFourthResponse(fourthResponseData);
                 console.log('Second response data:', secondResponseData);
+                console.log('third response data:', thirdResponseData);
+                console.log('fourth response data:', fourthResponseData);
             })
             .catch(error => {
                 console.error('Error fetching profile data:', error);
@@ -62,40 +80,40 @@ export const Profile = () => {
                             <h1>@{currentUser.userName}</h1>
                             <section className='profile_section_calories'>
                                 <div className='profile_calories_user'>
-                                    <p>цифра</p>
+                                    <p>{(thirdResponse && thirdResponse.quantityCalories) || 0}</p>
                                     <p>eaten</p>
                                 </div>
                                 <div>{secondResponse && secondResponse.caloriesNorm && (
                                     <p className='profile_calories'>{secondResponse.caloriesNorm}</p>
                                 )}</div>
                                 <div className='profile_calories_user'>
-                                    <p>цифра</p>
-                                    <p >burned</p>
+                                    <p>{(fourthResponse && fourthResponse.quantityCalories) || 0}</p>
+                                    <p>burned</p>
                                 </div>
                             </section>
 
-                        <section className='profile_section_inf'>
-                            <div className="profile_row">
-                                <p className='profile_item'>Gender:</p>
-                                {/* Перевірка, чи є дані профілю і чи є значення гендера */}
-                                {profileData && profileData.gender && (
-                                    <p className='profile_user_info'>{profileData.gender}</p>
-                                )}
-                                <p className='profile_item'>Age:</p>
-                                {profileData && profileData.age && (
-                                    <p className='profile_user_info'>{profileData.age}</p>
-                                )}
-                            </div>
-                            <div className="profile_row">
-                                <p className='profile_item'>Weight:</p>
-                                {profileData && profileData.weight && (
-                                    <p className='profile_user_info'>{profileData.weight}</p>
-                                )}
-                                <p className='profile_item'>Height:</p>
-                                {profileData && profileData.height && (
-                                    <p className='profile_user_info'>{profileData.height}</p>
-                                )}
-                            </div>
+                            <section className='profile_section_inf'>
+                                <div className="profile_row">
+                                    <p className='profile_item'>Gender:</p>
+                                    {/* Перевірка, чи є дані профілю і чи є значення гендера */}
+                                    {profileData && profileData.gender && (
+                                        <p className='profile_user_info'>{profileData.gender}</p>
+                                    )}
+                                    <p className='profile_item'>Age:</p>
+                                    {profileData && profileData.age && (
+                                        <p className='profile_user_info'>{profileData.age}</p>
+                                    )}
+                                </div>
+                                <div className="profile_row">
+                                    <p className='profile_item'>Weight:</p>
+                                    {profileData && profileData.weight && (
+                                        <p className='profile_user_info'>{profileData.weight}</p>
+                                    )}
+                                    <p className='profile_item'>Height:</p>
+                                    {profileData && profileData.height && (
+                                        <p className='profile_user_info'>{profileData.height}</p>
+                                    )}
+                                </div>
                             </section>
                             <div className='profile_goal'>
                                 <p className='profile_item'>My goal:</p>

@@ -12,7 +12,7 @@ export const calculateActivityForDay = async (req, res) => {
             return res.status(404).json({ message: 'Дану активність не знайдено' });
         }
 
-        const calories = (quantityMinutes * parseInt(activityItemData.typVaga)) / 60;
+        const calories =  Math.round((quantityMinutes * parseInt(activityItemData.typVaga)) / 60);
 
         let activityForDay = await ActivityForDayModel.findOne({ account: accountId }); // Виправлено ім'я моделі
 
@@ -36,5 +36,17 @@ export const calculateActivityForDay = async (req, res) => {
     } catch (error) {
         console.error(error);
         res.status(500).json({ message: 'Не вдалося зробити обрахунки' });
+    }
+};
+export const getCalculateBurned = async (req, res) => {
+    try {
+        const accountId = req.params.id;
+        const profile = await ActivityForDayModel.findOne({ account: accountId });
+        res.status(200).json(profile); 
+    } catch (err) {
+        console.log(err);
+        res.status(500).json({
+            message: 'Не вдалося знайти інформацію про спалені калорій',
+        });
     }
 };

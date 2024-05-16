@@ -16,8 +16,8 @@ export const calculateFoodForDay = async (req, res) => {
         }
 
         // Розрахувати кількість калорій за введеною кількістю грамів
-        const calories = (quantityGrams * parseInt(foodItemData.Cals_per100grams)) / 100;
-
+        const calories =  Math.round((quantityGrams * parseInt(foodItemData.Cals_per100grams)) / 100);
+        
         // Перевірити, чи існує вже запис foodForDay для обліку
         let foodForDay = await FoodForDayModel.findOne({ account: accountId }); // Виправлено ім'я моделі
 
@@ -41,5 +41,17 @@ export const calculateFoodForDay = async (req, res) => {
     } catch (error) {
         console.error(error);
         res.status(500).json({ message: 'Не вдалося зробити обрахунки' });
+    }
+};
+export const getCalculateEaten = async (req, res) => {
+    try {
+        const accountId = req.params.id;
+        const profile = await FoodForDayModel.findOne({ account: accountId });
+        res.status(200).json(profile); 
+    } catch (err) {
+        console.log(err);
+        res.status(500).json({
+            message: 'Не вдалося знайти інформацію про зʼїдені калорій',
+        });
     }
 };
