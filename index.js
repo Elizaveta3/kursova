@@ -42,7 +42,7 @@ app.get('/auth/diary/food/:id', FoodController.getCalculateEaten)
 app.post('/auth/diary/activity/:id', ActivityController.calculateActivityForDay)
 app.get('/auth/diary/activity/:id', ActivityController.getCalculateBurned)
 
-cron.schedule('00 00 * * *', () => {
+cron.schedule('0 0 * * *', () => {
     // Видаляємо всі дані з колекції CaloriesForDay
     foodForDay.deleteMany({})
         .then(() => {
@@ -52,7 +52,7 @@ cron.schedule('00 00 * * *', () => {
             console.error('Помилка при очищенні даних з таблиці CaloriesForDay:', error);
         });
 });
-cron.schedule('00 00 * * *', () => {
+cron.schedule('0 0 * * *', () => {
     // Видаляємо всі дані з колекції activityForDay
     activityForDay.deleteMany({})
         .then(() => {

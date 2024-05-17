@@ -84,6 +84,9 @@ export const DiaryPage = () => {
                 console.log('Added');
                 // Reset form data after successful submission
                 setFormData({ foodItemName: '', quantityGrams: '' });
+                // Show the add button again
+                setShowSearch1(false);
+                setShowText1(true);
             }
             console.log('The received data:', data);
         } catch (error) {
@@ -91,6 +94,7 @@ export const DiaryPage = () => {
             setErrorMessage(error.message);
         }
     };
+    
     const handleSubmitActivity = async (e) => {
         e.preventDefault();
         if (!formData.activityItemName || !formData.quantityMinutes) {
@@ -114,6 +118,9 @@ export const DiaryPage = () => {
                 console.log('Added');
                 // Reset form data after successful submission
                 setFormData({ activityItemName: '', quantityMinutes: '' });
+                // Show the add button again
+                setShowSearch2(false);
+                setShowText2(true);
             }
             console.log('The received data:', data);
         } catch (error) {
@@ -121,6 +128,7 @@ export const DiaryPage = () => {
             setErrorMessage(error.message);
         }
     };
+    
 
 
     return (
@@ -175,8 +183,6 @@ export const DiaryPage = () => {
                                 <TextField
                                     label="Minutes"
                                     name="quantityMinutes"
-                                    //value={gramValue}
-                                    //onChange={handleGramChange}
                                     sx={{ width: 200 }}
                                     onChange={(e) => handleChange(e.target.value, 'quantityMinutes')}
                                     id="quantityMinutes"
