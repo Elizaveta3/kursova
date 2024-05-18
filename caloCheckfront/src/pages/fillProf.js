@@ -39,7 +39,7 @@ export const FillPage = () => {
         try {
             const token = localStorage.getItem('token'); // Отримання токену з localStorage
             if (!token) {
-                throw new Error('The token could not be found');
+                throw new Error('The token could not be foundd');
             }
             // Перевірка на наявність обов'язкових полів
             const requiredFields = ['gender', 'age', 'height', 'weight', 'goal'];
