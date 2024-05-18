@@ -11,11 +11,6 @@ import { useSelector } from 'react-redux';
 export const FillPage = () => {
     const navigate = useNavigate();
 
-
-    const handleGoToAuthPage = () => {
-        navigate('/auth');
-    };
-
     const [formData, setFormData] = useState({});
     const [errorMessage, setErrorMessage] = useState(null);
     const { currentUser } = useSelector(state => state.user);
@@ -44,7 +39,7 @@ export const FillPage = () => {
         try {
             const token = localStorage.getItem('token'); // Отримання токену з localStorage
             if (!token) {
-                throw new Error('Не вдалося знайти токен');
+                throw new Error('The token could not be found');
             }
             // Перевірка на наявність обов'язкових полів
             const requiredFields = ['gender', 'age', 'height', 'weight', 'goal'];
@@ -92,11 +87,11 @@ export const FillPage = () => {
 
     return (
         <div className="page_fill_profile">
-            <Header />
+            {/* <Header /> */}
             <main className="main">
                 <section>
                     <form className="form_fill_profile" onSubmit={handleSubmit}>
-                        <h1>Sign up</h1>
+                        <h1>Fill profile</h1>
                         <fieldset className="form_reg_wrap">
                             <p className="text_input_sex">Choose your gender</p>
                             <p className="form_sex">
@@ -160,11 +155,6 @@ export const FillPage = () => {
                             <p className="form_buttom">
                                 <Button buttonClass="submit_button_reg" type="submit" onSubmit={handleSubmit}>
                                     Sign up
-                                </Button>
-                            </p>
-                            <p>
-                                <Button buttonClass="submit_button_enter" handleClick={handleGoToAuthPage}>
-                                    Sign in
                                 </Button>
                             </p>
                         </fieldset>
