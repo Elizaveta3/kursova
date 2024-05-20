@@ -169,7 +169,7 @@ export const DiaryPage = () => {
                     )}
                 </form>
                 <form className='section_diary' onSubmit={handleSubmitActivity}>
-                    <p className='text_diary'>Activities:</p>
+                    <p className='text_diary'  style={{ marginRight: '375px' }}>Activities:</p>
                     {showSearch2 && (
                         <>
                             <div className="search-container">
