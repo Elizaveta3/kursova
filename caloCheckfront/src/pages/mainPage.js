@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../components/Button/Button";
 import HeaderMain from "../components/HeaderMain/HeaderMain";
+import Footer from "../components/Footer/Footer";
 import { useNavigate } from "react-router-dom";
 
 export const MainPage = () => {
@@ -88,6 +89,7 @@ export const MainPage = () => {
           </section>
         </div>
       </main>
+      <Footer></Footer>
     </body>
   );
 };
