@@ -11,36 +11,33 @@ import { useSelector } from 'react-redux';
 export const FillPage = () => {
     const navigate = useNavigate();
 
-    const [formData, setFormData] = useState({});
+    // Встановіть початкове значення для formData
+    const [formData, setFormData] = useState({ gender: 'female',  goal: 'lose_weight' });
     const [errorMessage, setErrorMessage] = useState(null);
     const { currentUser } = useSelector(state => state.user);
 
     const handleChange = (e) => {
-
         const { name, value, type } = e.target;
 
         if (type === 'number') {
             setFormData({ ...formData, [name]: parseInt(value, 10) });
         } else if (type === 'text') {
             setFormData({ ...formData, [name]: value.trim() });
-        }
-        else if (type === 'radio') {
+        } else if (type === 'radio') {
             setFormData({ ...formData, [name]: value });
-        }
-        else {
+        } else {
             console.log('Enter a valid value for the field', name);
         }
     };
-
-
 
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
             const token = localStorage.getItem('token'); // Отримання токену з localStorage
             if (!token) {
-                throw new Error('The token could not be foundd');
+                throw new Error('The token could not be found');
             }
+
             // Перевірка на наявність обов'язкових полів
             const requiredFields = ['gender', 'age', 'height', 'weight', 'goal'];
             const missingFields = requiredFields.filter(field => !formData[field]);
@@ -59,7 +56,6 @@ export const FillPage = () => {
             });
             const data = await res.json();
             if (!res.ok) {
-                const data = await res.json();
                 throw new Error(data.message);
             }
 
@@ -72,7 +68,6 @@ export const FillPage = () => {
             });
             const secondData = await afterRes.json();
             if (!afterRes.ok) {
-                const secondData = await afterRes.json();
                 throw new Error(secondData.message);
             }
             console.log('Отримані дані:', data);
@@ -84,10 +79,8 @@ export const FillPage = () => {
         }
     };
 
-
     return (
         <div className="page_fill_profile">
-            {/* <Header /> */}
             <main className="main">
                 <section>
                     <form className="form_fill_profile" onSubmit={handleSubmit}>
@@ -100,12 +93,14 @@ export const FillPage = () => {
                                     name="gender"
                                     value="female"
                                     onChange={handleChange}
+                                    checked={formData.gender === 'female'} // Додано атрибут checked
                                 />
                                 <RadioBox
                                     label="Male"
                                     name="gender"
                                     value="male"
                                     onChange={handleChange}
+                                    checked={formData.gender === 'male'} // Додано атрибут checked
                                 />
                             </p>
                             <p className="form_input_fill_prof">
@@ -115,7 +110,6 @@ export const FillPage = () => {
                                     onChange={handleChange}
                                     id="age"
                                 />
-
                                 <FormInput
                                     placeholder="Write your height (cm)"
                                     name="height"
@@ -132,24 +126,26 @@ export const FillPage = () => {
                             <p className="text_input_goal">Choose your goal</p>
                             <p className="form_goal">
                                 <RadioBox
-                                    label="losing weight"
+                                    label="Losing weight"
                                     name="goal"
                                     value="lose_weight"
                                     onChange={handleChange}
+                                    checked={formData.goal === 'lose_weight'} 
                                 />
                                 <RadioBox
                                     label="Maintain current weight"
                                     name="goal"
                                     value="maintain_weight"
                                     onChange={handleChange}
+                                    checked={formData.goal === 'maintain_weight'}
                                 />
                                 <RadioBox
                                     label="Gain weight"
                                     name="goal"
                                     value="gain_weight"
                                     onChange={handleChange}
+                                    checked={formData.goal === 'gain_weight'}
                                 />
-
                             </p>
                             {errorMessage && <Alert severity="error">{errorMessage}</Alert>}
                             <p className="form_buttom">
