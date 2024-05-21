@@ -357,6 +357,16 @@ html {
     max-width: 60%;
   }
 }
+@media screen and (max-width: 2560px) {
+  /* .second .main_text {
+    margin-top: 750px;
+    margin-left: 750px;
+  } */
+  .page_main {
+    background-size: contain; 
+  }
+}
+
 
 /*Styles for Main Page Ends*/
 
