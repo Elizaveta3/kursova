@@ -4,7 +4,7 @@ import './FormInputFillProf.css';
 const FormInput = ({ placeholder, name, id, onChange }) => {
   
   return (
-    <input 
+    <input style={{}}
       type="number" 
       className="form_input_field_fill_prof" 
       placeholder={placeholder} 
