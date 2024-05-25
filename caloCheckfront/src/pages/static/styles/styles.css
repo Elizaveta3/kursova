@@ -290,6 +290,7 @@ html {
 
 /*Styles for page Main ends*/
 
+/*Big monitor*/
 @media screen and (max-width: 3000px) {
   .wrapper {
     max-width: 100%;
@@ -298,8 +299,13 @@ html {
   .first .main_text {
     margin-left: 750px;
   }
+
+  .second .main_text {
+   
+  }
 }
 
+/*Acer notebook*/
 @media screen and (max-width: 1800px) {
   .wrapper {
     max-width: 90%;
@@ -310,33 +316,37 @@ html {
   }
 
   .first .little_text {
-    margin-top: 420px;
+    margin-top: 360px;
     margin-left: 700px;
   }
 
   .second .main_text {
     margin-top: 490px;
-    margin-left: 750px;
+    margin-left: 540px;
+    font-size: 90px;
+    width: 400px;
   }
 
   .second .little_text {
-    margin-top: 70px;
-    margin-left: 1180px;
+    margin-top: 270px;
+    margin-left: 1280px;
   }
 
   .third .main_text {
-    margin-top: 350px;
-    margin-left: 850px;
+    margin-top: 170px;
+    margin-left: 750px;
+    font-size: 150px;
+    text-align: center;
   }
 
   .third .little_text {
-    margin-top: 200px;
-    margin-left: 220px;
+    margin-top: 100px;
+    margin-left: 150px;
   }
 
   .fourth .main_text {
-    margin-top: 500px;
-    margin-left: 930px;
+    margin-top: 400px;
+    margin-left: 820px;
   }
 
   .fourth .little_text {
@@ -356,6 +366,7 @@ html {
   .wrapper {
     max-width: 60%;
   }
+  
 }
 @media screen and (max-width: 2560px) {
   /* .second .main_text {

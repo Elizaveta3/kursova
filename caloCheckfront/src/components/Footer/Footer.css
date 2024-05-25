@@ -59,7 +59,10 @@ hr {
     gap: 50px;
 }
 
-
-
+@media screen and (max-width: 1800px) {
+    .footer_list_botton {
+        gap: 1080px;
+    }  
+}
 
 
