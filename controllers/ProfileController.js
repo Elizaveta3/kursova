@@ -95,7 +95,6 @@ export const fillProfile = async (req,res) => {
             age: req.body.age,
             height: req.body.height,
             weight: req.body.weight,
-            //гол отримаємо з іншої таблиці потім змінемо
             goal: req.body.goal,
 
         });

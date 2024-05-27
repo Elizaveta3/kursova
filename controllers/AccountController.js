@@ -63,7 +63,7 @@ export const login = async (req, res) => {
 
         if (!isValidPass) {
             return res.status(400).json({
-                message: 'Не правильний логін або пароль',
+                message: 'Incorrect login or password',
             });
         }
 

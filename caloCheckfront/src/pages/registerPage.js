@@ -45,6 +45,12 @@ export const RegisterPage = () => {
         if (!formData.userName || !formData.email || !formData.password) {
             return setErrorMessage('Please fill all fields.');
         }
+        if (formData.userName.length < 2) {
+            return setErrorMessage('Username must be at least 2 characters long.');
+        }
+        if (formData.password.length < 5) {
+            return setErrorMessage('Password must be at least 5 characters long');
+        }
         try {
             setErrorMessage(null);
             const res = await fetch('/auth/register', {

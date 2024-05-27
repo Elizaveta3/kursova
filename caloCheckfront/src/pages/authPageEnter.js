@@ -32,8 +32,9 @@ export const AuthPageEnter = () => {
                 body: JSON.stringify(formData),
             });
             const data = await res.json();
-            if (data.success === false) {
+            if (res.status !== 200) {
                 dispatch(signInFailure(data.message));
+                return;
             }
 
             if (res.ok) {
@@ -41,6 +42,7 @@ export const AuthPageEnter = () => {
                 localStorage.setItem('token', data.token);
                 navigate('/profile');
             }
+            
             console.log('The received data:', data);
         } catch (error) {
             dispatch(signInFailure(error.message));
