@@ -32,10 +32,10 @@ export const AuthPage = () => {
                 body: JSON.stringify(formData),
             });
             const data = await res.json();
-            if (data.success === false) {
+            if (res.status !== 200) {
                 dispatch(signInFailure(data.message));
+                return;
             }
-
             if (res.ok) {
                 dispatch(signInSuccess(data));
                 localStorage.setItem('token', data.token);
