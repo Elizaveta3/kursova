@@ -39,7 +39,7 @@ export const register = async (req, res) => {
     } catch (err) {
         console.log(err);
         res.status(500).json({
-            message: 'Не вдалося зареєструватися',
+            message: 'Failed to register',
         })
     }
 };
@@ -53,7 +53,7 @@ export const login = async (req, res) => {
 
         if (!account) {
             return res.status(404).json({
-                message: 'Користувача не знайдено',
+                message: 'No user found',
             })
         }
 
@@ -87,7 +87,7 @@ export const login = async (req, res) => {
     } catch (err) {
         console.log(err);
         res.status(500).json({
-            message: 'Не вдалося авторизуватися',
+            message: 'Failed to register',
         })
     }
 
@@ -97,7 +97,7 @@ export const getMe = async (req, res) => {
         const account = await AccountModel.findById(req.accountId);
         if (!account) {
             return res.status(404).json({
-                message: 'Користувача не знайдено'
+                message: 'No user found'
             })
         }
         const { passwordHash, ...accountData } = account._doc;
@@ -107,7 +107,7 @@ export const getMe = async (req, res) => {
     } catch (err) {
         console.log(err);
         res.status(500).json({
-            message: 'Немає доступа',
+            message: 'No access',
         })
     }
 };

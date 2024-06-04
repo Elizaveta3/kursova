@@ -22,7 +22,7 @@ const app = express();
 
 app.use(express.json());
 
-app.post('/auth/login',loginValidation,handleValidationErrors, AccountController.login);
+app.post('/auth/login',handleValidationErrors, AccountController.login);
 app.post('/auth/register', registerValidation,handleValidationErrors, AccountController.register);
 app.get('/auth/me', checkAuth, AccountController.getMe);
 
