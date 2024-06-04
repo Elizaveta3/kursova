@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Button from '../components/Button/Button';
-import Header from '../components/Header/Header';
 import RadioBox from '../components/RadioBox/RadioBox';
 import FormInput from '../components/FormInputFillProf/FormInputFillProf';
 import './static/styles/styles.css';

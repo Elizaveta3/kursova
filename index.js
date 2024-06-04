@@ -69,9 +69,6 @@ app.listen(8084, (err) => {
     }
 
     console.log("Server Ok");
-    // cron.schedule('* * * * *', () => {
-    //     console.log('running a task every minute');
-    //   });
 });
 
 
