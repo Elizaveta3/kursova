@@ -589,7 +589,6 @@ text-decoration-skip-ink: none;
 
 .form_diary {
   margin-top: 2%;
-  margin-bottom: 2%;
   margin-left:5%;
   display: flex;
   flex-direction: column;
@@ -599,7 +598,7 @@ text-decoration-skip-ink: none;
   background-color: #faf7e8;
   padding: 6px;
   text-align: center;
-  height: 700px;
+  height: 600px;
   border-radius: 30px;
 }
 
