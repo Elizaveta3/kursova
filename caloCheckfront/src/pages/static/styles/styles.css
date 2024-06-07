@@ -355,6 +355,84 @@ html {
     margin-left: 1135px;
   }
 }
+/* mac Safari 1440*479 */
+@media screen and (max-width: 1440px) {
+  /* .wrapper {
+    max-width: 90%;
+  } */
+
+  .page_main {
+    background-size: auto;
+    max-width: 100%; /* або можна видалити цю властивість повністю */
+  }
+  /* .sections-wrapper{
+    width: 1440px;
+  } */
+
+  .first .little_text{
+    margin-left: 595px;
+    margin-top: 190px;
+  }
+  .first .main_text {
+    margin-left: 595px;
+    margin-top: 0px;
+    line-height: 1.2;
+  }
+  .button_main {
+    margin-top: 105px;
+    margin-left: 1023px;
+  }
+  .second .main_text {
+    line-height: 1.1;
+    margin-top: 345px;
+    margin-left: 545px;
+    margin-right: 0px;
+    font-size: 80px;
+    width: 400px;
+  }
+  .second .little_text {
+    margin-top: 220px;
+    margin-left: 1210px;
+    width: 210px;
+  }
+  .third .main_text {
+    margin-top: 50px;
+    margin-left: 660px;
+    font-size: 150px;
+    text-align: center;
+  }
+  .fourth .little_text {
+    width: 380px;
+    margin-top: 240px;
+    margin-left: 900px;
+  }
+  .fourth .main_text {
+    margin-top: 250px;
+    margin-left: 730px;
+  }
+  .fourth .little_text {
+    width: 380px;
+    margin-top: 180px;
+    margin-left: 1000px;
+  }
+  .footer .wrapper{
+    height: 396px;
+  }
+  .fifth .main_text{
+    margin-top: 180px;
+    margin-left: 310px;
+    font-size: 150px;
+    line-height: 1.2;
+  }
+  .button_main_fifth_register{
+    margin-top: 43px;
+    margin-left: 500px;
+  }
+  .button_main_fifth_auth{
+    margin-left: 500px;
+  }
+} 
+
 
 @media screen and (max-width: 1000px) {
   .wrapper {
@@ -368,15 +446,7 @@ html {
   }
   
 }
-@media screen and (max-width: 2560px) {
-  /* .second .main_text {
-    margin-top: 750px;
-    margin-left: 750px;
-  } */
-  .page_main {
-    background-size: contain; 
-  }
-}
+
 
 
 /*Styles for Main Page Ends*/
