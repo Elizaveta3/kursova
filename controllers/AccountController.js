@@ -1,6 +1,7 @@
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 import AccountModel from '../models/Account.js';
+import nodemailer from 'nodemailer'
 
 export const register = async (req, res) => {
     try {
@@ -111,3 +112,40 @@ export const getMe = async (req, res) => {
         })
     }
 };
+
+export const forgotPassword = async (req, res) => {
+    try{
+        const email = req.body.email;
+        const account = await AccountModel.findOne({email});
+        if(!account){
+            return res.json({message:"User is not registered"})
+        }
+
+        var transporter = nodemailer.createTransport({
+            service: 'gmail',
+            auth: {
+              user: 'youremail@gmail.com',
+              pass: 'yourpassword'
+            }
+          });
+          
+          var mailOptions = {
+            from: 'youremail@gmail.com',
+            to: 'myfriend@yahoo.com',
+            subject: 'Reset Password CaloCheck',
+            text: 'That was easy!'
+          };
+          
+          transporter.sendMail(mailOptions, function(error, info){
+            if (error) {
+              console.log(error);
+            } else {
+              console.log('Email sent: ' + info.response);
+            }
+          });
+
+
+    } catch(err){
+        console.log(err);
+    }
+}
