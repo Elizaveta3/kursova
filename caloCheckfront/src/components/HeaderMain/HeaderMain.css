@@ -37,3 +37,12 @@
 .header_link:hover, .header_link:focus, .header_link:active{
     opacity: .75;
 }
+@media screen and (max-width: 1920px) and (min-width: 1801px) {
+    /* .header_wrappper{
+        width: 1804px;
+    }
+    .wrapper {
+        max-width: 1804px;
+        margin: 0 58px 0 58px;
+    } */
+}
