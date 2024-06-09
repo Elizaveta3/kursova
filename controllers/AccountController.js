@@ -120,20 +120,30 @@ export const forgotPassword = async (req, res) => {
         if(!account){
             return res.json({message:"User is not registered"})
         }
+         // Генерація випадкового 4-значного коду
+         const verificationCode = Math.floor(1000 + Math.random() * 9000).toString();
 
-        var transporter = nodemailer.createTransport({
-            service: 'gmail',
+         // Збереження коду в базі даних або у кеші
+         account.verificationCode = verificationCode;
+         account.verificationCodeExpires = Date.now() + 3600000; // код дійсний 1 годину
+         await account.save();
+
+        // Налаштування транспорту для Ukr.net
+        const transporter = nodemailer.createTransport({
+            host: 'smtp.ukr.net',
+            port: 465,
+            secure: true, // true для 465, false для інших портів
             auth: {
-              user: 'youremail@gmail.com',
-              pass: 'yourpassword'
+                user: 'admincalo@ukr.net', // замініть на вашу пошту
+                pass: '0oqMVw5BZxBDWEie' // замініть на ваш пароль
             }
-          });
+        });
           
           var mailOptions = {
-            from: 'youremail@gmail.com',
-            to: 'myfriend@yahoo.com',
+            from: 'admincalo@ukr.net',
+            to: email,
             subject: 'Reset Password CaloCheck',
-            text: 'That was easy!'
+            text: `Your verification code is ${verificationCode}. It is valid for 1 hour.`
           };
           
           transporter.sendMail(mailOptions, function(error, info){
@@ -144,8 +154,18 @@ export const forgotPassword = async (req, res) => {
             }
           });
 
+          transporter.sendMail(mailOptions, function(error, info){
+            if (error) {
+                console.log(error);
+                return res.status(500).json({message: 'Failed to send email'});
+            } else {
+                console.log('Email sent: ' + info.response);
+                return res.json({message: 'Verification code sent to your email'});
+            }
+        });
 
     } catch(err){
         console.log(err);
+        res.status(500).json({message: 'Server error'});
     }
 }

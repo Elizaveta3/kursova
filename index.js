@@ -4,7 +4,7 @@ import mongoose from 'mongoose';
 
 import cron from 'node-cron';
 
-import { registerValidation, loginValidation, profileValidation } from './validations.js';
+import { registerValidation, profileValidation } from './validations.js';
 
 import {handleValidationErrors, checkAuth} from './utils/index.js';
 
@@ -41,6 +41,8 @@ app.get('/auth/diary/food/:id', FoodController.getCalculateEaten)
 
 app.post('/auth/diary/activity/:id', ActivityController.calculateActivityForDay)
 app.get('/auth/diary/activity/:id', ActivityController.getCalculateBurned)
+
+app.post('/auth/forgot-password', AccountController.forgotPassword);
 
 cron.schedule('0 0 * * *', () => {
     // Видаляємо всі дані з колекції CaloriesForDay
