@@ -7,6 +7,7 @@ import {AuthPageEnter} from './pages/authPageEnter'
 import {Profile} from './pages/profile'
 import {FillPage} from './pages/fillProf'
 import {DiaryPage} from './pages/diaryPage'
+import { ForgotPass } from './pages/forgotPassPage'
 import '../src/pages/static/styles/reset.css'
 
 
@@ -22,6 +23,7 @@ function App() {
       <Route path="/profile" element = {<Profile />}/>
       <Route path="/fillProfile" element = {<FillPage/>}/>
       <Route path= "/diary" element = {<DiaryPage/>}/>
+      <Route path= "/forgotPassword" element = {<ForgotPass/>}/>
     </Routes>
     </>
   );

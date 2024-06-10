@@ -19,6 +19,9 @@ export const AuthPageEnter = () => {
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.id]: e.target.value.trim() });
     };
+    const handleGoToForgotPass = () => {
+        navigate('/forgotPassword');
+    };
     const handleSubmit = async (e) => {
         e.preventDefault();
         if (!formData.userName || !formData.password) {
@@ -70,6 +73,14 @@ export const AuthPageEnter = () => {
                                 <p className="form_button">
                                     <Button
                                         buttonClass="submit_button" type="submit" onSubmit={handleSubmit}
+                                    >
+                                        Sign in
+                                    </Button>
+                                </p>
+                                <p>
+                                    <Button
+                                        buttonClass="submit_button_enter"
+                                        handleClick={handleGoToForgotPass}
                                     >
                                         Sign in
                                     </Button>
