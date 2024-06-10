@@ -291,17 +291,76 @@ html {
 /*Styles for page Main ends*/
 
 /*Big monitor*/
-@media screen and (max-width: 3000px) and (min-width: 1801px) {
-  .wrapper {
+@media screen and (max-width: 1920px) and (min-width: 1801px) {
+
+  .page_main {
+    background: url(../images/main_page_1920.jpg) no-repeat;
+    background-size: auto;
     max-width: 100%;
   }
 
-  .first .main_text {
-    margin-left: 750px;
+  .first .little_text{
+    margin-left: 655px;
+    margin-top: 200px;
   }
-
+  .first .main_text {
+    margin-left: 655px;
+    margin-top: 0px;
+  }
+  .button_main {
+    margin-top: 105px;
+    margin-left: 1300px;
+  }
   .second .main_text {
-   
+    line-height: 1.1;
+    margin-top: 480px;
+    margin-left: 545px;
+    margin-right: 0px;
+    font-size: 78px;
+    width: 400px;
+  }
+  .second .little_text {
+    margin-top: 200px;
+    margin-left: 1550px;
+    width: 210px;
+  }
+  .third .main_text {
+    margin-top: 90px;
+    margin-left: 1025px;
+    font-size: 146px;
+    text-align: center;
+  }
+  .third .little_text {
+    margin-top: 150px;
+    margin-left: 300px;
+  }
+  .fourth .main_text {
+    margin-top: 270px;
+    margin-left: 860px;
+    font-size: 78px;
+  }
+  .fourth .little_text {
+    width: 380px;
+    margin-top: 170px;
+    margin-left: 1200px;
+    text-align: center;
+  }
+  .footer .wrapper{
+    height: 396px;
+  }
+  .fifth .main_text{
+    margin-top: 240px;
+    margin-left: 420px;
+    font-size: 150px;
+    line-height: 1.2;
+  }
+  .button_main_fifth_register{
+    margin-top: 23px;
+    margin-left: 610px;
+  }
+  .button_main_fifth_auth{
+    margin-left: 610px;
+    margin-bottom: 0px;
   }
 }
 
@@ -381,10 +440,6 @@ html {
 }
 /* mac Safari 1440*479 */
 @media only screen and (max-width: 1440px) and (min-width: 1001px) {
-  /* .wrapper {
-    max-width: 90%;
-  } */
-
   .page_main {
     background: url(../images/bg-main\ for\ mac\,\ safari.png) no-repeat;
     background-size: auto;

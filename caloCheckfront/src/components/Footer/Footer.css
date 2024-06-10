@@ -65,4 +65,20 @@ hr {
     }  
 }
 
-
+/*Big monitor*/
+@media screen and (max-width: 1920px) and (min-width: 1801px) {
+    .footer .wrapper{
+        max-width: 1800px;
+        margin-left: 58px;
+        margin-right: 58px;
+        
+    }
+    hr {
+        width: 1804px;
+        margin-left: 58px;
+        margin-right: 58px;
+    }
+    .footer_item_botton{
+        margin-left: 58px;
+    }
+}
