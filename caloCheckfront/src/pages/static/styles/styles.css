@@ -533,7 +533,7 @@ html {
 
 /*Styles for Profile Page starts*/
 
-.page_profile {
+.page_profile, .page_profile_editing {
   font-family: "inter";
   color: #655247;
   font-size: 24px;
@@ -550,29 +550,47 @@ html {
   width: 1349px;
   height: 785px;
   background-color: #faf7e8;
-  align-items: center;
   border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}
+.profile_section_wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%; /* Убедиться, что обертка занимает всю ширину */
 }
 
-.page_profile h1 {
+/* header for form in profile */
+.header_form_profile {
+  width: 1349px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.header_wrappper_form{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 31px 3px 31px;
+}
+.header_username  h1 {
+  margin: 0;
   font-family: "arsenal";
   font-weight: 700;
   font-size: 50px;
-  padding-top: 49px;
-  padding-left: 60px; /* Відстань від верхнього краю сторінки */
 }
-
 .profile_item{
   font-family: "arsenal";
   font-size: 30px;
   margin: 0 15px; 
 }
 
-.profile_user_info{
+.profile_user_info,.measurement{
   font-weight: 700;
-font-size: 30px;
-text-decoration: underline;
-text-decoration-skip-ink: none;
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
 }
 
 .profile_calories{
@@ -594,46 +612,93 @@ text-decoration-skip-ink: none;
 .profile_calories_user{
   font-weight: 700;
   font-size: 36px;
+  text-align: center;
 }
 
-.profile_section_calories{
+.profile_section_calories {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 40px; 
+  box-shadow: 3px 9px 31px 0 #dfd5cd;
+  border-radius: 30px;
+  margin-top: 66px;
+  padding: 18px 0 19px 0;
+  width: 888px; 
 }
 
 .profile_section_inf{
+
   display: flex;
-  flex-direction: column; 
   justify-content: center;
-  align-items: center;
-  margin: 0 40px; 
-  padding-top: 70px;
+  align-items:  center;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 3px 9px 31px 0 #dfd5cd;
+  margin-top: 32px; 
+  padding-top: 60px;
+  padding-bottom: 38px;
+  width: 888px; 
+  border-radius: 30px;
+}
+.profile_info_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+.profile_item_container {
+  display: flex;
+  gap: 10px;
+  flex: 1 1 calc(40% - 20px); /* Настроить ширину колонок */
+  justify-content: center;
+  text-align: right;
 }
 
 .profile_section_calories > div {
   margin: 0 40px; /* Встановлюємо відступи між елементами */
 }
 
-.profile_row{
-    display: flex;
-    justify-content: space-between; /* Рівномірно розподіляє елементи по горизонталі */
-    align-items: center;
-    padding-top: 30px;
-}
+
 
 .profile_goal{
   display: flex;
-  padding-top: 80px;
+  margin-top: 30px;
   justify-content: center;
   align-items: center;
 }
 
 .profile_goal p{
-  font-size: 40px;
+  font-size: 36px;
   margin: 0 10px; 
 }
+/*Styles for Profile Editing begin*/
+.header_form_editing{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 15px 0px 0px 15px;
+}
+.title_wrappper_form_editing{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title_wrappper_form_editing h1{
+  font-family: "arsenal";
+  font-size: 60px;
+  font-weight: bold;
+}
+.title_wrappper_form_editing {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /*Styles for page fillProf begin*/
 
