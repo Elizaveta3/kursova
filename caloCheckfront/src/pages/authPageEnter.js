@@ -77,12 +77,13 @@ export const AuthPageEnter = () => {
                                         Sign in
                                     </Button>
                                 </p>
-                                <p>
+                                <p style={{ fontSize: 47}}>
                                     <Button
                                         buttonClass="submit_button_enter"
                                         handleClick={handleGoToForgotPass}
+                                        
                                     >
-                                        Sign in
+                                        Forgot password?
                                     </Button>
                                 </p>
                                 

@@ -167,7 +167,7 @@ html {
 .submit_button_enter {
   font-family: "arsenal";
   color: #655247;
-  font-size: 40px;
+  font-size: 25px;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   background-color: transparent;
@@ -808,3 +808,12 @@ text-decoration-skip-ink: none;
 }
 
 /*Styles for Diary ends*/
+
+/*Styles for ForgotPass page starts*/
+
+.main_block_forgot_pass {
+  display: flex; /* Використання Flexbox для горизонтального вирівнювання */
+  align-items: center; /* Вирівнювання елементів по вертикалі */
+  gap: 20px; /* Відстань між елементами */
+}
+/*Styles for ForgotPass page ends*/

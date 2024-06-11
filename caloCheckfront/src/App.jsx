@@ -7,7 +7,10 @@ import {AuthPageEnter} from './pages/authPageEnter'
 import {Profile} from './pages/profile'
 import {FillPage} from './pages/fillProf'
 import {DiaryPage} from './pages/diaryPage'
-import { ForgotPass } from './pages/forgotPassPage'
+import {ForgotPass} from './pages/resetPassword/forgotPassPage'
+import {ProfileEdit} from './pages/profileEdit'
+import {EmailVerification} from './pages/resetPassword/emailVerification'
+import {ChangePassword} from './pages/resetPassword/changePassword'
 import '../src/pages/static/styles/reset.css'
 
 
@@ -23,7 +26,10 @@ function App() {
       <Route path="/profile" element = {<Profile />}/>
       <Route path="/fillProfile" element = {<FillPage/>}/>
       <Route path= "/diary" element = {<DiaryPage/>}/>
+      <Route path= "/profileEditing" element = {<ProfileEdit/>}/>
       <Route path= "/forgotPassword" element = {<ForgotPass/>}/>
+      <Route path= "/emailVer" element = {<EmailVerification/>}/>
+      <Route path= "/changePassword" element = {<ChangePassword/>}/>
     </Routes>
     </>
   );

@@ -1,14 +1,11 @@
 import React from 'react';
-import Header from '../components/Header/Header';
-import Button from "../components/Button/Button";
+import Header from '../../components/Header/Header';
+import Button from "../../components/Button/Button";
 import { useState } from 'react';
 
-export const ForgotPass = () => {
+export const EmailVerification = () => {
     const [formData, setFormData] = useState({});
-
-    const handleChange = (e) => {
-        setFormData({ ...formData, [e.target.id]: e.target.value.trim() });
-    };
+    const [errorMessage, setErrorMessage] = useState(null);
    
     return (
         <>
@@ -17,17 +14,17 @@ export const ForgotPass = () => {
                 <main className="main">
                     <section>
                         <form className="form_enter">
-                            <h1>Forgot Password</h1>
+                            <h1>Email Verification</h1>
                             <fieldset className="form_enter_wrap">
-                                <p className="text_input">Enter the email.</p>
+                                <p className="text_input">We have sent a code to your email.</p>
                                 <div className="form_input">
-                                    <input type="text" className="form_input_field" placeholder="Email" id='email' onChange={handleChange}/>
+                                    <input type="text" className="form_input_field" placeholder="Code" id='code' />
                                 </div>
                                 <p className="form_button">
                                     <Button
                                         buttonClass="submit_button" type="submit"
                                     >
-                                        Confirm
+                                        Verify Account
                                     </Button>
                                 </p>
                                 

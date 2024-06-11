@@ -135,6 +135,22 @@
     line-height: 90px; /* Выравнивание текста по вертикали */
 }
 
+.return_button {
+    background-image: url('./images/arrow-left.png');
+    background-size: cover; /* Покриває всю кнопку */
+    background-repeat: no-repeat; /* Запобігає повторенню фону */
+    background-position: center; /* Центрує фонове зображення */
+    border: none; /* Видаляє стандартну рамку кнопки */
+    width: 105px; /* Встановлює ширину кнопки */
+    height: 105px; /* Встановлює висоту кнопки */
+    cursor: pointer; /* Змінює курсор миші на "палець" при наведенні на кнопку */
+    padding: 0; /* Видаляє стандартні відступи */
+    outline: none; /* Видаляє обведення при фокусі */
+    background-color: transparent; /* Робить фон кнопки прозорим */
+    margin-top: 60px; /* Відступ від заголовка */
+  }
+  
+
 
 @media screen and (max-width: 3000px) {
     .button_main {
