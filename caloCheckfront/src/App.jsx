@@ -11,6 +11,7 @@ import {ForgotPass} from './pages/resetPassword/forgotPassPage'
 import {ProfileEdit} from './pages/profileEdit'
 import {EmailVerification} from './pages/resetPassword/emailVerification'
 import {ChangePassword} from './pages/resetPassword/changePassword'
+import {Contacts} from './pages/contactsPage'
 import '../src/pages/static/styles/reset.css'
 
 
@@ -30,6 +31,7 @@ function App() {
       <Route path= "/forgotPassword" element = {<ForgotPass/>}/>
       <Route path= "/emailVer" element = {<EmailVerification/>}/>
       <Route path= "/changePassword" element = {<ChangePassword/>}/>
+      <Route path= "/contacts" element = {<Contacts/>}/>
     </Routes>
     </>
   );

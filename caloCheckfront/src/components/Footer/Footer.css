@@ -61,7 +61,7 @@ hr {
 
 @media screen and (max-width: 1800px) and (min-width: 1441px) {
     .footer_list_botton {
-        gap: 1080px;
+        gap: 800px;
     }  
 }
 

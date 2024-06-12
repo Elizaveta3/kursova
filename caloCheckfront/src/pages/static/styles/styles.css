@@ -410,12 +410,14 @@ html {
 
   .second .little_text {
     margin-top: 250px;
-    margin-left: 1380px;
+    margin-left: 1370px;
+    font-size: 30px;
+    width: 150px;
   }
 
   .third .main_text {
     margin-top: 50px;
-    margin-left: 720px;
+    margin-left: 780px;
     font-size: 150px;
     text-align: center;
   }
@@ -426,15 +428,16 @@ html {
   }
 
   .fourth .main_text {
-    margin-top: 250px;
-    margin-left: 850px;
+    margin-top: 280px;
+    margin-left: 880px;
   }
 
   .fourth .little_text {
-    width: 440px;
-    margin-top: 170px;
-    margin-left: 1135px;
+    width: 400px;
+    margin-top: 190px;
+    margin-left: 1100px;
     text-align: center;
+    font-size: 22px;
   }
 
   .fifth .main_text {
@@ -953,11 +956,108 @@ html {
 
 .main_block_forgot_pass {
   display: flex;
-  /* Використання Flexbox для горизонтального вирівнювання */
   align-items: center;
-  /* Вирівнювання елементів по вертикалі */
   gap: 20px;
-  /* Відстань між елементами */
 }
 
 /*Styles for ForgotPass page ends*/
+
+/*Styles for ContactPage page starts*/
+
+.page_contacts {
+  font-family: "inter";
+  color: #655247;
+  font-size: 24px;
+  font-weight: 400;
+  background: url(../images/bg-contacts/bg-contacts-1800.png) no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.contact_welcome{
+  margin-top: 42px;
+  margin-bottom: 60px;
+  margin-left: 5%;
+  width: 90%;
+  height: 470px;
+  background-color: #faf7e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.contact_info {
+  margin-top: 42px;
+  margin-bottom: 60px;
+  margin-left: 5%;
+  width: 90%;
+  height: 280px;
+  background-color: #faf7e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the left */
+  border-radius: 30px;
+  text-align: left; /* Align text to the left */
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.contact_welcome_inside{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact_welcome_text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "arsenal";
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.page_contacts p {
+  margin-bottom: 50px; 
+}
+
+.contact_info p {
+  align-items: left; 
+  text-align: left;
+}
+
+.page_contacts h1 {
+  font-family: "arsenal";
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 30px; 
+}
+
+.contact_welcome_text input {
+  margin-bottom: 50px; 
+  background-color: transparent;
+  border-color: #655247;
+  color: #655247; /* Change the color of the text */
+  font-size: 24px;
+  padding-left: 20px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  width: 560px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+
+.contact_welcome_text input::placeholder {
+  color: #655247; /* Change the color of the placeholder text */
+  font-size: 24px;
+  
+}
+@media only screen and (max-width: 1800px) and (min-width: 1441px) {}
+
+/*Styles for ContactPage page ends*/

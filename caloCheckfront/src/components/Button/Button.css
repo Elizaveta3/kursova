@@ -11,6 +11,19 @@
 
 }
 
+.header_button_contacts{
+    width: 287px;
+    height: 57px;
+    font-size: 29px;
+    font-family: 'arsenal';
+    color:#FAF7E8;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: #655247;
+
+}
+
 .header_button_main{
     width: 287px;
     height: 57px;

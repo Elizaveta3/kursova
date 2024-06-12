@@ -1,19 +1,13 @@
 import logo from './LOGO 2.svg'
 import Button from '../Button/Button'
-import './HeaderMain.css'
+import './Header.css'
 import {  useNavigate } from 'react-router-dom';
 
-export default function HeaderMain() {
+export default function Header() {
     const navigate = useNavigate();
 
-    const handleGoToAuthPage = () => {
-        navigate('/authEnter');
-    };
-    const handleGoToRegisterPage = () => {
-        navigate('/register');
-    };
-    const handleGoToContactPage = () => {
-        navigate('/contacts');
+    const handleGoToMainPage = () => {
+        navigate('/');
     };
     return (<header className="header">
         <div className="wrapper">
@@ -26,9 +20,7 @@ export default function HeaderMain() {
                 <nav className="header_nav">
                     <ul className="header_list">
                         <li className="header_item">
-                            <Button buttonClass="header_button_main" handleClick={handleGoToRegisterPage}>Sign up</Button>
-                            <Button buttonClass="header_button_main" handleClick={handleGoToAuthPage}>Sign in</Button>
-                            <Button buttonClass="header_button_main" handleClick={handleGoToContactPage}>Contacts</Button>
+                            <Button buttonClass="header_button_contacts" handleClick={handleGoToMainPage}>Main page</Button>
                         </li>
                     </ul>
                 </nav>
