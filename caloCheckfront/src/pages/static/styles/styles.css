@@ -299,18 +299,21 @@ html {
     max-width: 100%;
   }
 
-  .first .little_text{
+  .first .little_text {
     margin-left: 655px;
     margin-top: 200px;
   }
+
   .first .main_text {
     margin-left: 655px;
     margin-top: 0px;
   }
+
   .button_main {
     margin-top: 105px;
     margin-left: 1300px;
   }
+
   .second .main_text {
     line-height: 1.1;
     margin-top: 480px;
@@ -319,46 +322,55 @@ html {
     font-size: 78px;
     width: 400px;
   }
+
   .second .little_text {
     margin-top: 200px;
     margin-left: 1550px;
     width: 210px;
   }
+
   .third .main_text {
     margin-top: 90px;
     margin-left: 1025px;
     font-size: 146px;
     text-align: center;
   }
+
   .third .little_text {
     margin-top: 150px;
     margin-left: 300px;
   }
+
   .fourth .main_text {
     margin-top: 270px;
     margin-left: 860px;
     font-size: 78px;
   }
+
   .fourth .little_text {
     width: 380px;
     margin-top: 170px;
     margin-left: 1200px;
     text-align: center;
   }
-  .footer .wrapper{
+
+  .footer .wrapper {
     height: 396px;
   }
-  .fifth .main_text{
+
+  .fifth .main_text {
     margin-top: 240px;
     margin-left: 420px;
     font-size: 150px;
     line-height: 1.2;
   }
-  .button_main_fifth_register{
+
+  .button_main_fifth_register {
     margin-top: 23px;
     margin-left: 610px;
   }
-  .button_main_fifth_auth{
+
+  .button_main_fifth_auth {
     margin-left: 610px;
     margin-bottom: 0px;
   }
@@ -369,6 +381,7 @@ html {
   .wrapper {
     max-width: 90%;
   }
+
   .page_main {
     background: url(../images/fon1800.png) no-repeat;
     background-size: auto;
@@ -384,7 +397,7 @@ html {
     margin-left: 650px;
   }
 
-  .button_main{
+  .button_main {
     margin-left: 750px;
   }
 
@@ -423,45 +436,54 @@ html {
     margin-left: 1135px;
     text-align: center;
   }
-  .fifth .main_text{
+
+  .fifth .main_text {
     margin-top: 230px;
     margin-left: 410px;
     font-size: 150px;
     line-height: 1.2;
   }
-  .button_main_fifth_register{
+
+  .button_main_fifth_register {
     margin-top: 62px;
     margin-left: 600px;
   }
-  .button_main_fifth_auth{
+
+  .button_main_fifth_auth {
     margin-left: 600px;
     margin-bottom: 71px;
   }
 }
+
 /* mac Safari 1440*479 */
 @media only screen and (max-width: 1440px) and (min-width: 1001px) {
   .page_main {
     background: url(../images/bg-main\ for\ mac\,\ safari.png) no-repeat;
     background-size: auto;
-    max-width: 100%; /* або можна видалити цю властивість повністю */
+    max-width: 100%;
+    /* або можна видалити цю властивість повністю */
   }
+
   /* .sections-wrapper{
     width: 1440px;
   } */
 
-  .first .little_text{
+  .first .little_text {
     margin-left: 595px;
     margin-top: 190px;
   }
+
   .first .main_text {
     margin-left: 595px;
     margin-top: 0px;
     line-height: 1.2;
   }
+
   .button_main {
     margin-top: 105px;
     margin-left: 1023px;
   }
+
   .second .main_text {
     line-height: 1.1;
     margin-top: 345px;
@@ -470,51 +492,60 @@ html {
     font-size: 80px;
     width: 400px;
   }
+
   .second .little_text {
     margin-top: 220px;
     margin-left: 1210px;
     width: 210px;
   }
+
   .third .main_text {
     margin-top: 50px;
     margin-left: 660px;
     font-size: 150px;
     text-align: center;
   }
+
   .third .little_text {
     margin-top: 100px;
     margin-left: 180px;
   }
+
   .fourth .main_text {
     margin-top: 250px;
     margin-left: 730px;
   }
+
   .fourth .little_text {
     width: 380px;
     margin-top: 170px;
     margin-left: 950px;
     text-align: center;
   }
-  .footer .wrapper{
+
+  .footer .wrapper {
     height: 396px;
   }
-  .fifth .main_text{
+
+  .fifth .main_text {
     margin-top: 180px;
     margin-left: 310px;
     font-size: 150px;
     line-height: 1.2;
   }
-  .button_main_fifth_register{
+
+  .button_main_fifth_register {
     margin-top: 43px;
     margin-left: 500px;
   }
-  .button_main_fifth_auth{
+
+  .button_main_fifth_auth {
     margin-left: 500px;
   }
-} 
+}
 
 
-@media screen and (max-width: 1000px) and (min-width: 481px){
+@media screen and (max-width: 1000px) and (min-width: 481px) {
   .wrapper {
     max-width: 80%;
   }
@@ -524,7 +555,7 @@ html {
   .wrapper {
     max-width: 60%;
   }
-  
+
 }
 
 
@@ -533,7 +564,8 @@ html {
 
 /*Styles for Profile Page starts*/
 
-.page_profile, .page_profile_editing {
+.page_profile,
+.page_profile_editing {
   font-family: "inter";
   color: #655247;
   font-size: 24px;
@@ -544,6 +576,7 @@ html {
   height: 100%;
   min-height: 100vh;
 }
+
 .form_profile {
   margin-top: 57px;
   margin-bottom: 48px;
@@ -553,12 +586,13 @@ html {
   border-radius: 30px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start; 
+  align-items: flex-start;
 }
+
 .profile_section_wrapper {
   display: flex;
   justify-content: center;
-  width: 100%; /* Убедиться, что обертка занимает всю ширину */
+  width: 100%;
 }
 
 /* header for form in profile */
@@ -567,49 +601,54 @@ html {
   margin: 0 auto;
   overflow: hidden;
 }
-.header_wrappper_form{
+
+.header_wrappper_form {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   margin: 30px 31px 3px 31px;
 }
-.header_username  h1 {
+
+.header_username h1 {
   margin: 0;
   font-family: "arsenal";
   font-weight: 700;
   font-size: 50px;
 }
-.profile_item{
+
+.profile_item {
   font-family: "arsenal";
   font-size: 30px;
-  margin: 0 15px; 
+  margin: 0 15px;
 }
 
-.profile_user_info,.measurement{
+.profile_user_info,
+.measurement {
   font-weight: 700;
   font-size: 30px;
   text-decoration: underline;
   text-decoration-skip-ink: none;
 }
 
-.profile_calories{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%; /* Заокруглені кути для створення кола */
-    background-color: #7fac84;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    font-family: "arsenal";
-    font-weight: 700;
-    font-size: 80px;
-    color: #FAF7E8;
+.profile_calories {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  /* Заокруглені кути для створення кола */
+  background-color: #7fac84;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  font-family: "arsenal";
+  font-weight: 700;
+  font-size: 80px;
+  color: #FAF7E8;
 }
 
-.profile_calories_user{
+.profile_calories_user {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
@@ -623,23 +662,24 @@ html {
   border-radius: 30px;
   margin-top: 66px;
   padding: 18px 0 19px 0;
-  width: 888px; 
+  width: 888px;
 }
 
-.profile_section_inf{
+.profile_section_inf {
 
   display: flex;
   justify-content: center;
-  align-items:  center;
+  align-items: center;
   flex-direction: column;
   gap: 20px;
   box-shadow: 3px 9px 31px 0 #dfd5cd;
-  margin-top: 32px; 
+  margin-top: 32px;
   padding-top: 60px;
   padding-bottom: 38px;
-  width: 888px; 
+  width: 888px;
   border-radius: 30px;
 }
+
 .profile_info_container {
   display: flex;
   flex-wrap: wrap;
@@ -647,49 +687,56 @@ html {
   gap: 20px;
   width: 100%;
 }
+
 .profile_item_container {
   display: flex;
   gap: 10px;
-  flex: 1 1 calc(40% - 20px); /* Настроить ширину колонок */
+  flex: 1 1 calc(40% - 20px);
+  /* Настроить ширину колонок */
   justify-content: center;
   text-align: right;
 }
 
-.profile_section_calories > div {
-  margin: 0 40px; /* Встановлюємо відступи між елементами */
+.profile_section_calories>div {
+  margin: 0 40px;
+  /* Встановлюємо відступи між елементами */
 }
 
 
 
-.profile_goal{
+.profile_goal {
   display: flex;
   margin-top: 30px;
   justify-content: center;
   align-items: center;
 }
 
-.profile_goal p{
+.profile_goal p {
   font-size: 36px;
-  margin: 0 10px; 
+  margin: 0 10px;
 }
+
 /*Styles for Profile Editing begin*/
-.header_form_editing{
+.header_form_editing {
   width: 100%;
   display: flex;
   align-items: center;
   position: relative;
   margin: 15px 0px 0px 15px;
 }
-.title_wrappper_form_editing{
+
+.title_wrappper_form_editing {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.title_wrappper_form_editing h1{
+
+.title_wrappper_form_editing h1 {
   font-family: "arsenal";
   font-size: 60px;
   font-weight: bold;
 }
+
 .title_wrappper_form_editing {
   position: absolute;
   left: 50%;
@@ -699,6 +746,31 @@ html {
   align-items: center;
 }
 
+.form_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 90%;
+}
+.form_sex_editing {
+  display: flex;
+  align-items: center;
+  /* Center align label and input */
+  margin-bottom: 31px;
+  width: 789px;
+}
+.form_sex_editing .label_sex_editing {
+  width: 175px;
+  font-family: "arsenal";
+  font-size: 40px;
+  text-align: left;
+}
+.form_sex_editing .radio-style{
+  margin-left: 50px;
+  /* Другие стили... */
+}
 
 /*Styles for page fillProf begin*/
 
@@ -804,7 +876,7 @@ html {
 
 .form_diary {
   margin-top: 2%;
-  margin-left:5%;
+  margin-left: 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -842,21 +914,24 @@ html {
 }
 
 .section_diary {
-  margin-top: 60px; 
+  margin-top: 60px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 100px; /* для вирівнювання по вертикалі */
+  margin-bottom: 100px;
+  /* для вирівнювання по вертикалі */
 }
 
 .text_diary,
-.little_text_diary{
-  margin-right: 300px; /* простір між елементами */
+.little_text_diary {
+  margin-right: 300px;
+  /* простір між елементами */
 }
 
 .cancel_button_diary {
   margin-top: 50px;
-  margin-right: 20px; /* Додайте відстань між кнопкою "Відмінити" і полем пошуку */
+  margin-right: 20px;
+  /* Додайте відстань між кнопкою "Відмінити" і полем пошуку */
 }
 
 .submit_button_diary {
@@ -865,9 +940,9 @@ html {
   /* Це розміщає кнопку по центру по горизонталі */
 }
 
-.search-container{
+.search-container {
   display: grid;
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr;
   grid-column-gap: 20px;
   grid-auto-rows: 100px;
 }
@@ -877,8 +952,12 @@ html {
 /*Styles for ForgotPass page starts*/
 
 .main_block_forgot_pass {
-  display: flex; /* Використання Flexbox для горизонтального вирівнювання */
-  align-items: center; /* Вирівнювання елементів по вертикалі */
-  gap: 20px; /* Відстань між елементами */
+  display: flex;
+  /* Використання Flexbox для горизонтального вирівнювання */
+  align-items: center;
+  /* Вирівнювання елементів по вертикалі */
+  gap: 20px;
+  /* Відстань між елементами */
 }
+
 /*Styles for ForgotPass page ends*/

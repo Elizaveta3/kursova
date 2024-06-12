@@ -1,5 +1,5 @@
 import React from 'react';
-// import './FormInpuEditingProfile.css';
+import './FormInpuEditingProfile.css';
 const FormRowForEditing = ({ label, type, id, name, placeholder, value, onChange }) => {
     return (
         <div className="form_row">

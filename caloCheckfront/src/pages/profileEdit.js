@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
+
 import HeaderProfile from '../components/HeaderProfile/HeaderProfile';
 import FormRowForEditing from '../components/FormInputEditingProfile/FormInputEditingProfile';
+import RadioBox from '../components/RadioBox/RadioBox';
 import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
@@ -86,8 +88,24 @@ export const ProfileEdit = () => {
                             </div>
                             <form className="form_container">
                                 <FormRowForEditing label="Username" type="text" id="username" name="username" value={formData.userName}
-                onChange={handleChange} />
-                                {/* place for gender */}
+                                    onChange={handleChange} />
+                                <p className="form_sex_editing">
+                                    <label htmlFor="gender" className="label_sex_editing" >Gender:</label>
+                                    <RadioBox
+                                        label="Female"
+                                        name="gender"
+                                        value="female"
+                                        onChange={handleChange}
+                                        checked={formData.gender === 'female'} // Додано атрибут checked
+                                    />
+                                    <RadioBox
+                                        label="Male"
+                                        name="gender"
+                                        value="male"
+                                        onChange={handleChange}
+                                        checked={formData.gender === 'male'} // Додано атрибут checked
+                                    />
+                                </p>
                                 <FormRowForEditing label="Age" type="number" id="age" name="age" value={formData.age}
                                     onChange={handleChange} />
                                 <FormRowForEditing label="Weight" type="number" id="weight" name="weight" value={formData.weight}
