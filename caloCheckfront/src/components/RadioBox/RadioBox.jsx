@@ -13,7 +13,7 @@ const RadioBox = ({ label, name, value, onChange, checked  }) => {
         checked={checked}
       />
       <span className='radio-style'></span>
-      {label}
+      <span className='radio-label'>{label}</span>
     </label>
   );
 }

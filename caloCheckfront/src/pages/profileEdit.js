@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import HeaderProfile from '../components/HeaderProfile/HeaderProfile';
 import FormRowForEditing from '../components/FormInputEditingProfile/FormInputEditingProfile';
 import RadioBox from '../components/RadioBox/RadioBox';
+import Button from '../components/Button/Button';
 import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
@@ -15,6 +16,7 @@ export const ProfileEdit = () => {
         age: '',
         weight: '',
         height: '',
+        gender: '',
         goal: ''
     });
     const handleGoToDiary = () => {
@@ -40,6 +42,7 @@ export const ProfileEdit = () => {
                     age: profileDataResponse.age || '',
                     weight: profileDataResponse.weight || '',
                     height: profileDataResponse.height || '',
+                    gender: profileDataResponse.gender || '',
                     goal: profileDataResponse.goal || ''
                 });
             } catch (error) {
@@ -62,7 +65,7 @@ export const ProfileEdit = () => {
         e.preventDefault();
         // Отправка данных на сервер
         console.log('Form data submitted:', formData);
-        // Здесь можно использовать fetch или axios для отправки данных
+
     };
     return (
         <>
@@ -81,9 +84,7 @@ export const ProfileEdit = () => {
                                     <img src={iconForReturn} alt="iconForReturn" />
                                 </a>
                                 <div className="title_wrappper_form_editing">
-
                                     <h1>Profile editing</h1>
-
                                 </div>
                             </div>
                             <form className="form_container">
@@ -112,9 +113,34 @@ export const ProfileEdit = () => {
                                     onChange={handleChange} />
                                 <FormRowForEditing label="Height" type="number" id="height" name="height" value={formData.height}
                                     onChange={handleChange} />
-                                {/* place for goal */}
-                                <div className="form_row">
-                                    <button type="submit">Submit</button>
+                                <p className="form_goal_editing">
+                                    <label htmlFor="gender" className="label_goal_editing" >Goal:</label>
+                                    <RadioBox
+                                        label="Lose"
+                                        name="goal"
+                                        value="lose_weight"
+                                        onChange={handleChange}
+                                        checked={formData.goal === 'lose_weight'} // Додано атрибут checked
+                                    />
+                                    <RadioBox
+                                        label="Maintain"
+                                        name="goal"
+                                        value="maintain_weight"
+                                        onChange={handleChange}
+                                        checked={formData.goal === 'maintain_weight'} // Додано атрибут checked
+                                    />
+                                    <RadioBox
+                                        label="Gain"
+                                        name="goal"
+                                        value="gain_weight"
+                                        onChange={handleChange}
+                                        checked={formData.goal === 'gain_weight'} // Додано атрибут checked
+                                    />
+                                </p>
+                                <div className="container_button_editing">
+                                    <Button buttonClass="button_editing" type="submit" onSubmit={handleSubmit}>
+                                        Submit
+                                    </Button>
                                 </div>
                             </form>
 

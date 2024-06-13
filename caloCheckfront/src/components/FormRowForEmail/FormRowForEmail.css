@@ -1,0 +1,42 @@
+.form_row_email {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.form_row_email label {
+    width: 165px;
+    font-family: "arsenal";
+    font-size: 40px;
+    text-align: left;
+}
+.textarea-row {
+    align-items: flex-start; /* Выравнивание по верхнему краю */
+}
+.contact_welcome_input {
+    background-color: transparent;
+    border: 1px solid #655247; 
+    color: #655247;
+    font-size: 24px;
+    padding-left: 15px;
+    height: 50px;
+    width: 564px;
+    margin-left: 40px;
+}
+
+.contact_welcome_input::placeholder {
+    color: #655247;
+    font-family: "inter";
+    font-size: 24px;
+}
+
+.contact_welcome_input.message-input {
+    height: 160px; /* Нова висота для останнього input */
+    padding-top: 8px; 
+    display: block;
+}
+
+/* Спеціальні стилі для textarea */
+.contact_welcome_input.message-input::placeholder {
+    vertical-align: top;
+}

@@ -1,39 +1,49 @@
+.radio-box {
+  width: 0;
+  height: 0;
+  position: relative;
+  opacity: 0;
+  z-index: -1;
+}
 
-.radio-box{
-    width: 0;
-    height: 0;
-    position: relative;
-    opacity: 0;
-    z-index: -1;
-  }
-  .radio-style{
-    display: inline-block;
-    vertical-align:middle;
-    width: 74px;
-    height: 74px;
-    border-radius: 50%;
-    background: #faf7e8;
-    margin-right: 30px;
-    border:8px solid #D7DFAF;
-    position: relative;
-    /* саме для form_sex */
-  
-  }
-  /* відображення вибору радіокнопки */
-  .radio-style::before{
-    content: '';
-    display: inline-block;
-    width: 37px;
-    height: 37px;
-    border-radius: 50%;
-    background: #D7DFAF;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    transition: 0.2s ease-in;
-  
-  }
-  .radio-box:checked + .radio-style::before{
-    transform: translate(-50%, -50%) scale(1);
-  }
+.radio-style {
+  display: inline-block;
+  vertical-align: middle;
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  background: #faf7e8;
+  margin-right: 30px;
+  border: 8px solid #D7DFAF;
+  position: relative;
+}
+.form_profile .radio-style {
+  width: 56px; /* Новый размер */
+  height: 55px; /* Новый размер */
+}
+.form_profile .radio-style::before {
+  width: 25px; /* Новый размер */
+  height: 25px; /* Новый размер */
+}
+/* відображення вибору радіокнопки */
+.radio-style::before {
+  content: '';
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background: #D7DFAF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 0.2s ease-in;
+
+}
+
+.radio-box:checked+.radio-style::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+.radio-label {
+  font-family: "arsenal";
+}
