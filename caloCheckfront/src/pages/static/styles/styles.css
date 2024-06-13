@@ -966,7 +966,7 @@ html {
 
 .page_contacts {
   font-family: "inter";
-  color: #655247;
+  color: #faf7e8;
   font-size: 24px;
   font-weight: 400;
   background: url(../images/bg-contacts/bg-contacts-1800.png) no-repeat;
@@ -988,6 +988,7 @@ html {
   justify-content: center;
   align-items: center;
   border-radius: 30px;
+  color: #655247;
 }
 
 .contact_info {
@@ -1005,6 +1006,7 @@ html {
   text-align: left; /* Align text to the left */
   padding-left: 30px;
   padding-top: 20px;
+  color: #655247;
 }
 
 .contact_welcome_inside{

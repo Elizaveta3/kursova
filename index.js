@@ -8,7 +8,7 @@ import { registerValidation, profileValidation } from './validations.js';
 
 import {handleValidationErrors, checkAuth} from './utils/index.js';
 
-import {AccountController, ProfileController, CaloriesNormController, FoodController, ActivityController} from './controllers/index.js'
+import {AccountController, ProfileController, CaloriesNormController, FoodController, ActivityController, ContactsController} from './controllers/index.js'
 import foodForDay from './models/foodForDay.js';
 import activityForDay from './models/activityForDay.js'; 
 
@@ -43,6 +43,8 @@ app.post('/auth/diary/activity/:id', ActivityController.calculateActivityForDay)
 app.get('/auth/diary/activity/:id', ActivityController.getCalculateBurned)
 
 app.post('/auth/forgot-password', AccountController.forgotPassword);
+
+app.post('/auth/contacts', ContactsController.sendEmail);
 
 cron.schedule('0 0 * * *', () => {
     // Видаляємо всі дані з колекції CaloriesForDay
