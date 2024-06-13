@@ -1,6 +1,0 @@
-export * as AccountController from './AccountController.js'
-export * as ProfileController from './ProfileController.js'
-export * as CaloriesNormController from './CaloriesNormController.js'
-export * as FoodController from './FoodController.js'
-export * as ActivityController from './ActivityController.js'
-export * as ContactsController from './ContactsController.js'
