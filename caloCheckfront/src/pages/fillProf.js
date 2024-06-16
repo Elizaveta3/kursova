@@ -148,7 +148,7 @@ export const FillPage = () => {
                             </p>
                             {errorMessage && <Alert severity="error">{errorMessage}</Alert>}
                             <p className="form_buttom">
-                                <Button buttonClass="айді брать " type="submit" onSubmit={handleSubmit}>
+                                <Button buttonClass="submit_button_reg" type="submit" onSubmit={handleSubmit}>
                                     Sign up
                                 </Button>
                             </p>
