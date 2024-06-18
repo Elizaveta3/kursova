@@ -109,7 +109,7 @@
 
 .submit_button_diary {
     width: 282px;
-    height: 74px;
+    height: 64%;
     font-family: "arsenal";
     font-size: 35px;
     color: #faf7e8;
@@ -117,7 +117,7 @@
     border: none;
     box-shadow: 3px 9px 35px 0 #d1baa8;
     border-radius: 30px;
-    margin-top: 40px;
+    /* margin-bottom: 10px; */
   }
 
   .add_button_diary {
@@ -138,29 +138,28 @@
 .cancel_button_diary {
     border-radius: 30px;
     width: 194px;
-    height: 88px;
-    font-size: 30px; /* Уменьшим размер текста для лучшего соответствия */
+    height: 33%;
+    font-size: 30px; 
     text-align: center;
     color: #655247;
     background-color: #FFFFFF;
     border: none;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    line-height: 90px; /* Выравнивание текста по вертикали */
 }
 
 .return_button {
     background-image: url('./images/arrow-left.png');
-    background-size: cover; /* Покриває всю кнопку */
-    background-repeat: no-repeat; /* Запобігає повторенню фону */
-    background-position: center; /* Центрує фонове зображення */
-    border: none; /* Видаляє стандартну рамку кнопки */
-    width: 105px; /* Встановлює ширину кнопки */
-    height: 105px; /* Встановлює висоту кнопки */
-    cursor: pointer; /* Змінює курсор миші на "палець" при наведенні на кнопку */
-    padding: 0; /* Видаляє стандартні відступи */
-    outline: none; /* Видаляє обведення при фокусі */
-    background-color: transparent; /* Робить фон кнопки прозорим */
-    margin-top: 60px; /* Відступ від заголовка */
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    border: none; 
+    width: 105px; 
+    height: 105px; 
+    cursor: pointer;
+    padding: 0; 
+    outline: none;
+    background-color: transparent; 
+    margin-top: 60px; 
   }
 .button_editing{
     width: 338px;

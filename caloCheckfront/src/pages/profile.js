@@ -21,9 +21,7 @@ export const Profile = () => {
     const handleGoToAuthPage = () => {
         navigate('/authEnter');
     };
-    // const handleGoToProfileEdit = () => {
-    //     navigate('/profileEditing');
-    // };
+
 
     useEffect(() => {
         const accountId = currentUser._id;
@@ -69,7 +67,11 @@ export const Profile = () => {
                 console.error('Error fetching profile data:', error);
             });
     }, [currentUser._id]);
-
+    const goalMapping = {
+        lose_weight: "lose weight",
+        maintain_weight: "maintain current weight",
+        gain_weight: "gain weight"
+    };
     return (
         <>
             <body className="page_profile">
@@ -149,7 +151,7 @@ export const Profile = () => {
                                     <div className='profile_goal'>
                                         <p className='profile_item'>My goal:</p>
                                         {profileData && profileData.goal && (
-                                            <p className='profile_user_info'>{profileData.goal}</p>
+                                            <p className='profile_user_info'>{<p className='profile_user_info'>{goalMapping[profileData.goal]}</p>}</p>
                                         )}
                                     </div>
                                 </section>

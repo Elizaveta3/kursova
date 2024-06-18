@@ -21,6 +21,9 @@ export const DiaryPage = () => {
     const [jsonResults2, setJsonResults2] = useState([]);
     const { currentUser } = useSelector(state => state.user);
 
+    const [isFoodSectionActive, setIsFoodSectionActive] = useState(false);
+    const [isActivitySectionActive, setIsActivitySectionActive] = useState(false);
+
     useEffect(() => {
         const productNames = jsonData.map(item => item.FoodItem);
         setJsonResults(productNames);
@@ -35,26 +38,30 @@ export const DiaryPage = () => {
     const handleGoToAuthPage = () => {
         navigate('/auth');
     };
-
     const handlePlusButtonClick1 = () => {
         setShowText1(false);
         setShowSearch1(true);
+        setIsFoodSectionActive(true);
     };
-
+    
     const handleCancel1 = () => {
         setShowText1(true);
         setShowSearch1(false);
+        setIsFoodSectionActive(false);
     };
-
+    
     const handlePlusButtonClick2 = () => {
         setShowText2(false);
         setShowSearch2(true);
+        setIsActivitySectionActive(true);
     };
-
+    
     const handleCancel2 = () => {
         setShowText2(true);
         setShowSearch2(false);
+        setIsActivitySectionActive(false);
     };
+    
 
     const handleChange = (value, name) => {
         setFormData({ ...formData, [name]: value });
@@ -94,7 +101,7 @@ export const DiaryPage = () => {
             setErrorMessage(error.message);
         }
     };
-    
+
     const handleSubmitActivity = async (e) => {
         e.preventDefault();
         if (!formData.activityItemName || !formData.quantityMinutes) {
@@ -128,34 +135,33 @@ export const DiaryPage = () => {
             setErrorMessage(error.message);
         }
     };
-    
+
 
 
     return (
         <div className="page_diary">
             <HeaderProfile click1={handleGoToProfile} click2={handleGoToAuthPage} child1="Profile" child2="Log out" />
             <div className="form_diary">
-                <form className='section_diary' onSubmit={handleSubmit}>
-                    <p className='text_diary' style={{ marginRight: '465px' }}>Food:</p>
+                <form className={`section_diary ${isFoodSectionActive ? 'active' : ''}`} onSubmit={handleSubmit}>
+                    <p className='text_diary'>Food:</p>
                     {showSearch1 && (
                         <>
                             <div className="search-container">
                                 <Autocomplete
                                     options={jsonResults}
                                     name="foodItemName"
-                                    sx={{ width: 400 }}
+                                    sx={{ width: '80%' }}
                                     renderInput={(params) => <TextField {...params} label="Product search" />}
                                     onChange={(e, value) => handleChange(value, 'foodItemName')}
                                 />
                                 <TextField
                                     label="Grams"
                                     name="quantityGrams"
-                                    sx={{ width: 200 }}
+                                    sx={{ width: '50%' }}
                                     onChange={(e) => handleChange(e.target.value, 'quantityGrams')}
                                     id="quantityGrams"
                                 />
-                                <Button buttonClass="submit_button_diary" type="submit" onSubmit={handleSubmit}>Submit</Button> {/* Додано кнопку "Submit" для відправлення введених даних */
-                                }
+                                <Button buttonClass="submit_button_diary" type="submit" onSubmit={handleSubmit}>Submit</Button>
                             </div>
                         </>
                     )}
@@ -168,28 +174,26 @@ export const DiaryPage = () => {
                         <Button buttonClass="add_button_diary" handleClick={handlePlusButtonClick1}>+</Button>
                     )}
                 </form>
-                <form className='section_diary' onSubmit={handleSubmitActivity}>
-                    <p className='text_diary'  style={{ marginRight: '375px' }}>Activities:</p>
+                <form className={`section_diary ${isActivitySectionActive ? 'active' : ''}`} onSubmit={handleSubmitActivity}>
+                    <p className='text_diary'>Activities:</p>
                     {showSearch2 && (
                         <>
                             <div className="search-container">
                                 <Autocomplete
                                     options={jsonResults2}
                                     name="activityItemName"
-                                    sx={{ width: 400 }}
+                                    sx={{ width: '80%' }}
                                     renderInput={(params) => <TextField {...params} label="Activity search" />}
                                     onChange={(e, value) => handleChange(value, 'activityItemName')}
                                 />
                                 <TextField
                                     label="Minutes"
                                     name="quantityMinutes"
-                                    sx={{ width: 200 }}
+                                    sx={{ width: '50%' }}
                                     onChange={(e) => handleChange(e.target.value, 'quantityMinutes')}
                                     id="quantityMinutes"
                                 />
-
-                                <Button buttonClass="submit_button_diary" type="submit" onSubmit={handleSubmitActivity}>Submit</Button> {/* Додано кнопку "Submit" для відправлення введених даних */
-                                }
+                                <Button buttonClass="submit_button_diary" type="submit" onSubmit={handleSubmitActivity}>Submit</Button>
                             </div>
                         </>
                     )}
