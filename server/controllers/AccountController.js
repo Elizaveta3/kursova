@@ -1,6 +1,7 @@
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 import AccountModel from '../models/Account.js';
+import ProfileModel from '../models/Profile.js';
 import nodemailer from 'nodemailer'
 
 export const register = async (req, res) => {
@@ -93,25 +94,65 @@ export const login = async (req, res) => {
     }
 
 };
-export const getMe = async (req, res) => {
+
+export const getMe = async (req, res, next) => {
     try {
-        const account = await AccountModel.findById(req.accountId);
+        const accountId = req.params.id;
+        const account = await AccountModel.findOne({ account: accountId });
         if (!account) {
             return res.status(404).json({
                 message: 'No user found'
-            })
+            });
         }
-        const { passwordHash, ...accountData } = account._doc;
 
-        res.json(accountData);
-
+        req.account = account;
+        next();
     } catch (err) {
         console.log(err);
         res.status(500).json({
             message: 'No access',
-        })
+        });
     }
 };
+
+export const updateAccountAndProfile = async (req, res) => {
+    try {
+        const accountId = req.params.id;
+        
+        // Оновлення акаунта
+        await AccountModel.updateOne(
+            { _id: accountId },
+            { userName: req.body.userName }
+        );
+        
+        // Оновлення профілю
+        const profile = await ProfileModel.findOne({ account: accountId });
+        
+        if (!profile) {
+            return res.status(404).json({ message: 'Профіль не знайдено' });
+        }
+
+        await ProfileModel.updateOne(
+            { _id: profile._id },
+            {
+                gender: req.body.gender,
+                age: req.body.age,
+                height: req.body.height,
+                weight: req.body.weight,
+                goal: req.body.goal,
+            }
+        );
+
+        res.json({ success: true });
+        
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({
+            message: 'Не вдалося оновити акаунт та інформацію профілю',
+        });
+    }
+};
+
 
 export const forgotPassword = async (req, res) => {
     try{

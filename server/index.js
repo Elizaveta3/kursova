@@ -29,7 +29,6 @@ app.get('/auth/me', checkAuth, AccountController.getMe);
 app.get('/auth/profile', ProfileController.getProfile);
 app.get('/auth/profile/:id', ProfileController.getOneProfile);
 app.delete('/auth/profile/:id', checkAuth,ProfileController.removeProfile);
-app.patch('/auth/profile/:id', checkAuth, profileValidation,handleValidationErrors,ProfileController.updateProfile);
 app.post('/auth/fillProfile',checkAuth, profileValidation, handleValidationErrors, ProfileController.fillProfile);
 
 app.post('/auth/profile/calo/:id', CaloriesNormController.calculateNorm)
@@ -45,6 +44,8 @@ app.get('/auth/diary/activity/:id', ActivityController.getCalculateBurned)
 app.post('/auth/forgot-password', AccountController.forgotPassword);
 
 app.post('/auth/contacts', ContactsController.sendEmail);
+
+app.patch('/auth/updateProfile/:id', AccountController.updateAccountAndProfile);
 
 cron.schedule('0 0 * * *', () => {
     // Видаляємо всі дані з колекції CaloriesForDay

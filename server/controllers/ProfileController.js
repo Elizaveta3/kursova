@@ -56,34 +56,7 @@ export const removeProfile = async (req, res) => {
         });
     }
 };
-// 25.04 додала функцію оновлення інфи з профілю
-export const updateProfile = async (req, res) => {
-    try {
-        const profileId = req.params.id;
-        await ProfileModel.updateOne(
-            {
-            _id: profileId
-            },
-            {
-                gender: req.body.gender,
-                account: req.accountId,
-                age: req.body.age,
-                height: req.body.height,
-                weight: req.body.weight,
-                //гол отримаємо з іншої таблиці потім змінемо
-                goal: req.body.goal, 
-            },
-        ); 
-        res.json({
-            success: true,
-        });
-    } catch (err) {
-        console.log(err);
-        res.status(500).json({
-            message: 'Не вдалося оновити інформацію з профіля',
-        });
-    }
-};
+
 
 
 export const fillProfile = async (req,res) => {
