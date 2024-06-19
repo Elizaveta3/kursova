@@ -1,6 +1,8 @@
 import CaloriesNormModel from '../models/CaloriesNorm.js';
 import ProfileModel from '../models/Profile.js';
-import AccountModel from '../models/Account.js';
+import activityForDayModel from '../models/activityForDay.js';
+import foodForDayModel from '../models/foodForDay.js';
+import CaloriesNorm from '../models/CaloriesNorm.js';
 
 // Функція для отримання наступного значення для profile
 const getNextProfileValue = async () => {
@@ -43,7 +45,7 @@ export const calculateNorm = async (req, res) => {
         if (profile.gender === 'female') {
             switch (profile.goal) {
                 case 'lose_weight':
-                    caloriesNorm = ((profile.weight * 10) + (profile.height * 6.25) - (profile.age * 5) - 161) - 500;
+                    caloriesNorm = ((profile.weight * 10) + (profile.height * 6.25) - (profile.age * 5) - 161) - 300;
                     break;
                 case 'maintain_weight':
                     caloriesNorm = (profile.weight * 10) + (profile.height * 6.25) - (profile.age * 5) - 161;
@@ -57,7 +59,7 @@ export const calculateNorm = async (req, res) => {
         } else if (profile.gender === 'male') {
             switch (profile.goal) {
                 case 'lose_weight':
-                    caloriesNorm = ((profile.weight * 10) + (profile.height * 6.25) - (profile.age * 5) + 5) - 500;
+                    caloriesNorm = ((profile.weight * 10) + (profile.height * 6.25) - (profile.age * 5) + 5) - 200;
                     break;
                 case 'maintain_weight':
                     caloriesNorm = (profile.weight * 10) + (profile.height * 6.25) - (profile.age * 5) + 5;
@@ -102,3 +104,22 @@ export const getCalculateNorm = async (req, res) => {
         });
     }
 };
+
+export const getLeftCalories = async (req,res) => {
+    try{
+        const accountId = req.params.id;
+        const calories = await CaloriesNormModel.findOne({ account: accountId });
+        const consumed =  await foodForDayModel.findOne({ account: accountId });
+        const burned = await activityForDayModel.findOne({ account: accountId });
+
+        const leftCalories = calories.caloriesNorm - consumed.quantityCalories +  burned.quantityCalories;
+
+        res.status(200).json(leftCalories);
+
+    }catch(err){
+        console.log(err);
+        res.status(500).json({
+            message: 'Не вдалося обрахувати калорії, що залишилися'
+        })
+    }
+}

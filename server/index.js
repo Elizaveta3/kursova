@@ -45,7 +45,11 @@ app.post('/auth/forgot-password', AccountController.forgotPassword);
 
 app.post('/auth/contacts', ContactsController.sendEmail);
 
+// Запит для оновлення профіля
 app.patch('/auth/updateProfile/:id', AccountController.updateAccountAndProfile);
+
+//Запит для обрахунку калорій, що залишились
+app.get('/auth/leftCalories/:id', CaloriesNormController.getLeftCalories);
 
 cron.schedule('0 0 * * *', () => {
     // Видаляємо всі дані з колекції CaloriesForDay
