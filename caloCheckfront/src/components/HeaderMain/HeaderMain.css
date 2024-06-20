@@ -1,15 +1,14 @@
-.wrapper {
-    max-width: 1320px;
+.wrapper_main {
+    width: 95%;
     margin: 0 auto;
     overflow: hidden;
 }
-
-.header_wrappper{
+.header_wrappper_main{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
     margin-top: 30px;
+    width: 100%;
 }
 
 .header_link{
@@ -18,10 +17,32 @@
     text-decoration: none;
     color:#655247;
 }
-
-.header_list{
+.language_switcher {
+    font-family: 'arsenal';
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(101, 82, 71, 0.65);
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.language_switcher span {
+    cursor: pointer;
+}
+
+.language_switcher .active_language {
+    color: #655247;
+}
+.header_nax{
+    display: flex;
+    
+}
+.container_header_nav{
+    display: flex;
+    align-items: center;
+    /*  to move to right side */
+    margin-left: auto;
 }
 
 /*відступи між елементами меню*/
@@ -34,15 +55,6 @@
     margin-right: 0;
 }
 
-.header_link:hover, .header_link:focus, .header_link:active{
-    opacity: .75;
-}
-@media screen and (max-width: 1920px) and (min-width: 1801px) {
-    /* .header_wrappper{
-        width: 1804px;
-    }
-    .wrapper {
-        max-width: 1804px;
-        margin: 0 58px 0 58px;
-    } */
+.header_button_main:hover, .header_button_main:focus, .header_button_main:active{
+    background-color: #715b4f;
 }
