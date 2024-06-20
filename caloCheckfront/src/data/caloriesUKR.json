@@ -1869,482 +1869,482 @@
   "KJ_per100grams": "958 kJ"
 },
 
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Chester",
-    "per100grams": "100g",
-    "Cals_per100grams": "387 cal",
-    "KJ_per100grams": "1625 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Colby Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "394 cal",
-    "KJ_per100grams": "1655 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Colby-Jack Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "394 cal",
-    "KJ_per100grams": "1655 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Cottage Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "98 cal",
-    "KJ_per100grams": "412 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Dutch Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "393 cal",
-    "KJ_per100grams": "1651 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Edam Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "357 cal",
-    "KJ_per100grams": "1499 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Emmentaler",
-    "per100grams": "100g",
-    "Cals_per100grams": "357 cal",
-    "KJ_per100grams": "1499 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Feta",
-    "per100grams": "100g",
-    "Cals_per100grams": "264 cal",
-    "KJ_per100grams": "1109 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Fontina",
-    "per100grams": "100g",
-    "Cals_per100grams": "389 cal",
-    "KJ_per100grams": "1634 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Fresh Mozzarella",
-    "per100grams": "100g",
-    "Cals_per100grams": "280 cal",
-    "KJ_per100grams": "1176 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Gjetost",
-    "per100grams": "100g",
-    "Cals_per100grams": "466 cal",
-    "KJ_per100grams": "1957 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Goat Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "364 cal",
-    "KJ_per100grams": "1529 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Gorgonzola",
-    "per100grams": "100g",
-    "Cals_per100grams": "350 cal",
-    "KJ_per100grams": "1470 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Gouda",
-    "per100grams": "100g",
-    "Cals_per100grams": "356 cal",
-    "KJ_per100grams": "1495 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Grated Parmesan",
-    "per100grams": "100g",
-    "Cals_per100grams": "431 cal",
-    "KJ_per100grams": "1810 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Grilled Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "350 cal",
-    "KJ_per100grams": "1470 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Gruyere",
-    "per100grams": "100g",
-    "Cals_per100grams": "413 cal",
-    "KJ_per100grams": "1735 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Halloumi",
-    "per100grams": "100g",
-    "Cals_per100grams": "321 cal",
-    "KJ_per100grams": "1348 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Havarti",
-    "per100grams": "100g",
-    "Cals_per100grams": "371 cal",
-    "KJ_per100grams": "1558 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Italian Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "397 cal",
-    "KJ_per100grams": "1667 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Jarlsberg",
-    "per100grams": "100g",
-    "Cals_per100grams": "352 cal",
-    "KJ_per100grams": "1478 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Maasdam Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "344 cal",
-    "KJ_per100grams": "1445 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Manchego Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "320 cal",
-    "KJ_per100grams": "1344 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Monterey",
-    "per100grams": "100g",
-    "Cals_per100grams": "373 cal",
-    "KJ_per100grams": "1567 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Monterey Jack Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "373 cal",
-    "KJ_per100grams": "1567 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Mozzarella",
-    "per100grams": "100g",
-    "Cals_per100grams": "280 cal",
-    "KJ_per100grams": "1176 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Muenster Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "368 cal",
-    "KJ_per100grams": "1546 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Neufchatel",
-    "per100grams": "100g",
-    "Cals_per100grams": "253 cal",
-    "KJ_per100grams": "1063 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Parmesan",
-    "per100grams": "100g",
-    "Cals_per100grams": "431 cal",
-    "KJ_per100grams": "1810 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Pecorino",
-    "per100grams": "100g",
-    "Cals_per100grams": "387 cal",
-    "KJ_per100grams": "1625 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Provolone",
-    "per100grams": "100g",
-    "Cals_per100grams": "351 cal",
-    "KJ_per100grams": "1474 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Raclette Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "357 cal",
-    "KJ_per100grams": "1499 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Ricotta",
-    "per100grams": "100g",
-    "Cals_per100grams": "174 cal",
-    "KJ_per100grams": "731 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Romano",
-    "per100grams": "100g",
-    "Cals_per100grams": "387 cal",
-    "KJ_per100grams": "1625 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Roquefort",
-    "per100grams": "100g",
-    "Cals_per100grams": "369 cal",
-    "KJ_per100grams": "1550 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Sheep Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "364 cal",
-    "KJ_per100grams": "1529 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Soft Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "268 cal",
-    "KJ_per100grams": "1126 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Stilton Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "393 cal",
-    "KJ_per100grams": "1651 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "String Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "250 cal",
-    "KJ_per100grams": "1050 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Swiss Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "380 cal",
-    "KJ_per100grams": "1596 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "White Cheddar",
-    "per100grams": "100g",
-    "Cals_per100grams": "403 cal",
-    "KJ_per100grams": "1693 kJ"
-  },
-  {
-    "FoodCategory": "Cheese",
-    "FoodItem": "Wisconsin Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "389 cal",
-    "KJ_per100grams": "1634 kJ"
-  },
-  {
-    "FoodCategory": "CreamCheese",
-    "FoodItem": "Chive Cream Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "342 cal",
-    "KJ_per100grams": "1436 kJ"
-  },
-  {
-    "FoodCategory": "CreamCheese",
-    "FoodItem": "Cream Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "342 cal",
-    "KJ_per100grams": "1436 kJ"
-  },
-  {
-    "FoodCategory": "CreamCheese",
-    "FoodItem": "Cream Cheese with Herbs",
-    "per100grams": "100g",
-    "Cals_per100grams": "342 cal",
-    "KJ_per100grams": "1436 kJ"
-  },
-  {
-    "FoodCategory": "CreamCheese",
-    "FoodItem": "Feta Cream Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "342 cal",
-    "KJ_per100grams": "1436 kJ"
-  },
-  {
-    "FoodCategory": "CreamCheese",
-    "FoodItem": "Garlic Cream Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "342 cal",
-    "KJ_per100grams": "1436 kJ"
-  },
-  {
-    "FoodCategory": "CreamCheese",
-    "FoodItem": "Mascarpone",
-    "per100grams": "100g",
-    "Cals_per100grams": "450 cal",
-    "KJ_per100grams": "1890 kJ"
-  },
-  {
-    "FoodCategory": "CreamCheese",
-    "FoodItem": "Obatzda",
-    "per100grams": "100g",
-    "Cals_per100grams": "303 cal",
-    "KJ_per100grams": "1273 kJ"
-  },
-  {
-    "FoodCategory": "CreamCheese",
-    "FoodItem": "Olive Cream Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "342 cal",
-    "KJ_per100grams": "1436 kJ"
-  },
-  {
-    "FoodCategory": "CreamCheese",
-    "FoodItem": "Pesto Cream Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "342 cal",
-    "KJ_per100grams": "1436 kJ"
-  },
-  {
-    "FoodCategory": "CreamCheese",
-    "FoodItem": "Philadelphia Cream Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "342 cal",
-    "KJ_per100grams": "1436 kJ"
-  },
-  {
-    "FoodCategory": "CreamCheese",
-    "FoodItem": "Pineapple Cream Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "342 cal",
-    "KJ_per100grams": "1436 kJ"
-  },
-  {
-    "FoodCategory": "CreamCheese",
-    "FoodItem": "Salmon Cream Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "342 cal",
-    "KJ_per100grams": "1436 kJ"
-  },
-  {
-    "FoodCategory": "CreamCheese",
-    "FoodItem": "Vegetable Cream Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "342 cal",
-    "KJ_per100grams": "1436 kJ"
-  },
-  {
-    "FoodCategory": "CreamCheese",
-    "FoodItem": "Walnut Cream Cheese",
-    "per100grams": "100g",
-    "Cals_per100grams": "342 cal",
-    "KJ_per100grams": "1436 kJ"
-  },
-  {
-    "FoodCategory": "Milk&DairyProducts",
-    "FoodItem": "Almond Milk",
-    "per100grams": "100ml",
-    "Cals_per100grams": "17 cal",
-    "KJ_per100grams": "71 kJ"
-  },
-  {
-    "FoodCategory": "Milk&DairyProducts",
-    "FoodItem": "Chocolate Mousse",
-    "per100grams": "100g",
-    "Cals_per100grams": "225 cal",
-    "KJ_per100grams": "945 kJ"
-  },
-  {
-    "FoodCategory": "Milk&DairyProducts",
-    "FoodItem": "Coffee Creamer",
-    "per100grams": "100g",
-    "Cals_per100grams": "195 cal",
-    "KJ_per100grams": "819 kJ"
-  },
-  {
-    "FoodCategory": "Milk&DairyProducts",
-    "FoodItem": "Condensed Milk",
-    "per100grams": "100g",
-    "Cals_per100grams": "321 cal",
-    "KJ_per100grams": "1348 kJ"
-  },
-  {
-    "FoodCategory": "Milk&DairyProducts",
-    "FoodItem": "Cream",
-    "per100grams": "100g",
-    "Cals_per100grams": "242 cal",
-    "KJ_per100grams": "1016 kJ"
-  },
-  {
-    "FoodCategory": "Milk&DairyProducts",
-    "FoodItem": "Creme Fraiche",
-    "per100grams": "100g",
-    "Cals_per100grams": "393 cal",
-    "KJ_per100grams": "1651 kJ"
-  },
-  {
-    "FoodCategory": "Milk&DairyProducts",
-    "FoodItem": "Curd",
-    "per100grams": "100g",
-    "Cals_per100grams": "98 cal",
-    "KJ_per100grams": "412 kJ"
-  },
-  {
-    "FoodCategory": "Milk&DairyProducts",
-    "FoodItem": "Custard",
-    "per100grams": "100g",
-    "Cals_per100grams": "122 cal",
-    "KJ_per100grams": "512 kJ"
-  },
-  {
-    "FoodCategory": "Milk&DairyProducts",
-    "FoodItem": "Evaporated Milk",
-    "per100grams": "100g",
-    "Cals_per100grams": "135 cal",
-    "KJ_per100grams": "567 kJ"
-  },
-  {
-    "FoodCategory": "Milk&DairyProducts",
-    "FoodItem": "Goat Milk",
-    "per100grams": "100g",
-    "Cals_per100grams": "69 cal",
-    "KJ_per100grams": "290 kJ"
-  },
-  {
-    "FoodCategory": "Milk&DairyProducts",
-    "FoodItem": "Hot Chocolate",
-    "per100grams": "100ml",
-    "Cals_per100grams": "89 cal",
-    "KJ_per100grams": "374 kJ"
-  },
-  {
-    "FoodCategory": "Milk&DairyProducts",
-    "FoodItem": "Kefir",
-    "per100grams": "100ml",
-    "Cals_per100grams": "55 cal",
-    "KJ_per100grams": "231 kJ"
-  },
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Честер",
+  "per100grams": "100g",
+  "Cals_per100grams": "387 cal",
+  "KJ_per100grams": "1625 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Сир Колбі",
+  "per100grams": "100g",
+  "Cals_per100grams": "394 cal",
+  "KJ_per100grams": "1655 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Колбі-Джек сир",
+  "per100grams": "100g",
+  "Cals_per100grams": "394 cal",
+  "KJ_per100grams": "1655 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Сир Cottage",
+  "per100grams": "100g",
+  "Cals_per100grams": "98 cal",
+  "KJ_per100grams": "412 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Голландський сир",
+  "per100grams": "100g",
+  "Cals_per100grams": "393 cal",
+  "KJ_per100grams": "1651 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Сир Едам",
+  "per100grams": "100g",
+  "Cals_per100grams": "357 cal",
+  "KJ_per100grams": "1499 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Сир Емменталь",
+  "per100grams": "100g",
+  "Cals_per100grams": "357 cal",
+  "KJ_per100grams": "1499 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Сир Фета",
+  "per100grams": "100g",
+  "Cals_per100grams": "264 cal",
+  "KJ_per100grams": "1109 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Сир Фонтіну",
+  "per100grams": "100g",
+  "Cals_per100grams": "389 cal",
+  "KJ_per100grams": "1634 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Свіжа Моцарела",
+  "per100grams": "100g",
+  "Cals_per100grams": "280 cal",
+  "KJ_per100grams": "1176 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Сир Г'єтос",
+  "per100grams": "100g",
+  "Cals_per100grams": "466 cal",
+  "KJ_per100grams": "1957 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Козячий сир",
+  "per100grams": "100g",
+  "Cals_per100grams": "364 cal",
+  "KJ_per100grams": "1529 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Сир Горгонзола",
+  "per100grams": "100g",
+  "Cals_per100grams": "350 cal",
+  "KJ_per100grams": "1470 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Гауда",
+  "per100grams": "100g",
+  "Cals_per100grams": "356 cal",
+  "KJ_per100grams": "1495 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Тертий пармезан",
+  "per100grams": "100g",
+  "Cals_per100grams": "431 cal",
+  "KJ_per100grams": "1810 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Сир на грилі",
+  "per100grams": "100g",
+  "Cals_per100grams": "350 cal",
+  "KJ_per100grams": "1470 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Грюйер",
+  "per100grams": "100g",
+  "Cals_per100grams": "413 cal",
+  "KJ_per100grams": "1735 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Халумі",
+  "per100grams": "100g",
+  "Cals_per100grams": "321 cal",
+  "KJ_per100grams": "1348 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Хаварті",
+  "per100grams": "100g",
+  "Cals_per100grams": "371 cal",
+  "KJ_per100grams": "1558 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Італійський сир",
+  "per100grams": "100g",
+  "Cals_per100grams": "397 cal",
+  "KJ_per100grams": "1667 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Ярлсберг",
+  "per100grams": "100g",
+  "Cals_per100grams": "352 cal",
+  "KJ_per100grams": "1478 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Сир Маасдам",
+  "per100grams": "100g",
+  "Cals_per100grams": "344 cal",
+  "KJ_per100grams": "1445 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Сир Манчего",
+  "per100grams": "100g",
+  "Cals_per100grams": "320 cal",
+  "KJ_per100grams": "1344 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Монтерей",
+  "per100grams": "100g",
+  "Cals_per100grams": "373 cal",
+  "KJ_per100grams": "1567 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Сир Монтерей Джек",
+  "per100grams": "100g",
+  "Cals_per100grams": "373 cal",
+  "KJ_per100grams": "1567 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Моцарела",
+  "per100grams": "100g",
+  "Cals_per100grams": "280 cal",
+  "KJ_per100grams": "1176 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Сир Мюнстер",
+  "per100grams": "100g",
+  "Cals_per100grams": "368 cal",
+  "KJ_per100grams": "1546 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Сир Нёфшатель",
+  "per100grams": "100g",
+  "Cals_per100grams": "253 cal",
+  "KJ_per100grams": "1063 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Пармезан",
+  "per100grams": "100g",
+  "Cals_per100grams": "431 cal",
+  "KJ_per100grams": "1810 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Пекоріно",
+  "per100grams": "100g",
+  "Cals_per100grams": "387 cal",
+  "KJ_per100grams": "1625 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Проволоне",
+  "per100grams": "100g",
+  "Cals_per100grams": "351 cal",
+  "KJ_per100grams": "1474 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Сир раклет",
+  "per100grams": "100g",
+  "Cals_per100grams": "357 cal",
+  "KJ_per100grams": "1499 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Рікотта",
+  "per100grams": "100g",
+  "Cals_per100grams": "174 cal",
+  "KJ_per100grams": "731 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Романо",
+  "per100grams": "100g",
+  "Cals_per100grams": "387 cal",
+  "KJ_per100grams": "1625 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Рокфор",
+  "per100grams": "100g",
+  "Cals_per100grams": "369 cal",
+  "KJ_per100grams": "1550 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Овечий сир",
+  "per100grams": "100g",
+  "Cals_per100grams": "364 cal",
+  "KJ_per100grams": "1529 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "М'який сир",
+  "per100grams": "100g",
+  "Cals_per100grams": "268 cal",
+  "KJ_per100grams": "1126 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Сир Стилтон",
+  "per100grams": "100g",
+  "Cals_per100grams": "393 cal",
+  "KJ_per100grams": "1651 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Сир косичка",
+  "per100grams": "100g",
+  "Cals_per100grams": "250 cal",
+  "KJ_per100grams": "1050 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Швейцарський сир",
+  "per100grams": "100g",
+  "Cals_per100grams": "380 cal",
+  "KJ_per100grams": "1596 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Білий чеддер",
+  "per100grams": "100g",
+  "Cals_per100grams": "403 cal",
+  "KJ_per100grams": "1693 kJ"
+},
+{
+  "FoodCategory": "Cheese",
+  "FoodItem": "Вісконсинський сир",
+  "per100grams": "100g",
+  "Cals_per100grams": "389 cal",
+  "KJ_per100grams": "1634 kJ"
+},
+{
+  "FoodCategory": "CreamCheese",
+  "FoodItem": "Крем-сир з цибулею",
+  "per100grams": "100g",
+  "Cals_per100grams": "342 cal",
+  "KJ_per100grams": "1436 kJ"
+},
+{
+  "FoodCategory": "CreamCheese",
+  "FoodItem": "Крем-сир",
+  "per100grams": "100g",
+  "Cals_per100grams": "342 cal",
+  "KJ_per100grams": "1436 kJ"
+},
+{
+  "FoodCategory": "CreamCheese",
+  "FoodItem": "Крем-сир з травами",
+  "per100grams": "100g",
+  "Cals_per100grams": "342 cal",
+  "KJ_per100grams": "1436 kJ"
+},
+{
+  "FoodCategory": "CreamCheese",
+  "FoodItem": "Крем-сир з фетою",
+  "per100grams": "100g",
+  "Cals_per100grams": "342 cal",
+  "KJ_per100grams": "1436 kJ"
+},
+{
+  "FoodCategory": "CreamCheese",
+  "FoodItem": "Крем-сир з часником",
+  "per100grams": "100g",
+  "Cals_per100grams": "342 cal",
+  "KJ_per100grams": "1436 kJ"
+},
+{
+  "FoodCategory": "CreamCheese",
+  "FoodItem": "Маскарпоне",
+  "per100grams": "100g",
+  "Cals_per100grams": "450 cal",
+  "KJ_per100grams": "1890 kJ"
+},
+{
+  "FoodCategory": "CreamCheese",
+  "FoodItem": "Обадзда",
+  "per100grams": "100g",
+  "Cals_per100grams": "303 cal",
+  "KJ_per100grams": "1273 kJ"
+},
+{
+  "FoodCategory": "CreamCheese",
+  "FoodItem": "Крем-сир з оливками",
+  "per100grams": "100g",
+  "Cals_per100grams": "342 cal",
+  "KJ_per100grams": "1436 kJ"
+},
+{
+  "FoodCategory": "CreamCheese",
+  "FoodItem": "Крем-сир з песто",
+  "per100grams": "100g",
+  "Cals_per100grams": "342 cal",
+  "KJ_per100grams": "1436 kJ"
+},
+{
+  "FoodCategory": "CreamCheese",
+  "FoodItem": "Крем-сир Philadelphia",
+  "per100grams": "100g",
+  "Cals_per100grams": "342 cal",
+  "KJ_per100grams": "1436 kJ"
+},
+{
+  "FoodCategory": "CreamCheese",
+  "FoodItem": "Крем-сир з ананасом",
+  "per100grams": "100g",
+  "Cals_per100grams": "342 cal",
+  "KJ_per100grams": "1436 kJ"
+},
+{
+  "FoodCategory": "CreamCheese",
+  "FoodItem": "Крем-сир з лососем",
+  "per100grams": "100g",
+  "Cals_per100grams": "342 cal",
+  "KJ_per100grams": "1436 kJ"
+},
+{
+  "FoodCategory": "CreamCheese",
+  "FoodItem": "Крем-сир з овочами",
+  "per100grams": "100g",
+  "Cals_per100grams": "342 cal",
+  "KJ_per100grams": "1436 kJ"
+},
+{
+  "FoodCategory": "CreamCheese",
+  "FoodItem": "Крем-сир з волоськими горіхами",
+  "per100grams": "100g",
+  "Cals_per100grams": "342 cal",
+  "KJ_per100grams": "1436 kJ"
+},
+{
+  "FoodCategory": "Milk&DairyProducts",
+  "FoodItem": "Мигдалеве молоко",
+  "per100grams": "100ml",
+  "Cals_per100grams": "17 cal",
+  "KJ_per100grams": "71 kJ"
+},
+{
+  "FoodCategory": "Milk&DairyProducts",
+  "FoodItem": "Шоколадний мус",
+  "per100grams": "100g",
+  "Cals_per100grams": "225 cal",
+  "KJ_per100grams": "945 kJ"
+},
+{
+  "FoodCategory": "Milk&DairyProducts",
+  "FoodItem": "Вершковий кремер",
+  "per100grams": "100g",
+  "Cals_per100grams": "195 cal",
+  "KJ_per100grams": "819 kJ"
+},
+{
+  "FoodCategory": "Milk&DairyProducts",
+  "FoodItem": "Згущене молоко",
+  "per100grams": "100g",
+  "Cals_per100grams": "321 cal",
+  "KJ_per100grams": "1348 kJ"
+},
+{
+  "FoodCategory": "Milk&DairyProducts",
+  "FoodItem": "Вершки",
+  "per100grams": "100g",
+  "Cals_per100grams": "242 cal",
+  "KJ_per100grams": "1016 kJ"
+},
+{
+  "FoodCategory": "Milk&DairyProducts",
+  "FoodItem": "Крем-фреш",
+  "per100grams": "100g",
+  "Cals_per100grams": "393 cal",
+  "KJ_per100grams": "1651 kJ"
+},
+{
+  "FoodCategory": "Milk&DairyProducts",
+  "FoodItem": "Творог",
+  "per100grams": "100g",
+  "Cals_per100grams": "98 cal",
+  "KJ_per100grams": "412 kJ"
+},
+{
+  "FoodCategory": "Milk&DairyProducts",
+  "FoodItem": "Заварний крем",
+  "per100grams": "100g",
+  "Cals_per100grams": "122 cal",
+  "KJ_per100grams": "512 kJ"
+},
+{
+  "FoodCategory": "Milk&DairyProducts",
+  "FoodItem": "Випарене молоко",
+  "per100grams": "100g",
+  "Cals_per100grams": "135 cal",
+  "KJ_per100grams": "567 kJ"
+},
+{
+  "FoodCategory": "Milk&DairyProducts",
+  "FoodItem": "Козяче молоко",
+  "per100grams": "100g",
+  "Cals_per100grams": "69 cal",
+  "KJ_per100grams": "290 kJ"
+},
+{
+  "FoodCategory": "Milk&DairyProducts",
+  "FoodItem": "Гарячий шоколад",
+  "per100grams": "100ml",
+  "Cals_per100grams": "89 cal",
+  "KJ_per100grams": "374 kJ"
+},
+{
+  "FoodCategory": "Milk&DairyProducts",
+  "FoodItem": "Кефір",
+  "per100grams": "100ml",
+  "Cals_per100grams": "55 cal",
+  "KJ_per100grams": "231 kJ"
+},
   {
     "FoodCategory": "Milk&DairyProducts",
     "FoodItem": "Lactose-free Milk",

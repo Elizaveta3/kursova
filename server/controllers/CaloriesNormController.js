@@ -29,18 +29,15 @@ export const calculateNorm = async (req, res) => {
         let profileValue = req.body.profile;
 
         if (!profileValue) {
-            
             profileValue = await getNextProfileValue();
         }
 
-      
         const profile = await ProfileModel.findOne({ account: accountId });
 
         if (!profile) {
             return res.status(404).json({ message: 'Профіль не знайдено' });
         }
 
-        
         let caloriesNorm;
         if (profile.gender === 'female') {
             switch (profile.goal) {
@@ -73,14 +70,17 @@ export const calculateNorm = async (req, res) => {
         } else {
             throw new Error('Неправильный пол');
         }
-        caloriesNorm = Math.round(caloriesNorm);
-        const doc = new CaloriesNormModel({
-            account: accountId,
-            profile: profileValue, // Додаємо значення profile
-            caloriesNorm: caloriesNorm,
-        });
 
-        const result = await doc.save();
+        caloriesNorm = Math.round(caloriesNorm);
+
+        const result = await CaloriesNormModel.findOneAndUpdate(
+            { account: accountId },
+            {
+                profile: profileValue,
+                caloriesNorm: caloriesNorm,
+            },
+            { new: true, upsert: true } // Return the updated document or create if not found
+        );
 
         res.json(result);
     

@@ -103,6 +103,25 @@ export const ProfileEdit = () => {
             console.error('Error sending request:', error.message);
             setErrorMessage(error.message);
         }
+
+        try {
+            const accountId = currentUser._id;
+            const afterRes = await fetch(`/auth/profile/calo/${accountId}`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            });
+            const secondData = await afterRes.json();
+            if (!afterRes.ok) {
+                throw new Error(secondData.message);
+            }
+            console.log('Отримані дані:', secondData);
+            navigate('/profile');
+        } catch (error) {
+            console.error('Помилка відправки запиту:', error.message);
+            setErrorMessage(error.message);
+        }
     };
     
     return (
