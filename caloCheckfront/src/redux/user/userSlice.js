@@ -26,6 +26,10 @@ const userSlice = createSlice({
         state.error = null;
         state.loading = false;
       },
+      updateUserNameSuccess: (state, action) => {
+        state.currentUser.userName = action.payload;
+        state.error = null;
+    },
     },
   });
   export const {
@@ -33,6 +37,7 @@ const userSlice = createSlice({
     signInSuccess,
     signInFailure,
     signoutSuccess,
+    updateUserNameSuccess,
   } = userSlice.actions;
   
   export default userSlice.reducer;

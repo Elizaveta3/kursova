@@ -1,15 +1,17 @@
 import React, { useState, useEffect } from 'react';
+import { updateUserNameSuccess } from '../redux/user/userSlice';
 
 import HeaderProfile from '../components/HeaderProfile/HeaderProfile';
 import FormRowForEditing from '../components/FormInputEditingProfile/FormInputEditingProfile';
 import RadioBox from '../components/RadioBox/RadioBox';
 import Button from '../components/Button/Button';
 import { useNavigate } from 'react-router-dom';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 
 import iconForReturn from './static/images/icon for return.svg';
 export const ProfileEdit = () => {
     const navigate = useNavigate();
+    const dispatch = useDispatch();
     const { currentUser } = useSelector(state => state.user);
     const [formData, setFormData] = useState({
         userName: '',
@@ -19,6 +21,7 @@ export const ProfileEdit = () => {
         gender: '',
         goal: ''
     });
+    const [errorMessage, setErrorMessage] = useState(null);
     const handleGoToDiary = () => {
         navigate('/diary');
     };
@@ -61,12 +64,47 @@ export const ProfileEdit = () => {
         });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        // Отправка данных на сервер
-        console.log('Form data submitted:', formData);
+        try {
+            const token = localStorage.getItem('token'); // Отримання токену з localStorage
+            if (!token) {
+                throw new Error('The token could not be found');
+            }
+    
+            // Перевірка на наявність обов'язкових полів
+            const requiredFields = ['userName', 'gender', 'age', 'height', 'weight', 'goal'];
+            const missingFields = requiredFields.filter(field => !formData[field]);
+            if (missingFields.length > 0) {
+                throw new Error(`Please fill in all required fields: ${missingFields.join(', ')}`);
+            }
+    
+            setErrorMessage(null);
+            const accountId = currentUser._id;
+    
+            const res = await fetch(`/auth/updateProfile/${accountId}`, {
+                method: 'PATCH',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${token}`,
+                },
+                body: JSON.stringify(formData)
+            });
+            const data = await res.json();
+            if (!res.ok) {
+                throw new Error(data.message);
+            }
+    
+            console.log('Отримані дані:', data);
+            dispatch(updateUserNameSuccess(formData.userName));
 
+            navigate('/profile');
+        } catch (error) {
+            console.error('Error sending request:', error.message);
+            setErrorMessage(error.message);
+        }
     };
+    
     return (
         <>
             <body className="page_profile_editing">
@@ -87,8 +125,8 @@ export const ProfileEdit = () => {
                                     <h1>Profile editing</h1>
                                 </div>
                             </div>
-                            <form className="form_container">
-                                <FormRowForEditing label="Username" type="text" id="username" name="username" value={formData.userName}
+                            <form className="form_container" onSubmit={handleSubmit}>
+                                <FormRowForEditing label="UserName" type="text" id="userName" name="userName" value={formData.userName}
                                     onChange={handleChange} />
                                 <p className="form_sex_editing">
                                     <label htmlFor="gender" className="label_sex_editing" >Gender:</label>
