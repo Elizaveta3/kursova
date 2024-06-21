@@ -13,12 +13,12 @@ export const sendEmail = async (req,res) =>{
             secure: true, // true for 465, false for other ports
             auth: {
                 user: 'admincalo@ukr.net', // Ваша пошта на ukr.net
-                pass: 'CaloCheck2024' // Ваш пароль до пошти
+                pass: '0oqMVw5BZxBDWEie' // Ваш пароль до пошти
             }
         });
 
         let mailOptions = {
-            from: email, // від кого
+            from: 'admincalo@ukr.net', // від кого
             to: 'admincalo@ukr.net', // кому
             subject: 'New Message from Contact Form', // тема
             text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`, // текст листа

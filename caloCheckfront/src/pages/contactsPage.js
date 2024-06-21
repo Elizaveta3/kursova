@@ -10,6 +10,7 @@ export const Contacts = () => {
         email: '',
         message: ''
     });
+    const [errorMessage, setErrorMessage] = useState(null)
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -22,12 +23,34 @@ export const Contacts = () => {
         e.preventDefault();
 
         const { name, email, message } = formData;
+
+        try{
+            const res = await fetch(`/auth/contacts`,{
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData)
+            });
+            const data = await res.json();
+            if (!res.ok) {
+                const data = await res.json();
+                throw new Error(data.message);
+            }
+            if (res.ok){
+                console.log('Added');
+            }
+            console.log('The received data:', data);
+        }catch (error) {
+            console.error('Error sending request:', error.message);
+            setErrorMessage(error.message);}
     };
+
     return (
         <>
             <body className="page_contacts">
                 <HeaderContacts />
-                <div className="form_welcome">
+                <div className="form_welcome" onSubmit={handleSubmit}>
                     <h1>WELCOME!</h1>
                     <form className="form_container_welcome">
                     <div className="form_fields">
