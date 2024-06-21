@@ -360,7 +360,7 @@
     "Calories per kg": 2.88267871044776
   },
   {
-    "Activity": "Running, 9 mph (6.5 min mile)",
+    "Activity": "Біг, 9 миль/год (6.5 хв на милю)",
     "130 lb": 885,
     "typVaga": 1056,
     "180 lb": 1226,
@@ -368,7 +368,7 @@
     "Calories per kg": 3.08916462089552
   },
   {
-    "Activity": "Running, 10 mph (6 min mile)",
+    "Activity": "Біг, 10 миль/год (6 хв на милю)",
     "130 lb": 944,
     "typVaga": 1126,
     "180 lb": 1308,
@@ -376,7 +376,7 @@
     "Calories per kg": 3.29497352835821
   },
   {
-    "Activity": "Running, 10.9 mph (5.5 min mile)",
+    "Activity": "Біг, 10.9 миль/год (5.5 хв на милю)",
     "130 lb": 1062,
     "typVaga": 1267,
     "180 lb": 1471,
@@ -384,7 +384,7 @@
     "Calories per kg": 3.70659134328358
   },
   {
-    "Activity": "Running, cross country",
+    "Activity": "Біг по пересіченій місцевості",
     "130 lb": 531,
     "typVaga": 633,
     "180 lb": 735,
@@ -392,7 +392,7 @@
     "Calories per kg": 1.85295717014925
   },
   {
-    "Activity": "Running, general",
+    "Activity": "Загальний біг",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -400,7 +400,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Running, on a track, team practice",
+    "Activity": "Біг по доріжці, тренування в команді",
     "130 lb": 590,
     "typVaga": 704,
     "180 lb": 817,
@@ -408,7 +408,7 @@
     "Calories per kg": 2.05944308059702
   },
   {
-    "Activity": "Running, stairs, up",
+    "Activity": "Біг по сходах, вгору",
     "130 lb": 885,
     "typVaga": 1056,
     "180 lb": 1226,
@@ -416,7 +416,7 @@
     "Calories per kg": 3.08916462089552
   },
   {
-    "Activity": "Track and field (shot, discus)",
+    "Activity": "Легка атлетика (кульове, диск)",
     "130 lb": 236,
     "typVaga": 281,
     "180 lb": 327,
@@ -424,7 +424,7 @@
     "Calories per kg": 0.823235629850746
   },
   {
-    "Activity": "Track and field (high jump, pole vault)",
+    "Activity": "Легка атлетика (перепони)",
     "130 lb": 354,
     "typVaga": 422,
     "180 lb": 490,
@@ -432,7 +432,7 @@
     "Calories per kg": 1.23485344477612
   },
   {
-    "Activity": "Track and field (hurdles)",
+    "Activity": "Легка атлетика (стрибки в висоту, стрибки з жердиною)",
     "130 lb": 590,
     "typVaga": 704,
     "180 lb": 817,
@@ -440,7 +440,7 @@
     "Calories per kg": 2.05944308059702
   },
   {
-    "Activity": "Archery",
+    "Activity": "Стрільба з лука",
     "130 lb": 207,
     "typVaga": 246,
     "180 lb": 286,
@@ -448,7 +448,7 @@
     "Calories per kg": 0.721008179104478
   },
   {
-    "Activity": "Badminton",
+    "Activity": "Бадмінтон",
     "130 lb": 266,
     "typVaga": 317,
     "180 lb": 368,
@@ -456,7 +456,7 @@
     "Calories per kg": 0.927494089552239
   },
   {
-    "Activity": "Basketball game, competitive",
+    "Activity": "Баскетбольна гра, конкурентна",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -464,7 +464,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Playing basketball, non game",
+    "Activity": "Гра в баскетбол, не в грі",
     "130 lb": 354,
     "typVaga": 422,
     "180 lb": 490,
@@ -472,7 +472,7 @@
     "Calories per kg": 1.23485344477612
   },
   {
-    "Activity": "Basketball, officiating",
+    "Activity": "Суддювання в баскетболі",
     "130 lb": 413,
     "typVaga": 493,
     "180 lb": 572,
@@ -480,7 +480,7 @@
     "Calories per kg": 1.44133935522388
   },
   {
-    "Activity": "Basketball, shooting baskets",
+    "Activity": "Баскетбольний мяч, стрільба",
     "130 lb": 266,
     "typVaga": 317,
     "180 lb": 368,
@@ -488,7 +488,7 @@
     "Calories per kg": 0.927494089552239
   },
   {
-    "Activity": "Basketball, wheelchair",
+    "Activity": "Баскетбол на візках",
     "130 lb": 384,
     "typVaga": 457,
     "180 lb": 531,
@@ -496,7 +496,7 @@
     "Calories per kg": 1.33843490149254
   },
   {
-    "Activity": "Running, training, pushing wheelchair",
+    "Activity": "Біг, тренування, толкання візка",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -504,7 +504,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Billiards",
+    "Activity": "Більярд",
     "130 lb": 148,
     "typVaga": 176,
     "180 lb": 204,
@@ -512,7 +512,7 @@
     "Calories per kg": 0.515199271641791
   },
   {
-    "Activity": "Bowling",
+    "Activity": "Боулінг",
     "130 lb": 177,
     "typVaga": 211,
     "180 lb": 245,
@@ -520,7 +520,7 @@
     "Calories per kg": 0.61742672238806
   },
   {
-    "Activity": "Boxing, in ring",
+    "Activity": "Бокс, в ринзі",
     "130 lb": 708,
     "typVaga": 844,
     "180 lb": 981,
@@ -528,7 +528,7 @@
     "Calories per kg": 2.47106089552239
   },
   {
-    "Activity": "Boxing, punching bag",
+    "Activity": "Бокс, удар по груші",
     "130 lb": 354,
     "typVaga": 422,
     "180 lb": 490,
@@ -536,7 +536,7 @@
     "Calories per kg": 1.23485344477612
   },
   {
-    "Activity": "Boxing, sparring",
+    "Activity": "Бокс, спаринг",
     "130 lb": 531,
     "typVaga": 633,
     "180 lb": 735,
@@ -544,7 +544,7 @@
     "Calories per kg": 1.85295717014925
   },
   {
-    "Activity": "Coaching: football, basketball, soccer…",
+    "Activity": "Тренерська діяльність: футбол, баскетбол, футбол ...",
     "130 lb": 236,
     "typVaga": 281,
     "180 lb": 327,
@@ -552,7 +552,7 @@
     "Calories per kg": 0.823235629850746
   },
   {
-    "Activity": "Cricket (batting, bowling)",
+    "Activity": "Крикет (бетонг, боулінг)",
     "130 lb": 295,
     "typVaga": 352,
     "180 lb": 409,
@@ -560,7 +560,7 @@
     "Calories per kg": 1.02972154029851
   },
   {
-    "Activity": "Croquet",
+    "Activity": "Крокет",
     "130 lb": 148,
     "typVaga": 176,
     "180 lb": 204,
@@ -568,7 +568,7 @@
     "Calories per kg": 0.515199271641791
   },
   {
-    "Activity": "Curling",
+    "Activity": "Керлінг",
     "130 lb": 236,
     "typVaga": 281,
     "180 lb": 327,
@@ -576,7 +576,7 @@
     "Calories per kg": 0.823235629850746
   },
   {
-    "Activity": "Darts (wall or lawn)",
+    "Activity": "Дартс (на стіні або газоні)",
     "130 lb": 148,
     "typVaga": 176,
     "180 lb": 204,
@@ -584,7 +584,7 @@
     "Calories per kg": 0.515199271641791
   },
   {
-    "Activity": "Fencing",
+    "Activity": "Фехтування",
     "130 lb": 354,
     "typVaga": 422,
     "180 lb": 490,
@@ -592,7 +592,7 @@
     "Calories per kg": 1.23485344477612
   },
   {
-    "Activity": "Football, competitive",
+    "Activity": "Футбол, змагальний",
     "130 lb": 531,
     "typVaga": 633,
     "180 lb": 735,
@@ -600,7 +600,7 @@
     "Calories per kg": 1.85295717014925
   },
   {
-    "Activity": "Football, touch, flag, general",
+    "Activity": "Футбол, тач, флаг, загальний",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -608,7 +608,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Football or baseball, playing catch",
+    "Activity": "Гра в футбол або бейсбол, забирання",
     "130 lb": 148,
     "typVaga": 176,
     "180 lb": 204,
@@ -616,7 +616,7 @@
     "Calories per kg": 0.515199271641791
   },
   {
-    "Activity": "Frisbee playing, general",
+    "Activity": "Гра в фрісбі, загальний",
     "130 lb": 177,
     "typVaga": 211,
     "180 lb": 245,
@@ -624,7 +624,7 @@
     "Calories per kg": 0.61742672238806
   },
   {
-    "Activity": "Frisbee, ultimate frisbee",
+    "Activity": "Фрізбі, альтернативний фрізбі",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -632,7 +632,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Golf, general",
+    "Activity": "Гольф, загальний",
     "130 lb": 266,
     "typVaga": 317,
     "180 lb": 368,
@@ -640,7 +640,7 @@
     "Calories per kg": 0.927494089552239
   },
   {
-    "Activity": "Golf, walking and carrying clubs",
+    "Activity": "Гольф, ходьба з клюбами на плечі",
     "130 lb": 266,
     "typVaga": 317,
     "180 lb": 368,
@@ -648,7 +648,7 @@
     "Calories per kg": 0.927494089552239
   },
   {
-    "Activity": "Golf, driving range",
+    "Activity": "Гольф, тренувальний майданчик",
     "130 lb": 177,
     "typVaga": 211,
     "180 lb": 245,
@@ -656,7 +656,7 @@
     "Calories per kg": 0.61742672238806
   },
   {
-    "Activity": "Golf, miniature golf",
+    "Activity": "Гольф, мініатюрний гольф",
     "130 lb": 177,
     "typVaga": 211,
     "180 lb": 245,
@@ -664,7 +664,7 @@
     "Calories per kg": 0.61742672238806
   },
   {
-    "Activity": "Golf, walking and pulling clubs",
+    "Activity": "Гольф, ходьба та тягнення клюбів",
     "130 lb": 254,
     "typVaga": 303,
     "180 lb": 351,
@@ -672,7 +672,7 @@
     "Calories per kg": 0.885519904477612
   },
   {
-    "Activity": "Golf, using power cart",
+    "Activity": "Гольф, використання електрокарта",
     "130 lb": 207,
     "typVaga": 246,
     "180 lb": 286,
@@ -680,7 +680,7 @@
     "Calories per kg": 0.721008179104478
   },
   {
-    "Activity": "Gymnastics",
+    "Activity": "Гімнастика",
     "130 lb": 236,
     "typVaga": 281,
     "180 lb": 327,
@@ -688,7 +688,7 @@
     "Calories per kg": 0.823235629850746
   },
   {
-    "Activity": "Hacky sack",
+    "Activity": "Гакісак",
     "130 lb": 236,
     "typVaga": 281,
     "180 lb": 327,
@@ -696,7 +696,7 @@
     "Calories per kg": 0.823235629850746
   },
   {
-    "Activity": "Handball",
+    "Activity": "Гандбол",
     "130 lb": 708,
     "typVaga": 844,
     "180 lb": 981,
@@ -704,7 +704,7 @@
     "Calories per kg": 2.47106089552239
   },
   {
-    "Activity": "Handball, team",
+    "Activity": "Гандбол, командний",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -712,7 +712,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Hockey, field hockey",
+    "Activity": "Хокей, полеовий хокей",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -720,7 +720,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Hockey, ice hockey",
+    "Activity": "Хокей, хокей на льоду",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -728,7 +728,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Riding a horse, general",
+    "Activity": "Верхи на коні, загальні",
     "130 lb": 236,
     "typVaga": 281,
     "180 lb": 327,
@@ -736,7 +736,7 @@
     "Calories per kg": 0.823235629850746
   },
   {
-    "Activity": "Horesback riding, saddling horse",
+    "Activity": "Верхи на коні, сідлання коня",
     "130 lb": 207,
     "typVaga": 246,
     "180 lb": 286,
@@ -744,7 +744,7 @@
     "Calories per kg": 0.721008179104478
   },
   {
-    "Activity": "Horseback riding, grooming horse",
+    "Activity": "Верхи на коні, догляд за конем",
     "130 lb": 207,
     "typVaga": 246,
     "180 lb": 286,
@@ -752,7 +752,7 @@
     "Calories per kg": 0.721008179104478
   },
   {
-    "Activity": "Horseback riding, trotting",
+    "Activity": "Верхи на коні, тріщання",
     "130 lb": 384,
     "typVaga": 457,
     "180 lb": 531,
@@ -760,7 +760,7 @@
     "Calories per kg": 1.33843490149254
   },
   {
-    "Activity": "Horseback riding, walking",
+    "Activity": "Верхи на коні, ходьба",
     "130 lb": 148,
     "typVaga": 176,
     "180 lb": 204,
@@ -768,7 +768,7 @@
     "Calories per kg": 0.515199271641791
   },
   {
-    "Activity": "Horse racing, galloping",
+    "Activity": "Конний спорт, галоп",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -776,7 +776,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Horse grooming, moderate",
+    "Activity": "Догляд за конем, помірний",
     "130 lb": 354,
     "typVaga": 422,
     "180 lb": 490,
@@ -784,7 +784,7 @@
     "Calories per kg": 1.23485344477612
   },
   {
-    "Activity": "Horseshoe pitching",
+    "Activity": "Кидання подкови",
     "130 lb": 177,
     "typVaga": 211,
     "180 lb": 245,
@@ -792,7 +792,7 @@
     "Calories per kg": 0.61742672238806
   },
   {
-    "Activity": "Jai alai",
+    "Activity": "Джай-алай",
     "130 lb": 708,
     "typVaga": 844,
     "180 lb": 981,
@@ -800,7 +800,7 @@
     "Calories per kg": 2.47106089552239
   },
   {
-    "Activity": "Martial arts, judo, karate, jujitsu",
+    "Activity": "Бойові мистецтва, дзюдо, карате, джуджіцу",
     "130 lb": 590,
     "typVaga": 704,
     "180 lb": 817,
@@ -808,7 +808,7 @@
     "Calories per kg": 2.05944308059702
   },
   {
-    "Activity": "Martial arts, kick boxing",
+    "Activity": "Бойові мистецтва, кікбоксинг",
     "130 lb": 590,
     "typVaga": 704,
     "180 lb": 817,
@@ -816,7 +816,7 @@
     "Calories per kg": 2.05944308059702
   },
   {
-    "Activity": "Martial arts, tae kwan do",
+    "Activity": "Бойові мистецтва, тхеквандо",
     "130 lb": 590,
     "typVaga": 704,
     "180 lb": 817,
@@ -824,7 +824,7 @@
     "Calories per kg": 2.05944308059702
   },
   {
-    "Activity": "Krav maga training",
+    "Activity": "Тренування Крав Мага",
     "130 lb": 590,
     "typVaga": 704,
     "180 lb": 817,
@@ -832,7 +832,7 @@
     "Calories per kg": 2.05944308059702
   },
   {
-    "Activity": "Juggling",
+    "Activity": "Жонглювання",
     "130 lb": 236,
     "typVaga": 281,
     "180 lb": 327,
@@ -840,7 +840,7 @@
     "Calories per kg": 0.823235629850746
   },
   {
-    "Activity": "Kickball",
+    "Activity": "Кікбол",
     "130 lb": 413,
     "typVaga": 493,
     "180 lb": 572,
@@ -848,7 +848,7 @@
     "Calories per kg": 1.44133935522388
   },
   {
-    "Activity": "Lacrosse",
+    "Activity": "Лакрос",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -856,7 +856,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Orienteering",
+    "Activity": "Орієнтування",
     "130 lb": 531,
     "typVaga": 633,
     "180 lb": 735,
@@ -864,7 +864,7 @@
     "Calories per kg": 1.85295717014925
   },
   {
-    "Activity": "Playing paddleball",
+    "Activity": "Гра в педлбол",
     "130 lb": 354,
     "typVaga": 422,
     "180 lb": 490,
@@ -872,7 +872,7 @@
     "Calories per kg": 1.23485344477612
   },
   {
-    "Activity": "Paddleball, competitive",
+    "Activity": "Педлбол, змагальний",
     "130 lb": 590,
     "typVaga": 704,
     "180 lb": 817,
@@ -880,7 +880,7 @@
     "Calories per kg": 2.05944308059702
   },
   {
-    "Activity": "Polo",
+    "Activity": "Поло",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -888,7 +888,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Racquetball, competitive",
+    "Activity": "Ракетбол, змагальний",
     "130 lb": 590,
     "typVaga": 704,
     "180 lb": 817,
@@ -896,7 +896,7 @@
     "Calories per kg": 2.05944308059702
   },
   {
-    "Activity": "Playing racquetball",
+    "Activity": "Гра в ракетбол",
     "130 lb": 413,
     "typVaga": 493,
     "180 lb": 572,
@@ -904,7 +904,7 @@
     "Calories per kg": 1.44133935522388
   },
   {
-    "Activity": "Rock climbing, ascending rock",
+    "Activity": "Скелелазіння, підйом по скелах",
     "130 lb": 649,
     "typVaga": 774,
     "180 lb": 899,
@@ -912,7 +912,7 @@
     "Calories per kg": 2.2652519880597
   },
   {
-    "Activity": "Rock climbing, rappelling",
+    "Activity": "Скелелазіння, зведення по скелах",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -920,7 +920,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Jumping rope, fast",
+    "Activity": "Стрибки на скакалці, швидкі",
     "130 lb": 708,
     "typVaga": 844,
     "180 lb": 981,
@@ -928,7 +928,7 @@
     "Calories per kg": 2.47106089552239
   },
   {
-    "Activity": "Jumping rope, moderate",
+    "Activity": "Стрибки на скакалці, помірні",
     "130 lb": 590,
     "typVaga": 704,
     "180 lb": 817,
@@ -936,7 +936,7 @@
     "Calories per kg": 2.05944308059702
   },
   {
-    "Activity": "Jumping rope, slow",
+    "Activity": "Стрибки на скакалці, повільні",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -944,7 +944,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Rugby",
+    "Activity": "Регбі",
     "130 lb": 590,
     "typVaga": 704,
     "180 lb": 817,
@@ -952,7 +952,7 @@
     "Calories per kg": 2.05944308059702
   },
   {
-    "Activity": "Shuffleboard, lawn bowling",
+    "Activity": "Шафлборд, лоун-боулінг",
     "130 lb": 177,
     "typVaga": 211,
     "180 lb": 245,
@@ -960,7 +960,7 @@
     "Calories per kg": 0.61742672238806
   },
   {
-    "Activity": "Skateboarding",
+    "Activity": "Скейтбординг",
     "130 lb": 295,
     "typVaga": 352,
     "180 lb": 409,
@@ -968,7 +968,7 @@
     "Calories per kg": 1.02972154029851
   },
   {
-    "Activity": "Roller skating",
+    "Activity": "Роликові ковзани",
     "130 lb": 413,
     "typVaga": 493,
     "180 lb": 572,
@@ -976,7 +976,7 @@
     "Calories per kg": 1.44133935522388
   },
   {
-    "Activity": "Roller blading, in-line skating",
+    "Activity": "Роликові ковзани, інлайн",
     "130 lb": 708,
     "typVaga": 844,
     "180 lb": 981,
@@ -984,7 +984,7 @@
     "Calories per kg": 2.47106089552239
   },
   {
-    "Activity": "Sky diving",
+    "Activity": "Парашутний спорт",
     "130 lb": 177,
     "typVaga": 211,
     "180 lb": 245,
@@ -992,7 +992,7 @@
     "Calories per kg": 0.61742672238806
   },
   {
-    "Activity": "Soccer, competitive",
+    "Activity": "Футбол, змагальний",
     "130 lb": 590,
     "typVaga": 704,
     "180 lb": 817,
@@ -1000,7 +1000,7 @@
     "Calories per kg": 2.05944308059702
   },
   {
-    "Activity": "Playing soccer",
+    "Activity": "Гра у футбол",
     "130 lb": 413,
     "typVaga": 493,
     "180 lb": 572,
@@ -1008,7 +1008,7 @@
     "Calories per kg": 1.44133935522388
   },
   {
-    "Activity": "Softball or baseball",
+    "Activity": "Софтбол або бейсбол",
     "130 lb": 295,
     "typVaga": 352,
     "180 lb": 409,
@@ -1016,7 +1016,7 @@
     "Calories per kg": 1.02972154029851
   },
   {
-    "Activity": "Softball, officiating",
+    "Activity": "Софтбол, суддівство",
     "130 lb": 236,
     "typVaga": 281,
     "180 lb": 327,
@@ -1024,7 +1024,7 @@
     "Calories per kg": 0.823235629850746
   },
   {
-    "Activity": "Softball, pitching",
+    "Activity": "Софтбол, метання",
     "130 lb": 354,
     "typVaga": 422,
     "180 lb": 490,
@@ -1032,7 +1032,7 @@
     "Calories per kg": 1.23485344477612
   },
   {
-    "Activity": "Squash",
+    "Activity": "Сквош",
     "130 lb": 708,
     "typVaga": 844,
     "180 lb": 981,
@@ -1040,7 +1040,7 @@
     "Calories per kg": 2.47106089552239
   },
   {
-    "Activity": "Table tennis, ping pong",
+    "Activity": "Настільний теніс, пінг-понг",
     "130 lb": 236,
     "typVaga": 281,
     "180 lb": 327,
@@ -1048,7 +1048,7 @@
     "Calories per kg": 0.823235629850746
   },
   {
-    "Activity": "Tai chi",
+    "Activity": "Тай чі",
     "130 lb": 236,
     "typVaga": 281,
     "180 lb": 327,
@@ -1056,7 +1056,7 @@
     "Calories per kg": 0.823235629850746
   },
   {
-    "Activity": "Playing tennis",
+    "Activity": "Гра у теніс",
     "130 lb": 413,
     "typVaga": 493,
     "180 lb": 572,
@@ -1064,7 +1064,7 @@
     "Calories per kg": 1.44133935522388
   },
   {
-    "Activity": "Tennis, doubles",
+    "Activity": "Теніс, пари",
     "130 lb": 354,
     "typVaga": 422,
     "180 lb": 490,
@@ -1072,7 +1072,7 @@
     "Calories per kg": 1.23485344477612
   },
   {
-    "Activity": "Tennis, singles",
+    "Activity": "Теніс, одиночний",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -1080,7 +1080,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Trampoline",
+    "Activity": "Трамплін",
     "130 lb": 207,
     "typVaga": 246,
     "180 lb": 286,
@@ -1088,7 +1088,7 @@
     "Calories per kg": 0.721008179104478
   },
   {
-    "Activity": "Volleyball, competitive",
+    "Activity": "Волейбол, змагальний",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -1096,7 +1096,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Playing volleyball",
+    "Activity": "Гра у волейбол",
     "130 lb": 177,
     "typVaga": 211,
     "180 lb": 245,
@@ -1104,7 +1104,7 @@
     "Calories per kg": 0.61742672238806
   },
   {
-    "Activity": "Volleyball, beach",
+    "Activity": "Волейбол, пляжний",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -1112,7 +1112,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Wrestling",
+    "Activity": "Боротьба",
     "130 lb": 354,
     "typVaga": 422,
     "180 lb": 490,
@@ -1120,7 +1120,7 @@
     "Calories per kg": 1.23485344477612
   },
   {
-    "Activity": "Wallyball",
+    "Activity": "Воллібол настінний",
     "130 lb": 413,
     "typVaga": 493,
     "180 lb": 572,
@@ -1128,7 +1128,7 @@
     "Calories per kg": 1.44133935522388
   },
   {
-    "Activity": "Backpacking, Hiking with pack",
+    "Activity": "Походи з рюкзаком, піший туризм з рюкзаком",
     "130 lb": 413,
     "typVaga": 493,
     "180 lb": 572,
@@ -1136,7 +1136,7 @@
     "Calories per kg": 1.44133935522388
   },
   {
-    "Activity": "Carrying infant, level ground",
+    "Activity": "Перенесення немовляти, рівна поверхня",
     "130 lb": 207,
     "typVaga": 246,
     "180 lb": 286,
@@ -1144,7 +1144,7 @@
     "Calories per kg": 0.721008179104478
   },
   {
-    "Activity": "Carrying infant, upstairs",
+    "Activity": "Перенесення немовляти, підйом по сходах",
     "130 lb": 295,
     "typVaga": 352,
     "180 lb": 409,
@@ -1152,7 +1152,7 @@
     "Calories per kg": 1.02972154029851
   },
   {
-    "Activity": "Carrying 16 to 24 lbs, upstairs",
+    "Activity": "Перенесення ваги 16-24 фунтів, підйом по сходах",
     "130 lb": 354,
     "typVaga": 422,
     "180 lb": 490,
@@ -1160,7 +1160,7 @@
     "Calories per kg": 1.23485344477612
   },
   {
-    "Activity": "Carrying 25 to 49 lbs, upstairs",
+    "Activity": "Перенесення ваги 25-49 фунтів, підйом по сходах",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -1168,7 +1168,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Standing, playing with children, light",
+    "Activity": "Стійка, гра з дітьми, легка",
     "130 lb": 165,
     "typVaga": 197,
     "180 lb": 229,
@@ -1176,7 +1176,7 @@
     "Calories per kg": 0.576806543283582
   },
   {
-    "Activity": "Walk/run, playing with children, moderate",
+    "Activity": "Прогулянка/біг, гра з дітьми, помірна",
     "130 lb": 236,
     "typVaga": 281,
     "180 lb": 327,
@@ -1184,7 +1184,7 @@
     "Calories per kg": 0.823235629850746
   },
   {
-    "Activity": "Walk/run, playing with children, vigorous",
+    "Activity": "Прогулянка/біг, гра з дітьми, інтенсивна",
     "130 lb": 295,
     "typVaga": 352,
     "180 lb": 409,
@@ -1192,7 +1192,7 @@
     "Calories per kg": 1.02972154029851
   },
   {
-    "Activity": "Carrying small children",
+    "Activity": "Перенесення маленьких дітей",
     "130 lb": 177,
     "typVaga": 211,
     "180 lb": 245,
@@ -1200,7 +1200,7 @@
     "Calories per kg": 0.61742672238806
   },
   {
-    "Activity": "Loading, unloading car",
+    "Activity": "Завантаження/розвантаження автомобіля",
     "130 lb": 177,
     "typVaga": 211,
     "180 lb": 245,
@@ -1208,71 +1208,7 @@
     "Calories per kg": 0.61742672238806
   },
   {
-    "Activity": "Climbing hills, carrying up to 9 lbs",
-    "130 lb": 413,
-    "typVaga": 493,
-    "180 lb": 572,
-    "205 lb": 651,
-    "Calories per kg": 1.44133935522388
-  },
-  {
-    "Activity": "Climbing hills, carrying 10 to 20 lb",
-    "130 lb": 443,
-    "typVaga": 528,
-    "180 lb": 613,
-    "205 lb": 698,
-    "Calories per kg": 1.5449208119403
-  },
-  {
-    "Activity": "Climbing hills, carrying 21 to 42 lb",
-    "130 lb": 472,
-    "typVaga": 563,
-    "180 lb": 654,
-    "205 lb": 745,
-    "Calories per kg": 1.64782526567164
-  },
-  {
-    "Activity": "Climbing hills, carrying over 42 lb",
-    "130 lb": 531,
-    "typVaga": 633,
-    "180 lb": 735,
-    "205 lb": 838,
-    "Calories per kg": 1.85295717014925
-  },
-  {
-    "Activity": "Walking downstairs",
-    "130 lb": 177,
-    "typVaga": 211,
-    "180 lb": 245,
-    "205 lb": 279,
-    "Calories per kg": 0.61742672238806
-  },
-  {
-    "Activity": "Hiking, cross country",
-    "130 lb": 354,
-    "typVaga": 422,
-    "180 lb": 490,
-    "205 lb": 558,
-    "Calories per kg": 1.23485344477612
-  },
-  {
-    "Activity": "Bird watching",
-    "130 lb": 148,
-    "typVaga": 176,
-    "180 lb": 204,
-    "205 lb": 233,
-    "Calories per kg": 0.515199271641791
-  },
-  {
-    "Activity": "Marching, rapidly, military",
-    "130 lb": 384,
-    "typVaga": 457,
-    "180 lb": 531,
-    "205 lb": 605,
-    "Calories per kg": 1.33843490149254
-  },
-  {
-    "Activity": "Children's games, hopscotch, dodgeball",
+    "Activity": "Ходьба 4.0 миль/год, дуже швидка",
     "130 lb": 295,
     "typVaga": 352,
     "180 lb": 409,
@@ -1280,111 +1216,7 @@
     "Calories per kg": 1.02972154029851
   },
   {
-    "Activity": "Pushing stroller or walking with children",
-    "130 lb": 148,
-    "typVaga": 176,
-    "180 lb": 204,
-    "205 lb": 233,
-    "Calories per kg": 0.515199271641791
-  },
-  {
-    "Activity": "Pushing a wheelchair",
-    "130 lb": 236,
-    "typVaga": 281,
-    "180 lb": 327,
-    "205 lb": 372,
-    "Calories per kg": 0.823235629850746
-  },
-  {
-    "Activity": "Race walking",
-    "130 lb": 384,
-    "typVaga": 457,
-    "180 lb": 531,
-    "205 lb": 605,
-    "Calories per kg": 1.33843490149254
-  },
-  {
-    "Activity": "Rock climbing, mountain climbing",
-    "130 lb": 472,
-    "typVaga": 563,
-    "180 lb": 654,
-    "205 lb": 745,
-    "Calories per kg": 1.64782526567164
-  },
-  {
-    "Activity": "Walking using crutches",
-    "130 lb": 295,
-    "typVaga": 352,
-    "180 lb": 409,
-    "205 lb": 465,
-    "Calories per kg": 1.02972154029851
-  },
-  {
-    "Activity": "Walking the dog",
-    "130 lb": 177,
-    "typVaga": 211,
-    "180 lb": 245,
-    "205 lb": 279,
-    "Calories per kg": 0.61742672238806
-  },
-  {
-    "Activity": "Walking, under 2.0 mph, very slow",
-    "130 lb": 118,
-    "typVaga": 141,
-    "180 lb": 163,
-    "205 lb": 186,
-    "Calories per kg": 0.411617814925373
-  },
-  {
-    "Activity": "Walking 2.0 mph, slow",
-    "130 lb": 148,
-    "typVaga": 176,
-    "180 lb": 204,
-    "205 lb": 233,
-    "Calories per kg": 0.515199271641791
-  },
-  {
-    "Activity": "Walking 2.5 mph",
-    "130 lb": 177,
-    "typVaga": 211,
-    "180 lb": 245,
-    "205 lb": 279,
-    "Calories per kg": 0.61742672238806
-  },
-  {
-    "Activity": "Walking 3.0 mph, moderate",
-    "130 lb": 195,
-    "typVaga": 232,
-    "180 lb": 270,
-    "205 lb": 307,
-    "Calories per kg": 0.679710997014925
-  },
-  {
-    "Activity": "Walking 3.5 mph, brisk pace",
-    "130 lb": 224,
-    "typVaga": 267,
-    "180 lb": 311,
-    "205 lb": 354,
-    "Calories per kg": 0.782615450746269
-  },
-  {
-    "Activity": "Walking 3.5 mph, uphill",
-    "130 lb": 354,
-    "typVaga": 422,
-    "180 lb": 490,
-    "205 lb": 558,
-    "Calories per kg": 1.23485344477612
-  },
-  {
-    "Activity": "Walking 4.0 mph, very brisk",
-    "130 lb": 295,
-    "typVaga": 352,
-    "180 lb": 409,
-    "205 lb": 465,
-    "Calories per kg": 1.02972154029851
-  },
-  {
-    "Activity": "Walking 4.5 mph",
+    "Activity": "Ходьба 4.5 миль/год",
     "130 lb": 372,
     "typVaga": 443,
     "180 lb": 515,
@@ -1392,7 +1224,7 @@
     "Calories per kg": 1.29713771940299
   },
   {
-    "Activity": "Walking 5.0 mph",
+    "Activity": "Ходьба 5.0 миль/год",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -1400,7 +1232,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Boating, power, speed boat",
+    "Activity": "Плавання на моторному човні, швидкий човен",
     "130 lb": 148,
     "typVaga": 176,
     "180 lb": 204,
@@ -1408,7 +1240,7 @@
     "Calories per kg": 0.515199271641791
   },
   {
-    "Activity": "Canoeing, camping trip",
+    "Activity": "Каное на виїзд",
     "130 lb": 236,
     "typVaga": 281,
     "180 lb": 327,
@@ -1416,7 +1248,7 @@
     "Calories per kg": 0.823235629850746
   },
   {
-    "Activity": "Canoeing, rowing, light",
+    "Activity": "Каное, весла, легкий",
     "130 lb": 177,
     "typVaga": 211,
     "180 lb": 245,
@@ -1424,7 +1256,7 @@
     "Calories per kg": 0.61742672238806
   },
   {
-    "Activity": "Canoeing, rowing, moderate",
+    "Activity": "Каное, весла, помірний",
     "130 lb": 413,
     "typVaga": 493,
     "180 lb": 572,
@@ -1432,7 +1264,7 @@
     "Calories per kg": 1.44133935522388
   },
   {
-    "Activity": "Canoeing, rowing, vigorous",
+    "Activity": "Каное, весла, інтенсивний",
     "130 lb": 708,
     "typVaga": 844,
     "180 lb": 981,
@@ -1440,7 +1272,7 @@
     "Calories per kg": 2.47106089552239
   },
   {
-    "Activity": "Crew, sculling, rowing, competition",
+    "Activity": "Гребля, весла, регата, змагання",
     "130 lb": 708,
     "typVaga": 844,
     "180 lb": 981,
@@ -1448,7 +1280,7 @@
     "Calories per kg": 2.47106089552239
   },
   {
-    "Activity": "Kayaking",
+    "Activity": "Каякінг",
     "130 lb": 295,
     "typVaga": 352,
     "180 lb": 409,
@@ -1456,7 +1288,7 @@
     "Calories per kg": 1.02972154029851
   },
   {
-    "Activity": "Paddle boat",
+    "Activity": "Плотик",
     "130 lb": 236,
     "typVaga": 281,
     "180 lb": 327,
@@ -1464,7 +1296,7 @@
     "Calories per kg": 0.823235629850746
   },
   {
-    "Activity": "Windsurfing, sailing",
+    "Activity": "Віндсерфінг, парусний спорт",
     "130 lb": 177,
     "typVaga": 211,
     "180 lb": 245,
@@ -1472,7 +1304,7 @@
     "Calories per kg": 0.61742672238806
   },
   {
-    "Activity": "Sailing, competition",
+    "Activity": "Парусництво, змагання",
     "130 lb": 295,
     "typVaga": 352,
     "180 lb": 409,
@@ -1480,7 +1312,7 @@
     "Calories per kg": 1.02972154029851
   },
   {
-    "Activity": "Sailing, yachting, ocean sailing",
+    "Activity": "Парусництво, яхтинг, океанське плавання",
     "130 lb": 177,
     "typVaga": 211,
     "180 lb": 245,
@@ -1488,7 +1320,7 @@
     "Calories per kg": 0.61742672238806
   },
   {
-    "Activity": "Skiing, water skiing",
+    "Activity": "Лижі, водні лижі",
     "130 lb": 354,
     "typVaga": 422,
     "180 lb": 490,
@@ -1496,7 +1328,7 @@
     "Calories per kg": 1.23485344477612
   },
   {
-    "Activity": "Ski mobiling",
+    "Activity": "Снігоход",
     "130 lb": 413,
     "typVaga": 493,
     "180 lb": 572,
@@ -1504,7 +1336,7 @@
     "Calories per kg": 1.44133935522388
   },
   {
-    "Activity": "Skin diving, fast",
+    "Activity": "Підводне плавання, швидке",
     "130 lb": 944,
     "typVaga": 1126,
     "180 lb": 1308,
@@ -1512,7 +1344,7 @@
     "Calories per kg": 3.29497352835821
   },
   {
-    "Activity": "Skin diving, moderate",
+    "Activity": "Підводне плавання, помірне",
     "130 lb": 738,
     "typVaga": 880,
     "180 lb": 1022,
@@ -1520,7 +1352,7 @@
     "Calories per kg": 2.57464235223881
   },
   {
-    "Activity": "Skin diving, scuba diving",
+    "Activity": "Підводне плавання, дайвінг",
     "130 lb": 413,
     "typVaga": 493,
     "180 lb": 572,
@@ -1528,7 +1360,7 @@
     "Calories per kg": 1.44133935522388
   },
   {
-    "Activity": "Snorkeling",
+    "Activity": "Сноркелінг",
     "130 lb": 295,
     "typVaga": 352,
     "180 lb": 409,
@@ -1536,7 +1368,7 @@
     "Calories per kg": 1.02972154029851
   },
   {
-    "Activity": "Surfing, body surfing or board surfing",
+    "Activity": "Серфінг, бодісерфінг або дошковий серфінг",
     "130 lb": 177,
     "typVaga": 211,
     "180 lb": 245,
@@ -1544,7 +1376,7 @@
     "Calories per kg": 0.61742672238806
   },
   {
-    "Activity": "Whitewater rafting, kayaking, canoeing",
+    "Activity": "Рафтинг, каякінг, каное",
     "130 lb": 295,
     "typVaga": 352,
     "180 lb": 409,
@@ -1552,7 +1384,7 @@
     "Calories per kg": 1.02972154029851
   },
   {
-    "Activity": "Swimming laps, freestyle, fast",
+    "Activity": "Плавання кролем, швидко",
     "130 lb": 590,
     "typVaga": 704,
     "180 lb": 817,
@@ -1560,7 +1392,7 @@
     "Calories per kg": 2.05944308059702
   },
   {
-    "Activity": "Swimming laps, freestyle, slow",
+    "Activity": "Плавання кролем, повільно",
     "130 lb": 413,
     "typVaga": 493,
     "180 lb": 572,
@@ -1568,7 +1400,7 @@
     "Calories per kg": 1.44133935522388
   },
   {
-    "Activity": "Swimming backstroke",
+    "Activity": "Плавання на спині",
     "130 lb": 413,
     "typVaga": 493,
     "180 lb": 572,
@@ -1576,7 +1408,7 @@
     "Calories per kg": 1.44133935522388
   },
   {
-    "Activity": "Swimming breaststroke",
+    "Activity": "Плавання брасом",
     "130 lb": 590,
     "typVaga": 704,
     "180 lb": 817,
@@ -1584,7 +1416,7 @@
     "Calories per kg": 2.05944308059702
   },
   {
-    "Activity": "Swimming butterfly",
+    "Activity": "Плавання батерфляєм",
     "130 lb": 649,
     "typVaga": 774,
     "180 lb": 899,
@@ -1592,7 +1424,7 @@
     "Calories per kg": 2.2652519880597
   },
   {
-    "Activity": "Swimming leisurely, not laps",
+    "Activity": "Плавання для відпочинку, не круги",
     "130 lb": 354,
     "typVaga": 422,
     "180 lb": 490,
@@ -1600,7 +1432,7 @@
     "Calories per kg": 1.23485344477612
   },
   {
-    "Activity": "Swimming sidestroke",
+    "Activity": "Плавання бічним стилем",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -1608,7 +1440,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Swimming synchronized",
+    "Activity": "Синхронне плавання",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -1616,7 +1448,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Swimming, treading water, fast, vigorous",
+    "Activity": "Плавання на місці, швидко, інтенсивне",
     "130 lb": 590,
     "typVaga": 704,
     "180 lb": 817,
@@ -1624,7 +1456,7 @@
     "Calories per kg": 2.05944308059702
   },
   {
-    "Activity": "Swimming, treading water, moderate",
+    "Activity": "Плавання на місці, помірне",
     "130 lb": 236,
     "typVaga": 281,
     "180 lb": 327,
@@ -1632,7 +1464,7 @@
     "Calories per kg": 0.823235629850746
   },
   {
-    "Activity": "Water aerobics, water calisthenics",
+    "Activity": "Аквааеробіка, водні калістеніки",
     "130 lb": 236,
     "typVaga": 281,
     "180 lb": 327,
@@ -1640,7 +1472,7 @@
     "Calories per kg": 0.823235629850746
   },
   {
-    "Activity": "Water polo",
+    "Activity": "Водне поло",
     "130 lb": 590,
     "typVaga": 704,
     "180 lb": 817,
@@ -1648,7 +1480,7 @@
     "Calories per kg": 2.05944308059702
   },
   {
-    "Activity": "Water volleyball",
+    "Activity": "Водне волейбол",
     "130 lb": 177,
     "typVaga": 211,
     "180 lb": 245,
@@ -1656,7 +1488,7 @@
     "Calories per kg": 0.61742672238806
   },
   {
-    "Activity": "Water jogging",
+    "Activity": "Біг у воді",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -1664,7 +1496,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Diving, springboard or platform",
+    "Activity": "Стрибки в воду, тримачка або платформа",
     "130 lb": 177,
     "typVaga": 211,
     "180 lb": 245,
@@ -1672,7 +1504,7 @@
     "Calories per kg": 0.61742672238806
   },
   {
-    "Activity": "Ice skating, < 9 mph",
+    "Activity": "Катання на ковзанах, менше 9 миль на годину",
     "130 lb": 325,
     "typVaga": 387,
     "180 lb": 449,
@@ -1680,7 +1512,7 @@
     "Calories per kg": 1.13262599402985
   },
   {
-    "Activity": "Ice skating, average speed",
+    "Activity": "Катання на ковзанах, середня швидкість",
     "130 lb": 413,
     "typVaga": 493,
     "180 lb": 572,
@@ -1688,7 +1520,7 @@
     "Calories per kg": 1.44133935522388
   },
   {
-    "Activity": "Ice skating, rapidly",
+    "Activity": "Катання на ковзанах, швидко",
     "130 lb": 531,
     "typVaga": 633,
     "180 lb": 735,
@@ -1696,7 +1528,7 @@
     "Calories per kg": 1.85295717014925
   },
   {
-    "Activity": "Speed skating, ice, competitive",
+    "Activity": "Швидке катання на ковзанах, змагання",
     "130 lb": 885,
     "typVaga": 1056,
     "180 lb": 1226,
@@ -1704,7 +1536,7 @@
     "Calories per kg": 3.08916462089552
   },
   {
-    "Activity": "Cross country snow skiing, slow",
+    "Activity": "Крос-кантрі на лижах, повільно",
     "130 lb": 413,
     "typVaga": 493,
     "180 lb": 572,
@@ -1712,7 +1544,7 @@
     "Calories per kg": 1.44133935522388
   },
   {
-    "Activity": "Cross country skiing, moderate",
+    "Activity": "Крос-кантрі на лижах, помірно",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -1720,7 +1552,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Cross country skiing, vigorous",
+    "Activity": "Крос-кантрі на лижах, інтенсивно",
     "130 lb": 531,
     "typVaga": 633,
     "180 lb": 735,
@@ -1728,7 +1560,7 @@
     "Calories per kg": 1.85295717014925
   },
   {
-    "Activity": "Cross country skiing, racing",
+    "Activity": "Крос-кантрі на лижах, гонка",
     "130 lb": 826,
     "typVaga": 985,
     "180 lb": 1144,
@@ -1736,7 +1568,7 @@
     "Calories per kg": 2.88267871044776
   },
   {
-    "Activity": "Cross country skiing, uphill",
+    "Activity": "Крос-кантрі на лижах, підйом",
     "130 lb": 974,
     "typVaga": 1161,
     "180 lb": 1348,
@@ -1744,7 +1576,7 @@
     "Calories per kg": 3.39787798208955
   },
   {
-    "Activity": "Snow skiing, downhill skiing, light",
+    "Activity": "Лижі, катання на гірських лижах, легкий",
     "130 lb": 295,
     "typVaga": 352,
     "180 lb": 409,
@@ -1752,7 +1584,7 @@
     "Calories per kg": 1.02972154029851
   },
   {
-    "Activity": "Downhill snow skiing, moderate",
+    "Activity": "Катання на гірських лижах, помірне",
     "130 lb": 354,
     "typVaga": 422,
     "180 lb": 490,
@@ -1760,7 +1592,7 @@
     "Calories per kg": 1.23485344477612
   },
   {
-    "Activity": "Downhill snow skiing, racing",
+    "Activity": "Катання на гірських лижах, гонки",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -1768,7 +1600,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Sledding, tobagganing, luge",
+    "Activity": "Ковзанка, тобогганінг, лужа",
     "130 lb": 413,
     "typVaga": 493,
     "180 lb": 572,
@@ -1776,7 +1608,7 @@
     "Calories per kg": 1.44133935522388
   },
   {
-    "Activity": "Snow shoeing",
+    "Activity": "Снігоступи",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -1784,7 +1616,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Snowmobiling",
+    "Activity": "Катання на снігоході",
     "130 lb": 207,
     "typVaga": 246,
     "180 lb": 286,
@@ -1792,7 +1624,7 @@
     "Calories per kg": 0.721008179104478
   },
   {
-    "Activity": "General housework",
+    "Activity": "Побутові справи загального характеру",
     "130 lb": 207,
     "typVaga": 246,
     "180 lb": 286,
@@ -1800,7 +1632,7 @@
     "Calories per kg": 0.721008179104478
   },
   {
-    "Activity": "Cleaning gutters",
+    "Activity": "Чищення жолобів",
     "130 lb": 295,
     "typVaga": 352,
     "180 lb": 409,
@@ -1808,7 +1640,7 @@
     "Calories per kg": 1.02972154029851
   },
   {
-    "Activity": "Painting",
+    "Activity": "Фарбування",
     "130 lb": 266,
     "typVaga": 317,
     "180 lb": 368,
@@ -1816,7 +1648,7 @@
     "Calories per kg": 0.927494089552239
   },
   {
-    "Activity": "Sit, playing with animals",
+    "Activity": "Гра з тваринами (сидячи)",
     "130 lb": 148,
     "typVaga": 176,
     "180 lb": 204,
@@ -1824,7 +1656,7 @@
     "Calories per kg": 0.515199271641791
   },
   {
-    "Activity": "Walk / run, playing with animals",
+    "Activity": "Прогулянка / біг з тваринами",
     "130 lb": 236,
     "typVaga": 281,
     "180 lb": 327,
@@ -1832,7 +1664,7 @@
     "Calories per kg": 0.823235629850746
   },
   {
-    "Activity": "Bathing dog",
+    "Activity": "Миття собаки",
     "130 lb": 207,
     "typVaga": 246,
     "180 lb": 286,
@@ -1840,7 +1672,7 @@
     "Calories per kg": 0.721008179104478
   },
   {
-    "Activity": "Mowing lawn, walk, power mower",
+    "Activity": "Косіння газону, прогулянка, мотокоса",
     "130 lb": 325,
     "typVaga": 387,
     "180 lb": 449,
@@ -1848,7 +1680,7 @@
     "Calories per kg": 1.13262599402985
   },
   {
-    "Activity": "Mowing lawn, riding mower",
+    "Activity": "Косіння газону, на мотокосарці",
     "130 lb": 148,
     "typVaga": 176,
     "180 lb": 204,
@@ -1856,7 +1688,7 @@
     "Calories per kg": 0.515199271641791
   },
   {
-    "Activity": "Walking, snow blower",
+    "Activity": "Прогулянка, видалення снігу (вручну)",
     "130 lb": 207,
     "typVaga": 246,
     "180 lb": 286,
@@ -1864,7 +1696,7 @@
     "Calories per kg": 0.721008179104478
   },
   {
-    "Activity": "Riding, snow blower",
+    "Activity": "Водіння, видалення снігу (на снігоочиснику)",
     "130 lb": 177,
     "typVaga": 211,
     "180 lb": 245,
@@ -1872,7 +1704,7 @@
     "Calories per kg": 0.61742672238806
   },
   {
-    "Activity": "Shoveling snow by hand",
+    "Activity": "Лопатіння снігу (вручну)",
     "130 lb": 354,
     "typVaga": 422,
     "180 lb": 490,
@@ -1880,7 +1712,7 @@
     "Calories per kg": 1.23485344477612
   },
   {
-    "Activity": "Raking lawn",
+    "Activity": "Грабіння листя",
     "130 lb": 254,
     "typVaga": 303,
     "180 lb": 351,
@@ -1888,7 +1720,7 @@
     "Calories per kg": 0.885519904477612
   },
   {
-    "Activity": "Gardening, general",
+    "Activity": "Садівництво, загальне",
     "130 lb": 236,
     "typVaga": 281,
     "180 lb": 327,
@@ -1896,7 +1728,7 @@
     "Calories per kg": 0.823235629850746
   },
   {
-    "Activity": "Bagging grass, leaves",
+    "Activity": "Збирання трави, листя",
     "130 lb": 236,
     "typVaga": 281,
     "180 lb": 327,
@@ -1904,7 +1736,7 @@
     "Calories per kg": 0.823235629850746
   },
   {
-    "Activity": "Watering lawn or garden",
+    "Activity": "Поливка газону або саду",
     "130 lb": 89,
     "typVaga": 106,
     "180 lb": 123,
@@ -1912,7 +1744,7 @@
     "Calories per kg": 0.310067367164179
   },
   {
-    "Activity": "Weeding, cultivating garden",
+    "Activity": "Прополювання, обробка городу",
     "130 lb": 266,
     "typVaga": 317,
     "180 lb": 368,
@@ -1920,7 +1752,7 @@
     "Calories per kg": 0.927494089552239
   },
   {
-    "Activity": "Carpentry, general",
+    "Activity": "Теслярські роботи, загальні",
     "130 lb": 207,
     "typVaga": 246,
     "180 lb": 286,
@@ -1928,7 +1760,7 @@
     "Calories per kg": 0.721008179104478
   },
   {
-    "Activity": "Carrying heavy loads",
+    "Activity": "Перенесення важких навантажень",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -1936,7 +1768,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Carrying moderate loads upstairs",
+    "Activity": "Перенесення середніх навантажень по сходах",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -1944,7 +1776,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "General cleaning",
+    "Activity": "Загальне прибирання",
     "130 lb": 207,
     "typVaga": 246,
     "180 lb": 286,
@@ -1952,7 +1784,7 @@
     "Calories per kg": 0.721008179104478
   },
   {
-    "Activity": "Cleaning, dusting",
+    "Activity": "Прибирання, видалення пилу",
     "130 lb": 148,
     "typVaga": 176,
     "180 lb": 204,
@@ -1960,7 +1792,7 @@
     "Calories per kg": 0.515199271641791
   },
   {
-    "Activity": "Taking out trash",
+    "Activity": "Вивезення сміття",
     "130 lb": 177,
     "typVaga": 211,
     "180 lb": 245,
@@ -1968,7 +1800,7 @@
     "Calories per kg": 0.61742672238806
   },
   {
-    "Activity": "Walking, pushing a wheelchair",
+    "Activity": "Прогулянка, товчучи візок",
     "130 lb": 236,
     "typVaga": 281,
     "180 lb": 327,
@@ -1976,7 +1808,7 @@
     "Calories per kg": 0.823235629850746
   },
   {
-    "Activity": "Teach physical education,exercise class",
+    "Activity": "Викладання фізичної культури, фітнес клас",
     "130 lb": 236,
     "typVaga": 281,
     "180 lb": 327,
