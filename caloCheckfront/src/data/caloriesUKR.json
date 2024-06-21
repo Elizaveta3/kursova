@@ -6827,3306 +6827,2828 @@
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Buckwheat",
-    "per100grams": "100g",
-    "Cals_per100grams": "343 cal",
-    "KJ_per100grams": "1441 kJ"
+    "FoodItem": "Гречка",
+    "per100grams": "100 г",
+    "Cals_per100grams": "343 ккал",
+    "KJ_per100grams": "1441 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Buckwheat Groats",
-    "per100grams": "100g",
-    "Cals_per100grams": "346 cal",
-    "KJ_per100grams": "1453 kJ"
+    "FoodItem": "Гречані крупи",
+    "per100grams": "100 г",
+    "Cals_per100grams": "346 ккал",
+    "KJ_per100grams": "1453 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Corn Waffles",
-    "per100grams": "100g",
-    "Cals_per100grams": "274 cal",
-    "KJ_per100grams": "1151 kJ"
+    "FoodItem": "Кукурудзяні вафлі",
+    "per100grams": "100 г",
+    "Cals_per100grams": "274 ккал",
+    "KJ_per100grams": "1151 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Cornmeal",
-    "per100grams": "100g",
-    "Cals_per100grams": "362 cal",
-    "KJ_per100grams": "1520 kJ"
+    "FoodItem": "Кукурудзяне борошно",
+    "per100grams": "100 г",
+    "Cals_per100grams": "362 ккал",
+    "KJ_per100grams": "1520 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Couscous",
-    "per100grams": "100g",
-    "Cals_per100grams": "376 cal",
-    "KJ_per100grams": "1579 kJ"
+    "FoodItem": "Кус-кус",
+    "per100grams": "100 г",
+    "Cals_per100grams": "376 ккал",
+    "KJ_per100grams": "1579 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Cracker",
-    "per100grams": "100g",
-    "Cals_per100grams": "502 cal",
-    "KJ_per100grams": "2108 kJ"
+    "FoodItem": "Крекер",
+    "per100grams": "100 г",
+    "Cals_per100grams": "502 ккал",
+    "KJ_per100grams": "2108 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Freekeh",
-    "per100grams": "100g",
-    "Cals_per100grams": "520 cal",
-    "KJ_per100grams": "2184 kJ"
+    "FoodItem": "Фрік",
+    "per100grams": "100 г",
+    "Cals_per100grams": "520 ккал",
+    "KJ_per100grams": "2184 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Gluten",
-    "per100grams": "100g",
-    "Cals_per100grams": "370 cal",
-    "KJ_per100grams": "1554 kJ"
+    "FoodItem": "Глютен",
+    "per100grams": "100 г",
+    "Cals_per100grams": "370 ккал",
+    "KJ_per100grams": "1554 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Grissini",
-    "per100grams": "100g",
-    "Cals_per100grams": "408 cal",
-    "KJ_per100grams": "1714 kJ"
+    "FoodItem": "Грісіні",
+    "per100grams": "100 г",
+    "Cals_per100grams": "408 ккал",
+    "KJ_per100grams": "1714 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Kamut",
-    "per100grams": "100g",
-    "Cals_per100grams": "337 cal",
-    "KJ_per100grams": "1415 kJ"
+    "FoodItem": "Камут",
+    "per100grams": "100 г",
+    "Cals_per100grams": "337 ккал",
+    "KJ_per100grams": "1415 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Millet",
-    "per100grams": "100g",
-    "Cals_per100grams": "378 cal",
-    "KJ_per100grams": "1588 kJ"
+    "FoodItem": "Пшоно",
+    "per100grams": "100 г",
+    "Cals_per100grams": "378 ккал",
+    "KJ_per100grams": "1588 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Millet Flour",
-    "per100grams": "100g",
-    "Cals_per100grams": "372 cal",
-    "KJ_per100grams": "1562 kJ"
+    "FoodItem": "Пшоняне борошно",
+    "per100grams": "100 г",
+    "Cals_per100grams": "372 ккал",
+    "KJ_per100grams": "1562 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Millet Gruel",
-    "per100grams": "100g",
-    "Cals_per100grams": "46 cal",
-    "KJ_per100grams": "193 kJ"
+    "FoodItem": "Пшоняна каша",
+    "per100grams": "100 г",
+    "Cals_per100grams": "46 ккал",
+    "KJ_per100grams": "193 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Oat Bran",
-    "per100grams": "100g",
-    "Cals_per100grams": "246 cal",
-    "KJ_per100grams": "1033 kJ"
+    "FoodItem": "Вівсяні висівки",
+    "per100grams": "100 г",
+    "Cals_per100grams": "246 ккал",
+    "KJ_per100grams": "1033 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Pearl Barley",
-    "per100grams": "100g",
-    "Cals_per100grams": "352 cal",
-    "KJ_per100grams": "1478 kJ"
+    "FoodItem": "Перлова крупа",
+    "per100grams": "100 г",
+    "Cals_per100grams": "352 ккал",
+    "KJ_per100grams": "1478 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Polenta",
-    "per100grams": "100g",
-    "Cals_per100grams": "366 cal",
-    "KJ_per100grams": "1537 kJ"
+    "FoodItem": "Полента",
+    "per100grams": "100 г",
+    "Cals_per100grams": "366 ккал",
+    "KJ_per100grams": "1537 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Prawn Crackers",
-    "per100grams": "100g",
-    "Cals_per100grams": "527 cal",
-    "KJ_per100grams": "2213 kJ"
+    "FoodItem": "Креветкові чіпси",
+    "per100grams": "100 г",
+    "Cals_per100grams": "527 ккал",
+    "KJ_per100grams": "2213 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Pretzel Sticks",
-    "per100grams": "100g",
-    "Cals_per100grams": "380 cal",
-    "KJ_per100grams": "1596 kJ"
+    "FoodItem": "Солоні палички",
+    "per100grams": "100 г",
+    "Cals_per100grams": "380 ккал",
+    "KJ_per100grams": "1596 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Quinoa",
-    "per100grams": "100g",
-    "Cals_per100grams": "368 cal",
-    "KJ_per100grams": "1546 kJ"
+    "FoodItem": "Кіноа",
+    "per100grams": "100 г",
+    "Cals_per100grams": "368 ккал",
+    "KJ_per100grams": "1546 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Rusk",
-    "per100grams": "100g",
-    "Cals_per100grams": "410 cal",
-    "KJ_per100grams": "1722 kJ"
+    "FoodItem": "Сухар",
+    "per100grams": "100 г",
+    "Cals_per100grams": "410 ккал",
+    "KJ_per100grams": "1722 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Rye Bran",
-    "per100grams": "100g",
-    "Cals_per100grams": "281 cal",
-    "KJ_per100grams": "1180 kJ"
+    "FoodItem": "Житні висівки",
+    "per100grams": "100 г",
+    "Cals_per100grams": "281 ккал",
+    "KJ_per100grams": "1180 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Sago",
-    "per100grams": "100g",
-    "Cals_per100grams": "354 cal",
-    "KJ_per100grams": "1487 kJ"
+    "FoodItem": "Саго",
+    "per100grams": "100 г",
+    "Cals_per100grams": "354 ккал",
+    "KJ_per100grams": "1487 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Savoury Biscuits",
-    "per100grams": "100g",
-    "Cals_per100grams": "347 cal",
-    "KJ_per100grams": "1457 kJ"
+    "FoodItem": "Солоні бісквіти",
+    "per100grams": "100 г",
+    "Cals_per100grams": "347 ккал",
+    "KJ_per100grams": "1457 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Shortbread",
-    "per100grams": "100g",
-    "Cals_per100grams": "502 cal",
-    "KJ_per100grams": "2108 kJ"
+    "FoodItem": "Пісочне печиво",
+    "per100grams": "100 г",
+    "Cals_per100grams": "502 ккал",
+    "KJ_per100grams": "2108 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Spelt",
-    "per100grams": "100g",
-    "Cals_per100grams": "338 cal",
-    "KJ_per100grams": "1420 kJ"
+    "FoodItem": "Полба",
+    "per100grams": "100 г",
+    "Cals_per100grams": "338 ккал",
+    "KJ_per100grams": "1420 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Spelt Bran",
-    "per100grams": "100g",
-    "Cals_per100grams": "177 cal",
-    "KJ_per100grams": "743 kJ"
+    "FoodItem": "Висівки полби",
+    "per100grams": "100 г",
+    "Cals_per100grams": "177 ккал",
+    "KJ_per100grams": "743 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Spelt Semolina",
-    "per100grams": "100g",
-    "Cals_per100grams": "360 cal",
-    "KJ_per100grams": "1512 kJ"
+    "FoodItem": "Манка полби",
+    "per100grams": "100 г",
+    "Cals_per100grams": "360 ккал",
+    "KJ_per100grams": "1512 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Tortilla",
-    "per100grams": "100g",
-    "Cals_per100grams": "237 cal",
-    "KJ_per100grams": "995 kJ"
+    "FoodItem": "Тортилья",
+    "per100grams": "100 г",
+    "Cals_per100grams": "237 ккал",
+    "KJ_per100grams": "995 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Tortilla Chips",
-    "per100grams": "100g",
-    "Cals_per100grams": "499 cal",
-    "KJ_per100grams": "2096 kJ"
+    "FoodItem": "Кукурудзяні чіпси",
+    "per100grams": "100 г",
+    "Cals_per100grams": "499 ккал",
+    "KJ_per100grams": "2096 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Wheat Bran",
-    "per100grams": "100g",
-    "Cals_per100grams": "216 cal",
-    "KJ_per100grams": "907 kJ"
+    "FoodItem": "Пшеничні висівки",
+    "per100grams": "100 г",
+    "Cals_per100grams": "216 ккал",
+    "KJ_per100grams": "907 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Wheat Germ",
-    "per100grams": "100g",
-    "Cals_per100grams": "382 cal",
-    "KJ_per100grams": "1604 kJ"
+    "FoodItem": "Пшеничні зародки",
+    "per100grams": "100 г",
+    "Cals_per100grams": "382 ккал",
+    "KJ_per100grams": "1604 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Wheat Gluten",
-    "per100grams": "100g",
-    "Cals_per100grams": "325 cal",
-    "KJ_per100grams": "1365 kJ"
+    "FoodItem": "Пшеничний глютен",
+    "per100grams": "100 г",
+    "Cals_per100grams": "325 ккал",
+    "KJ_per100grams": "1365 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Wheat Semolina",
-    "per100grams": "100g",
-    "Cals_per100grams": "360 cal",
-    "KJ_per100grams": "1512 kJ"
+    "FoodItem": "Пшенична манка",
+    "per100grams": "100 г",
+    "Cals_per100grams": "360 ккал",
+    "KJ_per100grams": "1512 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Wheat Starch",
-    "per100grams": "100g",
-    "Cals_per100grams": "351 cal",
-    "KJ_per100grams": "1474 kJ"
+    "FoodItem": "Пшеничний крохмаль",
+    "per100grams": "100 г",
+    "Cals_per100grams": "351 ккал",
+    "KJ_per100grams": "1474 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Whole Grain Wheat",
-    "per100grams": "100g",
-    "Cals_per100grams": "339 cal",
-    "KJ_per100grams": "1424 kJ"
+    "FoodItem": "Цільна пшениця",
+    "per100grams": "100 г",
+    "Cals_per100grams": "339 ккал",
+    "KJ_per100grams": "1424 кДж"
   },
   {
     "FoodCategory": "CerealProducts",
-    "FoodItem": "Wholegrain Oat",
-    "per100grams": "100g",
-    "Cals_per100grams": "375 cal",
-    "KJ_per100grams": "1575 kJ"
+    "FoodItem": "Цільнозерновий овес",
+    "per100grams": "100 г",
+    "Cals_per100grams": "375 ккал",
+    "KJ_per100grams": "1575 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Bran Flakes",
-    "per100grams": "100g",
-    "Cals_per100grams": "356 cal",
-    "KJ_per100grams": "1495 kJ"
+    "FoodItem": "Пластівці з висівок",
+    "per100grams": "100 г",
+    "Cals_per100grams": "356 ккал",
+    "KJ_per100grams": "1495 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
     "FoodItem": "Cap’n Crunch",
-    "per100grams": "100g",
-    "Cals_per100grams": "404 cal",
-    "KJ_per100grams": "1697 kJ"
+    "per100grams": "100 г",
+    "Cals_per100grams": "404 ккал",
+    "KJ_per100grams": "1697 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
     "FoodItem": "Cheerios",
-    "per100grams": "100g",
-    "Cals_per100grams": "347 cal",
-    "KJ_per100grams": "1457 kJ"
+    "per100grams": "100 г",
+    "Cals_per100grams": "347 ккал",
+    "KJ_per100grams": "1457 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
     "FoodItem": "Chex",
-    "per100grams": "100g",
-    "Cals_per100grams": "387 cal",
-    "KJ_per100grams": "1625 kJ"
+    "per100grams": "100 г",
+    "Cals_per100grams": "387 ккал",
+    "KJ_per100grams": "1625 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Chocolate Cheerios",
-    "per100grams": "100g",
-    "Cals_per100grams": "367 cal",
-    "KJ_per100grams": "1541 kJ"
+    "FoodItem": "Шоколадні Cheerios",
+    "per100grams": "100 г",
+    "Cals_per100grams": "367 ккал",
+    "KJ_per100grams": "1541 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Chocos",
-    "per100grams": "100g",
-    "Cals_per100grams": "380 cal",
-    "KJ_per100grams": "1596 kJ"
+    "FoodItem": "Шокос",
+    "per100grams": "100 г",
+    "Cals_per100grams": "380 ккал",
+    "KJ_per100grams": "1596 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Cinnamon Toast Crunch",
-    "per100grams": "100g",
-    "Cals_per100grams": "433 cal",
-    "KJ_per100grams": "1819 kJ"
+    "FoodItem": "Хрустка з корицею",
+    "per100grams": "100 г",
+    "Cals_per100grams": "433 ккал",
+    "KJ_per100grams": "1819 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Coco Pops",
-    "per100grams": "100g",
-    "Cals_per100grams": "376 cal",
-    "KJ_per100grams": "1579 kJ"
+    "FoodItem": "Коко Попс",
+    "per100grams": "100 г",
+    "Cals_per100grams": "376 ккал",
+    "KJ_per100grams": "1579 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Cocoa Krispies",
-    "per100grams": "100g",
-    "Cals_per100grams": "386 cal",
-    "KJ_per100grams": "1621 kJ"
+    "FoodItem": "Какао Кріспіз",
+    "per100grams": "100 г",
+    "Cals_per100grams": "386 ккал",
+    "KJ_per100grams": "1621 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Cocoa Pebbles",
-    "per100grams": "100g",
-    "Cals_per100grams": "367 cal",
-    "KJ_per100grams": "1541 kJ"
+    "FoodItem": "Коко Пеблс",
+    "per100grams": "100 г",
+    "Cals_per100grams": "367 ккал",
+    "KJ_per100grams": "1541 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Cocoa Puffs",
-    "per100grams": "100g",
-    "Cals_per100grams": "400 cal",
-    "KJ_per100grams": "1680 kJ"
+    "FoodItem": "Какао Пафс",
+    "per100grams": "100 г",
+    "Cals_per100grams": "400 ккал",
+    "KJ_per100grams": "1680 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Cookie Crisp",
-    "per100grams": "100g",
-    "Cals_per100grams": "400 cal",
-    "KJ_per100grams": "1680 kJ"
+    "FoodItem": "Кукі Крісп",
+    "per100grams": "100 г",
+    "Cals_per100grams": "400 ккал",
+    "KJ_per100grams": "1680 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Corn Flakes",
-    "per100grams": "100g",
-    "Cals_per100grams": "357 cal",
-    "KJ_per100grams": "1499 kJ"
+    "FoodItem": "Кукурудзяні пластівці",
+    "per100grams": "100 г",
+    "Cals_per100grams": "357 ккал",
+    "KJ_per100grams": "1499 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Corn Pops",
-    "per100grams": "100g",
-    "Cals_per100grams": "377 cal",
-    "KJ_per100grams": "1583 kJ"
+    "FoodItem": "Кукурудзяні кульки",
+    "per100grams": "100 г",
+    "Cals_per100grams": "377 ккал",
+    "KJ_per100grams": "1583 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Count Chocula",
-    "per100grams": "100g",
-    "Cals_per100grams": "407 cal",
-    "KJ_per100grams": "1709 kJ"
+    "FoodItem": "Каунт Чокула",
+    "per100grams": "100 г",
+    "Cals_per100grams": "407 ккал",
+    "KJ_per100grams": "1709 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Cracklin Oat Bran",
-    "per100grams": "100g",
-    "Cals_per100grams": "402 cal",
-    "KJ_per100grams": "1688 kJ"
+    "FoodItem": "Овсяний бренд з пекучими овочами",
+    "per100grams": "100 г",
+    "Cals_per100grams": "402 ккал",
+    "KJ_per100grams": "1688 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Cream of Wheat",
-    "per100grams": "100g",
-    "Cals_per100grams": "364 cal",
-    "KJ_per100grams": "1529 kJ"
+    "FoodItem": "Крупка з крупами",
+    "per100grams": "100 г",
+    "Cals_per100grams": "364 ккал",
+    "KJ_per100grams": "1529 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Crunchy Nut",
-    "per100grams": "100g",
-    "Cals_per100grams": "600 cal",
-    "KJ_per100grams": "2520 kJ"
+    "FoodItem": "Хрустка під час кормлення",
+    "per100grams": "100 г",
+    "Cals_per100grams": "600 ккал",
+    "KJ_per100grams": "2520 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Crunchy Nut Cornflakes",
-    "per100grams": "100g",
-    "Cals_per100grams": "600 cal",
-    "KJ_per100grams": "2520 kJ"
+    "FoodItem": "Крунчі Нат Кукурудзяні пластівці",
+    "per100grams": "100 г",
+    "Cals_per100grams": "600 ккал",
+    "KJ_per100grams": "2520 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Fiber One",
-    "per100grams": "100g",
-    "Cals_per100grams": "267 cal",
-    "KJ_per100grams": "1121 kJ"
+    "FoodItem": "Файбер Ван",
+    "per100grams": "100 г",
+    "Cals_per100grams": "267 ккал",
+    "KJ_per100grams": "1121 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Froot Loops",
-    "per100grams": "100g",
-    "Cals_per100grams": "379 cal",
-    "KJ_per100grams": "1592 kJ"
+    "FoodItem": "Фрут Лупс",
+    "per100grams": "100 г",
+    "Cals_per100grams": "379 ккал",
+    "KJ_per100grams": "1592 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Frosted Cheerios",
-    "per100grams": "100g",
-    "Cals_per100grams": "393 cal",
-    "KJ_per100grams": "1651 kJ"
+    "FoodItem": "Обсмажені Чіріос",
+    "per100grams": "100 г",
+    "Cals_per100grams": "393 ккал",
+    "KJ_per100grams": "1651 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Frosted Flakes",
-    "per100grams": "100g",
-    "Cals_per100grams": "367 cal",
-    "KJ_per100grams": "1541 kJ"
+    "FoodItem": "Обсмажені Флейкс",
+    "per100grams": "100 г",
+    "Cals_per100grams": "367 ккал",
+    "KJ_per100grams": "1541 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Frosted Mini-Wheats",
-    "per100grams": "100g",
-    "Cals_per100grams": "353 cal",
-    "KJ_per100grams": "1483 kJ"
+    "FoodItem": "Обсмажені Міні-Пшеничні",
+    "per100grams": "100 г",
+    "Cals_per100grams": "353 ккал",
+    "KJ_per100grams": "1483 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Frosties",
-    "per100grams": "100g",
-    "Cals_per100grams": "367 cal",
-    "KJ_per100grams": "1541 kJ"
+    "FoodItem": "Фростіс",
+    "per100grams": "100 г",
+    "Cals_per100grams": "367 ккал",
+    "KJ_per100grams": "1541 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Fruity Pebbles",
-    "per100grams": "100g",
-    "Cals_per100grams": "400 cal",
-    "KJ_per100grams": "1680 kJ"
+    "FoodItem": "Фруктові плитки",
+    "per100grams": "100 г",
+    "Cals_per100grams": "400 ккал",
+    "KJ_per100grams": "1680 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Golden Grahams",
-    "per100grams": "100g",
-    "Cals_per100grams": "400 cal",
-    "KJ_per100grams": "1680 kJ"
+    "FoodItem": "Золоті грами",
+    "per100grams": "100 г",
+    "Cals_per100grams": "400 ккал",
+    "KJ_per100grams": "1680 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Grape-Nuts",
-    "per100grams": "100g",
-    "Cals_per100grams": "362 cal",
-    "KJ_per100grams": "1520 kJ"
+    "FoodItem": "Виноградні горішки",
+    "per100grams": "100 г",
+    "Cals_per100grams": "362 ккал",
+    "KJ_per100grams": "1520 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Honey Nut Cheerios",
-    "per100grams": "100g",
-    "Cals_per100grams": "393 cal",
-    "KJ_per100grams": "1651 kJ"
+    "FoodItem": "Хрусткі медові Чіріос",
+    "per100grams": "100 г",
+    "Cals_per100grams": "393 ккал",
+    "KJ_per100grams": "1651 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Honey Smacks",
-    "per100grams": "100g",
-    "Cals_per100grams": "370 cal",
-    "KJ_per100grams": "1554 kJ"
+    "FoodItem": "Медові смаки",
+    "per100grams": "100 г",
+    "Cals_per100grams": "370 ккал",
+    "KJ_per100grams": "1554 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Honeycomb",
-    "per100grams": "100g",
-    "Cals_per100grams": "397 cal",
-    "KJ_per100grams": "1667 kJ"
+    "FoodItem": "Медовий соток",
+    "per100grams": "100 г",
+    "Cals_per100grams": "397 ккал",
+    "KJ_per100grams": "1667 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Just Right",
-    "per100grams": "100g",
-    "Cals_per100grams": "391 cal",
-    "KJ_per100grams": "1642 kJ"
+    "FoodItem": "Просто правильно",
+    "per100grams": "100 г",
+    "Cals_per100grams": "391 ккал",
+    "KJ_per100grams": "1642 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Kashi",
-    "per100grams": "100g",
-    "Cals_per100grams": "377 cal",
-    "KJ_per100grams": "1583 kJ"
+    "FoodItem": "Каши",
+    "per100grams": "100 г",
+    "Cals_per100grams": "377 ккал",
+    "KJ_per100grams": "1583 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Kelloggs Corn Flakes",
-    "per100grams": "100g",
-    "Cals_per100grams": "357 cal",
-    "KJ_per100grams": "1499 kJ"
+    "FoodItem": "Пластівці з кукурудзи Келлоггс",
+    "per100grams": "100 г",
+    "Cals_per100grams": "357 ккал",
+    "KJ_per100grams": "1499 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Kix",
-    "per100grams": "100g",
-    "Cals_per100grams": "367 cal",
-    "KJ_per100grams": "1541 kJ"
+    "FoodItem": "Кікс",
+    "per100grams": "100 г",
+    "Cals_per100grams": "367 ккал",
+    "KJ_per100grams": "1541 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Krave",
-    "per100grams": "100g",
-    "Cals_per100grams": "372 cal",
-    "KJ_per100grams": "1562 kJ"
+    "FoodItem": "Краве",
+    "per100grams": "100 г",
+    "Cals_per100grams": "372 ккал",
+    "KJ_per100grams": "1562 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Life Cereal",
-    "per100grams": "100g",
-    "Cals_per100grams": "375 cal",
-    "KJ_per100grams": "1575 kJ"
+    "FoodItem": "Життєвий каша",
+    "per100grams": "100 г",
+    "Cals_per100grams": "375 ккал",
+    "KJ_per100grams": "1575 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Lucky Charms",
-    "per100grams": "100g",
-    "Cals_per100grams": "406 cal",
-    "KJ_per100grams": "1705 kJ"
+    "FoodItem": "Лакі Чармс",
+    "per100grams": "100 г",
+    "Cals_per100grams": "406 ккал",
+    "KJ_per100grams": "1705 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
     "FoodItem": "Malt-O-Meal",
-    "per100grams": "100g",
-    "Cals_per100grams": "51 cal",
-    "KJ_per100grams": "214 kJ"
+    "per100grams": "100 г",
+    "Cals_per100grams": "51 ккал",
+    "KJ_per100grams": "214 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Mini-Wheats",
-    "per100grams": "100g",
-    "Cals_per100grams": "353 cal",
-    "KJ_per100grams": "1483 kJ"
+    "FoodItem": "Міні-Пшеничні",
+    "per100grams": "100 г",
+    "Cals_per100grams": "353 ккал",
+    "KJ_per100grams": "1483 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Muesli",
-    "per100grams": "100g",
-    "Cals_per100grams": "336 cal",
-    "KJ_per100grams": "1411 kJ"
+    "FoodItem": "Мюслі",
+    "per100grams": "100 г",
+    "Cals_per100grams": "336 ккал",
+    "KJ_per100grams": "1411 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Multigrain Cheerios",
-    "per100grams": "100g",
-    "Cals_per100grams": "380 cal",
-    "KJ_per100grams": "1596 kJ"
+    "FoodItem": "Багатозернові Чіріос",
+    "per100grams": "100 г",
+    "Cals_per100grams": "380 ккал",
+    "KJ_per100grams": "1596 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Nutri-Grain",
-    "per100grams": "100g",
-    "Cals_per100grams": "351 cal",
-    "KJ_per100grams": "1474 kJ"
+    "FoodItem": "Нутрі-Грейн",
+    "per100grams": "100 г",
+    "Cals_per100grams": "351 ккал",
+    "KJ_per100grams": "1474 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Oatibix",
-    "per100grams": "100g",
-    "Cals_per100grams": "421 cal",
-    "KJ_per100grams": "1768 kJ"
+    "FoodItem": "Отібікс",
+    "per100grams": "100 г",
+    "Cals_per100grams": "421 ккал",
+    "KJ_per100grams": "1768 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Oatmeal",
-    "per100grams": "100g",
-    "Cals_per100grams": "375 cal",
-    "KJ_per100grams": "1575 kJ"
+    "FoodItem": "Овсянка",
+    "per100grams": "100 г",
+    "Cals_per100grams": "375 ккал",
+    "KJ_per100grams": "1575 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Peanut Butter Toast Crunch",
-    "per100grams": "100g",
-    "Cals_per100grams": "431 cal",
-    "KJ_per100grams": "1810 kJ"
+    "FoodItem": "Хрусткі Палички з Арахісовим маслом",
+    "per100grams": "100 г",
+    "Cals_per100grams": "431 ккал",
+    "KJ_per100grams": "1810 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Post Raisin Bran",
-    "per100grams": "100g",
-    "Cals_per100grams": "322 cal",
-    "KJ_per100grams": "1352 kJ"
+    "FoodItem": "Пост Розин Бран",
+    "per100grams": "100 г",
+    "Cals_per100grams": "322 ккал",
+    "KJ_per100grams": "1352 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Post Shredded Wheat",
-    "per100grams": "100g",
-    "Cals_per100grams": "347 cal",
-    "KJ_per100grams": "1457 kJ"
+    "FoodItem": "Пост Роздрібна Пшениця",
+    "per100grams": "100 г",
+    "Cals_per100grams": "347 ккал",
+    "KJ_per100grams": "1457 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Puff",
-    "per100grams": "100g",
-    "Cals_per100grams": "367 cal",
-    "KJ_per100grams": "1541 kJ"
+    "FoodItem": "Пуф",
+    "per100grams": "100 г",
+    "Cals_per100grams": "367 ккал",
+    "KJ_per100grams": "1541 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Puffed Rice",
-    "per100grams": "100g",
-    "Cals_per100grams": "383 cal",
-    "KJ_per100grams": "1609 kJ"
+    "FoodItem": "Пуфований Рис",
+    "per100grams": "100 г",
+    "Cals_per100grams": "383 ккал",
+    "KJ_per100grams": "1609 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Puffed Wheat",
-    "per100grams": "100g",
-    "Cals_per100grams": "367 cal",
-    "KJ_per100grams": "1541 kJ"
+    "FoodItem": "Пуфована Пшениця",
+    "per100grams": "100 г",
+    "Cals_per100grams": "367 ккал",
+    "KJ_per100grams": "1541 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Quaker Grits",
-    "per100grams": "100g",
-    "Cals_per100grams": "344 cal",
-    "KJ_per100grams": "1445 kJ"
+    "FoodItem": "Квейкерські Манночки",
+    "per100grams": "100 г",
+    "Cals_per100grams": "344 ккал",
+    "KJ_per100grams": "1445 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Quaker Oatmeal",
-    "per100grams": "100g",
-    "Cals_per100grams": "375 cal",
-    "KJ_per100grams": "1575 kJ"
+    "FoodItem": "Квейкерська Овсянка",
+    "per100grams": "100 г",
+    "Cals_per100grams": "375 ккал",
+    "KJ_per100grams": "1575 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Quaker Oatmeal Squares",
-    "per100grams": "100g",
-    "Cals_per100grams": "400 cal",
-    "KJ_per100grams": "1680 kJ"
+    "FoodItem": "Квейкерські Овсяні Квадрати",
+    "per100grams": "100 г",
+    "Cals_per100grams": "400 ккал",
+    "KJ_per100grams": "1680 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Raisin Bran",
-    "per100grams": "100g",
-    "Cals_per100grams": "322 cal",
-    "KJ_per100grams": "1352 kJ"
+    "FoodItem": "Розиновий Бран",
+    "per100grams": "100 г",
+    "Cals_per100grams": "322 ккал",
+    "KJ_per100grams": "1352 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Raisin Bran Crunch",
-    "per100grams": "100g",
-    "Cals_per100grams": "355 cal",
-    "KJ_per100grams": "1491 kJ"
+    "FoodItem": "Розиновий Бран Кранч",
+    "per100grams": "100 г",
+    "Cals_per100grams": "355 ккал",
+    "KJ_per100grams": "1491 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Raisin Nut Bran",
-    "per100grams": "100g",
-    "Cals_per100grams": "367 cal",
-    "KJ_per100grams": "1541 kJ"
+    "FoodItem": "Розиновий Горішковий Бран",
+    "per100grams": "100 г",
+    "Cals_per100grams": "367 ккал",
+    "KJ_per100grams": "1541 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Ready Brek",
-    "per100grams": "100g",
-    "Cals_per100grams": "359 cal",
-    "KJ_per100grams": "1508 kJ"
+    "FoodItem": "Реді Брек",
+    "per100grams": "100 г",
+    "Cals_per100grams": "359 ккал",
+    "KJ_per100grams": "1508 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Rice Chex",
-    "per100grams": "100g",
-    "Cals_per100grams": "387 cal",
-    "KJ_per100grams": "1625 kJ"
+    "FoodItem": "Рисові Чекс",
+    "per100grams": "100 г",
+    "Cals_per100grams": "387 ккал",
+    "KJ_per100grams": "1625 кДж"
   },
   {
     "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Rice Krispies",
-    "per100grams": "100g",
-    "Cals_per100grams": "394 cal",
-    "KJ_per100grams": "1655 kJ"
-  },
-  {
-    "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Scooters",
-    "per100grams": "100g",
-    "Cals_per100grams": "367 cal",
-    "KJ_per100grams": "1541 kJ"
-  },
-  {
-    "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Shredded Wheat",
-    "per100grams": "100g",
-    "Cals_per100grams": "340 cal",
-    "KJ_per100grams": "1428 kJ"
-  },
-  {
-    "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Shreddies",
-    "per100grams": "100g",
-    "Cals_per100grams": "351 cal",
-    "KJ_per100grams": "1474 kJ"
-  },
-  {
-    "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Smart Start",
-    "per100grams": "100g",
-    "Cals_per100grams": "371 cal",
-    "KJ_per100grams": "1558 kJ"
-  },
-  {
-    "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Special K",
-    "per100grams": "100g",
-    "Cals_per100grams": "377 cal",
-    "KJ_per100grams": "1583 kJ"
-  },
-  {
-    "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Special K Chocolatey Delight",
-    "per100grams": "100g",
-    "Cals_per100grams": "388 cal",
-    "KJ_per100grams": "1630 kJ"
-  },
-  {
-    "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Special K Protein Plus",
-    "per100grams": "100g",
-    "Cals_per100grams": "375 cal",
-    "KJ_per100grams": "1575 kJ"
-  },
-  {
-    "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Special K Red Berries",
-    "per100grams": "100g",
-    "Cals_per100grams": "345 cal",
-    "KJ_per100grams": "1449 kJ"
-  },
-  {
-    "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Sugar Puffs",
-    "per100grams": "100g",
-    "Cals_per100grams": "379 cal",
-    "KJ_per100grams": "1592 kJ"
-  },
-  {
-    "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Toasties",
-    "per100grams": "100g",
-    "Cals_per100grams": "361 cal",
-    "KJ_per100grams": "1516 kJ"
-  },
-  {
-    "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Trix",
-    "per100grams": "100g",
-    "Cals_per100grams": "400 cal",
-    "KJ_per100grams": "1680 kJ"
-  },
-  {
-    "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Weet-Bix",
-    "per100grams": "100g",
-    "Cals_per100grams": "353 cal",
-    "KJ_per100grams": "1483 kJ"
-  },
-  {
-    "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Weetabix",
-    "per100grams": "100g",
-    "Cals_per100grams": "358 cal",
-    "KJ_per100grams": "1504 kJ"
-  },
-  {
-    "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Weetos",
-    "per100grams": "100g",
-    "Cals_per100grams": "378 cal",
-    "KJ_per100grams": "1588 kJ"
-  },
-  {
-    "FoodCategory": "Oatmeal,Muesli&Cereals",
-    "FoodItem": "Wheaties",
-    "per100grams": "100g",
-    "Cals_per100grams": "367 cal",
-    "KJ_per100grams": "1541 kJ"
+    "FoodItem": "Рисові Криспіс",
+    "per100grams": "100 г",
+    "Cals_per100grams": "394 ккал",
+    "KJ_per100grams": "1655 кДж"
   },
   {
     "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Cannelloni",
-    "per100grams": "100g",
-    "Cals_per100grams": "146 cal",
-    "KJ_per100grams": "613 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Capellini",
-    "per100grams": "100g",
-    "Cals_per100grams": "353 cal",
-    "KJ_per100grams": "1483 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Cappelletti",
-    "per100grams": "100g",
-    "Cals_per100grams": "164 cal",
-    "KJ_per100grams": "689 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Cellophane Noodles",
-    "per100grams": "100g",
-    "Cals_per100grams": "351 cal",
-    "KJ_per100grams": "1474 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Cheese Tortellini",
-    "per100grams": "100g",
-    "Cals_per100grams": "291 cal",
-    "KJ_per100grams": "1222 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Dampfnudel",
-    "per100grams": "100g",
-    "Cals_per100grams": "274 cal",
-    "KJ_per100grams": "1151 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Durum Wheat Semolina",
-    "per100grams": "100g",
-    "Cals_per100grams": "397 cal",
-    "KJ_per100grams": "1667 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Egg Noodles",
+    "FoodItem": "Яєчна локшина",
     "per100grams": "100g",
     "Cals_per100grams": "384 cal",
     "KJ_per100grams": "1613 kJ"
   },
   {
     "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Farfalle",
-    "per100grams": "100g",
-    "Cals_per100grams": "358 cal",
-    "KJ_per100grams": "1504 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Fettuccine",
-    "per100grams": "100g",
-    "Cals_per100grams": "353 cal",
-    "KJ_per100grams": "1483 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Fusilli",
-    "per100grams": "100g",
-    "Cals_per100grams": "352 cal",
-    "KJ_per100grams": "1478 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Glass Noodles",
-    "per100grams": "100g",
-    "Cals_per100grams": "192 cal",
-    "KJ_per100grams": "806 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Lasagne Sheets",
+    "FoodItem": "Листки для лазаньї",
     "per100grams": "100g",
     "Cals_per100grams": "271 cal",
     "KJ_per100grams": "1138 kJ"
   },
   {
     "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Linguine",
-    "per100grams": "100g",
-    "Cals_per100grams": "357 cal",
-    "KJ_per100grams": "1499 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Low Carb Pasta",
+    "FoodItem": "Макарони з низьким вмістом вуглеводів",
     "per100grams": "100g",
     "Cals_per100grams": "282 cal",
     "KJ_per100grams": "1184 kJ"
   },
   {
     "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Macaroni",
+    "FoodItem": "Макарони",
     "per100grams": "100g",
     "Cals_per100grams": "370 cal",
     "KJ_per100grams": "1554 kJ"
   },
   {
     "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Manicotti",
-    "per100grams": "100g",
-    "Cals_per100grams": "357 cal",
-    "KJ_per100grams": "1499 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Mostaccioli",
-    "per100grams": "100g",
-    "Cals_per100grams": "184 cal",
-    "KJ_per100grams": "773 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Orecchiette",
-    "per100grams": "100g",
-    "Cals_per100grams": "370 cal",
-    "KJ_per100grams": "1554 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Orzo",
-    "per100grams": "100g",
-    "Cals_per100grams": "357 cal",
-    "KJ_per100grams": "1499 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Penne",
-    "per100grams": "100g",
-    "Cals_per100grams": "351 cal",
-    "KJ_per100grams": "1474 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Penne Rigate",
-    "per100grams": "100g",
-    "Cals_per100grams": "370 cal",
-    "KJ_per100grams": "1554 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Pierogi",
-    "per100grams": "100g",
-    "Cals_per100grams": "200 cal",
-    "KJ_per100grams": "840 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Ravioli",
+    "FoodItem": "Равіолі",
     "per100grams": "100g",
     "Cals_per100grams": "77 cal",
     "KJ_per100grams": "323 kJ"
   },
   {
     "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Rigatoni",
-    "per100grams": "100g",
-    "Cals_per100grams": "353 cal",
-    "KJ_per100grams": "1483 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Rotini",
-    "per100grams": "100g",
-    "Cals_per100grams": "353 cal",
-    "KJ_per100grams": "1483 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Shells",
-    "per100grams": "100g",
-    "Cals_per100grams": "353 cal",
-    "KJ_per100grams": "1483 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Shirataki Noodles",
-    "per100grams": "100g",
-    "Cals_per100grams": "18 cal",
-    "KJ_per100grams": "76 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Soy Noodles",
-    "per100grams": "100g",
-    "Cals_per100grams": "216 cal",
-    "KJ_per100grams": "907 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Spaetzle",
-    "per100grams": "100g",
-    "Cals_per100grams": "368 cal",
-    "KJ_per100grams": "1546 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Spaghetti",
+    "FoodItem": "Спагетті",
     "per100grams": "100g",
     "Cals_per100grams": "370 cal",
     "KJ_per100grams": "1554 kJ"
   },
   {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Spinach Tortellini",
-    "per100grams": "100g",
-    "Cals_per100grams": "314 cal",
-    "KJ_per100grams": "1319 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Spirelli",
-    "per100grams": "100g",
-    "Cals_per100grams": "367 cal",
-    "KJ_per100grams": "1541 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Tagliatelle",
-    "per100grams": "100g",
-    "Cals_per100grams": "370 cal",
-    "KJ_per100grams": "1554 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Tortellini",
-    "per100grams": "100g",
-    "Cals_per100grams": "291 cal",
-    "KJ_per100grams": "1222 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Vermicelli",
-    "per100grams": "100g",
-    "Cals_per100grams": "368 cal",
-    "KJ_per100grams": "1546 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Whole Grain Noodles",
-    "per100grams": "100g",
-    "Cals_per100grams": "347 cal",
-    "KJ_per100grams": "1457 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Whole Grain Spaghetti",
-    "per100grams": "100g",
-    "Cals_per100grams": "351 cal",
-    "KJ_per100grams": "1474 kJ"
-  },
-  {
-    "FoodCategory": "Pasta&Noodles",
-    "FoodItem": "Ziti",
-    "per100grams": "100g",
-    "Cals_per100grams": "352 cal",
-    "KJ_per100grams": "1478 kJ"
+    "FoodCategory": "Soups",
+    "FoodItem": "Говяжий суп",
+    "per100grams": "100 г",
+    "Cals_per100grams": "33 ккал",
+    "KJ_per100grams": "139 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Alphabet Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "25 cal",
-    "KJ_per100grams": "105 kJ"
+    "FoodItem": "Бульйон",
+    "per100grams": "100 г",
+    "Cals_per100grams": "16 ккал",
+    "KJ_per100grams": "67 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Bean Stew",
-    "per100grams": "100g",
-    "Cals_per100grams": "133 cal",
-    "KJ_per100grams": "559 kJ"
+    "FoodItem": "Суп з брокколі та сиром",
+    "per100grams": "100 г",
+    "Cals_per100grams": "87 ккал",
+    "KJ_per100grams": "365 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Beef Bouillon",
-    "per100grams": "100g",
-    "Cals_per100grams": "3 cal",
-    "KJ_per100grams": "13 kJ"
+    "FoodItem": "Суп з брокколі",
+    "per100grams": "100 г",
+    "Cals_per100grams": "87 ккал",
+    "KJ_per100grams": "365 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Beef Noodle Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "34 cal",
-    "KJ_per100grams": "143 kJ"
+    "FoodItem": "Капустяний суп",
+    "per100grams": "100 г",
+    "Cals_per100grams": "28 ккал",
+    "KJ_per100grams": "118 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Beef Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "33 cal",
-    "KJ_per100grams": "139 kJ"
+    "FoodItem": "Морквяний імбирний суп",
+    "per100grams": "100 г",
+    "Cals_per100grams": "25 ккал",
+    "KJ_per100grams": "105 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Bouillon",
-    "per100grams": "100g",
-    "Cals_per100grams": "16 cal",
-    "KJ_per100grams": "67 kJ"
+    "FoodItem": "Морквяний суп",
+    "per100grams": "100 г",
+    "Cals_per100grams": "25 ккал",
+    "KJ_per100grams": "105 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Broccoli Cheese Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "87 cal",
-    "KJ_per100grams": "365 kJ"
+    "FoodItem": "Курячий бульйон",
+    "per100grams": "100 г",
+    "Cals_per100grams": "4 ккал",
+    "KJ_per100grams": "17 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Broccoli Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "87 cal",
-    "KJ_per100grams": "365 kJ"
+    "FoodItem": "Курячий бульйон",
+    "per100grams": "100 г",
+    "Cals_per100grams": "16 ккал",
+    "KJ_per100grams": "67 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Cabbage Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "28 cal",
-    "KJ_per100grams": "118 kJ"
+    "FoodItem": "Суп з курки та креветок",
+    "per100grams": "100 г",
+    "Cals_per100grams": "23 ккал",
+    "KJ_per100grams": "97 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Carrot Ginger Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "25 cal",
-    "KJ_per100grams": "105 kJ"
+    "FoodItem": "Курячий локшина суп",
+    "per100grams": "100 г",
+    "Cals_per100grams": "25 ккал",
+    "KJ_per100grams": "105 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Carrot Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "25 cal",
-    "KJ_per100grams": "105 kJ"
+    "FoodItem": "Курячий бульйон",
+    "per100grams": "100 г",
+    "Cals_per100grams": "16 ккал",
+    "KJ_per100grams": "67 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Chicken Bouillon",
-    "per100grams": "100g",
-    "Cals_per100grams": "4 cal",
-    "KJ_per100grams": "17 kJ"
+    "FoodItem": "Курячий суп з рисом",
+    "per100grams": "100 г",
+    "Cals_per100grams": "24 ккал",
+    "KJ_per100grams": "101 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Chicken Broth",
-    "per100grams": "100g",
-    "Cals_per100grams": "16 cal",
-    "KJ_per100grams": "67 kJ"
+    "FoodItem": "Крем-суп із спаржі",
+    "per100grams": "100 г",
+    "Cals_per100grams": "35 ккал",
+    "KJ_per100grams": "147 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Chicken Gumbo Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "23 cal",
-    "KJ_per100grams": "97 kJ"
+    "FoodItem": "Крем-суп із брокколі",
+    "per100grams": "100 г",
+    "Cals_per100grams": "45 ккал",
+    "KJ_per100grams": "189 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Chicken Noodle Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "25 cal",
-    "KJ_per100grams": "105 kJ"
+    "FoodItem": "Крем-суп із селери",
+    "per100grams": "100 г",
+    "Cals_per100grams": "37 ккал",
+    "KJ_per100grams": "155 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Chicken Stock",
-    "per100grams": "100g",
-    "Cals_per100grams": "16 cal",
-    "KJ_per100grams": "67 kJ"
+    "FoodItem": "Крем-суп з курки",
+    "per100grams": "100 г",
+    "Cals_per100grams": "48 ккал",
+    "KJ_per100grams": "202 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Chicken Vegetable Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "31 cal",
-    "KJ_per100grams": "130 kJ"
+    "FoodItem": "Крем-суп з грибами",
+    "per100grams": "100 г",
+    "Cals_per100grams": "39 ккал",
+    "KJ_per100grams": "164 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Chicken with Rice Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "24 cal",
-    "KJ_per100grams": "101 kJ"
+    "FoodItem": "Крем-суп з цибулею",
+    "per100grams": "100 г",
+    "Cals_per100grams": "44 ккал",
+    "KJ_per100grams": "185 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Cream of Asparagus Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "35 cal",
-    "KJ_per100grams": "147 kJ"
+    "FoodItem": "Крем-суп з картоплею",
+    "per100grams": "100 г",
+    "Cals_per100grams": "30 ккал",
+    "KJ_per100grams": "126 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Cream of Broccoli Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "45 cal",
-    "KJ_per100grams": "189 kJ"
+    "FoodItem": "Курячий локшина суп",
+    "per100grams": "100 г",
+    "Cals_per100grams": "23 ккал",
+    "KJ_per100grams": "97 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Cream of Celery Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "37 cal",
-    "KJ_per100grams": "155 kJ"
+    "FoodItem": "Суп зі злаками",
+    "per100grams": "100 г",
+    "Cals_per100grams": "23 ккал",
+    "KJ_per100grams": "97 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Cream of Chicken Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "48 cal",
-    "KJ_per100grams": "202 kJ"
+    "FoodItem": "Золотий грибний суп",
+    "per100grams": "100 г",
+    "Cals_per100grams": "65 ккал",
+    "KJ_per100grams": "273 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Cream of Mushroom Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "39 cal",
-    "KJ_per100grams": "164 kJ"
+    "FoodItem": "Гуляш",
+    "per100grams": "100 г",
+    "Cals_per100grams": "1009 ккал",
+    "KJ_per100grams": "4238 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Cream of Onion Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "44 cal",
-    "KJ_per100grams": "185 kJ"
+    "FoodItem": "Миттєві рамен",
+    "per100grams": "100 г",
+    "Cals_per100grams": "436 ккал",
+    "KJ_per100grams": "1831 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Cream of Potato Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "30 cal",
-    "KJ_per100grams": "126 kJ"
+    "FoodItem": "Лінчевий суп",
+    "per100grams": "100 г",
+    "Cals_per100grams": "56 ккал",
+    "KJ_per100grams": "235 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Creamy Chicken Noodle Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "23 cal",
-    "KJ_per100grams": "97 kJ"
+    "FoodItem": "Раковий бісквітний суп",
+    "per100grams": "100 г",
+    "Cals_per100grams": "100 ккал",
+    "KJ_per100grams": "420 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "French Onion Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "23 cal",
-    "KJ_per100grams": "97 kJ"
+    "FoodItem": "Суп з котлетами",
+    "per100grams": "100 г",
+    "Cals_per100grams": "49 ккал",
+    "KJ_per100grams": "206 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Golden Mushroom Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "65 cal",
-    "KJ_per100grams": "273 kJ"
+    "FoodItem": "Мінестроне",
+    "per100grams": "100 г",
+    "Cals_per100grams": "34 ккал",
+    "KJ_per100grams": "143 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Goulash",
-    "per100grams": "100g",
-    "Cals_per100grams": "1009 cal",
-    "KJ_per100grams": "4238 kJ"
+    "FoodItem": "Грибний суп",
+    "per100grams": "100 г",
+    "Cals_per100grams": "35 ккал",
+    "KJ_per100grams": "147 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Instant Ramen",
-    "per100grams": "100g",
-    "Cals_per100grams": "436 cal",
-    "KJ_per100grams": "1831 kJ"
+    "FoodItem": "Локшина суп",
+    "per100grams": "100 г",
+    "Cals_per100grams": "34 ккал",
+    "KJ_per100grams": "143 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Lentil Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "56 cal",
-    "KJ_per100grams": "235 kJ"
+    "FoodItem": "Цибулевий суп",
+    "per100grams": "100 г",
+    "Cals_per100grams": "23 ккал",
+    "KJ_per100grams": "97 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Lobster Bisque Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "100 cal",
-    "KJ_per100grams": "420 kJ"
+    "FoodItem": "Суп з хвоста",
+    "per100grams": "100 г",
+    "Cals_per100grams": "28 ккал",
+    "KJ_per100grams": "118 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Meatball Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "49 cal",
-    "KJ_per100grams": "206 kJ"
+    "FoodItem": "Гороховий суп",
+    "per100grams": "100 г",
+    "Cals_per100grams": "75 ккал",
+    "KJ_per100grams": "315 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Minestrone",
-    "per100grams": "100g",
-    "Cals_per100grams": "34 cal",
-    "KJ_per100grams": "143 kJ"
+    "FoodItem": "Картопляний суп",
+    "per100grams": "100 г",
+    "Cals_per100grams": "80 ккал",
+    "KJ_per100grams": "336 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Mushroom Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "35 cal",
-    "KJ_per100grams": "147 kJ"
+    "FoodItem": "Тиквовий суп",
+    "per100grams": "100 г",
+    "Cals_per100grams": "29 ккал",
+    "KJ_per100grams": "122 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Noodle Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "34 cal",
-    "KJ_per100grams": "143 kJ"
+    "FoodItem": "Шотландський брот",
+    "per100grams": "100 г",
+    "Cals_per100grams": "33 ккал",
+    "KJ_per100grams": "139 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Onion Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "23 cal",
-    "KJ_per100grams": "97 kJ"
+    "FoodItem": "Суккоташ",
+    "per100grams": "100 г",
+    "Cals_per100grams": "115 ккал",
+    "KJ_per100grams": "483 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Oxtail Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "28 cal",
-    "KJ_per100grams": "118 kJ"
+    "FoodItem": "Тайський суп",
+    "per100grams": "100 г",
+    "Cals_per100grams": "60 ккал",
+    "KJ_per100grams": "252 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Pea Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "75 cal",
-    "KJ_per100grams": "315 kJ"
+    "FoodItem": "Помідоровий рисовий суп",
+    "per100grams": "100 г",
+    "Cals_per100grams": "47 ккал",
+    "KJ_per100grams": "197 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Potato Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "80 cal",
-    "KJ_per100grams": "336 kJ"
+    "FoodItem": "Томатний суп",
+    "per100grams": "100 г",
+    "Cals_per100grams": "30 ккал",
+    "KJ_per100grams": "126 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Pumpkin Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "29 cal",
-    "KJ_per100grams": "122 kJ"
+    "FoodItem": "Овочевий бульйон",
+    "per100grams": "100 г",
+    "Cals_per100grams": "5 ккал",
+    "KJ_per100grams": "21 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Scotch Broth",
-    "per100grams": "100g",
-    "Cals_per100grams": "33 cal",
-    "KJ_per100grams": "139 kJ"
+    "FoodItem": "Овочевий суп",
+    "per100grams": "100 г",
+    "Cals_per100grams": "28 ккал",
+    "KJ_per100grams": "118 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Succotash",
-    "per100grams": "100g",
-    "Cals_per100grams": "115 cal",
-    "KJ_per100grams": "483 kJ"
+    "FoodItem": "Овочевий сток",
+    "per100grams": "100 г",
+    "Cals_per100grams": "5 ккал",
+    "KJ_per100grams": "21 кДж"
   },
   {
     "FoodCategory": "Soups",
-    "FoodItem": "Thai Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "60 cal",
-    "KJ_per100grams": "252 kJ"
-  },
-  {
-    "FoodCategory": "Soups",
-    "FoodItem": "Tomato Rice Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "47 cal",
-    "KJ_per100grams": "197 kJ"
-  },
-  {
-    "FoodCategory": "Soups",
-    "FoodItem": "Tomato Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "30 cal",
-    "KJ_per100grams": "126 kJ"
-  },
-  {
-    "FoodCategory": "Soups",
-    "FoodItem": "Vegetable Beef Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "31 cal",
-    "KJ_per100grams": "130 kJ"
-  },
-  {
-    "FoodCategory": "Soups",
-    "FoodItem": "Vegetable Broth",
-    "per100grams": "100g",
-    "Cals_per100grams": "5 cal",
-    "KJ_per100grams": "21 kJ"
-  },
-  {
-    "FoodCategory": "Soups",
-    "FoodItem": "Vegetable Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "28 cal",
-    "KJ_per100grams": "118 kJ"
-  },
-  {
-    "FoodCategory": "Soups",
-    "FoodItem": "Vegetable Stock",
-    "per100grams": "100g",
-    "Cals_per100grams": "5 cal",
-    "KJ_per100grams": "21 kJ"
-  },
-  {
-    "FoodCategory": "Soups",
-    "FoodItem": "Wedding Soup",
-    "per100grams": "100g",
-    "Cals_per100grams": "53 cal",
-    "KJ_per100grams": "223 kJ"
+    "FoodItem": "Свадковий суп",
+    "per100grams": "100 г",
+    "Cals_per100grams": "53 ккал",
+    "KJ_per100grams": "223 кДж"
   },
   {
     "FoodCategory": "Legumes",
-    "FoodItem": "Azuki Bean",
-    "per100grams": "100g",
-    "Cals_per100grams": "124 cal",
-    "KJ_per100grams": "521 kJ"
+    "FoodItem": "Адзукі боби",
+    "per100grams": "100 г",
+    "Cals_per100grams": "124 ккал",
+    "KJ_per100grams": "521 кДж"
   },
   {
     "FoodCategory": "Legumes",
-    "FoodItem": "Bamboo Shoots",
-    "per100grams": "100g",
-    "Cals_per100grams": "27 cal",
-    "KJ_per100grams": "113 kJ"
+    "FoodItem": "Бамбукові пагони",
+    "per100grams": "100 г",
+    "Cals_per100grams": "27 ккал",
+    "KJ_per100grams": "113 кДж"
   },
   {
     "FoodCategory": "Legumes",
-    "FoodItem": "Bean Curd",
-    "per100grams": "100g",
-    "Cals_per100grams": "76 cal",
-    "KJ_per100grams": "319 kJ"
+    "FoodItem": "Тофу",
+    "per100grams": "100 г",
+    "Cals_per100grams": "76 ккал",
+    "KJ_per100grams": "319 кДж"
   },
   {
     "FoodCategory": "Legumes",
-    "FoodItem": "Bean Sprouts",
-    "per100grams": "100g",
-    "Cals_per100grams": "30 cal",
-    "KJ_per100grams": "126 kJ"
+    "FoodItem": "Боби зародки",
+    "per100grams": "100 г",
+    "Cals_per100grams": "30 ккал",
+    "KJ_per100grams": "126 кДж"
   },
   {
     "FoodCategory": "Legumes",
-    "FoodItem": "Bengal Gram",
-    "per100grams": "100g",
-    "Cals_per100grams": "364 cal",
-    "KJ_per100grams": "1529 kJ"
+    "FoodItem": "Чорний горох",
+    "per100grams": "100 г",
+    "Cals_per100grams": "364 ккал",
+    "KJ_per100grams": "1529 кДж"
   },
   {
     "FoodCategory": "Legumes",
-    "FoodItem": "Black Beans",
-    "per100grams": "100g",
-    "Cals_per100grams": "341 cal",
-    "KJ_per100grams": "1432 kJ"
+    "FoodItem": "Чорні квасолі",
+    "per100grams": "100 г",
+    "Cals_per100grams": "341 ккал",
+    "KJ_per100grams": "1432 кДж"
   },
   {
     "FoodCategory": "Legumes",
-    "FoodItem": "Black Chickpeas",
-    "per100grams": "100g",
-    "Cals_per100grams": "364 cal",
-    "KJ_per100grams": "1529 kJ"
-  },
-  {
-    "FoodCategory": "Legumes",
-    "FoodItem": "Black Gram",
-    "per100grams": "100g",
-    "Cals_per100grams": "341 cal",
-    "KJ_per100grams": "1432 kJ"
+    "FoodItem": "Чорний нут",
+    "per100grams": "100 г",
+    "Cals_per100grams": "364 ккал",
+    "KJ_per100grams": "1529 кДж"
+  },{
+    "FoodCategory": "Nuts&Seeds",
+    "FoodItem": "Жолудь",
+    "per100grams": "100 г",
+    "Cals_per100grams": "387 ккал",
+    "KJ_per100grams": "1625 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Acorn",
-    "per100grams": "100g",
-    "Cals_per100grams": "387 cal",
-    "KJ_per100grams": "1625 kJ"
+    "FoodItem": "Суниці лузга",
+    "per100grams": "100 г",
+    "Cals_per100grams": "23 ккал",
+    "KJ_per100grams": "97 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Alfalfa Sprouts",
-    "per100grams": "100g",
-    "Cals_per100grams": "23 cal",
-    "KJ_per100grams": "97 kJ"
+    "FoodItem": "Буквичний горіх",
+    "per100grams": "100 г",
+    "Cals_per100grams": "576 ккал",
+    "KJ_per100grams": "2419 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Beechnut",
-    "per100grams": "100g",
-    "Cals_per100grams": "576 cal",
-    "KJ_per100grams": "2419 kJ"
+    "FoodItem": "Горіхи бразілії",
+    "per100grams": "100 г",
+    "Cals_per100grams": "656 ккал",
+    "KJ_per100grams": "2755 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Brazil Nuts",
-    "per100grams": "100g",
-    "Cals_per100grams": "656 cal",
-    "KJ_per100grams": "2755 kJ"
+    "FoodItem": "Хлібне дерево",
+    "per100grams": "100 г",
+    "Cals_per100grams": "191 ккал",
+    "KJ_per100grams": "802 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Breadfruit",
-    "per100grams": "100g",
-    "Cals_per100grams": "191 cal",
-    "KJ_per100grams": "802 kJ"
+    "FoodItem": "Гарбузовий горіх",
+    "per100grams": "100 г",
+    "Cals_per100grams": "612 ккал",
+    "KJ_per100grams": "2570 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Butternut",
-    "per100grams": "100g",
-    "Cals_per100grams": "612 cal",
-    "KJ_per100grams": "2570 kJ"
+    "FoodItem": "Кешью",
+    "per100grams": "100 г",
+    "Cals_per100grams": "553 ккал",
+    "KJ_per100grams": "2323 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Cashew",
-    "per100grams": "100g",
-    "Cals_per100grams": "553 cal",
-    "KJ_per100grams": "2323 kJ"
+    "FoodItem": "Каштан",
+    "per100grams": "100 г",
+    "Cals_per100grams": "213 ккал",
+    "KJ_per100grams": "895 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Chestnut",
-    "per100grams": "100g",
-    "Cals_per100grams": "213 cal",
-    "KJ_per100grams": "895 kJ"
+    "FoodItem": "Семена чіа",
+    "per100grams": "100 г",
+    "Cals_per100grams": "486 ккал",
+    "KJ_per100grams": "2041 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Chia Seeds",
-    "per100grams": "100g",
-    "Cals_per100grams": "486 cal",
-    "KJ_per100grams": "2041 kJ"
+    "FoodItem": "Кокос",
+    "per100grams": "100 г",
+    "Cals_per100grams": "354 ккал",
+    "KJ_per100grams": "1487 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Coconut",
-    "per100grams": "100g",
-    "Cals_per100grams": "354 cal",
-    "KJ_per100grams": "1487 kJ"
+    "FoodItem": "Семена бавовни",
+    "per100grams": "100 г",
+    "Cals_per100grams": "506 ккал",
+    "KJ_per100grams": "2125 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Cotton Seeds",
-    "per100grams": "100g",
-    "Cals_per100grams": "506 cal",
-    "KJ_per100grams": "2125 kJ"
+    "FoodItem": "Лляні насіння",
+    "per100grams": "100 г",
+    "Cals_per100grams": "534 ккал",
+    "KJ_per100grams": "2243 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Flaxseed",
-    "per100grams": "100g",
-    "Cals_per100grams": "534 cal",
-    "KJ_per100grams": "2243 kJ"
+    "FoodItem": "Гінкго",
+    "per100grams": "100 г",
+    "Cals_per100grams": "182 ккал",
+    "KJ_per100grams": "764 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Ginkgo Nuts",
-    "per100grams": "100g",
-    "Cals_per100grams": "182 cal",
-    "KJ_per100grams": "764 kJ"
+    "FoodItem": "Гуар",
+    "per100grams": "100 г",
+    "Cals_per100grams": "409 ккал",
+    "KJ_per100grams": "1718 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Goa Bean",
-    "per100grams": "100g",
-    "Cals_per100grams": "409 cal",
-    "KJ_per100grams": "1718 kJ"
+    "FoodItem": "Фундук",
+    "per100grams": "100 г",
+    "Cals_per100grams": "628 ккал",
+    "KJ_per100grams": "2638 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Hazelnut",
-    "per100grams": "100g",
-    "Cals_per100grams": "628 cal",
-    "KJ_per100grams": "2638 kJ"
+    "FoodItem": "Гікорі",
+    "per100grams": "100 г",
+    "Cals_per100grams": "657 ккал",
+    "KJ_per100grams": "2759 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Hickory Nuts",
-    "per100grams": "100g",
-    "Cals_per100grams": "657 cal",
-    "KJ_per100grams": "2759 kJ"
+    "FoodItem": "Лотосове насіння",
+    "per100grams": "100 г",
+    "Cals_per100grams": "89 ккал",
+    "KJ_per100grams": "374 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Lotus Seed",
-    "per100grams": "100g",
-    "Cals_per100grams": "89 cal",
-    "KJ_per100grams": "374 kJ"
+    "FoodItem": "Макадамія",
+    "per100grams": "100 г",
+    "Cals_per100grams": "718 ккал",
+    "KJ_per100grams": "3016 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Macadamia Nuts",
-    "per100grams": "100g",
-    "Cals_per100grams": "718 cal",
-    "KJ_per100grams": "3016 kJ"
+    "FoodItem": "Арахіс",
+    "per100grams": "100 г",
+    "Cals_per100grams": "567 ккал",
+    "KJ_per100grams": "2381 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Peanuts",
-    "per100grams": "100g",
-    "Cals_per100grams": "567 cal",
-    "KJ_per100grams": "2381 kJ"
+    "FoodItem": "Пекан",
+    "per100grams": "100 г",
+    "Cals_per100grams": "691 ккал",
+    "KJ_per100grams": "2902 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Pecan Nuts",
-    "per100grams": "100g",
-    "Cals_per100grams": "691 cal",
-    "KJ_per100grams": "2902 kJ"
+    "FoodItem": "Пілі",
+    "per100grams": "100 г",
+    "Cals_per100grams": "719 ккал",
+    "KJ_per100grams": "3020 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Pecans",
-    "per100grams": "100g",
-    "Cals_per100grams": "691 cal",
-    "KJ_per100grams": "2902 kJ"
+    "FoodItem": "Кедрові горішки",
+    "per100grams": "100 г",
+    "Cals_per100grams": "673 ккал",
+    "KJ_per100grams": "2827 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Pili Nuts",
-    "per100grams": "100g",
-    "Cals_per100grams": "719 cal",
-    "KJ_per100grams": "3020 kJ"
+    "FoodItem": "Фасоля пінто",
+    "per100grams": "100 г",
+    "Cals_per100grams": "347 ккал",
+    "KJ_per100grams": "1457 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Pine Nuts",
-    "per100grams": "100g",
-    "Cals_per100grams": "673 cal",
-    "KJ_per100grams": "2827 kJ"
+    "FoodItem": "Фісташки",
+    "per100grams": "100 г",
+    "Cals_per100grams": "562 ккал",
+    "KJ_per100grams": "2360 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Pinto Beans",
-    "per100grams": "100g",
-    "Cals_per100grams": "347 cal",
-    "KJ_per100grams": "1457 kJ"
+    "FoodItem": "Гарбузові насіння",
+    "per100grams": "100 г",
+    "Cals_per100grams": "559 ккал",
+    "KJ_per100grams": "2348 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Pistachios",
-    "per100grams": "100g",
-    "Cals_per100grams": "562 cal",
-    "KJ_per100grams": "2360 kJ"
+    "FoodItem": "Редисні насіння",
+    "per100grams": "100 г",
+    "Cals_per100grams": "43 ккал",
+    "KJ_per100grams": "181 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Pumpkin Seeds",
-    "per100grams": "100g",
-    "Cals_per100grams": "559 cal",
-    "KJ_per100grams": "2348 kJ"
+    "FoodItem": "Сафлорові насіння",
+    "per100grams": "100 г",
+    "Cals_per100grams": "517 ккал",
+    "KJ_per100grams": "2171 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Radish Seeds",
-    "per100grams": "100g",
-    "Cals_per100grams": "43 cal",
-    "KJ_per100grams": "181 kJ"
+    "FoodItem": "Кунжут",
+    "per100grams": "100 г",
+    "Cals_per100grams": "573 ккал",
+    "KJ_per100grams": "2407 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Safflower Seeds",
-    "per100grams": "100g",
-    "Cals_per100grams": "517 cal",
-    "KJ_per100grams": "2171 kJ"
+    "FoodItem": "Копчені мигдалі",
+    "per100grams": "100 г",
+    "Cals_per100grams": "575 ккал",
+    "KJ_per100grams": "2415 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Sesame Seeds",
-    "per100grams": "100g",
-    "Cals_per100grams": "573 cal",
-    "KJ_per100grams": "2407 kJ"
+    "FoodItem": "Соя",
+    "per100grams": "100 г",
+    "Cals_per100grams": "147 ккал",
+    "KJ_per100grams": "617 кДж"
   },
   {
     "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Smoked Almonds",
-    "per100grams": "100g",
-    "Cals_per100grams": "575 cal",
-    "KJ_per100grams": "2415 kJ"
-  },
-  {
-    "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Soy Beans",
-    "per100grams": "100g",
-    "Cals_per100grams": "147 cal",
-    "KJ_per100grams": "617 kJ"
-  },
-  {
-    "FoodCategory": "Nuts&Seeds",
-    "FoodItem": "Sweet Chestnut",
-    "per100grams": "100g",
-    "Cals_per100grams": "194 cal",
-    "KJ_per100grams": "815 kJ"
+    "FoodItem": "Солодкий каштан",
+    "per100grams": "100 г",
+    "Cals_per100grams": "194 ккал",
+    "KJ_per100grams": "815 кДж"
   },
   {
     "FoodCategory": "Oils&Fats",
-    "FoodItem": "Butter",
-    "per100grams": "100g",
-    "Cals_per100grams": "720 cal",
-    "KJ_per100grams": "3024 kJ"
+    "FoodItem": "Масло вершкове",
+    "per100grams": "100 г",
+    "Cals_per100grams": "720 ккал",
+    "KJ_per100grams": "3024 кДж"
   },
   {
     "FoodCategory": "Oils&Fats",
-    "FoodItem": "Ghee",
-    "per100grams": "100g",
-    "Cals_per100grams": "120 cal",
-    "KJ_per100grams": "504 kJ"
+    "FoodItem": "Гхі",
+    "per100grams": "100 г",
+    "Cals_per100grams": "120 ккал",
+    "KJ_per100grams": "504 кДж"
   },
   {
     "FoodCategory": "Oils&Fats",
-    "FoodItem": "Goose Fat",
-    "per100grams": "100g",
-    "Cals_per100grams": "898 cal",
-    "KJ_per100grams": "3772 kJ"
+    "FoodItem": "Жир гусей",
+    "per100grams": "100 г",
+    "Cals_per100grams": "898 ккал",
+    "KJ_per100grams": "3772 кДж"
   },
   {
     "FoodCategory": "Oils&Fats",
-    "FoodItem": "Real Butter",
-    "per100grams": "100g",
-    "Cals_per100grams": "720 cal",
-    "KJ_per100grams": "3024 kJ"
+    "FoodItem": "Справжнє вершкове масло",
+    "per100grams": "100 г",
+    "Cals_per100grams": "720 ккал",
+    "KJ_per100grams": "3024 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Almond Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "882 cal",
-    "KJ_per100grams": "3704 kJ"
+    "FoodItem": "Мигдальне масло",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "882 ккал",
+    "KJ_per100grams": "3704 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Apricot Kernel Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "889 cal",
-    "KJ_per100grams": "3734 kJ"
+    "FoodItem": "Масло абрикосових кісточок",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "889 ккал",
+    "KJ_per100grams": "3734 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Argan Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "896 cal",
-    "KJ_per100grams": "3763 kJ"
+    "FoodItem": "Масло аргани",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "896 ккал",
+    "KJ_per100grams": "3763 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Avocado Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "857 cal",
-    "KJ_per100grams": "3599 kJ"
+    "FoodItem": "Масло авокадо",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "857 ккал",
+    "KJ_per100grams": "3599 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Babassu Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "884 cal",
-    "KJ_per100grams": "3713 kJ"
+    "FoodItem": "Масло бабасу",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "884 ккал",
+    "KJ_per100grams": "3713 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Canola Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "884 cal",
-    "KJ_per100grams": "3713 kJ"
+    "FoodItem": "Масло каноли",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "884 ккал",
+    "KJ_per100grams": "3713 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Coconut Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "857 cal",
-    "KJ_per100grams": "3599 kJ"
+    "FoodItem": "Масло кокосове",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "857 ккал",
+    "KJ_per100grams": "3599 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Corn Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "800 cal",
-    "KJ_per100grams": "3360 kJ"
+    "FoodItem": "Масло кукурудзяне",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "800 ккал",
+    "KJ_per100grams": "3360 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Cottonseed Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "882 cal",
-    "KJ_per100grams": "3704 kJ"
+    "FoodItem": "Масло бавовняне",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "882 ккал",
+    "KJ_per100grams": "3704 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Flaxseed Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "884 cal",
-    "KJ_per100grams": "3713 kJ"
+    "FoodItem": "Масло льняне",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "884 ккал",
+    "KJ_per100grams": "3713 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Grape Seed Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "884 cal",
-    "KJ_per100grams": "3713 kJ"
+    "FoodItem": "Масло виноградних кісточок",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "884 ккал",
+    "KJ_per100grams": "3713 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Hazelnut Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "889 cal",
-    "KJ_per100grams": "3734 kJ"
+    "FoodItem": "Масло лісових горіхів",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "889 ккал",
+    "KJ_per100grams": "3734 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Linseed Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "837 cal",
-    "KJ_per100grams": "3515 kJ"
+    "FoodItem": "Масло льону",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "837 ккал",
+    "KJ_per100grams": "3515 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Menhaden Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "911 cal",
-    "KJ_per100grams": "3826 kJ"
+    "FoodItem": "Масло марсинового лосося",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "911 ккал",
+    "KJ_per100grams": "3826 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Mustard Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "884 cal",
-    "KJ_per100grams": "3713 kJ"
+    "FoodItem": "Масло гірчиці",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "884 ккал",
+    "KJ_per100grams": "3713 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Oat Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "884 cal",
-    "KJ_per100grams": "3713 kJ"
+    "FoodItem": "Масло овсяне",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "884 ккал",
+    "KJ_per100grams": "3713 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Olive Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "800 cal",
-    "KJ_per100grams": "3360 kJ"
+    "FoodItem": "Оливкове масло",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "800 ккал",
+    "KJ_per100grams": "3360 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Palm Kernel Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "882 cal",
-    "KJ_per100grams": "3704 kJ"
+    "FoodItem": "Масло пальмового ядра",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "882 ккал",
+    "KJ_per100grams": "3704 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Palm Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "882 cal",
-    "KJ_per100grams": "3704 kJ"
+    "FoodItem": "Пальмове масло",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "882 ккал",
+    "KJ_per100grams": "3704 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Peanut Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "857 cal",
-    "KJ_per100grams": "3599 kJ"
+    "FoodItem": "Арахісове масло",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "857 ккал",
+    "KJ_per100grams": "3599 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Poppy Seed Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "884 cal",
-    "KJ_per100grams": "3713 kJ"
+    "FoodItem": "Макове масло",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "884 ккал",
+    "KJ_per100grams": "3713 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Pumpkin Seed Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "880 cal",
-    "KJ_per100grams": "3696 kJ"
+    "FoodItem": "Масло гарбузових насінь",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "880 ккал",
+    "KJ_per100grams": "3696 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Rice Bran Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "889 cal",
-    "KJ_per100grams": "3734 kJ"
+    "FoodItem": "Масло рисових відходів",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "889 ккал",
+    "KJ_per100grams": "3734 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Safflower Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "857 cal",
-    "KJ_per100grams": "3599 kJ"
+    "FoodItem": "Масло кунжутне",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "889 ккал",
+    "KJ_per100grams": "3734 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Salmon Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "911 cal",
-    "KJ_per100grams": "3826 kJ"
+    "FoodItem": "Масло ши",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "884 ккал",
+    "KJ_per100grams": "3713 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Sesame Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "889 cal",
-    "KJ_per100grams": "3734 kJ"
+    "FoodItem": "Олія рослинна",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "800 ккал",
+    "KJ_per100grams": "3360 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Shea Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "884 cal",
-    "KJ_per100grams": "3713 kJ"
+    "FoodItem": "Масло волоського горіха",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "889 ккал",
+    "KJ_per100grams": "3734 кДж"
   },
   {
     "FoodCategory": "VegetableOils",
-    "FoodItem": "Vegetable Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "800 cal",
-    "KJ_per100grams": "3360 kJ"
+    "FoodItem": "Масло зародків пшениці",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "929 ккал",
+    "KJ_per100grams": "3902 кДж"
   },
   {
-    "FoodCategory": "VegetableOils",
-    "FoodItem": "Walnut Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "889 cal",
-    "KJ_per100grams": "3734 kJ"
-  },
-  {
-    "FoodCategory": "VegetableOils",
-    "FoodItem": "Wheat Germ Oil",
-    "per100grams": "100ml",
-    "Cals_per100grams": "929 cal",
-    "KJ_per100grams": "3902 kJ"
-  },
-  {
-    "FoodCategory": "BakingIngredients",
-    "FoodItem": "Agar-Agar",
-    "per100grams": "100g",
-    "Cals_per100grams": "26 cal",
-    "KJ_per100grams": "109 kJ"
-  },
-  {
-    "FoodCategory": "BakingIngredients",
-    "FoodItem": "Agave Syrup",
-    "per100grams": "100ml",
-    "Cals_per100grams": "310 cal",
-    "KJ_per100grams": "1302 kJ"
-  },
-  {
-    "FoodCategory": "BakingIngredients",
-    "FoodItem": "All Purpose Flour",
-    "per100grams": "100ml",
-    "Cals_per100grams": "364 cal",
-    "KJ_per100grams": "1529 kJ"
-  },
-  {
-    "FoodCategory": "BakingIngredients",
-    "FoodItem": "Almond Extract",
-    "per100grams": "100ml",
-    "Cals_per100grams": "258 cal",
-    "KJ_per100grams": "1084 kJ"
-  },
-  {
-    "FoodCategory": "BakingIngredients",
-    "FoodItem": "Almonds",
-    "per100grams": "100g",
-    "Cals_per100grams": "529 cal",
-    "KJ_per100grams": "2222 kJ"
-  },
-  {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Apple Pie Filling",
-    "per100grams": "100g",
-    "Cals_per100grams": "100 cal",
-    "KJ_per100grams": "420 kJ"
+    "FoodItem": "Агар-агар",
+    "per100grams": "100 г",
+    "Cals_per100grams": "26 ккал",
+    "KJ_per100grams": "109 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Baking Powder",
-    "per100grams": "100g",
-    "Cals_per100grams": "53 cal",
-    "KJ_per100grams": "223 kJ"
+    "FoodItem": "Сироп Агави",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "310 ккал",
+    "KJ_per100grams": "1302 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Baking Soda",
-    "per100grams": "100g",
-    "Cals_per100grams": "0 cal",
-    "KJ_per100grams": "0 kJ"
+    "FoodItem": "Універсальне борошно",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "364 ккал",
+    "KJ_per100grams": "1529 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Bread Flour",
-    "per100grams": "100g",
-    "Cals_per100grams": "361 cal",
-    "KJ_per100grams": "1516 kJ"
+    "FoodItem": "Екстракт Мигдалю",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "258 ккал",
+    "KJ_per100grams": "1084 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Brittle",
-    "per100grams": "100g",
-    "Cals_per100grams": "592 cal",
-    "KJ_per100grams": "2486 kJ"
+    "FoodItem": "Мигдалі",
+    "per100grams": "100 г",
+    "Cals_per100grams": "529 ккал",
+    "KJ_per100grams": "2222 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Brown Sugar",
-    "per100grams": "100g",
-    "Cals_per100grams": "395 cal",
-    "KJ_per100grams": "1659 kJ"
+    "FoodItem": "Наповнювач для Яблучного Пирога",
+    "per100grams": "100 г",
+    "Cals_per100grams": "100 ккал",
+    "KJ_per100grams": "420 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Buttermilk",
-    "per100grams": "100ml",
-    "Cals_per100grams": "62 cal",
-    "KJ_per100grams": "260 kJ"
+    "FoodItem": "Розпушувач для Випічки",
+    "per100grams": "100 г",
+    "Cals_per100grams": "53 ккал",
+    "KJ_per100grams": "223 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Butterscotch Chips",
-    "per100grams": "100g",
-    "Cals_per100grams": "539 cal",
-    "KJ_per100grams": "2264 kJ"
+    "FoodItem": "Вода Содова",
+    "per100grams": "100 г",
+    "Cals_per100grams": "0 ккал",
+    "KJ_per100grams": "0 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Cake Flour",
-    "per100grams": "100g",
-    "Cals_per100grams": "362 cal",
-    "KJ_per100grams": "1520 kJ"
+    "FoodItem": "Борошно для Хліба",
+    "per100grams": "100 г",
+    "Cals_per100grams": "361 ккал",
+    "KJ_per100grams": "1516 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Candied Orange Peel",
-    "per100grams": "100g",
-    "Cals_per100grams": "97 cal",
-    "KJ_per100grams": "407 kJ"
+    "FoodItem": "Карамель",
+    "per100grams": "100 г",
+    "Cals_per100grams": "592 ккал",
+    "KJ_per100grams": "2486 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Cane Sugar",
-    "per100grams": "100g",
-    "Cals_per100grams": "387 cal",
-    "KJ_per100grams": "1625 kJ"
+    "FoodItem": "Коричневий Цукор",
+    "per100grams": "100 г",
+    "Cals_per100grams": "395 ккал",
+    "KJ_per100grams": "1659 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Chocolate Sprinkles",
-    "per100grams": "100g",
-    "Cals_per100grams": "500 cal",
-    "KJ_per100grams": "2100 kJ"
+    "FoodItem": "Простокваша",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "62 ккал",
+    "KJ_per100grams": "260 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Cocoa Powder",
-    "per100grams": "100g",
-    "Cals_per100grams": "228 cal",
-    "KJ_per100grams": "958 kJ"
+    "FoodItem": "Чіпси Батерскотч",
+    "per100grams": "100 г",
+    "Cals_per100grams": "539 ккал",
+    "KJ_per100grams": "2264 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Coconut Flakes",
-    "per100grams": "100g",
-    "Cals_per100grams": "456 cal",
-    "KJ_per100grams": "1915 kJ"
+    "FoodItem": "Борошно для Тортів",
+    "per100grams": "100 г",
+    "Cals_per100grams": "362 ккал",
+    "KJ_per100grams": "1520 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Coconut Milk",
-    "per100grams": "100ml",
-    "Cals_per100grams": "50 cal",
-    "KJ_per100grams": "210 kJ"
+    "FoodItem": "Конфірована Цедра Апельсина",
+    "per100grams": "100 г",
+    "Cals_per100grams": "97 ккал",
+    "KJ_per100grams": "407 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Corn Flour",
-    "per100grams": "100g",
-    "Cals_per100grams": "361 cal",
-    "KJ_per100grams": "1516 kJ"
+    "FoodItem": "Тростинний Цукор",
+    "per100grams": "100 г",
+    "Cals_per100grams": "387 ккал",
+    "KJ_per100grams": "1625 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Corn Syrup",
-    "per100grams": "100ml",
-    "Cals_per100grams": "281 cal",
-    "KJ_per100grams": "1180 kJ"
+    "FoodItem": "Шоколадні Посипки",
+    "per100grams": "100 г",
+    "Cals_per100grams": "500 ккал",
+    "KJ_per100grams": "2100 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Cornstarch",
-    "per100grams": "100g",
-    "Cals_per100grams": "381 cal",
-    "KJ_per100grams": "1600 kJ"
+    "FoodItem": "Какао-Порошок",
+    "per100grams": "100 г",
+    "Cals_per100grams": "228 ккал",
+    "KJ_per100grams": "958 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Couverture",
-    "per100grams": "100g",
-    "Cals_per100grams": "600 cal",
-    "KJ_per100grams": "2520 kJ"
+    "FoodItem": "Кокосові Чіпси",
+    "per100grams": "100 г",
+    "Cals_per100grams": "456 ккал",
+    "KJ_per100grams": "1915 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Custard Powder",
-    "per100grams": "100g",
-    "Cals_per100grams": "337 cal",
-    "KJ_per100grams": "1415 kJ"
+    "FoodItem": "Кокосове Молоко",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "50 ккал",
+    "KJ_per100grams": "210 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Dark Rum",
-    "per100grams": "100ml",
-    "Cals_per100grams": "216 cal",
-    "KJ_per100grams": "907 kJ"
+    "FoodItem": "Кукурудзяне Борошно",
+    "per100grams": "100 г",
+    "Cals_per100grams": "361 ккал",
+    "KJ_per100grams": "1516 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Dextrose",
-    "per100grams": "100g",
-    "Cals_per100grams": "375 cal",
-    "KJ_per100grams": "1575 kJ"
+    "FoodItem": "Кукурудзяний Сироп",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "281 ккал",
+    "KJ_per100grams": "1180 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Dried Apricots",
-    "per100grams": "100g",
-    "Cals_per100grams": "241 cal",
-    "KJ_per100grams": "1012 kJ"
+    "FoodItem": "Кукурудзяний Крохмаль",
+    "per100grams": "100 г",
+    "Cals_per100grams": "381 ккал",
+    "KJ_per100grams": "1600 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Dried Cranberries",
-    "per100grams": "100g",
-    "Cals_per100grams": "308 cal",
-    "KJ_per100grams": "1294 kJ"
+    "FoodItem": "Кувертюр",
+    "per100grams": "100 г",
+    "Cals_per100grams": "600 ккал",
+    "KJ_per100grams": "2520 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Dried Figs",
-    "per100grams": "100g",
-    "Cals_per100grams": "249 cal",
-    "KJ_per100grams": "1046 kJ"
+    "FoodItem": "Пудинговий Порошок",
+    "per100grams": "100 г",
+    "Cals_per100grams": "337 ккал",
+    "KJ_per100grams": "1415 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Dried Prunes",
-    "per100grams": "100g",
-    "Cals_per100grams": "107 cal",
-    "KJ_per100grams": "449 kJ"
+    "FoodItem": "Темний Ром",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "216 ккал",
+    "KJ_per100grams": "907 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Duck Egg",
-    "per100grams": "100g",
-    "Cals_per100grams": "185 cal",
-    "KJ_per100grams": "777 kJ"
+    "FoodItem": "Декстроза",
+    "per100grams": "100 г",
+    "Cals_per100grams": "375 ккал",
+    "KJ_per100grams": "1575 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Egg",
-    "per100grams": "100g",
-    "Cals_per100grams": "97 cal",
-    "KJ_per100grams": "407 kJ"
+    "FoodItem": "Сушені Абрикоси",
+    "per100grams": "100 г",
+    "Cals_per100grams": "241 ккал",
+    "KJ_per100grams": "1012 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Egg Nog",
-    "per100grams": "100g",
-    "Cals_per100grams": "88 cal",
-    "KJ_per100grams": "370 kJ"
+    "FoodItem": "Сушені Клюкви",
+    "per100grams": "100 г",
+    "Cals_per100grams": "308 ккал",
+    "KJ_per100grams": "1294 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Egg White",
-    "per100grams": "100g",
-    "Cals_per100grams": "13 cal",
-    "KJ_per100grams": "55 kJ"
+    "FoodItem": "Сушені Чорносливи",
+    "per100grams": "100 г",
+    "Cals_per100grams": "249 ккал",
+    "KJ_per100grams": "1046 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Egg Yolk",
-    "per100grams": "100g",
-    "Cals_per100grams": "322 cal",
-    "KJ_per100grams": "1352 kJ"
+    "FoodItem": "Сушені Черешні",
+    "per100grams": "100 г",
+    "Cals_per100grams": "107 ккал",
+    "KJ_per100grams": "449 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Flour",
-    "per100grams": "100g",
-    "Cals_per100grams": "364 cal",
-    "KJ_per100grams": "1529 kJ"
+    "FoodItem": "Качине Яйце",
+    "per100grams": "100 г",
+    "Cals_per100grams": "185 ккал",
+    "KJ_per100grams": "777 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Fructose",
-    "per100grams": "100g",
-    "Cals_per100grams": "368 cal",
-    "KJ_per100grams": "1546 kJ"
+    "FoodItem": "Яйце",
+    "per100grams": "100 г",
+    "Cals_per100grams": "97 ккал",
+    "KJ_per100grams": "407 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Gelatin",
-    "per100grams": "100g",
-    "Cals_per100grams": "335 cal",
-    "KJ_per100grams": "1407 kJ"
+    "FoodItem": "Яєчний Ног",
+    "per100grams": "100 г",
+    "Cals_per100grams": "88 ккал",
+    "KJ_per100grams": "370 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Glucose",
-    "per100grams": "100g",
-    "Cals_per100grams": "286 cal",
-    "KJ_per100grams": "1201 kJ"
+    "FoodItem": "Яєчний Білок",
+    "per100grams": "100 г",
+    "Cals_per100grams": "13 ккал",
+    "KJ_per100grams": "55 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Glucose Syrup",
-    "per100grams": "100g",
-    "Cals_per100grams": "387 cal",
-    "KJ_per100grams": "1625 kJ"
+    "FoodItem": "Яєчний Жовток",
+    "per100grams": "100 г",
+    "Cals_per100grams": "322 ккал",
+    "KJ_per100grams": "1352 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Granulated Sugar",
-    "per100grams": "100g",
-    "Cals_per100grams": "387 cal",
-    "KJ_per100grams": "1625 kJ"
+    "FoodItem": "Мука",
+    "per100grams": "100 г",
+    "Cals_per100grams": "364 ккал",
+    "KJ_per100grams": "1529 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Ground Cinnamon",
-    "per100grams": "100g",
-    "Cals_per100grams": "247 cal",
-    "KJ_per100grams": "1037 kJ"
+    "FoodItem": "Фруктоза",
+    "per100grams": "100 г",
+    "Cals_per100grams": "368 ккал",
+    "KJ_per100grams": "1546 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Hazelnuts",
-    "per100grams": "100g",
-    "Cals_per100grams": "628 cal",
-    "KJ_per100grams": "2638 kJ"
+    "FoodItem": "Желатин",
+    "per100grams": "100 г",
+    "Cals_per100grams": "335 ккал",
+    "KJ_per100grams": "1407 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Heavy Cream",
-    "per100grams": "100g",
-    "Cals_per100grams": "345 cal",
-    "KJ_per100grams": "1449 kJ"
+    "FoodItem": "Глюкоза",
+    "per100grams": "100 г",
+    "Cals_per100grams": "286 ккал",
+    "KJ_per100grams": "1201 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Jaggery",
-    "per100grams": "100g",
-    "Cals_per100grams": "383 cal",
-    "KJ_per100grams": "1609 kJ"
+    "FoodItem": "Глюкозний Сироп",
+    "per100grams": "100 г",
+    "Cals_per100grams": "387 ккал",
+    "KJ_per100grams": "1625 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Lemon Pie Filling",
-    "per100grams": "100g",
-    "Cals_per100grams": "143 cal",
-    "KJ_per100grams": "601 kJ"
+    "FoodItem": "Цукор Гранульований",
+    "per100grams": "100 г",
+    "Cals_per100grams": "387 ккал",
+    "KJ_per100grams": "1625 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Malt Powder",
-    "per100grams": "100g",
-    "Cals_per100grams": "361 cal",
-    "KJ_per100grams": "1516 kJ"
+    "FoodItem": "Мелений Кориця",
+    "per100grams": "100 г",
+    "Cals_per100grams": "247 ккал",
+    "KJ_per100grams": "1037 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Malted Milk",
-    "per100grams": "100g",
-    "Cals_per100grams": "405 cal",
-    "KJ_per100grams": "1701 kJ"
+    "FoodItem": "Фундук",
+    "per100grams": "100 г",
+    "Cals_per100grams": "628 ккал",
+    "KJ_per100grams": "2638 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Maltitol",
-    "per100grams": "100g",
-    "Cals_per100grams": "210 cal",
-    "KJ_per100grams": "882 kJ"
+    "FoodItem": "Крем з високим вмістом жиру",
+    "per100grams": "100 г",
+    "Cals_per100grams": "345 ккал",
+    "KJ_per100grams": "1449 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Maltodextrin",
-    "per100grams": "100g",
-    "Cals_per100grams": "375 cal",
-    "KJ_per100grams": "1575 kJ"
+    "FoodItem": "Жагрі",
+    "per100grams": "100 г",
+    "Cals_per100grams": "383 ккал",
+    "KJ_per100grams": "1609 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Maltose",
-    "per100grams": "100g",
-    "Cals_per100grams": "344 cal",
-    "KJ_per100grams": "1445 kJ"
+    "FoodItem": "Лимонний Начинка для Пирога",
+    "per100grams": "100 г",
+    "Cals_per100grams": "143 ккал",
+    "KJ_per100grams": "601 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Maple Syrup",
-    "per100grams": "100ml",
-    "Cals_per100grams": "270 cal",
-    "KJ_per100grams": "1134 kJ"
+    "FoodItem": "Мальтоза",
+    "per100grams": "100 г",
+    "Cals_per100grams": "344 ккал",
+    "KJ_per100grams": "1445 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Molasses",
-    "per100grams": "100g",
-    "Cals_per100grams": "290 cal",
-    "KJ_per100grams": "1218 kJ"
+    "FoodItem": "Кленовий Сироп",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "270 ккал",
+    "KJ_per100grams": "1134 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Nonpareils",
-    "per100grams": "100g",
-    "Cals_per100grams": "475 cal",
-    "KJ_per100grams": "1995 kJ"
+    "FoodItem": "Меласа",
+    "per100grams": "100 г",
+    "Cals_per100grams": "290 ккал",
+    "KJ_per100grams": "1218 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Peppermint Extract",
-    "per100grams": "100ml",
-    "Cals_per100grams": "0 cal",
-    "KJ_per100grams": "0 kJ"
+    "FoodItem": "Нонпарель",
+    "per100grams": "100 г",
+    "Cals_per100grams": "475 ккал",
+    "KJ_per100grams": "1995 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Powdered Milk",
-    "per100grams": "100g",
-    "Cals_per100grams": "496 cal",
-    "KJ_per100grams": "2083 kJ"
+    "FoodItem": "Екстракт М'ятного Смаку",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "0 ккал",
+    "KJ_per100grams": "0 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Powdered Sugar",
-    "per100grams": "100g",
-    "Cals_per100grams": "389 cal",
-    "KJ_per100grams": "1634 kJ"
+    "FoodItem": "Молочний Порошок",
+    "per100grams": "100 г",
+    "Cals_per100grams": "496 ккал",
+    "KJ_per100grams": "2083 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Protein Powder",
-    "per100grams": "100g",
-    "Cals_per100grams": "411 cal",
-    "KJ_per100grams": "1726 kJ"
+    "FoodItem": "Цукор Пудра",
+    "per100grams": "100 г",
+    "Cals_per100grams": "389 ккал",
+    "KJ_per100grams": "1634 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Rice Milk",
-    "per100grams": "100ml",
-    "Cals_per100grams": "49 cal",
-    "KJ_per100grams": "206 kJ"
+    "FoodItem": "Білковий Порошок",
+    "per100grams": "100 г",
+    "Cals_per100grams": "411 ккал",
+    "KJ_per100grams": "1726 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Rock Sugar",
-    "per100grams": "100g",
-    "Cals_per100grams": "625 cal",
-    "KJ_per100grams": "2625 kJ"
+    "FoodItem": "Рисове Молоко",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "49 ккал",
+    "KJ_per100grams": "206 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Rolled Oats",
-    "per100grams": "100g",
-    "Cals_per100grams": "384 cal",
-    "KJ_per100grams": "1613 kJ"
+    "FoodItem": "Цукор Року",
+    "per100grams": "100 г",
+    "Cals_per100grams": "625 ккал",
+    "KJ_per100grams": "2625 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Semolina Flour",
-    "per100grams": "100g",
-    "Cals_per100grams": "350 cal",
-    "KJ_per100grams": "1470 kJ"
+    "FoodItem": "Вівсяні Пластівці",
+    "per100grams": "100 г",
+    "Cals_per100grams": "384 ккал",
+    "KJ_per100grams": "1613 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Shredded Coconut",
-    "per100grams": "100g",
-    "Cals_per100grams": "501 cal",
-    "KJ_per100grams": "2104 kJ"
+    "FoodItem": "Манна Крупа",
+    "per100grams": "100 г",
+    "Cals_per100grams": "350 ккал",
+    "KJ_per100grams": "1470 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Sorbitol",
-    "per100grams": "100g",
-    "Cals_per100grams": "375 cal",
-    "KJ_per100grams": "1575 kJ"
+    "FoodItem": "Кокосові Мматочки",
+    "per100grams": "100 г",
+    "Cals_per100grams": "501 ккал",
+    "KJ_per100grams": "2104 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Soy Milk",
-    "per100grams": "100ml",
-    "Cals_per100grams": "41 cal",
-    "KJ_per100grams": "172 kJ"
+    "FoodItem": "Сорбітол",
+    "per100grams": "100 г",
+    "Cals_per100grams": "375 ккал",
+    "KJ_per100grams": "1575 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Soy Protein Powder",
-    "per100grams": "100g",
-    "Cals_per100grams": "338 cal",
-    "KJ_per100grams": "1420 kJ"
+    "FoodItem": "Соєве Молоко",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "41 ккал",
+    "KJ_per100grams": "172 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Sprinkles",
-    "per100grams": "100g",
-    "Cals_per100grams": "500 cal",
-    "KJ_per100grams": "2100 kJ"
+    "FoodItem": "Протеїновий Порошок Сої",
+    "per100grams": "100 г",
+    "Cals_per100grams": "338 ккал",
+    "KJ_per100grams": "1420 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Starch",
-    "per100grams": "100g",
-    "Cals_per100grams": "381 cal",
-    "KJ_per100grams": "1600 kJ"
+    "FoodItem": "Посипка",
+    "per100grams": "100 г",
+    "Cals_per100grams": "500 ккал",
+    "KJ_per100grams": "2100 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Strawberry Preserves",
-    "per100grams": "100g",
-    "Cals_per100grams": "278 cal",
-    "KJ_per100grams": "1168 kJ"
+    "FoodItem": "Крохмаль",
+    "per100grams": "100 г",
+    "Cals_per100grams": "381 ккал",
+    "KJ_per100grams": "1600 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Sucrose",
-    "per100grams": "100g",
-    "Cals_per100grams": "387 cal",
-    "KJ_per100grams": "1625 kJ"
+    "FoodItem": "Полунична Паштет",
+    "per100grams": "100 г",
+    "Cals_per100grams": "278 ккал",
+    "KJ_per100grams": "1168 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Sugar",
-    "per100grams": "100g",
-    "Cals_per100grams": "405 cal",
-    "KJ_per100grams": "1701 kJ"
+    "FoodItem": "Сахароза",
+    "per100grams": "100 г",
+    "Cals_per100grams": "387 ккал",
+    "KJ_per100grams": "1625 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Sweetened Condensed Milk",
-    "per100grams": "100ml",
-    "Cals_per100grams": "321 cal",
-    "KJ_per100grams": "1348 kJ"
+    "FoodItem": "Цукор",
+    "per100grams": "100 г",
+    "Cals_per100grams": "405 ккал",
+    "KJ_per100grams": "1701 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Sweetener",
-    "per100grams": "100g",
-    "Cals_per100grams": "360 cal",
-    "KJ_per100grams": "1512 kJ"
+    "FoodItem": "Згущене Молоко З Цукром",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "321 ккал",
+    "KJ_per100grams": "1348 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Unsalted Butter",
-    "per100grams": "100g",
-    "Cals_per100grams": "717 cal",
-    "KJ_per100grams": "3011 kJ"
+    "FoodItem": "Підсолоджувач",
+    "per100grams": "100 г",
+    "Cals_per100grams": "360 ккал",
+    "KJ_per100grams": "1512 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Vanilla Extract",
-    "per100grams": "100ml",
-    "Cals_per100grams": "288 cal",
-    "KJ_per100grams": "1210 kJ"
+    "FoodItem": "Ванільний Екстракт",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "288 ккал",
+    "KJ_per100grams": "1210 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Vanilla Sugar",
-    "per100grams": "100g",
-    "Cals_per100grams": "357 cal",
-    "KJ_per100grams": "1499 kJ"
+    "FoodItem": "Цукор Ванільний",
+    "per100grams": "100 г",
+    "Cals_per100grams": "357 ккал",
+    "KJ_per100grams": "1499 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Vegetable Shortening",
-    "per100grams": "100g",
-    "Cals_per100grams": "884 cal",
-    "KJ_per100grams": "3713 kJ"
+    "FoodItem": "Рослинне Збагачення",
+    "per100grams": "100 г",
+    "Cals_per100grams": "884 ккал",
+    "KJ_per100grams": "3713 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Walnuts",
-    "per100grams": "100g",
-    "Cals_per100grams": "131 cal",
-    "KJ_per100grams": "550 kJ"
+    "FoodItem": "Волоські Горіхи",
+    "per100grams": "100 г",
+    "Cals_per100grams": "131 ккал",
+    "KJ_per100grams": "550 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Whole Milk",
-    "per100grams": "100ml",
-    "Cals_per100grams": "61 cal",
-    "KJ_per100grams": "256 kJ"
+    "FoodItem": "Ціле Молоко",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "61 ккал",
+    "KJ_per100grams": "256 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Whole Wheat Flour",
-    "per100grams": "100g",
-    "Cals_per100grams": "340 cal",
-    "KJ_per100grams": "1428 kJ"
+    "FoodItem": "Мука Повна Зерна",
+    "per100grams": "100 г",
+    "Cals_per100grams": "340 ккал",
+    "KJ_per100grams": "1428 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Xylitol",
-    "per100grams": "100g",
-    "Cals_per100grams": "240 cal",
-    "KJ_per100grams": "1008 kJ"
+    "FoodItem": "Ксиліт",
+    "per100grams": "100 г",
+    "Cals_per100grams": "240 ккал",
+    "KJ_per100grams": "1008 кДж"
   },
   {
     "FoodCategory": "BakingIngredients",
-    "FoodItem": "Yeast (dry)",
-    "per100grams": "100g",
-    "Cals_per100grams": "325 cal",
-    "KJ_per100grams": "1365 kJ"
+    "FoodItem": "Дріжджі (сухі)",
+    "per100grams": "100 г",
+    "Cals_per100grams": "325 ккал",
+    "KJ_per100grams": "1365 кДж"
+  }, {
+    "FoodCategory": "Fish&Seafood",
+    "FoodItem": "Анчоуси",
+    "per100grams": "100 г",
+    "Cals_per100grams": "131 ккал",
+    "KJ_per100grams": "550 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Anchovy",
-    "per100grams": "100g",
-    "Cals_per100grams": "131 cal",
-    "KJ_per100grams": "550 kJ"
+    "FoodItem": "Синій Оселедець",
+    "per100grams": "100 г",
+    "Cals_per100grams": "159 ккал",
+    "KJ_per100grams": "668 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Bluefish",
-    "per100grams": "100g",
-    "Cals_per100grams": "159 cal",
-    "KJ_per100grams": "668 kJ"
+    "FoodItem": "Линь",
+    "per100grams": "100 г",
+    "Cals_per100grams": "135 ккал",
+    "KJ_per100grams": "567 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Bream",
-    "per100grams": "100g",
-    "Cals_per100grams": "135 cal",
-    "KJ_per100grams": "567 kJ"
+    "FoodItem": "Лещ",
+    "per100grams": "100 г",
+    "Cals_per100grams": "187 ккал",
+    "KJ_per100grams": "785 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Butterfish",
-    "per100grams": "100g",
-    "Cals_per100grams": "187 cal",
-    "KJ_per100grams": "785 kJ"
+    "FoodItem": "Кальмар",
+    "per100grams": "100 г",
+    "Cals_per100grams": "175 ккал",
+    "KJ_per100grams": "735 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Calamari",
-    "per100grams": "100g",
-    "Cals_per100grams": "175 cal",
-    "KJ_per100grams": "735 kJ"
+    "FoodItem": "Карась",
+    "per100grams": "100 г",
+    "Cals_per100grams": "162 ккал",
+    "KJ_per100grams": "680 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Carp",
-    "per100grams": "100g",
-    "Cals_per100grams": "162 cal",
-    "KJ_per100grams": "680 kJ"
+    "FoodItem": "Ікра",
+    "per100grams": "100 г",
+    "Cals_per100grams": "264 ккал",
+    "KJ_per100grams": "1109 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Caviar",
-    "per100grams": "100g",
-    "Cals_per100grams": "264 cal",
-    "KJ_per100grams": "1109 kJ"
+    "FoodItem": "Мідія",
+    "per100grams": "100 г",
+    "Cals_per100grams": "148 ккал",
+    "KJ_per100grams": "622 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Clam",
-    "per100grams": "100g",
-    "Cals_per100grams": "148 cal",
-    "KJ_per100grams": "622 kJ"
+    "FoodItem": "Тріска",
+    "per100grams": "100 г",
+    "Cals_per100grams": "105 ккал",
+    "KJ_per100grams": "441 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Cod",
-    "per100grams": "100g",
-    "Cals_per100grams": "105 cal",
-    "KJ_per100grams": "441 kJ"
+    "FoodItem": "Раки",
+    "per100grams": "100 г",
+    "Cals_per100grams": "82 ккал",
+    "KJ_per100grams": "344 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Crawfish",
-    "per100grams": "100g",
-    "Cals_per100grams": "82 cal",
-    "KJ_per100grams": "344 kJ"
+    "FoodItem": "Раки",
+    "per100grams": "100 г",
+    "Cals_per100grams": "87 ккал",
+    "KJ_per100grams": "365 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Crayfish",
-    "per100grams": "100g",
-    "Cals_per100grams": "87 cal",
-    "KJ_per100grams": "365 kJ"
+    "FoodItem": "Вугор",
+    "per100grams": "100 г",
+    "Cals_per100grams": "236 ккал",
+    "KJ_per100grams": "991 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Eel",
-    "per100grams": "100g",
-    "Cals_per100grams": "236 cal",
-    "KJ_per100grams": "991 kJ"
+    "FoodItem": "Рибні Палички",
+    "per100grams": "100 г",
+    "Cals_per100grams": "290 ккал",
+    "KJ_per100grams": "1218 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Fish Fingers",
-    "per100grams": "100g",
-    "Cals_per100grams": "290 cal",
-    "KJ_per100grams": "1218 kJ"
+    "FoodItem": "Рибні Палички",
+    "per100grams": "100 г",
+    "Cals_per100grams": "290 ккал",
+    "KJ_per100grams": "1218 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Fish Sticks",
-    "per100grams": "100g",
-    "Cals_per100grams": "290 cal",
-    "KJ_per100grams": "1218 kJ"
+    "FoodItem": "Камбала",
+    "per100grams": "100 г",
+    "Cals_per100grams": "86 ккал",
+    "KJ_per100grams": "361 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Flounder",
-    "per100grams": "100g",
-    "Cals_per100grams": "86 cal",
-    "KJ_per100grams": "361 kJ"
+    "FoodItem": "Морський Огірок",
+    "per100grams": "100 г",
+    "Cals_per100grams": "118 ккал",
+    "KJ_per100grams": "496 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Grouper",
-    "per100grams": "100g",
-    "Cals_per100grams": "118 cal",
-    "KJ_per100grams": "496 kJ"
+    "FoodItem": "Палтус",
+    "per100grams": "100 г",
+    "Cals_per100grams": "111 ккал",
+    "KJ_per100grams": "466 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Haddock",
-    "per100grams": "100g",
-    "Cals_per100grams": "90 cal",
-    "KJ_per100grams": "378 kJ"
+    "FoodItem": "Скумбрія",
+    "per100grams": "100 г",
+    "Cals_per100grams": "203 ккал",
+    "KJ_per100grams": "853 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Hake",
-    "per100grams": "100g",
-    "Cals_per100grams": "71 cal",
-    "KJ_per100grams": "298 kJ"
+    "FoodItem": "Хокі",
+    "per100grams": "100 г",
+    "Cals_per100grams": "121 ккал",
+    "KJ_per100grams": "508 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Halibut",
-    "per100grams": "100g",
-    "Cals_per100grams": "111 cal",
-    "KJ_per100grams": "466 kJ"
+    "FoodItem": "Кіпер",
+    "per100grams": "100 г",
+    "Cals_per100grams": "217 ккал",
+    "KJ_per100grams": "911 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Herring",
-    "per100grams": "100g",
-    "Cals_per100grams": "203 cal",
-    "KJ_per100grams": "853 kJ"
+    "FoodItem": "Лінг",
+    "per100grams": "100 г",
+    "Cals_per100grams": "109 ккал",
+    "KJ_per100grams": "458 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Hoki",
-    "per100grams": "100g",
-    "Cals_per100grams": "121 cal",
-    "KJ_per100grams": "508 kJ"
+    "FoodItem": "Омар",
+    "per100grams": "100 г",
+    "Cals_per100grams": "89 ккал",
+    "KJ_per100grams": "374 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Kipper",
-    "per100grams": "100g",
-    "Cals_per100grams": "217 cal",
-    "KJ_per100grams": "911 kJ"
+    "FoodItem": "Скумбрія",
+    "per100grams": "100 г",
+    "Cals_per100grams": "262 ккал",
+    "KJ_per100grams": "1100 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Ling",
-    "per100grams": "100g",
-    "Cals_per100grams": "109 cal",
-    "KJ_per100grams": "458 kJ"
+    "FoodItem": "Молочна Риба",
+    "per100grams": "100 г",
+    "Cals_per100grams": "190 ккал",
+    "KJ_per100grams": "798 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Lobster",
-    "per100grams": "100g",
-    "Cals_per100grams": "89 cal",
-    "KJ_per100grams": "374 kJ"
+    "FoodItem": "Англійський Оселедець",
+    "per100grams": "100 г",
+    "Cals_per100grams": "97 ккал",
+    "KJ_per100grams": "407 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Mackerel",
-    "per100grams": "100g",
-    "Cals_per100grams": "262 cal",
-    "KJ_per100grams": "1100 kJ"
+    "FoodItem": "Лящ",
+    "per100grams": "100 г",
+    "Cals_per100grams": "150 ккал",
+    "KJ_per100grams": "630 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Milkfish",
-    "per100grams": "100g",
-    "Cals_per100grams": "190 cal",
-    "KJ_per100grams": "798 kJ"
+    "FoodItem": "Мідія",
+    "per100grams": "100 г",
+    "Cals_per100grams": "172 ккал",
+    "KJ_per100grams": "722 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Monkfish",
-    "per100grams": "100g",
-    "Cals_per100grams": "97 cal",
-    "KJ_per100grams": "407 kJ"
+    "FoodItem": "Восьминіг",
+    "per100grams": "100 г",
+    "Cals_per100grams": "164 ккал",
+    "KJ_per100grams": "689 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Mullet",
-    "per100grams": "100g",
-    "Cals_per100grams": "150 cal",
-    "KJ_per100grams": "630 kJ"
+    "FoodItem": "Пікерель",
+    "per100grams": "100 г",
+    "Cals_per100grams": "111 ккал",
+    "KJ_per100grams": "466 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Mussel",
-    "per100grams": "100g",
-    "Cals_per100grams": "172 cal",
-    "KJ_per100grams": "722 kJ"
+    "FoodItem": "Маринований Оселедець",
+    "per100grams": "100 г",
+    "Cals_per100grams": "262 ккал",
+    "KJ_per100grams": "1100 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Octopus",
-    "per100grams": "100g",
-    "Cals_per100grams": "164 cal",
-    "KJ_per100grams": "689 kJ"
+    "FoodItem": "Щука",
+    "per100grams": "100 г",
+    "Cals_per100grams": "113 ккал",
+    "KJ_per100grams": "475 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Pickerel",
-    "per100grams": "100g",
-    "Cals_per100grams": "111 cal",
-    "KJ_per100grams": "466 kJ"
+    "FoodItem": "Плоскоголовка",
+    "per100grams": "100 г",
+    "Cals_per100grams": "91 ккал",
+    "KJ_per100grams": "382 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Pickled Herring",
-    "per100grams": "100g",
-    "Cals_per100grams": "262 cal",
-    "KJ_per100grams": "1100 kJ"
+    "FoodItem": "Мінтай",
+    "per100grams": "100 г",
+    "Cals_per100grams": "111 ккал",
+    "KJ_per100grams": "466 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Pike",
-    "per100grams": "100g",
-    "Cals_per100grams": "113 cal",
-    "KJ_per100grams": "475 kJ"
+    "FoodItem": "Червоний Оселедець",
+    "per100grams": "100 г",
+    "Cals_per100grams": "128 ккал",
+    "KJ_per100grams": "538 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Plaice",
-    "per100grams": "100g",
-    "Cals_per100grams": "91 cal",
-    "KJ_per100grams": "382 kJ"
+    "FoodItem": "Червоний Оселедець",
+    "per100grams": "100 г",
+    "Cals_per100grams": "94 ккал",
+    "KJ_per100grams": "395 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Pollack",
-    "per100grams": "100g",
-    "Cals_per100grams": "111 cal",
-    "KJ_per100grams": "466 kJ"
+    "FoodItem": "Рульмопси",
+    "per100grams": "100 г",
+    "Cals_per100grams": "171 ккал",
+    "KJ_per100grams": "718 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Red Snapper",
-    "per100grams": "100g",
-    "Cals_per100grams": "128 cal",
-    "KJ_per100grams": "538 kJ"
+    "FoodItem": "Лосось",
+    "per100grams": "100 г",
+    "Cals_per100grams": "206 ккал",
+    "KJ_per100grams": "865 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Redfish",
-    "per100grams": "100g",
-    "Cals_per100grams": "94 cal",
-    "KJ_per100grams": "395 kJ"
+    "FoodItem": "Сардини",
+    "per100grams": "100 г",
+    "Cals_per100grams": "208 ккал",
+    "KJ_per100grams": "874 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Rollmops",
-    "per100grams": "100g",
-    "Cals_per100grams": "171 cal",
-    "KJ_per100grams": "718 kJ"
+    "FoodItem": "Креветки",
+    "per100grams": "100 г",
+    "Cals_per100grams": "111 ккал",
+    "KJ_per100grams": "466 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Salmon",
-    "per100grams": "100g",
-    "Cals_per100grams": "206 cal",
-    "KJ_per100grams": "865 kJ"
+    "FoodItem": "Шампанський",
+    "per100grams": "100 г",
+    "Cals_per100grams": "84 ккал",
+    "KJ_per100grams": "353 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Sardines",
-    "per100grams": "100g",
-    "Cals_per100grams": "208 cal",
-    "KJ_per100grams": "874 kJ"
+    "FoodItem": "Черепаха",
+    "per100grams": "100 г",
+    "Cals_per100grams": "124 ккал",
+    "KJ_per100grams": "521 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Scallops",
-    "per100grams": "100g",
-    "Cals_per100grams": "111 cal",
-    "KJ_per100grams": "466 kJ"
+    "FoodItem": "Шад",
+    "per100grams": "100 г",
+    "Cals_per100grams": "252 ккал",
+    "KJ_per100grams": "1058 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Scampi",
-    "per100grams": "100g",
-    "Cals_per100grams": "84 cal",
-    "KJ_per100grams": "353 kJ"
+    "FoodItem": "Акула",
+    "per100grams": "100 г",
+    "Cals_per100grams": "130 ккал",
+    "KJ_per100grams": "546 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Sea Bass",
-    "per100grams": "100g",
-    "Cals_per100grams": "124 cal",
-    "KJ_per100grams": "521 kJ"
+    "FoodItem": "Смельт",
+    "per100grams": "100 г",
+    "Cals_per100grams": "124 ккал",
+    "KJ_per100grams": "521 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Shad",
-    "per100grams": "100g",
-    "Cals_per100grams": "252 cal",
-    "KJ_per100grams": "1058 kJ"
+    "FoodItem": "Штика",
+    "per100grams": "100 г",
+    "Cals_per100grams": "86 ккал",
+    "KJ_per100grams": "361 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Shark",
-    "per100grams": "100g",
-    "Cals_per100grams": "130 cal",
-    "KJ_per100grams": "546 kJ"
+    "FoodItem": "Кальмар",
+    "per100grams": "100 г",
+    "Cals_per100grams": "92 ккал",
+    "KJ_per100grams": "386 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Smelt",
-    "per100grams": "100g",
-    "Cals_per100grams": "124 cal",
-    "KJ_per100grams": "521 kJ"
+    "FoodItem": "Осетр",
+    "per100grams": "100 г",
+    "Cals_per100grams": "135 ккал",
+    "KJ_per100grams": "567 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Sole",
-    "per100grams": "100g",
-    "Cals_per100grams": "86 cal",
-    "KJ_per100grams": "361 kJ"
+    "FoodItem": "Суші",
+    "per100grams": "100 г",
+    "Cals_per100grams": "150 ккал",
+    "KJ_per100grams": "630 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Squid",
-    "per100grams": "100g",
-    "Cals_per100grams": "92 cal",
-    "KJ_per100grams": "386 kJ"
+    "FoodItem": "Меч-риба",
+    "per100grams": "100 г",
+    "Cals_per100grams": "172 ккал",
+    "KJ_per100grams": "722 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Sturgeon",
-    "per100grams": "100g",
-    "Cals_per100grams": "135 cal",
-    "KJ_per100grams": "567 kJ"
+    "FoodItem": "Тригер",
+    "per100grams": "100 г",
+    "Cals_per100grams": "93 ккал",
+    "KJ_per100grams": "391 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Sushi",
-    "per100grams": "100g",
-    "Cals_per100grams": "150 cal",
-    "KJ_per100grams": "630 kJ"
+    "FoodItem": "Форель",
+    "per100grams": "100 г",
+    "Cals_per100grams": "190 ккал",
+    "KJ_per100grams": "798 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Swordfish",
-    "per100grams": "100g",
-    "Cals_per100grams": "172 cal",
-    "KJ_per100grams": "722 kJ"
+    "FoodItem": "Тунець (салат)",
+    "per100grams": "100 г",
+    "Cals_per100grams": "187 ккал",
+    "KJ_per100grams": "785 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Triggerfish",
-    "per100grams": "100g",
-    "Cals_per100grams": "93 cal",
-    "KJ_per100grams": "391 kJ"
+    "FoodItem": "Калкан",
+    "per100grams": "100 г",
+    "Cals_per100grams": "122 ккал",
+    "KJ_per100grams": "512 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Trout",
-    "per100grams": "100g",
-    "Cals_per100grams": "190 cal",
-    "KJ_per100grams": "798 kJ"
+    "FoodItem": "Вахуу",
+    "per100grams": "100 г",
+    "Cals_per100grams": "167 ккал",
+    "KJ_per100grams": "701 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Tuna Salad",
-    "per100grams": "100g",
-    "Cals_per100grams": "187 cal",
-    "KJ_per100grams": "785 kJ"
+    "FoodItem": "Білоголова",
+    "per100grams": "100 г",
+    "Cals_per100grams": "172 ккал",
+    "KJ_per100grams": "722 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Turbot",
-    "per100grams": "100g",
-    "Cals_per100grams": "122 cal",
-    "KJ_per100grams": "512 kJ"
+    "FoodItem": "Вінігрет",
+    "per100grams": "100 г",
+    "Cals_per100grams": "116 ккал",
+    "KJ_per100grams": "487 кДж"
   },
   {
     "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Wahoo",
-    "per100grams": "100g",
-    "Cals_per100grams": "167 cal",
-    "KJ_per100grams": "701 kJ"
-  },
-  {
-    "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Whitefish",
-    "per100grams": "100g",
-    "Cals_per100grams": "172 cal",
-    "KJ_per100grams": "722 kJ"
-  },
-  {
-    "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Whiting",
-    "per100grams": "100g",
-    "Cals_per100grams": "116 cal",
-    "KJ_per100grams": "487 kJ"
-  },
-  {
-    "FoodCategory": "Fish&Seafood",
-    "FoodItem": "Zander",
-    "per100grams": "100g",
-    "Cals_per100grams": "84 cal",
-    "KJ_per100grams": "353 kJ"
+    "FoodItem": "Сандер",
+    "per100grams": "100 г",
+    "Cals_per100grams": "84 ккал",
+    "KJ_per100grams": "353 кДж"
   },
   {
     "FoodCategory": "Pastries,Breads&Rolls",
-    "FoodItem": "Bagel",
-    "per100grams": "100g",
-    "Cals_per100grams": "257 cal",
-    "KJ_per100grams": "1079 kJ"
+    "FoodItem": "Бейгл",
+    "per100grams": "100 г",
+    "Cals_per100grams": "257 ккал",
+    "KJ_per100grams": "1079 кДж"
   },
   {
     "FoodCategory": "Pastries,Breads&Rolls",
-    "FoodItem": "Baguette",
-    "per100grams": "100g",
-    "Cals_per100grams": "274 cal",
-    "KJ_per100grams": "1151 kJ"
+    "FoodItem": "Багет",
+    "per100grams": "100 г",
+    "Cals_per100grams": "274 ккал",
+    "KJ_per100grams": "1151 кДж"
   },
   {
     "FoodCategory": "Pastries,Breads&Rolls",
-    "FoodItem": "Banana Bread",
-    "per100grams": "100g",
-    "Cals_per100grams": "326 cal",
-    "KJ_per100grams": "1369 kJ"
-  },
-  {
-    "FoodCategory": "Pastries,Breads&Rolls",
-    "FoodItem": "Banana Nut Bread",
-    "per100grams": "100g",
-    "Cals_per100grams": "326 cal",
-    "KJ_per100grams": "1369 kJ"
+    "FoodItem": "Банановий Хліб",
+    "per100grams": "100 г",
+    "Cals_per100grams": "326 ккал",
+    "KJ_per100grams": "1369 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "1000 Island Dressing",
-    "per100grams": "100ml",
-    "Cals_per100grams": "370 cal",
-    "KJ_per100grams": "1554 kJ"
+    "FoodItem": "Соус Аррабіата",
+    "per100grams": "100 г",
+    "Cals_per100grams": "36 ккал",
+    "KJ_per100grams": "151 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Ajvar",
-    "per100grams": "100ml",
-    "Cals_per100grams": "18 cal",
-    "KJ_per100grams": "76 kJ"
+    "FoodItem": "Бальзамічний Вінегрет",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "290 ккал",
+    "KJ_per100grams": "1218 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Arrabiata Sauce",
-    "per100grams": "100g",
-    "Cals_per100grams": "36 cal",
-    "KJ_per100grams": "151 kJ"
+    "FoodItem": "Барбекю Соус",
+    "per100grams": "100 г",
+    "Cals_per100grams": "150 ккал",
+    "KJ_per100grams": "630 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Balsamic Vinaigrette Dressing",
-    "per100grams": "100ml",
-    "Cals_per100grams": "290 cal",
-    "KJ_per100grams": "1218 kJ"
+    "FoodItem": "Соус Бешамель",
+    "per100grams": "100 г",
+    "Cals_per100grams": "225 ккал",
+    "KJ_per100grams": "945 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Barbecue Sauce",
-    "per100grams": "100g",
-    "Cals_per100grams": "150 cal",
-    "KJ_per100grams": "630 kJ"
+    "FoodItem": "Соус Бернез",
+    "per100grams": "100 г",
+    "Cals_per100grams": "414 ккал",
+    "KJ_per100grams": "1739 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Bechamel Sauce",
-    "per100grams": "100g",
-    "Cals_per100grams": "225 cal",
-    "KJ_per100grams": "945 kJ"
+    "FoodItem": "Соус З Помідорами І Сиром Горгонзола",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "533 ккал",
+    "KJ_per100grams": "2239 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Bernaise Sauce",
-    "per100grams": "100g",
-    "Cals_per100grams": "414 cal",
-    "KJ_per100grams": "1739 kJ"
+    "FoodItem": "Соус Болоньєзе",
+    "per100grams": "100 г",
+    "Cals_per100grams": "106 ккал",
+    "KJ_per100grams": "445 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Blue Cheese Dressing",
-    "per100grams": "100ml",
-    "Cals_per100grams": "533 cal",
-    "KJ_per100grams": "2239 kJ"
+    "FoodItem": "Соус Ранч З Молочної Сироватки",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "533 ккал",
+    "KJ_per100grams": "2239 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Bolognese",
-    "per100grams": "100g",
-    "Cals_per100grams": "106 cal",
-    "KJ_per100grams": "445 kJ"
+    "FoodItem": "Цезар Соус",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "429 ккал",
+    "KJ_per100grams": "1802 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Buttermilk Ranch Dressing",
-    "per100grams": "100ml",
-    "Cals_per100grams": "533 cal",
-    "KJ_per100grams": "2239 kJ"
+    "FoodItem": "Соус Каталіна",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "282 ккал",
+    "KJ_per100grams": "1184 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Caesar Dressing",
-    "per100grams": "100ml",
-    "Cals_per100grams": "429 cal",
-    "KJ_per100grams": "1802 kJ"
+    "FoodItem": "Соус Шасур",
+    "per100grams": "100 г",
+    "Cals_per100grams": "45 ккал",
+    "KJ_per100grams": "189 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Catalina Dressing",
-    "per100grams": "100ml",
-    "Cals_per100grams": "282 cal",
-    "KJ_per100grams": "1184 kJ"
+    "FoodItem": "Чилі Соус",
+    "per100grams": "100 г",
+    "Cals_per100grams": "112 ккал",
+    "KJ_per100grams": "470 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Chasseur Sauce",
-    "per100grams": "100g",
-    "Cals_per100grams": "45 cal",
-    "KJ_per100grams": "189 kJ"
+    "FoodItem": "Соус Крем",
+    "per100grams": "100 г",
+    "Cals_per100grams": "180 ккал",
+    "KJ_per100grams": "756 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Chili Sauce",
-    "per100grams": "100g",
-    "Cals_per100grams": "112 cal",
-    "KJ_per100grams": "470 kJ"
+    "FoodItem": "Кетчуп З Каррі",
+    "per100grams": "100 г",
+    "Cals_per100grams": "124 ккал",
+    "KJ_per100grams": "521 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Cream Sauce",
-    "per100grams": "100g",
-    "Cals_per100grams": "180 cal",
-    "KJ_per100grams": "756 kJ"
+    "FoodItem": "Каррі Соус",
+    "per100grams": "100 г",
+    "Cals_per100grams": "26 ккал",
+    "KJ_per100grams": "109 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Curry Ketchup",
-    "per100grams": "100g",
-    "Cals_per100grams": "124 cal",
-    "KJ_per100grams": "521 kJ"
+    "FoodItem": "Французький Салат",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "60 ккал",
+    "KJ_per100grams": "252 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Curry Sauce",
-    "per100grams": "100g",
-    "Cals_per100grams": "26 cal",
-    "KJ_per100grams": "109 kJ"
+    "FoodItem": "Соус",
+    "per100grams": "100 г",
+    "Cals_per100grams": "53 ккал",
+    "KJ_per100grams": "223 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "French Dressing",
-    "per100grams": "100ml",
-    "Cals_per100grams": "60 cal",
-    "KJ_per100grams": "252 kJ"
+    "FoodItem": "Грецький Салат",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "467 ккал",
+    "KJ_per100grams": "1961 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Gravy",
-    "per100grams": "100g",
-    "Cals_per100grams": "53 cal",
-    "KJ_per100grams": "223 kJ"
+    "FoodItem": "Соус Для Гамбургерів",
+    "per100grams": "100 г",
+    "Cals_per100grams": "383 ккал",
+    "KJ_per100grams": "1609 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Greek Dressing",
-    "per100grams": "100ml",
-    "Cals_per100grams": "467 cal",
-    "KJ_per100grams": "1961 kJ"
+    "FoodItem": "Харіса",
+    "per100grams": "100 г",
+    "Cals_per100grams": "52 ккал",
+    "KJ_per100grams": "218 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Hamburger Sauce",
-    "per100grams": "100g",
-    "Cals_per100grams": "383 cal",
-    "KJ_per100grams": "1609 kJ"
+    "FoodItem": "Голландський Соус",
+    "per100grams": "100 г",
+    "Cals_per100grams": "535 ккал",
+    "KJ_per100grams": "2247 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Harissa",
-    "per100grams": "100g",
-    "Cals_per100grams": "52 cal",
-    "KJ_per100grams": "218 kJ"
+    "FoodItem": "Медовий Гірчичний Соус",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "464 ккал",
+    "KJ_per100grams": "1949 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Hollandaise Sauce",
-    "per100grams": "100g",
-    "Cals_per100grams": "535 cal",
-    "KJ_per100grams": "2247 kJ"
+    "FoodItem": "Італійський Салат",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "293 ккал",
+    "KJ_per100grams": "1231 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Honey Mustard Dressing",
-    "per100grams": "100ml",
-    "Cals_per100grams": "464 cal",
-    "KJ_per100grams": "1949 kJ"
+    "FoodItem": "Кетчуп",
+    "per100grams": "100 г",
+    "Cals_per100grams": "100 ккал",
+    "KJ_per100grams": "420 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Italian Dressing",
-    "per100grams": "100ml",
-    "Cals_per100grams": "293 cal",
-    "KJ_per100grams": "1231 kJ"
+    "FoodItem": "Майонез",
+    "per100grams": "100 г",
+    "Cals_per100grams": "692 ккал",
+    "KJ_per100grams": "2906 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Ketchup",
-    "per100grams": "100g",
-    "Cals_per100grams": "100 cal",
-    "KJ_per100grams": "420 kJ"
+    "FoodItem": "Гірчиця",
+    "per100grams": "100 г",
+    "Cals_per100grams": "60 ккал",
+    "KJ_per100grams": "252 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Mayonnaise",
-    "per100grams": "100g",
-    "Cals_per100grams": "692 cal",
-    "KJ_per100grams": "2906 kJ"
+    "FoodItem": "Гірчичний Соус",
+    "per100grams": "100 г",
+    "Cals_per100grams": "645 ккал",
+    "KJ_per100grams": "2709 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Mustard",
-    "per100grams": "100g",
-    "Cals_per100grams": "60 cal",
-    "KJ_per100grams": "252 kJ"
+    "FoodItem": "Апельсиновий Соус",
+    "per100grams": "100 г",
+    "Cals_per100grams": "179 ккал",
+    "KJ_per100grams": "752 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Mustard Sauce",
-    "per100grams": "100g",
-    "Cals_per100grams": "645 cal",
-    "KJ_per100grams": "2709 kJ"
+    "FoodItem": "Песто",
+    "per100grams": "100 г",
+    "Cals_per100grams": "458 ккал",
+    "KJ_per100grams": "1924 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Orange Sauce",
-    "per100grams": "100g",
-    "Cals_per100grams": "179 cal",
-    "KJ_per100grams": "752 kJ"
+    "FoodItem": "Ранч Соус",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "510 ккал",
+    "KJ_per100grams": "2142 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Pesto",
-    "per100grams": "100g",
-    "Cals_per100grams": "458 cal",
-    "KJ_per100grams": "1924 kJ"
+    "FoodItem": "Соус Ремулад",
+    "per100grams": "100 г",
+    "Cals_per100grams": "635 ккал",
+    "KJ_per100grams": "2667 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Ranch Dressing",
-    "per100grams": "100ml",
-    "Cals_per100grams": "510 cal",
-    "KJ_per100grams": "2142 kJ"
+    "FoodItem": "Російський Салат",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "400 ккал",
+    "KJ_per100grams": "1680 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Remoulade Sauce",
-    "per100grams": "100g",
-    "Cals_per100grams": "635 cal",
-    "KJ_per100grams": "2667 kJ"
+    "FoodItem": "Соус Для Салату",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "449 ккал",
+    "KJ_per100grams": "1886 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Russian Dressing",
-    "per100grams": "100ml",
-    "Cals_per100grams": "400 cal",
-    "KJ_per100grams": "1680 kJ"
+    "FoodItem": "Самбал Олек",
+    "per100grams": "100 г",
+    "Cals_per100grams": "21 ккал",
+    "KJ_per100grams": "88 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Salad Dressing",
-    "per100grams": "100ml",
-    "Cals_per100grams": "449 cal",
-    "KJ_per100grams": "1886 kJ"
+    "FoodItem": "Соус З Вершкового Масла",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "464 ккал",
+    "KJ_per100grams": "1949 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Sambal Oelek",
-    "per100grams": "100g",
-    "Cals_per100grams": "21 cal",
-    "KJ_per100grams": "88 kJ"
+    "FoodItem": "Кунжутне Пюре",
+    "per100grams": "100 г",
+    "Cals_per100grams": "595 ккал",
+    "KJ_per100grams": "2499 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Sesame Ginger Dressing",
-    "per100grams": "100ml",
-    "Cals_per100grams": "464 cal",
-    "KJ_per100grams": "1949 kJ"
+    "FoodItem": "Соус З Кислої Сметани",
+    "per100grams": "100 г",
+    "Cals_per100grams": "60 ккал",
+    "KJ_per100grams": "252 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Sesame Paste",
-    "per100grams": "100g",
-    "Cals_per100grams": "595 cal",
-    "KJ_per100grams": "2499 kJ"
+    "FoodItem": "Соєвий Соус",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "67 ккал",
+    "KJ_per100grams": "281 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Sour Cream Sauce",
-    "per100grams": "100g",
-    "Cals_per100grams": "60 cal",
-    "KJ_per100grams": "252 kJ"
+    "FoodItem": "Солодко-Кислий Соус",
+    "per100grams": "100 г",
+    "Cals_per100grams": "179 ккал",
+    "KJ_per100grams": "752 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Soy Sauce",
-    "per100grams": "100ml",
-    "Cals_per100grams": "67 cal",
-    "KJ_per100grams": "281 kJ"
+    "FoodItem": "Табаско",
+    "per100grams": "100 г",
+    "Cals_per100grams": "70 ккал",
+    "KJ_per100grams": "294 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Sweet and Sour Sauce",
-    "per100grams": "100g",
-    "Cals_per100grams": "179 cal",
-    "KJ_per100grams": "752 kJ"
+    "FoodItem": "Соус Теріякі",
+    "per100grams": "100 г",
+    "Cals_per100grams": "89 ккал",
+    "KJ_per100grams": "374 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Tabasco",
-    "per100grams": "100g",
-    "Cals_per100grams": "70 cal",
-    "KJ_per100grams": "294 kJ"
+    "FoodItem": "Тайська Куряча Паста",
+    "per100grams": "100 г",
+    "Cals_per100grams": "155 ккал",
+    "KJ_per100grams": "651 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Teriyaki Sauce",
-    "per100grams": "100g",
-    "Cals_per100grams": "89 cal",
-    "KJ_per100grams": "374 kJ"
+    "FoodItem": "Томатна Паста",
+    "per100grams": "100 г",
+    "Cals_per100grams": "82 ккал",
+    "KJ_per100grams": "344 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Thai Curry Paste",
-    "per100grams": "100g",
-    "Cals_per100grams": "155 cal",
-    "KJ_per100grams": "651 kJ"
+    "FoodItem": "Томатна Пюре",
+    "per100grams": "100 г",
+    "Cals_per100grams": "38 ккал",
+    "KJ_per100grams": "160 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Tomato Paste",
-    "per100grams": "100g",
-    "Cals_per100grams": "82 cal",
-    "KJ_per100grams": "344 kJ"
+    "FoodItem": "Томатний Соус",
+    "per100grams": "100 г",
+    "Cals_per100grams": "24 ккал",
+    "KJ_per100grams": "101 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Tomato Puree",
-    "per100grams": "100g",
-    "Cals_per100grams": "38 cal",
-    "KJ_per100grams": "160 kJ"
+    "FoodItem": "Вінігрет",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "120 ккал",
+    "KJ_per100grams": "504 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Tomato Sauce",
-    "per100grams": "100g",
-    "Cals_per100grams": "24 cal",
-    "KJ_per100grams": "101 kJ"
+    "FoodItem": "Вустерський Соус",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "78 ккал",
+    "KJ_per100grams": "328 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Vinaigrette",
-    "per100grams": "100ml",
-    "Cals_per100grams": "120 cal",
-    "KJ_per100grams": "504 kJ"
+    "FoodItem": "Йогуртовий Соус",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "45 ккал",
+    "KJ_per100grams": "189 кДж"
   },
   {
     "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Worcestershire Sauce",
-    "per100grams": "100ml",
-    "Cals_per100grams": "78 cal",
-    "KJ_per100grams": "328 kJ"
-  },
-  {
-    "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Yogurt Dressing",
-    "per100grams": "100ml",
-    "Cals_per100grams": "45 cal",
-    "KJ_per100grams": "189 kJ"
-  },
-  {
-    "FoodCategory": "Sauces&Dressings",
-    "FoodItem": "Zesty Italian Dressing",
-    "per100grams": "100ml",
-    "Cals_per100grams": "267 cal",
-    "KJ_per100grams": "1121 kJ"
+    "FoodItem": "Зесті Італійський Соус",
+    "per100grams": "100 мл",
+    "Cals_per100grams": "267 ккал",
+    "KJ_per100grams": "1121 кДж"
   }
 ]

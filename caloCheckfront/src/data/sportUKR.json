@@ -1,6 +1,6 @@
 [
   {
-    "Activity": "Cycling, mountain bike, bmx",
+    "Activity": "Велосипедний спорт, гірський велосипед, BMX",
     "130 lb": 502,
     "typVaga": 598,
     "180 lb": 695,
@@ -8,7 +8,7 @@
     "Calories per kg": 1.75072971940299
   },
   {
-    "Activity": "Cycling, <10 mph, leisure bicycling",
+    "Activity": "Велосипедний спорт, <10 миль/год, спокійне їздове коло",
     "130 lb": 236,
     "typVaga": 281,
     "180 lb": 327,
@@ -16,7 +16,7 @@
     "Calories per kg": 0.823235629850746
   },
   {
-    "Activity": "Cycling, >20 mph, racing",
+    "Activity": "Велосипедний спорт, >20 миль/год, гонка",
     "130 lb": 944,
     "typVaga": 1126,
     "180 lb": 1308,
@@ -24,7 +24,7 @@
     "Calories per kg": 3.29497352835821
   },
   {
-    "Activity": "Cycling, 10-11.9 mph, light",
+    "Activity": "Велосипедний спорт, 10-11.9 миль/год, легкий",
     "130 lb": 354,
     "typVaga": 422,
     "180 lb": 490,
@@ -32,7 +32,7 @@
     "Calories per kg": 1.23485344477612
   },
   {
-    "Activity": "Cycling, 12-13.9 mph, moderate",
+    "Activity": "Велосипедний спорт, 12-13.9 миль/год, середній",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -40,7 +40,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Cycling, 14-15.9 mph, vigorous",
+    "Activity": "Велосипедний спорт, 14-15.9 миль/год, інтенсивний",
     "130 lb": 590,
     "typVaga": 704,
     "180 lb": 817,
@@ -48,7 +48,7 @@
     "Calories per kg": 2.05944308059702
   },
   {
-    "Activity": "Cycling, 16-19 mph, very fast, racing",
+    "Activity": "Велосипедний спорт, 16-19 миль/год, дуже швидкий, гонка",
     "130 lb": 708,
     "typVaga": 844,
     "180 lb": 981,
@@ -56,7 +56,7 @@
     "Calories per kg": 2.47106089552239
   },
   {
-    "Activity": "Unicycling",
+    "Activity": "Уніцикл",
     "130 lb": 295,
     "typVaga": 352,
     "180 lb": 409,
@@ -64,7 +64,7 @@
     "Calories per kg": 1.02972154029851
   },
   {
-    "Activity": "Stationary cycling, very light",
+    "Activity": "Стаціонарний велосипед, дуже легкий",
     "130 lb": 177,
     "typVaga": 211,
     "180 lb": 245,
@@ -72,7 +72,7 @@
     "Calories per kg": 0.61742672238806
   },
   {
-    "Activity": "Stationary cycling, light",
+    "Activity": "Стаціонарний велосипед, легкий",
     "130 lb": 325,
     "typVaga": 387,
     "180 lb": 449,
@@ -80,7 +80,7 @@
     "Calories per kg": 1.13262599402985
   },
   {
-    "Activity": "Stationary cycling, moderate",
+    "Activity": "Стаціонарний велосипед, середній",
     "130 lb": 413,
     "typVaga": 493,
     "180 lb": 572,
@@ -88,7 +88,7 @@
     "Calories per kg": 1.44133935522388
   },
   {
-    "Activity": "Stationary cycling, vigorous",
+    "Activity": "Стаціонарний велосипед, інтенсивний",
     "130 lb": 620,
     "typVaga": 739,
     "180 lb": 858,
@@ -96,7 +96,7 @@
     "Calories per kg": 2.16234753432836
   },
   {
-    "Activity": "Stationary cycling, very vigorous",
+    "Activity": "Стаціонарний велосипед, дуже інтенсивний",
     "130 lb": 738,
     "typVaga": 880,
     "180 lb": 1022,
@@ -104,7 +104,7 @@
     "Calories per kg": 2.57464235223881
   },
   {
-    "Activity": "Calisthenics, vigorous, pushups, situps…",
+    "Activity": "Калістеніка, інтенсивна, віджимання, прес",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -112,7 +112,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Calisthenics, light",
+    "Activity": "Калістеніка, легка",
     "130 lb": 207,
     "typVaga": 246,
     "180 lb": 286,
@@ -120,7 +120,7 @@
     "Calories per kg": 0.721008179104478
   },
   {
-    "Activity": "Circuit training, minimal rest",
+    "Activity": "Силові тренування, мінімальний відпочинок",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -128,7 +128,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Weight lifting, body building, vigorous",
+    "Activity": "Підйом ваги, культуризм, інтенсивний",
     "130 lb": 354,
     "typVaga": 422,
     "180 lb": 490,
@@ -136,7 +136,7 @@
     "Calories per kg": 1.23485344477612
   },
   {
-    "Activity": "Weight lifting, light workout",
+    "Activity": "Підйом ваги, легке навантаження",
     "130 lb": 177,
     "typVaga": 211,
     "180 lb": 245,
@@ -144,7 +144,7 @@
     "Calories per kg": 0.61742672238806
   },
   {
-    "Activity": "Health club exercise",
+    "Activity": "Тренажерний зал",
     "130 lb": 325,
     "typVaga": 387,
     "180 lb": 449,
@@ -152,7 +152,7 @@
     "Calories per kg": 1.13262599402985
   },
   {
-    "Activity": "Stair machine",
+    "Activity": "Тренажерний вертикальний ліфт",
     "130 lb": 531,
     "typVaga": 633,
     "180 lb": 735,
@@ -160,7 +160,7 @@
     "Calories per kg": 1.85295717014925
   },
   {
-    "Activity": "Rowing machine, light",
+    "Activity": "Тренажерний вертикальний ліфт, легкий",
     "130 lb": 207,
     "typVaga": 246,
     "180 lb": 286,
@@ -168,7 +168,7 @@
     "Calories per kg": 0.721008179104478
   },
   {
-    "Activity": "Rowing machine, moderate",
+    "Activity": "Тренажерний вертикальний ліфт, середній",
     "130 lb": 413,
     "typVaga": 493,
     "180 lb": 572,
@@ -176,7 +176,7 @@
     "Calories per kg": 1.44133935522388
   },
   {
-    "Activity": "Rowing machine, vigorous",
+    "Activity": "Тренажерний вертикальний ліфт, інтенсивний",
     "130 lb": 502,
     "typVaga": 598,
     "180 lb": 695,
@@ -184,7 +184,7 @@
     "Calories per kg": 1.75072971940299
   },
   {
-    "Activity": "Rowing machine, very vigorous",
+    "Activity": "Тренажерний вертикальний ліфт, дуже інтенсивний",
     "130 lb": 708,
     "typVaga": 844,
     "180 lb": 981,
@@ -192,7 +192,7 @@
     "Calories per kg": 2.47106089552239
   },
   {
-    "Activity": "Ski machine",
+    "Activity": "Тренажерний вертикальний ліфт на лижному симуляторі",
     "130 lb": 413,
     "typVaga": 493,
     "180 lb": 572,
@@ -200,7 +200,7 @@
     "Calories per kg": 1.44133935522388
   },
   {
-    "Activity": "Aerobics, low impact",
+    "Activity": "Аеробіка, низький вплив",
     "130 lb": 295,
     "typVaga": 352,
     "180 lb": 409,
@@ -208,7 +208,7 @@
     "Calories per kg": 1.02972154029851
   },
   {
-    "Activity": "Aerobics, high impact",
+    "Activity": "Аеробіка, високий вплив",
     "130 lb": 413,
     "typVaga": 493,
     "180 lb": 572,
@@ -216,7 +216,7 @@
     "Calories per kg": 1.44133935522388
   },
   {
-    "Activity": "Aerobics, step aerobics",
+    "Activity": "Аеробіка, степ-аеробіка",
     "130 lb": 502,
     "typVaga": 598,
     "180 lb": 695,
@@ -224,7 +224,7 @@
     "Calories per kg": 1.75072971940299
   },
   {
-    "Activity": "Aerobics, general",
+    "Activity": "Аеробіка, загальна",
     "130 lb": 384,
     "typVaga": 457,
     "180 lb": 531,
@@ -232,7 +232,7 @@
     "Calories per kg": 1.33843490149254
   },
   {
-    "Activity": "Jazzercise",
+    "Activity": "Джазерсайз",
     "130 lb": 354,
     "typVaga": 422,
     "180 lb": 490,
@@ -240,7 +240,7 @@
     "Calories per kg": 1.23485344477612
   },
   {
-    "Activity": "Stretching, hatha yoga",
+    "Activity": "Розтяжка, хатха-йога",
     "130 lb": 236,
     "typVaga": 281,
     "180 lb": 327,
@@ -248,7 +248,7 @@
     "Calories per kg": 0.823235629850746
   },
   {
-    "Activity": "Mild stretching",
+    "Activity": "Легка розтяжка",
     "130 lb": 148,
     "typVaga": 176,
     "180 lb": 204,
@@ -256,7 +256,7 @@
     "Calories per kg": 0.515199271641791
   },
   {
-    "Activity": "Instructing aerobic class",
+    "Activity": "Ведення уроків з аеробіки",
     "130 lb": 354,
     "typVaga": 422,
     "180 lb": 490,
@@ -264,7 +264,7 @@
     "Calories per kg": 1.23485344477612
   },
   {
-    "Activity": "Water aerobics",
+    "Activity": "Водна аеробіка",
     "130 lb": 236,
     "typVaga": 281,
     "180 lb": 327,
@@ -272,7 +272,7 @@
     "Calories per kg": 0.823235629850746
   },
   {
-    "Activity": "Ballet, twist, jazz, tap",
+    "Activity": "Балет, твіст, джаз, тап",
     "130 lb": 266,
     "typVaga": 317,
     "180 lb": 368,
@@ -280,7 +280,7 @@
     "Calories per kg": 0.927494089552239
   },
   {
-    "Activity": "Ballroom dancing, slow",
+    "Activity": "Бальний танець, повільний",
     "130 lb": 177,
     "typVaga": 211,
     "180 lb": 245,
@@ -288,7 +288,7 @@
     "Calories per kg": 0.61742672238806
   },
   {
-    "Activity": "Ballroom dancing, fast",
+    "Activity": "Бальний танець, швидкий",
     "130 lb": 325,
     "typVaga": 387,
     "180 lb": 449,
@@ -296,7 +296,7 @@
     "Calories per kg": 1.13262599402985
   },
   {
-    "Activity": "Running, 5 mph (12 minute mile)",
+    "Activity": "Біг, 5 миль/год (12 хв на милю)",
     "130 lb": 472,
     "typVaga": 563,
     "180 lb": 654,
@@ -304,7 +304,7 @@
     "Calories per kg": 1.64782526567164
   },
   {
-    "Activity": "Running, 5.2 mph (11.5 minute mile)",
+    "Activity": "Біг, 5.2 миль/год (11.5 хв на милю)",
     "130 lb": 531,
     "typVaga": 633,
     "180 lb": 735,
@@ -312,7 +312,7 @@
     "Calories per kg": 1.85295717014925
   },
   {
-    "Activity": "Running, 6 mph (10 min mile)",
+    "Activity": "Біг, 6 миль/год (10 хв на милю)",
     "130 lb": 590,
     "typVaga": 704,
     "180 lb": 817,
@@ -320,7 +320,7 @@
     "Calories per kg": 2.05944308059702
   },
   {
-    "Activity": "Running, 6.7 mph (9 min mile)",
+    "Activity": "Біг, 6.7 миль/год (9 хв на милю)",
     "130 lb": 649,
     "typVaga": 774,
     "180 lb": 899,
@@ -328,7 +328,7 @@
     "Calories per kg": 2.2652519880597
   },
   {
-    "Activity": "Running, 7 mph (8.5 min mile)",
+    "Activity": "Біг, 7 миль/год (8.5 хв на милю)",
     "130 lb": 679,
     "typVaga": 809,
     "180 lb": 940,
@@ -336,7 +336,7 @@
     "Calories per kg": 2.36815644179104
   },
   {
-    "Activity": "Running, 7.5mph (8 min mile)",
+    "Activity": "Біг, 7.5 миль/год (8 хв на милю)",
     "130 lb": 738,
     "typVaga": 880,
     "180 lb": 1022,
@@ -344,7 +344,7 @@
     "Calories per kg": 2.57464235223881
   },
   {
-    "Activity": "Running, 8 mph (7.5 min mile)",
+    "Activity": "Біг, 8 миль/год (7.5 хв на милю)",
     "130 lb": 797,
     "typVaga": 950,
     "180 lb": 1103,
@@ -352,7 +352,7 @@
     "Calories per kg": 2.77977425671642
   },
   {
-    "Activity": "Running, 8.6 mph (7 min mile)",
+    "Activity": "Біг, 8.6 миль/год (7 хв на милю)",
     "130 lb": 826,
     "typVaga": 985,
     "180 lb": 1144,
