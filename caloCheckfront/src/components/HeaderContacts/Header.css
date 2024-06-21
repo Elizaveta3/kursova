@@ -1,15 +1,15 @@
-.wrapper {
-    max-width: 1320px;
+.wrapper_contacts {
+    width: 90%;
     margin: 0 auto;
     overflow: hidden;
 }
 
-.header_wrappper{
+.header_wrappper_contacts{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
     margin-top: 30px;
+    width: 100%;
 }
 
 .header_link{
@@ -34,7 +34,7 @@
     margin-right: 0;
 }
 
-.header_link:hover, .header_link:focus, .header_link:active{
-    opacity: .75;
+.header_button_contacts:hover, .header_button_contacts:focus, .header_button_contacts:active{
+    background-color: #715b4f;
 }
 

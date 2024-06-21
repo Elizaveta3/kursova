@@ -3,7 +3,7 @@
 }
 
 .wrapper_profile {
-    max-width: 1320px;
+    width: 95%;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -16,7 +16,17 @@
     margin-top: 15px;
     margin-bottom: 15px;
 }
-
+.language_switcher_light {
+    font-family: 'arsenal';
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(250, 247, 232, 0.35);
+    display: flex;
+    align-items: center;
+}
+.language_switcher_light .active_language {
+    color: #faf7e8;
+}
 .header_link_profile{
     font-family: 'arsenal';
     font-size: 29px;
@@ -31,14 +41,11 @@
 
 /*відступи між елементами меню*/
 
-.header_item_profile{
-    margin-right: 10px;
-    
-}
-.header_item:last-child_profile{
+
+.header_item_profile:last-child_profile{
     margin-right: 0;
 }
 
-.header_link_profile:hover, .header_link_profile:focus, .header_link_profile:active{
-    opacity: .75;
+.header_button_profile:hover, .header_button_profile:focus, .header_button_profile:active{
+    background-color: #e9e6d7;
 }
