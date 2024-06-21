@@ -1,5 +1,5 @@
 .wrapper {
-    max-width: 1320px;
+    width: 95%;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -34,7 +34,7 @@
     margin-right: 0;
 }
 
-.header_link:hover, .header_link:focus, .header_link:active{
-    opacity: .75;
+.header_button:hover, .header_button:focus, .header_button:active{
+    background-color: #ccd3aa;
 }
 
