@@ -87,24 +87,6 @@ export const Contacts = () => {
                         </div>
                     </form>
                 </div>
-                {/* <form className="contact_welcome">
-                    <h1>WELCOME!</h1>
-
-                    <div className="contact_welcome_inside">
-                        <div className="contact_welcome_text">
-                            <p>Name</p>
-                            <p>Email</p>
-                            <p>Message</p>
-                        </div>
-                        <div className="contact_welcome_text">
-                            <input placeholder="Your name"></input>
-                            <input placeholder="Your email"></input>
-                            <input placeholder="Your message"></input>
-                        </div>
-                        <Button buttonClass="header_button_contacts">Send</Button>
-                    </div>
-                </form> */}
-
                 <form className="contact_info">
                     <h1 style={{ marginBottom: "60px" }}
                     >CONTACT INFORMATION</h1>

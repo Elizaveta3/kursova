@@ -12,7 +12,7 @@ import twitter from './icons/twitter.png'
 export default function Footer() {
     return (
         <div className="footer">
-            <div className="wrapper">
+            <div className="wrapper_footer">
                 <nav className="footer_main_info">
                     <ul className="footer_list">
 
