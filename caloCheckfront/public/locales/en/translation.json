@@ -1,0 +1,30 @@
+{
+    "main": {
+      "first_section": {
+        "little_text": "Track your calorie intake and energy expenditure",
+        "main_text": "Feel free with CaloCheck",
+        "read_more": "Read more"
+      },
+      "second_section": {
+        "main_text": "users are already eating <span style={{ fontWeight: 700, textDecoration: 'underline' }}>properly!</span>",
+        "little_text": "What <span style={{ fontWeight: 700 }}>prevents</span> you?"
+      },
+      "third_section": {
+        "main_text": "What are <span style={{ fontWeight: 700 }}>calories</span>?",
+        "little_text": "<span style={{ fontWeight: 700 }}>Calories</span> -  is the unit of energy used for determining the amount of energy obtained from food and we use to support the vital processes of the body.",
+        "little_text_2": "Calories are important for  <span style={{ fontWeight: 700 }}>provision of energy</span>, equired for operation organs, exercise and other daily activities activities"
+      },
+      "fourth_section": {
+        "main_text": "Why it is important to count <span style={{ fontWeight: 700 }}>calories</span>?",
+        "little_text": "Calorie counting is important for certain reasons.",
+        "little_text_2": "<span style={{ fontWeight: 700, textDecoration: 'underline' }}>FIRSTLY</span>, it helps control weight and maintain a healthy level of fitness. A balanced amount of calories meets the needs of the body, avoiding overweight or malnutrition.",
+        "little_text_3": "<span style={{ fontWeight: 700, textDecoration: 'underline' }}>SECONDLY</span>,  calorie control can promote a healthy lifestyle and prevention of diseases. Excessive calorie intake can lead to the development of obesity, diabetes, cardiovascular disease and other health problems."
+      },
+      "fifth_section": {
+        "main_text": "Are you ready <span style={{ fontWeight: 700 }}>to start</span>?",
+        "sign_up": "Sign up",
+        "sign_in": "Sign in"
+      }
+    }
+  }
+  
