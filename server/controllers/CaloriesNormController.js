@@ -83,7 +83,7 @@ export const calculateNorm = async (req, res) => {
         );
 
         res.json(result);
-    
+
     } catch (error) {
         console.error(error);
         res.status(500).json({
@@ -105,18 +105,22 @@ export const getCalculateNorm = async (req, res) => {
     }
 };
 
-export const getLeftCalories = async (req,res) => {
-    try{
+export const getLeftCalories = async (req, res) => {
+    try {
         const accountId = req.params.id;
         const calories = await CaloriesNormModel.findOne({ account: accountId });
-        const consumed =  await foodForDayModel.findOne({ account: accountId });
+        const consumed = await foodForDayModel.findOne({ account: accountId });
         const burned = await activityForDayModel.findOne({ account: accountId });
+        
+        const consumedCalories = consumed ? consumed.quantityCalories : 0;
+        const burnedCalories = burned ? burned.quantityCalories : 0;
 
-        const leftCalories = calories.caloriesNorm - consumed.quantityCalories +  burned.quantityCalories;
+
+        const leftCalories = calories.caloriesNorm - consumedCalories + burnedCalories;
 
         res.status(200).json(leftCalories);
 
-    }catch(err){
+    } catch (err) {
         console.log(err);
         res.status(500).json({
             message: 'Не вдалося обрахувати калорії, що залишилися'

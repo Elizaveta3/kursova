@@ -14,7 +14,7 @@ export const Profile = () => {
     const [secondResponse, setSecondResponse] = useState(null);
     const [thirdResponse, setThirdResponse] = useState(null);
     const [fourthResponse, setFourthResponse] = useState(null);
-
+    const [leftCalories, setLeftCalories] = useState(null);
     const handleGoToDiary = () => {
         navigate('/diary');
     };
@@ -52,16 +52,25 @@ export const Profile = () => {
                     'Content-Type': 'application/json',
                 },
             }),
+            fetch(`/auth/leftCalories/${accountId}`, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            }),
         ])
             .then(responses => Promise.all(responses.map(response => response.json())))
-            .then(([profileDataResponse, secondResponseData, thirdResponseData, fourthResponseData]) => {
+            .then(([profileDataResponse, secondResponseData, thirdResponseData, fourthResponseData, leftCaloriesData]) => {
                 setProfileData(profileDataResponse);
                 setSecondResponse(secondResponseData);
                 setThirdResponse(thirdResponseData);
                 setFourthResponse(fourthResponseData);
+                setLeftCalories(leftCaloriesData);
                 console.log('Second response data:', secondResponseData);
                 console.log('third response data:', thirdResponseData);
                 console.log('fourth response data:', fourthResponseData);
+                console.log('setLeftCalories:', leftCaloriesData);
+
             })
             .catch(error => {
                 console.error('Error fetching profile data:', error);
@@ -106,9 +115,24 @@ export const Profile = () => {
                                         <p>{(thirdResponse && thirdResponse.quantityCalories) || 0}</p>
                                         <p>eaten</p>
                                     </div>
-                                    <div>{secondResponse && secondResponse.caloriesNorm && (
-                                        <p className='profile_calories'>{secondResponse.caloriesNorm}</p>
-                                    )}</div>
+                                    <div className='profile_calories'>
+                                        <div className='profile_calories_container'>
+                                            <div className='word_left'>
+                                                <span>Left</span>
+                                            </div>
+                                            <div className='rest_calories'>
+                                                {leftCalories !== null && (
+                                                    <span>{leftCalories}</span>
+                                                )}
+                                            </div>
+                                            <div className='calories_norm'>
+                                                {secondResponse && secondResponse.caloriesNorm && (
+                                                    <span>{secondResponse.caloriesNorm}</span>
+                                                )}
+                                                <span> kcal</span>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div className='profile_calories_user'>
                                         <p>{(fourthResponse && fourthResponse.quantityCalories) || 0}</p>
                                         <p>burned</p>
