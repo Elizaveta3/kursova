@@ -2,10 +2,13 @@ import Button from "../components/Button/Button";
 import HeaderMain from "../components/HeaderMain/HeaderMain";
 import Footer from "../components/Footer/Footer";
 import { useNavigate } from "react-router-dom";
+import React, { useContext } from 'react';
+import { LanguageContext } from '../LanguageContext';
 import i18next from '../i18n'
 
 export const MainPage = () => {
   const navigate = useNavigate();
+  const { currentLanguage } = useContext(LanguageContext);
 
   const handleGoToAuthPage = () => {
     navigate("/auth");
@@ -20,7 +23,7 @@ export const MainPage = () => {
         <div className="sections-wrapper">
           <section className="first">
             <p className="little_text">
-              {i18next.t('main.first_section.little_text')}
+              {i18next.t('main.first_section.little_text')} 
             </p>
             <p className="main_text">Feel free with CaloCheck</p>
             <Button
