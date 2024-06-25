@@ -11,7 +11,17 @@
     justify-content: space-between;
     margin-top: 30px;
 }
-
+.language_switcher_light_auth {
+    font-family: 'arsenal';
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(250, 247, 232, 0.35);
+    display: flex;
+    align-items: center;
+}
+.language_switcher_light_auth .active_language {
+    color: #faf7e8;
+}
 .header_link{
     font-family: 'arsenal';
     font-size: 29px;

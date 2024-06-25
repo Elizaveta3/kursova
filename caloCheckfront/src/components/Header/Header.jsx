@@ -17,13 +17,13 @@ export default function Header() {
     return (
         <header className="header">
             <div className="wrapper">
-                <div className="header_wrapper">
+                <div className="header_wrappper">
                     <div className="header_logo">
                         <a href="/" className="header_logo_link">
                             <img src={logo} alt="logo" className="header_logo_pic" />
                         </a>
                     </div>
-                    <div className="language_switcher_light">
+                    <div className="language_switcher_light_auth">
                         <span className={currentLanguage === 'ua' ? 'active_language' : ''} onClick={() => i18next.changeLanguage('ua')}>УКР</span>
                         <span> | </span>
                         <span className={currentLanguage === 'en' ? 'active_language' : ''} onClick={() => i18next.changeLanguage('en')}>ENG</span>

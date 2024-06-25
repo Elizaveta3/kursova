@@ -91,7 +91,7 @@ export const Profile = () => {
                     child2="Log out"
                 ></HeaderProfile>
                 <main className="main">
-                    <section>
+                    
                         <div className="form_profile">
                             <div className="header_form_profile">
                                 <div className="header_wrappper_form">
@@ -182,7 +182,7 @@ export const Profile = () => {
                             </div>
 
                         </div>
-                    </section>
+                    
                 </main>
             </body>
         </>

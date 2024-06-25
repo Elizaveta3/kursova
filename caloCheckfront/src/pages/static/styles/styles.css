@@ -186,7 +186,14 @@ html {
 /*Form styles ends*/
 
 /*Styles for page Main begin*/
+.font-bold {
+  font-weight: 700;
+}
 
+.highlight {
+  font-weight: 700;
+  text-decoration: underline;
+}
 .sections-wrapper {
   display: flex;
   flex-direction: column;
@@ -657,15 +664,15 @@ html {
   color: #FAF7E8;
 }
 .word_left{
-  font-size: 3.321vh;
+  font-size: 1.875vw;
 
 }
 .rest_calories{
-  font-size: 60px;
+  font-size: 4.166vw;
   font-weight: 700;
 }
 .calories_norm{
-  font-size: 25px;
+  font-size: 1.875vw;
 }
 .calories_norm{
   font-size: 25px;
