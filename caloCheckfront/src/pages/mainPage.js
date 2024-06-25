@@ -2,11 +2,10 @@ import Button from "../components/Button/Button";
 import HeaderMain from "../components/HeaderMain/HeaderMain";
 import Footer from "../components/Footer/Footer";
 import { useNavigate } from "react-router-dom";
-import {useTranslation} from 'react-i18next'
+import i18next from '../i18n'
 
 export const MainPage = () => {
   const navigate = useNavigate();
-  const t = useTranslation();
 
   const handleGoToAuthPage = () => {
     navigate("/auth");
@@ -21,7 +20,7 @@ export const MainPage = () => {
         <div className="sections-wrapper">
           <section className="first">
             <p className="little_text">
-              {t('main.first_section.little_text')}
+              {i18next.t('main.first_section.little_text')}
             </p>
             <p className="main_text">Feel free with CaloCheck</p>
             <Button
