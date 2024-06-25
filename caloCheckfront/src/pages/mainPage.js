@@ -25,12 +25,12 @@ export const MainPage = () => {
             <p className="little_text">
               {i18next.t('main.first_section.little_text')} 
             </p>
-            <p className="main_text">Feel free with CaloCheck</p>
+            <p className="main_text">{i18next.t('main.first_section.main_text')}</p>
             <Button
               buttonClass="button_main"
               handleClick={handleGoToRegisterPage}
             >
-              Read more
+              {i18next.t('main.first_section.read_more')}
             </Button>
           </section>
           <section className="second">
@@ -77,16 +77,16 @@ export const MainPage = () => {
             </p>
           </section>
           <section className="fifth">
-            <p className="main_text">Are you ready <span style={{ fontWeight: 700 }} >to start</span>?</p>
+            <p className="main_text">{i18next.t('main.fifth_section.main_text')}</p>
             <div style={{ display: "flex", flexDirection: "column" }}>
               <Button
                 buttonClass="button_main_fifth_register"
                 handleClick={handleGoToRegisterPage}
               >
-                Sign up
+                {i18next.t('main.fifth_section.sign_up')}
               </Button>
               <Button buttonClass="button_main_fifth_auth" handleClick={handleGoToAuthPage}>
-                Sign in
+              {i18next.t('main.fifth_section.sign_in')}
               </Button>
             </div>
           </section>
