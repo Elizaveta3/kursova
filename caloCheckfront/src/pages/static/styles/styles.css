@@ -583,15 +583,23 @@ html {
   background: url(../images/bg_profile.jpg) no-repeat;
   background-size: cover;
   position: relative;
-  height: 100%;
-  min-height: 100vh;
+  /* height: 100%; */
+  /* min-height: 110vh; */
 }
+.main_profile{
+  height: 87.3%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
+}
 .form_profile {
   margin-top: 57px;
-  margin-bottom: 48px;
-  width: 1349px;
-  height: 785px;
+  margin-bottom: 57px;
+  width: 90%;
+  height: 90%;
   background-color: #faf7e8;
   border-radius: 30px;
   display: flex;
@@ -599,15 +607,11 @@ html {
   align-items: flex-start;
 }
 
-.profile_section_wrapper {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
+
 
 /* header for form in profile */
 .header_form_profile {
-  width: 1349px;
+  width: 100%;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -631,6 +635,22 @@ html {
   font-family: "arsenal";
   font-size: 30px;
   margin: 0 15px;
+}
+
+.profile_section_wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.profile_section_calories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 9px 31px 0 #dfd5cd;
+  border-radius: 30px;
+  margin-top: 66px;
+  padding: 18px 0 19px 0;
+  width: 68.5%;
 }
 
 .profile_user_info,
@@ -683,16 +703,7 @@ html {
   text-align: center;
 }
 
-.profile_section_calories {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 3px 9px 31px 0 #dfd5cd;
-  border-radius: 30px;
-  margin-top: 66px;
-  padding: 18px 0 19px 0;
-  width: 888px;
-}
+
 
 .profile_section_inf {
 
@@ -703,9 +714,10 @@ html {
   gap: 20px;
   box-shadow: 3px 9px 31px 0 #dfd5cd;
   margin-top: 32px;
+  margin-bottom: 90px;
   padding-top: 60px;
   padding-bottom: 38px;
-  width: 888px;
+  width: 68.5%;
   border-radius: 30px;
 }
 

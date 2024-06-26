@@ -90,7 +90,7 @@ export const Profile = () => {
                     child1="Diary"
                     child2="Log out"
                 ></HeaderProfile>
-                <main className="main">
+                <main className="main_profile">
                     
                         <div className="form_profile">
                             <div className="header_form_profile">
