@@ -2,8 +2,9 @@ import logo from './LOGO 2.svg';
 import Button from '../Button/Button';
 import './Header.css';
 import { useNavigate } from 'react-router-dom';
-import React, { useState, useEffect } from 'react';
+import React, { useContext } from 'react';
 import i18next from '../../i18n';
+import { LanguageContext } from '../../LanguageContext';
 
 export default function Header() {
     const navigate = useNavigate();
@@ -12,7 +13,7 @@ export default function Header() {
         navigate('/');
     };
 
-    const [currentLanguage, setCurrentLanguage] = useState(i18next.language);
+    const { currentLanguage } = useContext(LanguageContext);
 
     return (
         <header className="header">

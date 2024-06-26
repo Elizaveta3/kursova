@@ -4,12 +4,14 @@ import { Alert } from '@mui/material';
 import Button from "../components/Button/Button";
 import { useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import {
     signInStart,
     signInSuccess,
     signInFailure,
 } from '../redux/user/userSlice';
+import { LanguageContext } from '../LanguageContext';
+import i18next from '../i18n'
 
 export const AuthPage = () => {
     const [formData, setFormData] = useState({});
@@ -19,6 +21,8 @@ export const AuthPage = () => {
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.id]: e.target.value.trim() });
     };
+    const { currentLanguage } = useContext(LanguageContext);
+
     const handleSubmit = async (e) => {
         e.preventDefault();
         if (!formData.userName || !formData.password) {
@@ -53,12 +57,12 @@ export const AuthPage = () => {
                 <main className="main">
                     <section>
                         <form className="form_enter"  onSubmit={handleSubmit} >
-                            <h1>Login</h1>
+                            <h1>{i18next.t('page_enter.login_title')}</h1>
                             <fieldset className="form_enter_wrap">
-                                <p className="text_input">Confirm the data.</p>
+                                <p className="text_input">{i18next.t('page_enter.confirm_data')}</p>
                                 <div className="form_input">
-                                    <input type="text" className="form_input_field" placeholder="Username" id='userName' onChange={handleChange}/>
-                                    <input type="password" className="form_input_field" placeholder="Password" id='password'onChange={handleChange}/>
+                                    <input type="text" className="form_input_field" placeholder={i18next.t('page_enter.username_placeholder')} id='userName' onChange={handleChange}/>
+                                    <input type="password" className="form_input_field" placeholder={i18next.t('page_enter.password_placeholder')} id='password'onChange={handleChange}/>
                                 </div>
                                 {errorMessage && (
                                     <Alert severity="error">
@@ -69,7 +73,7 @@ export const AuthPage = () => {
                                     <Button
                                         buttonClass="submit_button" type="submit" onSubmit={handleSubmit}
                                     >
-                                        Sign in
+                                        {i18next.t('page_enter.sign_in_button')}
                                     </Button>
                                 </p>
                                 

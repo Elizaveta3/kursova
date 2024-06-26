@@ -25,6 +25,34 @@
         "sign_up": "Sign up",
         "sign_in": "Sign in"
       }
+    }, 
+    "page_enter":{
+      "login_title": "Login",
+      "confirm_data": "Confirm the data.",
+      "enter_data": "Enter the data.",
+      "username_placeholder": "Username",
+      "password_placeholder": "Password",
+      "sign_in_button": "Sign in",
+      "forgot_password_button":"Forgot password?"
+    },
+    "page_reg":{
+      "register_title": "Registration",
+      "enter_data": "Enter the data.",
+      "username_placeholder": "Username",
+      "email_placeholder":"Email",
+      "password_placeholder": "Password",
+      "next_button":"Next",
+      "sign_in_button": "Sign in"
+    },
+    "page_contacts":{
+      "contacts_title": "WELCOME!",
+      "name_placeholder": "Your name",
+      "email_placeholder":"Your email",
+      "password_placeholder": "Your password",
+      "send_button": "Send",
+      "contact_info": "CONTACT INFORMATION",
+      "suggestions" : "If you have comments or suggestions, or questions about cooperation, write or call us.",
+      "email_info": "E-mail: admincalo@ukr.net."
     }
   }        
 

@@ -25,6 +25,34 @@
         "sign_up": "Зареєструватися",
         "sign_in": "Увійти"
       }
-    }
+    }, 
+    "page_enter":{
+      "login_title": "Вхід",
+      "confirm_data": "Підтвердіть дані.",
+      "enter_data": "Введіть дані.",
+      "username_placeholder": "Ім’я користувача",
+      "password_placeholder": "Пароль",
+      "sign_in_button": "Увійти",
+      "forgot_password_button":"Забули пароль?"
+    },
+    "page_reg":{
+      "register_title": "Реєстрація",
+      "enter_data": "Введіть дані.",
+      "username_placeholder": "Ім’я користувача",
+      "email_placeholder":"Пошта",
+      "password_placeholder": "Пароль",
+      "next_button":"Далі",
+      "sign_in_button": "Увійти"
+    },
+    "page_contacts":{
+      "contacts_title": "ВІТАЄМО!",
+      "name_placeholder": "Ваше ім’я",
+      "email_placeholder":"Ваша пошта",
+      "password_placeholder": "Ваш пароль",
+      "send_button": "Надіслати",
+      "contact_info": "КОНТАКТНА ІНФОРМАЦІЯ",
+      "suggestions" : "Якщо у вас є зауваження чи пропозиції, або питання щодо співпраці, пишіть або телефонуйте нам.",
+      "email_info": "Пошта: admincalo@ukr.net."
+    }   
   }
   

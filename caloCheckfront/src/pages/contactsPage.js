@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import HeaderContacts from '../components/HeaderContacts/Header'
 import FormRowForEmail from '../components/FormRowForEmail/FormRowForEmail';
 import Footer from "../components/Footer/Footer";
 import Button from "../components/Button/Button";
+import { LanguageContext } from '../LanguageContext';
+import i18next from '../i18n'
 
 export const Contacts = () => {
     const [formData, setFormData] = useState({
@@ -45,13 +47,14 @@ export const Contacts = () => {
             console.error('Error sending request:', error.message);
             setErrorMessage(error.message);}
     };
+    const { currentLanguage } = useContext(LanguageContext);
 
     return (
         <>
             <body className="page_contacts">
                 <HeaderContacts />
                 <div className="form_welcome" onSubmit={handleSubmit}>
-                    <h1>WELCOME!</h1>
+                    <h1>{i18next.t('page_contacts.contacts_title')}</h1>
                     <form className="form_container_welcome">
                     <div className="form_fields">
                         <FormRowForEmail
@@ -59,7 +62,7 @@ export const Contacts = () => {
                             type="text"
                             id="name"
                             name="name"
-                            placeholder="Your name"
+                            placeholder={i18next.t('page_contacts.name_placeholder')}
                             onChange={handleChange}
                         />
                         <FormRowForEmail
@@ -67,7 +70,7 @@ export const Contacts = () => {
                             type="email"
                             id="email"
                             name="email"
-                            placeholder="Your email"
+                            placeholder={i18next.t('page_contacts.email_placeholder')}
                             onChange={handleChange}
                         />
                         <FormRowForEmail
@@ -75,23 +78,23 @@ export const Contacts = () => {
                             type="textarea"
                             id="message"
                             name="message"
-                            placeholder="Your message"
+                            placeholder={i18next.t('page_contacts.password_placeholder')}
                             onChange={handleChange}
                             className="message-input"
                         />
                          </div>
                         <div className="form_button">
                             <Button buttonClass="header_button_contacts" type="submit" onSubmit={handleSubmit}>
-                                Send
+                            {i18next.t('page_contacts.send_button')}
                             </Button>
                         </div>
                     </form>
                 </div>
                 <form className="contact_info">
                     <h1 style={{ marginBottom: "60px" }}
-                    >CONTACT INFORMATION</h1>
-                    <p>If you have comments or suggestions, or questions about cooperation, write or call us.</p>
-                    <p>E-mail: admincalo@ukr.net.</p>
+                    >{i18next.t('page_contacts.contact_info')}</h1>
+                    <p>{i18next.t('page_contacts.suggestions')}</p>
+                    <p>{i18next.t('page_contacts.email_info')}</p>
 
                 </form>
                 <Footer></Footer>

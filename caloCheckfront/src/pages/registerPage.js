@@ -1,13 +1,15 @@
- import React, { useState } from 'react'
+ import React, { useState, useContext } from 'react'
 import Header from '../components/Header/Header'
 import { Alert } from '@mui/material';
 import './static/styles/styles.css'
 import Button from "../components/Button/Button";
 import { useNavigate } from "react-router-dom";
-
+import { LanguageContext } from '../LanguageContext';
+import i18next from '../i18n'
 
 export const RegisterPage = () => {
     const navigate = useNavigate();
+    const { currentLanguage } = useContext(LanguageContext);
 
     const handleGoToAuthPage = () => {
         navigate("/auth");
@@ -81,13 +83,13 @@ export const RegisterPage = () => {
                 <main className="main">
                     <section>
                         <form className="form_reg" onSubmit={handleSubmit}>
-                            <h1>Sign up</h1>
+                            <h1>{i18next.t('page_reg.register_title')}</h1>
                             <fieldset className="form_reg_wrap">
-                                <p className="text_input">Enter the data.</p>
+                                <p className="text_input">{i18next.t('page_reg.enter_data')}</p>
                                 <p className="form_input">
-                                    <input type="text" className="form_input_field" placeholder="Username" id='userName' onChange={handleChange} />
-                                    <input type="email" className="form_input_field" placeholder="E-mail" id='email' onChange={handleChange} />
-                                    <input type="password" className="form_input_field" placeholder="Password" id='password' onChange={handleChange} />
+                                    <input type="text" className="form_input_field" placeholder={i18next.t('page_reg.username_placeholder')} id='userName' onChange={handleChange} />
+                                    <input type="email" className="form_input_field" placeholder={i18next.t('page_reg.email_placeholder')} id='email' onChange={handleChange} />
+                                    <input type="password" className="form_input_field" placeholder={i18next.t('page_reg.password_placeholder')} id='password' onChange={handleChange} />
                                 </p>
                                 {errorMessage && (
                                     <Alert severity="error">
@@ -99,7 +101,7 @@ export const RegisterPage = () => {
                                         buttonClass="submit_button_reg" type='submit'
 
                                     >
-                                        Next
+                                        {i18next.t('page_reg.next_button')}
                                     </Button>
                                 </p>
                                 <p>
@@ -107,7 +109,7 @@ export const RegisterPage = () => {
                                         buttonClass="submit_button_enter"
                                         handleClick={handleGoToAuthPage}
                                     >
-                                        Sign in
+                                        {i18next.t('page_reg.sign_in_button')}
                                     </Button>
                                 </p>
                                 

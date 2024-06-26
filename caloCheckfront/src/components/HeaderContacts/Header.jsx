@@ -2,7 +2,9 @@ import logo from './LOGO 2.svg'
 import Button from '../Button/Button'
 import './Header.css'
 import { useNavigate } from 'react-router-dom';
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
+import { LanguageContext } from '../../LanguageContext';
+import i18next from '../../i18n';
 
 export default function Header() {
     const navigate = useNavigate();
@@ -10,10 +12,8 @@ export default function Header() {
     const handleGoToMainPage = () => {
         navigate('/');
     };
-    const [currentLanguage, setCurrentLanguage] = useState('ENG');
-    const handleLanguageChange = (language) => {
-        setCurrentLanguage(language);
-    };
+    const { currentLanguage } = useContext(LanguageContext);
+
     return (<header className="header">
         <div className="wrapper_contacts">
             <div className="header_wrappper_contacts">
@@ -23,9 +23,9 @@ export default function Header() {
                     </a>
                 </div>
                 <div className="language_switcher">
-                    <span className={currentLanguage === 'UKR' ? 'active_language' : ''} onClick={() => handleLanguageChange('UKR')}>УКР</span>
+                    <span className={currentLanguage === 'ua' ? 'active_language' : ''} onClick={() => i18next.changeLanguage('ua')}>УКР</span>
                     <span> | </span>
-                    <span className={currentLanguage === 'ENG' ? 'active_language' : ''} onClick={() => handleLanguageChange('ENG')}>ENG</span>
+                    <span className={currentLanguage === 'en' ? 'active_language' : ''} onClick={() => i18next.changeLanguage('en')}>ENG</span>
                 </div>
                 <div className="container_header_nav">
                     <nav className="header_nav">
