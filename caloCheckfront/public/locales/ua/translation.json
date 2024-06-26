@@ -25,6 +25,15 @@
         "sign_up": "Зареєструватися",
         "sign_in": "Увійти"
       }
+    },
+
+    "page_enter":{
+      "login_title": "Логін",
+      "confirm_data": "Confirm the data.",
+      "username_placeholder": "Username",
+      "password_placeholder": "Password",
+      "sign_in_button": "Sign in"
     }
   }
+
   
