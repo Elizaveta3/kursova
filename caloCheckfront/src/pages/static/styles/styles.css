@@ -650,7 +650,8 @@ html {
   border-radius: 30px;
   margin-top: 66px;
   padding: 18px 0 19px 0;
-  width: 68.5%;
+  width: 70%;
+  height: 78.2%;
 }
 
 .profile_user_info,
@@ -662,8 +663,8 @@ html {
 }
 
 .profile_calories {
-  width: 200px;
-  height: 200px;
+  width: 22%;
+  aspect-ratio: 1;
   border-radius: 50%;
   /* Заокруглені кути для створення кола */
   background-color: #7fac84;
