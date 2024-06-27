@@ -7,6 +7,8 @@ import RadioBox from '../components/RadioBox/RadioBox';
 import Button from '../components/Button/Button';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
+import { LanguageContext } from '../LanguageContext';
+import i18next from '../i18n'
 
 import iconForReturn from './static/images/icon for return.svg';
 export const ProfileEdit = () => {
