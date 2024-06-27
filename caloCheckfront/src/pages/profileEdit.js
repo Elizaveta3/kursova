@@ -133,8 +133,7 @@ export const ProfileEdit = () => {
                     child1="Diary"
                     child2="Log out"
                 ></HeaderProfile>
-                <main className="main">
-                    <section>
+                <main className="main_profile">
                         <div className="form_profile">
                             <div className="header_form_editing">
                                 <a href="/profile" className="header_form_link">
@@ -202,7 +201,6 @@ export const ProfileEdit = () => {
                             </form>
 
                         </div>
-                    </section>
                 </main>
             </body>
         </>

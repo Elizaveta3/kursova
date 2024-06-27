@@ -3,10 +3,12 @@
     align-items: center;
     /* Center align label and input */
     margin-bottom: 31px;
+    width: 60.8%;
+    height: 100%;
 }
 
 .form_row label {
-    width: 175px;
+    width: 22.1%;
     font-family: "arsenal";
     font-size: 40px;
     text-align: left;
@@ -15,7 +17,7 @@
 .form_row input {
     /* margin-bottom: 70px; */
     /* Додатковий відступ між елементами, якщо потрібно */
-    width: 564px;
+    width: 71.5%;
     background-color: #d7dfaf;
     border: 0;
     height: 47px;
