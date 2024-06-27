@@ -37,9 +37,9 @@ export default function HeaderMain() {
                     <nav className="header_nav">
                         <ul className="header_list">
                             <li className="header_item">
-                                <Button buttonClass="header_button_main" handleClick={handleGoToRegisterPage}>Sign up</Button>
-                                <Button buttonClass="header_button_main" handleClick={handleGoToAuthPage}>Sign in</Button>
-                                <Button buttonClass="header_button_main" handleClick={handleGoToContactPage}>Contacts</Button>
+                                <Button buttonClass="header_button_main" handleClick={handleGoToRegisterPage}>{i18next.t('header.sign_up')}</Button>
+                                <Button buttonClass="header_button_main" handleClick={handleGoToAuthPage}>{i18next.t('header.sign_in')}</Button>
+                                <Button buttonClass="header_button_main" handleClick={handleGoToContactPage}>{i18next.t('header.contacts')}</Button>
                             </li>
                         </ul>
                     </nav>

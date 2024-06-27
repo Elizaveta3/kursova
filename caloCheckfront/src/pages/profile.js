@@ -1,12 +1,15 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 import HeaderProfile from '../components/HeaderProfile/HeaderProfile';
 // import Button from '../components/Button/Button';
 
 import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+import { LanguageContext } from '../LanguageContext';
+import i18next from '../i18n'
 
 import iconForUpdate from './static/images/icon for update.svg';
 import iconForDelete from './static/images/icon for delete.svg';
+
 export const Profile = () => {
     const navigate = useNavigate();
     const { currentUser } = useSelector(state => state.user);
@@ -15,6 +18,9 @@ export const Profile = () => {
     const [thirdResponse, setThirdResponse] = useState(null);
     const [fourthResponse, setFourthResponse] = useState(null);
     const [leftCalories, setLeftCalories] = useState(null);
+
+    const { currentLanguage } = useContext(LanguageContext);
+
     const handleGoToDiary = () => {
         navigate('/diary');
     };
@@ -87,8 +93,8 @@ export const Profile = () => {
                 <HeaderProfile
                     click1={handleGoToDiary}
                     click2={handleGoToAuthPage}
-                    child1="Diary"
-                    child2="Log out"
+                    child1={i18next.t('header.diary')}
+                    child2={i18next.t('header.log_out')}
                 ></HeaderProfile>
                 <main className="main_profile">
                     
@@ -113,12 +119,12 @@ export const Profile = () => {
                                 <section className='profile_section_calories'>
                                     <div className='profile_calories_user'>
                                         <p>{(thirdResponse && thirdResponse.quantityCalories) || 0}</p>
-                                        <p>eaten</p>
+                                        <p>{i18next.t('main_profile.eaten')}</p>
                                     </div>
                                     <div className='profile_calories'>
                                         <div className='profile_calories_container'>
                                             <div className='word_left'>
-                                                <span>Left</span>
+                                                <span>{i18next.t('main_profile.left')}</span>
                                             </div>
                                             <div className='rest_calories'>
                                                 {leftCalories !== null && (
@@ -135,7 +141,7 @@ export const Profile = () => {
                                     </div>
                                     <div className='profile_calories_user'>
                                         <p>{(fourthResponse && fourthResponse.quantityCalories) || 0}</p>
-                                        <p>burned</p>
+                                        <p>{i18next.t('main_profile.burned')}</p>
                                     </div>
                                 </section>
                             </div>
@@ -144,20 +150,20 @@ export const Profile = () => {
                                 <section className='profile_section_inf'>
                                     <div className="profile_info_container">
                                         <div className='profile_item_container'>
-                                            <p className='profile_item'>Gender:</p>
+                                            <p className='profile_item'>{i18next.t('main_profile.gender')}</p>
                                             {profileData && profileData.gender && (
                                                 <p className='profile_user_info'>{profileData.gender}</p>
                                             )}
                                         </div>
                                         <div className='profile_item_container'>
-                                            <p className='profile_item'>Weight:</p>
+                                            <p className='profile_item'>{i18next.t('main_profile.weight')}</p>
                                             {profileData && profileData.weight && (
                                                 <p className='profile_user_info'>{profileData.weight}</p>
                                             )}
                                             <span className="measurement">kg</span>
                                         </div>
                                         <div className='profile_item_container'>
-                                            <p className='profile_item'>Age:</p>
+                                            <p className='profile_item'>{i18next.t('main_profile.age')}</p>
                                             {profileData && profileData.age && (
                                                 <p className='profile_user_info'>{profileData.age}</p>
                                             )}
@@ -165,7 +171,7 @@ export const Profile = () => {
                                         </div>
 
                                         <div className='profile_item_container'>
-                                            <p className='profile_item'>Height:</p>
+                                            <p className='profile_item'>{i18next.t('main_profile.height')}</p>
                                             {profileData && profileData.height && (
                                                 <p className='profile_user_info'>{profileData.height}</p>
                                             )}
@@ -173,7 +179,7 @@ export const Profile = () => {
                                         </div>
                                     </div>
                                     <div className='profile_goal'>
-                                        <p className='profile_item'>My goal:</p>
+                                        <p className='profile_item'>{i18next.t('main_profile.goal')}</p>
                                         {profileData && profileData.goal && (
                                             <p className='profile_user_info'>{<p className='profile_user_info'>{goalMapping[profileData.goal]}</p>}</p>
                                         )}

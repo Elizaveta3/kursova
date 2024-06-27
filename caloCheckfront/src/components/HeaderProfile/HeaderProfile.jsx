@@ -1,13 +1,14 @@
 import logo from './LOGO 2.svg'
 import Button from '../Button/Button'
 import './HeaderProfile.css'
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
+import { LanguageContext } from '../../LanguageContext';
+import i18next from '../../i18n';
 
 export default function HeaderProfile({ click1, click2, child1, child2 }) {
-    const [currentLanguage, setCurrentLanguage] = useState('ENG');
-    const handleLanguageChange = (language) => {
-        setCurrentLanguage(language);
-    };
+
+    const { currentLanguage } = useContext(LanguageContext);
+
     return (<header className="header_profile">
         <div className="wrapper_profile">
             <div className="header_wrappper_profile">
@@ -17,9 +18,9 @@ export default function HeaderProfile({ click1, click2, child1, child2 }) {
                     </a>
                 </div>
                 <div className="language_switcher_light">
-                    <span className={currentLanguage === 'UKR' ? 'active_language' : ''} onClick={() => handleLanguageChange('UKR')}>УКР</span>
+                    <span className={currentLanguage === 'ua' ? 'active_language' : ''} onClick={() => i18next.changeLanguage('ua')}>УКР</span>
                     <span> | </span>
-                    <span className={currentLanguage === 'ENG' ? 'active_language' : ''} onClick={() => handleLanguageChange('ENG')}>ENG</span>
+                    <span className={currentLanguage === 'en' ? 'active_language' : ''} onClick={() => i18next.changeLanguage('en')}>ENG</span>
                 </div>
                 <div className="container_header_nav">
                     <nav className="header_nav_profile">

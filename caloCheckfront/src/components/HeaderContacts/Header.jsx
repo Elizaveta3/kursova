@@ -31,7 +31,7 @@ export default function Header() {
                     <nav className="header_nav">
                         <ul className="header_list">
                             <li className="header_item">
-                                <Button buttonClass="header_button_contacts" handleClick={handleGoToMainPage}>Main page</Button>
+                                <Button buttonClass="header_button_contacts" handleClick={handleGoToMainPage}>{i18next.t('header.main')}</Button>
                             </li>
                         </ul>
                     </nav>

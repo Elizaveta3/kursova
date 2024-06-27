@@ -53,6 +53,24 @@
       "contact_info": "CONTACT INFORMATION",
       "suggestions" : "If you have comments or suggestions, or questions about cooperation, write or call us.",
       "email_info": "E-mail: admincalo@ukr.net."
+    },
+    "header":{
+      "sign_up": "Sign up",
+      "sign_in": "Sign in",
+      "contacts": "Contacts",
+      "main": "Main page",
+      "diary": "Diary",
+      "log_out": "Log out"
+    },
+    "main_profile":{
+      "left": "Left",
+      "eaten": "eaten",
+      "burned": "burned",
+      "gender": "Gender:",
+      "weight": "Weight:",
+      "age": "Age:",
+      "height":"Height:",
+      "goal":"My goal:"
     }
   }        
 

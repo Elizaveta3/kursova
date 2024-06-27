@@ -2,13 +2,23 @@ import Button from "../components/Button/Button";
 import HeaderMain from "../components/HeaderMain/HeaderMain";
 import Footer from "../components/Footer/Footer";
 import { useNavigate } from "react-router-dom";
-import React, { useContext } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 import { LanguageContext } from '../LanguageContext';
 import i18next from '../i18n'
 
 export const MainPage = () => {
   const navigate = useNavigate();
   const { currentLanguage } = useContext(LanguageContext);
+  const [isInitialized, setIsInitialized] = useState(false);
+
+  useEffect(() => {
+    i18next.on('initialized', () => {
+      setIsInitialized(true);
+    });
+    if (i18next.isInitialized) {
+      setIsInitialized(true);
+    }
+  }, []);
 
   const handleGoToAuthPage = () => {
     navigate("/auth");
@@ -16,6 +26,11 @@ export const MainPage = () => {
   const handleGoToRegisterPage = () => {
     navigate("/register");
   };
+
+  if (!isInitialized) {
+    return <div>Завантаження...</div>;
+  }
+
   return (
     <body className="page_main">
       <HeaderMain />
