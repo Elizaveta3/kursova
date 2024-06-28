@@ -1,40 +1,42 @@
-import jsonData from '../../caloCheckfront/src/data/calories.json' assert { type: "json" };
+import jsonDataEN from '../../caloCheckfront/src/data/calories.json' assert { type: "json" };
+import jsonDataUA from '../../caloCheckfront/src/data/caloriesUKR.json' assert { type: "json" };
 import FoodForDayModel from '../models/foodForDay.js';
-
-
 
 export const calculateFoodForDay = async (req, res) => {
     try {
         const { id: accountId } = req.params;
-        const { foodItemName, quantityGrams } = req.body;
+        const { foodItemName, quantityGrams, language = 'en' } = req.body; // Default to 'en' if language is not provided
 
-        // Знайти дані про продукт з датасету за назвою
-        const foodItemData = jsonData.find(item => item.FoodItem === foodItemName);
+        // Select the appropriate dataset based on the language
+        const dataset = language === 'ua' ? jsonDataUA : jsonDataEN;
+
+        // Find the food item data in the selected dataset
+        const foodItemData = dataset.find(item => item.FoodItem === foodItemName);
 
         if (!foodItemData) {
             return res.status(404).json({ message: 'Продукт не знайдено' });
         }
 
-        // Розрахувати кількість калорій за введеною кількістю грамів
-        const calories =  Math.round((quantityGrams * parseInt(foodItemData.Cals_per100grams)) / 100);
-        
-        // Перевірити, чи існує вже запис foodForDay для обліку
-        let foodForDay = await FoodForDayModel.findOne({ account: accountId }); // Виправлено ім'я моделі
+        // Calculate the calories based on the provided quantity in grams
+        const calories = Math.round((quantityGrams * parseInt(foodItemData.Cals_per100grams)) / 100);
+
+        // Check if a foodForDay record exists for the account
+        let foodForDay = await FoodForDayModel.findOne({ account: accountId });
 
         if (!foodForDay) {
-            // Якщо запису не існує, створити новий
+            // If no record exists, create a new one
             foodForDay = new FoodForDayModel({
                 account: accountId,
                 quantityCalories: calories,
                 foodItem: [foodItemName],
             });
         } else {
-            // Якщо запис існує, оновити його
+            // If a record exists, update it
             foodForDay.quantityCalories += calories;
             foodForDay.foodItem.push(foodItemName);
         }
 
-        // Зберегти або оновити запис foodForDay
+        // Save or update the foodForDay record
         await foodForDay.save();
 
         res.status(200).json({ message: 'Кількість калорій успішно розрахована і збережена' });
@@ -43,6 +45,7 @@ export const calculateFoodForDay = async (req, res) => {
         res.status(500).json({ message: 'Не вдалося зробити обрахунки' });
     }
 };
+
 export const getCalculateEaten = async (req, res) => {
     try {
         const accountId = req.params.id;

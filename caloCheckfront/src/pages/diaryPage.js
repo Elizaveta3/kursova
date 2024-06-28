@@ -1,12 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import HeaderProfile from '../components/HeaderProfile/HeaderProfile';
 import { useNavigate } from 'react-router-dom';
 import Button from '../components/Button/Button';
 import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
-import jsonData from '../data/calories.json';
-import jsonData2 from '../data/sport.json'
+import jsonDataEN from '../data/calories.json';
+import jsonData2EN from '../data/sport.json';
+import jsonDataUKR from '../data/caloriesUKR.json';
+import jsonDataUKR2 from '../data/sportUKR.json';
 import { useSelector } from 'react-redux';
+import { LanguageContext } from '../LanguageContext';
+import i18next from '../i18n';
 
 export const DiaryPage = () => {
     const navigate = useNavigate();
@@ -14,7 +18,8 @@ export const DiaryPage = () => {
     const [showText2, setShowText2] = useState(true);
     const [showSearch1, setShowSearch1] = useState(false);
     const [showSearch2, setShowSearch2] = useState(false);
-    const [errorMessage, setErrorMessage] = useState(null)
+    const [errorMessage, setErrorMessage] = useState(null);
+    const { currentLanguage } = useContext(LanguageContext);
     const [formData, setFormData] = useState({ foodItemName: '', quantityGrams: '', activityItemName: '', quantityMinutes: '' });
 
     const [jsonResults, setJsonResults] = useState([]);
@@ -25,11 +30,18 @@ export const DiaryPage = () => {
     const [isActivitySectionActive, setIsActivitySectionActive] = useState(false);
 
     useEffect(() => {
-        const productNames = jsonData.map(item => item.FoodItem);
-        setJsonResults(productNames);
-        const activityNames = jsonData2.map(item => item.Activity);
-        setJsonResults2(activityNames);
-    }, []);
+        const loadData = () => {
+            if (currentLanguage === 'ua') {
+                setJsonResults(jsonDataUKR.map(item => item.FoodItem));
+                setJsonResults2(jsonDataUKR2.map(item => item.Activity));
+            } else {
+                setJsonResults(jsonDataEN.map(item => item.FoodItem));
+                setJsonResults2(jsonData2EN.map(item => item.Activity));
+            }
+        };
+
+        loadData();
+    }, [currentLanguage]);
 
     const handleGoToProfile = () => {
         navigate('/profile');
@@ -38,6 +50,7 @@ export const DiaryPage = () => {
     const handleGoToAuthPage = () => {
         navigate('/auth');
     };
+    
     const handlePlusButtonClick1 = () => {
         setShowText1(false);
         setShowSearch1(true);
@@ -80,7 +93,7 @@ export const DiaryPage = () => {
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify(formData)
+                body: JSON.stringify({ ...formData, language: currentLanguage })
             });
             const data = await res.json();
             if (!res.ok) {
@@ -114,7 +127,7 @@ export const DiaryPage = () => {
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify(formData)
+                body: JSON.stringify({ ...formData, language: currentLanguage })
             });
             const data = await res.json();
             if (!res.ok) {
@@ -136,14 +149,12 @@ export const DiaryPage = () => {
         }
     };
 
-
-
     return (
         <div className="page_diary">
-            <HeaderProfile click1={handleGoToProfile} click2={handleGoToAuthPage} child1="Profile" child2="Log out" />
+            <HeaderProfile click1={handleGoToProfile} click2={handleGoToAuthPage} child1={i18next.t('profile_diary.profile_button')} child2={i18next.t('profile_diary.logout_button')} />
             <div className="form_diary">
                 <form className={`section_diary ${isFoodSectionActive ? 'active' : ''}`} onSubmit={handleSubmit}>
-                    <p className='text_diary'>Food:</p>
+                    <p className='text_diary'>{i18next.t('profile_diary.food')}</p>
                     {showSearch1 && (
                         <>
                             <div className="search-container">
@@ -151,31 +162,31 @@ export const DiaryPage = () => {
                                     options={jsonResults}
                                     name="foodItemName"
                                     sx={{ width: '80%' }}
-                                    renderInput={(params) => <TextField {...params} label="Product search" />}
+                                    renderInput={(params) => <TextField {...params} label={i18next.t('profile_diary.product_search')} />}
                                     onChange={(e, value) => handleChange(value, 'foodItemName')}
                                 />
                                 <TextField
-                                    label="Grams"
+                                    label={i18next.t('profile_diary.grams')}
                                     name="quantityGrams"
                                     sx={{ width: '50%' }}
                                     onChange={(e) => handleChange(e.target.value, 'quantityGrams')}
                                     id="quantityGrams"
                                 />
-                                <Button buttonClass="submit_button_diary" type="submit" onSubmit={handleSubmit}>Submit</Button>
+                                <Button buttonClass="submit_button_diary" type="submit" onSubmit={handleSubmit}>{i18next.t('profile_diary.submit_button')}</Button>
                             </div>
                         </>
                     )}
-                    {showText1 && <p className='little_text_diary'>Click here to select:</p>}
+                    {showText1 && <p className='little_text_diary'>{i18next.t('profile_diary.select_text')}</p>}
                     {showSearch1 ? (
                         <>
-                            <Button buttonClass="cancel_button_diary" handleClick={handleCancel1}>Cancel</Button>
+                            <Button buttonClass="cancel_button_diary" handleClick={handleCancel1}>{i18next.t('profile_diary.cancel_button')}</Button>
                         </>
                     ) : (
                         <Button buttonClass="add_button_diary" handleClick={handlePlusButtonClick1}>+</Button>
                     )}
                 </form>
                 <form className={`section_diary ${isActivitySectionActive ? 'active' : ''}`} onSubmit={handleSubmitActivity}>
-                    <p className='text_diary'>Activities:</p>
+                    <p className='text_diary'>{i18next.t('profile_diary.activity')}</p>
                     {showSearch2 && (
                         <>
                             <div className="search-container">
@@ -183,23 +194,23 @@ export const DiaryPage = () => {
                                     options={jsonResults2}
                                     name="activityItemName"
                                     sx={{ width: '80%' }}
-                                    renderInput={(params) => <TextField {...params} label="Activity search" />}
+                                    renderInput={(params) => <TextField {...params} label={i18next.t('profile_diary.activity_search')} />}
                                     onChange={(e, value) => handleChange(value, 'activityItemName')}
                                 />
                                 <TextField
-                                    label="Minutes"
+                                    label={i18next.t('profile_diary.minutes')}
                                     name="quantityMinutes"
                                     sx={{ width: '50%' }}
                                     onChange={(e) => handleChange(e.target.value, 'quantityMinutes')}
                                     id="quantityMinutes"
                                 />
-                                <Button buttonClass="submit_button_diary" type="submit" onSubmit={handleSubmitActivity}>Submit</Button>
+                                <Button buttonClass="submit_button_diary" type="submit" onSubmit={handleSubmitActivity}>{i18next.t('profile_diary.submit_button')}</Button>
                             </div>
                         </>
                     )}
-                    {showText2 && <p className='little_text_diary'>Click here to select:</p>}
+                    {showText2 && <p className='little_text_diary'>{i18next.t('profile_diary.select_text')}</p>}
                     {showSearch2 ? (
-                        <Button buttonClass="cancel_button_diary" handleClick={handleCancel2}>Cancel</Button>
+                        <Button buttonClass="cancel_button_diary" handleClick={handleCancel2}>{i18next.t('profile_diary.cancel_button')}</Button>
                     ) : (
                         <Button buttonClass="add_button_diary" handleClick={handlePlusButtonClick2}>+</Button>
                     )}

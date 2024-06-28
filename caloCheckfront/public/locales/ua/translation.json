@@ -1,76 +1,120 @@
 {
-    "main": {
-      "first_section": {
-        "little_text": "Відстежуй своє споживання калорій та витрати енергії",
-        "main_text": "Почувайся вільно з CaloCheck",
-        "read_more": "Детальніше"
-      },
-      "second_section": {
-        "main_text": "користувачів вже харчуються <span class=\"highlight\">правильно!</span>",
-        "little_text": "Що <span class=\"font-bold\">заважає</span> тобі?"
-      },
-      "third_section": {
-        "main_text": "Що таке <span class=\"font-bold\">калорії</span>?",
-        "little_text": "<span class=\"font-bold\">Калорії</span> - це одиниця виміру енергії, яка використовується для визначення кількості енергії, яку отримуємо з їжі та використовуємо для підтримки життєвих процесів організму.",
-        "little_text_2": "Калорії важливі для <span class=\"font-bold\">забезпечення енергії</span>, необхідної для роботи органів, виконання фізичних вправ та інших повсякденних активностей."
-      },
-      "fourth_section": {
-        "main_text": "Чому важливо рахувати <span class=\"font-bold\">калорії</span>?",
-        "little_text": "Рахування калорій важливо з кількох причин.",
-        "little_text_2": "<span class=\"highlight\">ПО-ПЕРШЕ</span>, це допомагає контролювати вагу та зберігати здоровий рівень фізичної форми. Збалансована кількість калорій відповідає потребам організму, дозволяючи уникнути надмірної ваги або недостатнього харчування.",
-        "little_text_3": "<span class=\"highlight\">ПО-ДРУГЕ</span>, контроль калорій може сприяти здоровому способу життя та запобіганню хворобам. Надмірне споживання калорій може призводити до розвитку ожиріння, діабету, серцево-судинних захворювань та інших проблем зі здоров'ям."
-      },
-      "fifth_section": {
-        "main_text": "Ви готові  <span class=\"font-bold\">почати</span>?",
-        "sign_up": "Зареєструватися",
-        "sign_in": "Увійти"
-      }
-    }, 
-    "page_enter":{
-      "login_title": "Вхід",
-      "confirm_data": "Підтвердіть дані.",
-      "enter_data": "Введіть дані.",
-      "username_placeholder": "Ім’я користувача",
-      "password_placeholder": "Пароль",
-      "sign_in_button": "Увійти",
-      "forgot_password_button":"Забули пароль?"
+  "main": {
+    "first_section": {
+      "little_text": "Відстежуй своє споживання калорій та витрати енергії",
+      "main_text": "Почувайся вільно з CaloCheck",
+      "read_more": "Детальніше"
     },
-    "page_reg":{
-      "register_title": "Реєстрація",
-      "enter_data": "Введіть дані.",
-      "username_placeholder": "Ім’я користувача",
-      "email_placeholder":"Пошта",
-      "password_placeholder": "Пароль",
-      "next_button":"Далі",
-      "sign_in_button": "Увійти"
+    "second_section": {
+      "main_text": "користувачів вже харчуються <span class=\"highlight\">правильно!</span>",
+      "little_text": "Що <span class=\"font-bold\">заважає</span> тобі?"
     },
-    "page_contacts":{
-      "contacts_title": "ВІТАЄМО!",
-      "name_placeholder": "Ваше ім’я",
-      "email_placeholder":"Ваша пошта",
-      "password_placeholder": "Ваш пароль",
-      "send_button": "Надіслати",
-      "contact_info": "КОНТАКТНА ІНФОРМАЦІЯ",
-      "suggestions" : "Якщо у вас є зауваження чи пропозиції, або питання щодо співпраці, пишіть або телефонуйте нам.",
-      "email_info": "Пошта: admincalo@ukr.net."
+    "third_section": {
+      "main_text": "Що таке <span class=\"font-bold\">калорії</span>?",
+      "little_text": "<span class=\"font-bold\">Калорії</span> - це одиниця виміру енергії, яка використовується для визначення кількості енергії, яку отримуємо з їжі та використовуємо для підтримки життєвих процесів організму.",
+      "little_text_2": "Калорії важливі для <span class=\"font-bold\">забезпечення енергії</span>, необхідної для роботи органів, виконання фізичних вправ та інших повсякденних активностей."
     },
-    "header":{
+    "fourth_section": {
+      "main_text": "Чому важливо рахувати <span class=\"font-bold\">калорії</span>?",
+      "little_text": "Рахування калорій важливо з кількох причин.",
+      "little_text_2": "<span class=\"highlight\">ПО-ПЕРШЕ</span>, це допомагає контролювати вагу та зберігати здоровий рівень фізичної форми. Збалансована кількість калорій відповідає потребам організму, дозволяючи уникнути надмірної ваги або недостатнього харчування.",
+      "little_text_3": "<span class=\"highlight\">ПО-ДРУГЕ</span>, контроль калорій може сприяти здоровому способу життя та запобіганню хворобам. Надмірне споживання калорій може призводити до розвитку ожиріння, діабету, серцево-судинних захворювань та інших проблем зі здоров'ям."
+    },
+    "fifth_section": {
+      "main_text": "Ви готові  <span class=\"font-bold\">почати</span>?",
       "sign_up": "Зареєструватися",
-      "sign_in": "Увійти",
-      "contacts": "Контакти",
-      "main": "До головної",
-      "diary": "Щоденник",
-      "log_out": "Вийти"
-    },
-    "main_profile":{
-      "left": "Залишилось",
-      "eaten": "спожито",
-      "burned": "спалено",
-      "gender": "Стать:",
-      "weight": "Вага:",
-      "age": "Вік:",
-      "height":"Зріст:",
-      "goal":"Моя ціль:"
+      "sign_in": "Увійти"
+    }
+  },
+  "page_enter": {
+    "login_title": "Вхід",
+    "confirm_data": "Підтвердіть дані.",
+    "enter_data": "Введіть дані.",
+    "username_placeholder": "Ім’я користувача",
+    "password_placeholder": "Пароль",
+    "sign_in_button": "Увійти",
+    "forgot_password_button": "Забули пароль?"
+  },
+  "page_reg": {
+    "register_title": "Реєстрація",
+    "enter_data": "Введіть дані.",
+    "username_placeholder": "Ім’я користувача",
+    "email_placeholder": "Пошта",
+    "password_placeholder": "Пароль",
+    "next_button": "Далі",
+    "sign_in_button": "Увійти"
+  },
+  "page_contacts": {
+    "contacts_title": "ВІТАЄМО!",
+    "name_placeholder": "Ваше ім’я",
+    "email_placeholder": "Ваша пошта",
+    "message_placeholder": "Ваше повідомлення",
+    "name": "Ім’я",
+    "email": "Пошта",
+    "message": "Текст",
+    "send_button": "Надіслати",
+    "contact_info": "КОНТАКТНА ІНФОРМАЦІЯ",
+    "suggestions": "Якщо у вас є зауваження чи пропозиції, або питання щодо співпраці, пишіть або телефонуйте нам.",
+    "email_info": "Пошта: admincalo@ukr.net."
+  },
+  "header": {
+    "sign_up": "Зареєструватися",
+    "sign_in": "Увійти",
+    "contacts": "Контакти",
+    "main": "До головної",
+    "diary": "Щоденник",
+    "log_out": "Вийти"
+  },
+  "main_profile": {
+    "left": "Залишилось",
+    "eaten": "спожито",
+    "burned": "спалено",
+    "gender": "Стать:",
+    "weight": "Вага:",
+    "age": "Вік:",
+    "height": "Зріст:",
+    "goal": "Моя ціль:"
+  },
+  "edit_profile": {
+    "title": "Редагування профіля",
+    "gender": "Стать:",
+    "username": "Ім’я",
+    "female": "Жінка",
+    "male": "Чоловік",
+    "weight": "Вага",
+    "age": "Вік",
+    "height": "Зріст",
+    "goal": "Ціль:",
+    "lose": "Худнути",
+    "maintain": "Зберігати",
+    "gain": "Набирати",
+    "submit_button": "Підтвердити"
+  },
+  "fill_profile": {
+    "title": "Заповніть профіль",
+    "gender": "Оберіть стать",
+    "female": "Жінка",
+    "male": "Чоловік",
+    "weight": "Напишіть вагу (кг)",
+    "age": "Напишіть вік (роки)",
+    "height": "Напишіть зріст (см)",
+    "goal": "Оберіть ціль",
+    "lose": "Худнути",
+    "maintain": "Зберігати потосну вагу",
+    "gain": "Набирати вагу",
+    "submit_button": "Зареєструватися"
+  },
+  "profile_diary": {
+    "food": "Їжа:",
+    "activity": "Активності:",
+    "select_text": "Натисніть щоб обрати:",
+    "submit_button": "Підтвердити",
+    "cancel_button": "Відмінити",
+    "product_search": "Пошук продукту",
+    "grams": "Грами",
+    "activity_search": "Пошук активності",
+    "minutes": "Хвилини",
+    "profile_button": "Профіль",
+    "logout_button": "Вийти"
   }
 }
-  

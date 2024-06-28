@@ -1,12 +1,15 @@
-import jsonData from '../../caloCheckfront/src/data/sport.json' assert { type: "json" };
+import jsonDataEN from '../../caloCheckfront/src/data/sport.json' assert { type: "json" };
+import jsonDataUA from '../../caloCheckfront/src/data/sportUKR.json' assert { type: "json" };
 import ActivityForDayModel from '../models/activityForDay.js';
 
 export const calculateActivityForDay = async (req, res) => {
     try {
         const { id: accountId } = req.params;
-        const { activityItemName, quantityMinutes} = req.body;
+        const { activityItemName, quantityMinutes, language = 'en'} = req.body;
 
-        const activityItemData = jsonData.find(item => item.Activity === activityItemName);
+        const dataset = language === 'ua' ? jsonDataUA : jsonDataEN;
+
+        const activityItemData = dataset.find(item => item.Activity === activityItemName);
 
         if (!activityItemData) {
             return res.status(404).json({ message: 'Дану активність не знайдено' });

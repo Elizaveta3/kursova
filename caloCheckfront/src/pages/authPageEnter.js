@@ -4,7 +4,7 @@ import { Alert } from '@mui/material';
 import Button from "../components/Button/Button";
 import { useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { useState, useContext  } from 'react';
+import { useState, useContext, useEffect } from 'react';
 import {
     signInStart,
     signInSuccess,
@@ -22,6 +22,15 @@ export const AuthPageEnter = () => {
         setFormData({ ...formData, [e.target.id]: e.target.value.trim() });
     };
     const { currentLanguage } = useContext(LanguageContext);
+    const [isInitialized, setIsInitialized] = useState(false);
+    useEffect(() => {
+        i18next.on('initialized', () => {
+          setIsInitialized(true);
+        });
+        if (i18next.isInitialized) {
+          setIsInitialized(true);
+        }
+      }, []);
 
     const handleGoToForgotPass = () => {
         navigate('/forgotPassword');
@@ -55,6 +64,11 @@ export const AuthPageEnter = () => {
             dispatch(signInFailure(error.message));
         }
     };
+
+    if (!isInitialized) {
+        return <div>Завантаження...</div>;
+      }
+      
     return (
         <>
             <body className="page_enter">

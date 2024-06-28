@@ -48,7 +48,10 @@
       "contacts_title": "WELCOME!",
       "name_placeholder": "Your name",
       "email_placeholder":"Your email",
-      "password_placeholder": "Your password",
+      "message_placeholder": "Your message",
+      "name":"Name",
+      "email":"Email",
+      "message":"Message",
       "send_button": "Send",
       "contact_info": "CONTACT INFORMATION",
       "suggestions" : "If you have comments or suggestions, or questions about cooperation, write or call us.",
@@ -70,7 +73,51 @@
       "weight": "Weight:",
       "age": "Age:",
       "height":"Height:",
-      "goal":"My goal:"
+      "goal":"My goal:",
+      "kg":"kg",
+      "years": ""
+    },
+    "edit_profile":{
+      "title":"Profile editing",
+      "gender": "Gender:",
+      "username":"Username",
+      "female":"Female",
+      "male":"Male",
+      "weight": "Weight",
+      "age": "Age",
+      "height":"Height",
+      "goal":"Goal:",
+      "lose":"Lose",
+      "maintain": "Maintain",
+      "gain":"Gain",
+      "submit_button":"Submit"
+    },
+    "fill_profile":{
+      "title":"Fill profile",
+      "gender": "Choose your gender",
+      "female":"Female",
+      "male":"Male",
+      "weight": "Write your weight (kg)",
+      "age": "Write your age (years)",
+      "height":"Write your height (cm)",
+      "goal":"Choose your goal",
+      "lose":"Losing weight",
+      "maintain": "Maintain current weight",
+      "gain":"Gain weight",
+      "submit_button":"Sign up"
+    },
+    "profile_diary":{
+      "food":"Food:",
+      "activity":"Activities:",
+      "select_text":"Click here to select:",
+      "submit_button": "Submit",
+      "cancel_button":"Cancel",
+      "product_search":"Product search",
+      "grams":"Grams",
+      "activity_search":"Activity search",
+      "minutes":"Minutes",
+      "profile_button":"Profile",
+      "logout_button":"Log out"
     }
   }        
 

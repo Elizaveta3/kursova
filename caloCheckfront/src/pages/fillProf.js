@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import Button from '../components/Button/Button';
 import RadioBox from '../components/RadioBox/RadioBox';
 import FormInput from '../components/FormInputFillProf/FormInputFillProf';
@@ -6,9 +6,12 @@ import './static/styles/styles.css';
 import { useNavigate } from 'react-router-dom';
 import { Alert } from '@mui/material';
 import { useSelector } from 'react-redux';
+import { LanguageContext } from '../LanguageContext';
+import i18next from '../i18n'
 
 export const FillPage = () => {
     const navigate = useNavigate();
+    const { currentLanguage } = useContext(LanguageContext);
 
     // Встановіть початкове значення для formData
     const [formData, setFormData] = useState({ gender: 'female',  goal: 'lose_weight' });
@@ -83,19 +86,19 @@ export const FillPage = () => {
             <main className="main">
                 <section>
                     <form className="form_fill_profile" onSubmit={handleSubmit}>
-                        <h1>Fill profile</h1>
+                        <h1>{i18next.t('fill_profile.title')}</h1>
                         <fieldset className="form_reg_wrap">
-                            <p className="text_input_sex">Choose your gender</p>
+                            <p className="text_input_sex">{i18next.t('fill_profile.gender')}</p>
                             <p className="form_sex">
                                 <RadioBox
-                                    label="Female"
+                                    label={i18next.t('fill_profile.female')}
                                     name="gender"
                                     value="female"
                                     onChange={handleChange}
                                     checked={formData.gender === 'female'} // Додано атрибут checked
                                 />
                                 <RadioBox
-                                    label="Male"
+                                    label={i18next.t('fill_profile.male')}
                                     name="gender"
                                     value="male"
                                     onChange={handleChange}
@@ -104,42 +107,42 @@ export const FillPage = () => {
                             </p>
                             <p className="form_input_fill_prof">
                                 <FormInput
-                                    placeholder="Write your age (years)"
+                                    placeholder={i18next.t('fill_profile.age')}
                                     name="age"
                                     onChange={handleChange}
                                     id="age"
                                 />
                                 <FormInput
-                                    placeholder="Write your height (cm)"
+                                    placeholder={i18next.t('fill_profile.height')}
                                     name="height"
                                     onChange={handleChange}
                                     id="height"
                                 />
                                 <FormInput
-                                    placeholder="Write your weight (kg)"
+                                    placeholder={i18next.t('fill_profile.weight')}
                                     name="weight"
                                     onChange={handleChange}
                                     id="weight"
                                 />
                             </p>
-                            <p className="text_input_goal">Choose your goal</p>
+                            <p className="text_input_goal">{i18next.t('fill_profile.goal')}</p>
                             <p className="form_goal">
                                 <RadioBox
-                                    label="Losing weight"
+                                    label={i18next.t('fill_profile.lose')}
                                     name="goal"
                                     value="lose_weight"
                                     onChange={handleChange}
                                     checked={formData.goal === 'lose_weight'} 
                                 />
                                 <RadioBox
-                                    label="Maintain current weight"
+                                    label={i18next.t('fill_profile.maintain')}
                                     name="goal"
                                     value="maintain_weight"
                                     onChange={handleChange}
                                     checked={formData.goal === 'maintain_weight'}
                                 />
                                 <RadioBox
-                                    label="Gain weight"
+                                    label={i18next.t('fill_profile.gain')}
                                     name="goal"
                                     value="gain_weight"
                                     onChange={handleChange}
@@ -149,7 +152,7 @@ export const FillPage = () => {
                             {errorMessage && <Alert severity="error">{errorMessage}</Alert>}
                             <p className="form_buttom">
                                 <Button buttonClass="submit_button_reg" type="submit" onSubmit={handleSubmit}>
-                                    Sign up
+                                {i18next.t('fill_profile.submit_button')}
                                 </Button>
                             </p>
                         </fieldset>

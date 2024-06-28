@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import HeaderContacts from '../components/HeaderContacts/Header'
 import FormRowForEmail from '../components/FormRowForEmail/FormRowForEmail';
 import Footer from "../components/Footer/Footer";
@@ -7,6 +7,19 @@ import { LanguageContext } from '../LanguageContext';
 import i18next from '../i18n'
 
 export const Contacts = () => {
+    const { currentLanguage } = useContext(LanguageContext);
+    const [isInitialized, setIsInitialized] = useState(false);
+
+
+    useEffect(() => {
+        i18next.on('initialized', () => {
+          setIsInitialized(true);
+        });
+        if (i18next.isInitialized) {
+          setIsInitialized(true);
+        }
+      }, []);
+
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -47,7 +60,10 @@ export const Contacts = () => {
             console.error('Error sending request:', error.message);
             setErrorMessage(error.message);}
     };
-    const { currentLanguage } = useContext(LanguageContext);
+    
+    if (!isInitialized) {
+        return <div>Завантаження...</div>;
+      }
 
     return (
         <>
@@ -58,7 +74,7 @@ export const Contacts = () => {
                     <form className="form_container_welcome">
                     <div className="form_fields">
                         <FormRowForEmail
-                            label="Name"
+                            label={i18next.t('page_contacts.name')}
                             type="text"
                             id="name"
                             name="name"
@@ -66,7 +82,7 @@ export const Contacts = () => {
                             onChange={handleChange}
                         />
                         <FormRowForEmail
-                            label="Email"
+                            label={i18next.t('page_contacts.email')}
                             type="email"
                             id="email"
                             name="email"
@@ -74,11 +90,11 @@ export const Contacts = () => {
                             onChange={handleChange}
                         />
                         <FormRowForEmail
-                            label="Message"
+                            label={i18next.t('page_contacts.message')}
                             type="textarea"
                             id="message"
                             name="message"
-                            placeholder={i18next.t('page_contacts.password_placeholder')}
+                            placeholder={i18next.t('page_contacts.message_placeholder')}
                             onChange={handleChange}
                             className="message-input"
                         />

@@ -20,6 +20,15 @@ export const Profile = () => {
     const [leftCalories, setLeftCalories] = useState(null);
 
     const { currentLanguage } = useContext(LanguageContext);
+    const [isInitialized, setIsInitialized] = useState(false);
+    useEffect(() => {
+        i18next.on('initialized', () => {
+          setIsInitialized(true);
+        });
+        if (i18next.isInitialized) {
+          setIsInitialized(true);
+        }
+      }, []);
 
     const handleGoToDiary = () => {
         navigate('/diary');
@@ -87,6 +96,11 @@ export const Profile = () => {
         maintain_weight: "maintain current weight",
         gain_weight: "gain weight"
     };
+
+    if (!isInitialized) {
+        return <div>Завантаження...</div>;
+      }
+      
     return (
         <>
             <body className="page_profile">
