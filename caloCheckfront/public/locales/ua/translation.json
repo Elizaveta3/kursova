@@ -88,7 +88,9 @@
     "lose": "Худнути",
     "maintain": "Зберігати",
     "gain": "Набирати",
-    "submit_button": "Підтвердити"
+    "submit_button": "Підтвердити",
+    "diary_button": "Щоденник",
+    "logout_button": "Вийти"
   },
   "fill_profile": {
     "title": "Заповніть профіль",

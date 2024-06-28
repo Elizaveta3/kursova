@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import Button from '../components/Button/Button';
 import RadioBox from '../components/RadioBox/RadioBox';
 import FormInput from '../components/FormInputFillProf/FormInputFillProf';
@@ -12,6 +12,16 @@ import i18next from '../i18n'
 export const FillPage = () => {
     const navigate = useNavigate();
     const { currentLanguage } = useContext(LanguageContext);
+    const [isInitialized, setIsInitialized] = useState(false);
+
+    useEffect(() => {
+        i18next.on('initialized', () => {
+          setIsInitialized(true);
+        });
+        if (i18next.isInitialized) {
+          setIsInitialized(true);
+        }
+      }, []);
 
     // Встановіть початкове значення для formData
     const [formData, setFormData] = useState({ gender: 'female',  goal: 'lose_weight' });
@@ -80,6 +90,10 @@ export const FillPage = () => {
             setErrorMessage(error.message);
         }
     };
+
+    if (!isInitialized) {
+        return <div>Завантаження...</div>;
+      }
 
     return (
         <div className="page_fill_profile">

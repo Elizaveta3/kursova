@@ -15,6 +15,17 @@ export const ProfileEdit = () => {
     const navigate = useNavigate();
     const dispatch = useDispatch();
     const { currentLanguage } = useContext(LanguageContext);
+    const [isInitialized, setIsInitialized] = useState(false);
+
+
+    useEffect(() => {
+        i18next.on('initialized', () => {
+          setIsInitialized(true);
+        });
+        if (i18next.isInitialized) {
+          setIsInitialized(true);
+        }
+      }, []);
     const { currentUser } = useSelector(state => state.user);
     const [formData, setFormData] = useState({
         userName: '',
@@ -127,14 +138,18 @@ export const ProfileEdit = () => {
         }
     };
 
+    if (!isInitialized) {
+        return <div>Завантаження...</div>;
+      }
+
     return (
         <>
             <body className="page_profile_editing">
                 <HeaderProfile
                     click1={handleGoToDiary}
                     click2={handleGoToAuthPage}
-                    child1="Diary"
-                    child2="Log out"
+                    child1={i18next.t('edit_profile.diary_button')}
+                    child2={i18next.t('edit_profile.logout_button')}
                 ></HeaderProfile>
                 <main className="main_profile">
                     <div className="form_profile">

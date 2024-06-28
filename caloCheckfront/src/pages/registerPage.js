@@ -1,4 +1,4 @@
- import React, { useState, useContext } from 'react'
+ import React, { useState, useContext, useEffect } from 'react'
 import Header from '../components/Header/Header'
 import { Alert } from '@mui/material';
 import './static/styles/styles.css'
@@ -10,6 +10,17 @@ import i18next from '../i18n'
 export const RegisterPage = () => {
     const navigate = useNavigate();
     const { currentLanguage } = useContext(LanguageContext);
+    const [isInitialized, setIsInitialized] = useState(false);
+
+
+    useEffect(() => {
+        i18next.on('initialized', () => {
+          setIsInitialized(true);
+        });
+        if (i18next.isInitialized) {
+          setIsInitialized(true);
+        }
+      }, []);
 
     const handleGoToAuthPage = () => {
         navigate("/auth");
@@ -75,6 +86,9 @@ export const RegisterPage = () => {
         }
     };
 
+    if (!isInitialized) {
+        return <div>Завантаження...</div>;
+      }
 
     return (
         <>

@@ -90,7 +90,9 @@
       "lose":"Lose",
       "maintain": "Maintain",
       "gain":"Gain",
-      "submit_button":"Submit"
+      "submit_button":"Submit",
+      "diary_button": "Diary",
+      "logout_button": "Log out"
     },
     "fill_profile":{
       "title":"Fill profile",
