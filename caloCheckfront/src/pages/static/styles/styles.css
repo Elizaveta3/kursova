@@ -583,21 +583,20 @@ html {
   background: url(../images/bg_profile.jpg) no-repeat;
   background-size: cover;
   position: relative;
-  /* height: 100%; */
-  /* min-height: 110vh; */
+  min-height: 100vh;
 }
-.main_profile{
-  height: 87.3%;
+.main_profile {
+  flex: 1; /* Додаємо flex: 1 для заповнення вільного простору */
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
+
 .form_profile {
-  margin-top: 57px;
-  margin-bottom: 57px;
+  /* margin-top: 57px; */
+  /* margin-bottom: 57px; */
   width: 90%;
   height: 90%;
   background-color: #faf7e8;
@@ -816,7 +815,7 @@ html {
 
 .form_sex_editing .label_sex_editing,
 .form_goal_editing .label_goal_editing {
-  width: 175px;
+  width: 22.1%;
   font-family: "arsenal";
   font-size: 40px;
   text-align: left;
@@ -934,13 +933,13 @@ html {
   background: url(../images/diary2.jpg) no-repeat;
   background-size: cover;
   position: relative;
-  height: 100%;
-  min-height: 100vh;
+  /* height: 100%; */
+  /* min-height: 100vh; */
 }
 
 .form_diary {
-  margin-top: 2%;
-  margin-left: 5%;
+  /* margin-top: 2%;
+  margin-left: 5%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
