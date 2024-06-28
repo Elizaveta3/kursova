@@ -1,5 +1,5 @@
 .header_profile{
-    height: 13%;
+    height: 12.8%;
     background-color: #655247;
 }
 
@@ -39,7 +39,9 @@
     display: flex;
     flex-wrap: wrap;
 }
-
+.language_switcher_light span {
+    cursor: pointer;
+}
 /*відступи між елементами меню*/
 
 
