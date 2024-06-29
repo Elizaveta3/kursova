@@ -50,31 +50,31 @@ export const DiaryPage = () => {
     const handleGoToAuthPage = () => {
         navigate('/auth');
     };
-    
+
     const handlePlusButtonClick1 = () => {
         setShowText1(false);
         setShowSearch1(true);
         setIsFoodSectionActive(true);
     };
-    
+
     const handleCancel1 = () => {
         setShowText1(true);
         setShowSearch1(false);
         setIsFoodSectionActive(false);
     };
-    
+
     const handlePlusButtonClick2 = () => {
         setShowText2(false);
         setShowSearch2(true);
         setIsActivitySectionActive(true);
     };
-    
+
     const handleCancel2 = () => {
         setShowText2(true);
         setShowSearch2(false);
         setIsActivitySectionActive(false);
     };
-    
+
 
     const handleChange = (value, name) => {
         setFormData({ ...formData, [name]: value });
@@ -152,70 +152,72 @@ export const DiaryPage = () => {
     return (
         <div className="page_diary">
             <HeaderProfile click1={handleGoToProfile} click2={handleGoToAuthPage} child1={i18next.t('profile_diary.profile_button')} child2={i18next.t('profile_diary.logout_button')} />
-            <div className="form_diary">
-                <form className={`section_diary ${isFoodSectionActive ? 'active' : ''}`} onSubmit={handleSubmit}>
-                    <p className='text_diary'>{i18next.t('profile_diary.food')}</p>
-                    {showSearch1 && (
-                        <>
-                            <div className="search-container">
-                                <Autocomplete
-                                    options={jsonResults}
-                                    name="foodItemName"
-                                    sx={{ width: '80%' }}
-                                    renderInput={(params) => <TextField {...params} label={i18next.t('profile_diary.product_search')} />}
-                                    onChange={(e, value) => handleChange(value, 'foodItemName')}
-                                />
-                                <TextField
-                                    label={i18next.t('profile_diary.grams')}
-                                    name="quantityGrams"
-                                    sx={{ width: '50%' }}
-                                    onChange={(e) => handleChange(e.target.value, 'quantityGrams')}
-                                    id="quantityGrams"
-                                />
-                                <Button buttonClass="submit_button_diary" type="submit" onSubmit={handleSubmit}>{i18next.t('profile_diary.submit_button')}</Button>
-                            </div>
-                        </>
-                    )}
-                    {showText1 && <p className='little_text_diary'>{i18next.t('profile_diary.select_text')}</p>}
-                    {showSearch1 ? (
-                        <>
-                            <Button buttonClass="cancel_button_diary" handleClick={handleCancel1}>{i18next.t('profile_diary.cancel_button')}</Button>
-                        </>
-                    ) : (
-                        <Button buttonClass="add_button_diary" handleClick={handlePlusButtonClick1}>+</Button>
-                    )}
-                </form>
-                <form className={`section_diary ${isActivitySectionActive ? 'active' : ''}`} onSubmit={handleSubmitActivity}>
-                    <p className='text_diary'>{i18next.t('profile_diary.activity')}</p>
-                    {showSearch2 && (
-                        <>
-                            <div className="search-container">
-                                <Autocomplete
-                                    options={jsonResults2}
-                                    name="activityItemName"
-                                    sx={{ width: '80%' }}
-                                    renderInput={(params) => <TextField {...params} label={i18next.t('profile_diary.activity_search')} />}
-                                    onChange={(e, value) => handleChange(value, 'activityItemName')}
-                                />
-                                <TextField
-                                    label={i18next.t('profile_diary.minutes')}
-                                    name="quantityMinutes"
-                                    sx={{ width: '50%' }}
-                                    onChange={(e) => handleChange(e.target.value, 'quantityMinutes')}
-                                    id="quantityMinutes"
-                                />
-                                <Button buttonClass="submit_button_diary" type="submit" onSubmit={handleSubmitActivity}>{i18next.t('profile_diary.submit_button')}</Button>
-                            </div>
-                        </>
-                    )}
-                    {showText2 && <p className='little_text_diary'>{i18next.t('profile_diary.select_text')}</p>}
-                    {showSearch2 ? (
-                        <Button buttonClass="cancel_button_diary" handleClick={handleCancel2}>{i18next.t('profile_diary.cancel_button')}</Button>
-                    ) : (
-                        <Button buttonClass="add_button_diary" handleClick={handlePlusButtonClick2}>+</Button>
-                    )}
-                </form>
-            </div>
+            <main className="container_form_dairy">
+                <div className="form_diary">
+                    <form className={`section_diary ${isFoodSectionActive ? 'active' : ''}`} onSubmit={handleSubmit}>
+                        <p className='text_diary'>{i18next.t('profile_diary.food')}</p>
+                        {showSearch1 && (
+                            <>
+                                <div className="search-container">
+                                    <Autocomplete
+                                        options={jsonResults}
+                                        name="foodItemName"
+                                        sx={{ width: '80%'}}
+                                        renderInput={(params) => <TextField {...params} label={i18next.t('profile_diary.product_search')} />}
+                                        onChange={(e, value) => handleChange(value, 'foodItemName')}
+                                    />
+                                    <TextField
+                                        label={i18next.t('profile_diary.grams')}
+                                        name="quantityGrams"
+                                        sx={{ width: '50%' }}
+                                        onChange={(e) => handleChange(e.target.value, 'quantityGrams')}
+                                        id="quantityGrams"
+                                    />
+                                    <Button buttonClass="submit_button_diary" type="submit" onSubmit={handleSubmit}>{i18next.t('profile_diary.submit_button')}</Button>
+                                </div>
+                            </>
+                        )}
+                        {showText1 && <p className='little_text_diary'>{i18next.t('profile_diary.select_text')}</p>}
+                        {showSearch1 ? (
+                            <>
+                                <Button buttonClass="cancel_button_diary" handleClick={handleCancel1}>{i18next.t('profile_diary.cancel_button')}</Button>
+                            </>
+                        ) : (
+                            <Button buttonClass="add_button_diary" handleClick={handlePlusButtonClick1}>+</Button>
+                        )}
+                    </form>
+                    <form className={`section_diary ${isActivitySectionActive ? 'active' : ''}`} onSubmit={handleSubmitActivity}>
+                        <p className='text_diary'>{i18next.t('profile_diary.activity')}</p>
+                        {showSearch2 && (
+                            <>
+                                <div className="search-container">
+                                    <Autocomplete
+                                        options={jsonResults2}
+                                        name="activityItemName"
+                                        sx={{ width: '80%' }}
+                                        renderInput={(params) => <TextField {...params} label={i18next.t('profile_diary.activity_search')} />}
+                                        onChange={(e, value) => handleChange(value, 'activityItemName')}
+                                    />
+                                    <TextField
+                                        label={i18next.t('profile_diary.minutes')}
+                                        name="quantityMinutes"
+                                        sx={{ width: '50%' }}
+                                        onChange={(e) => handleChange(e.target.value, 'quantityMinutes')}
+                                        id="quantityMinutes"
+                                    />
+                                    <Button buttonClass="submit_button_diary" type="submit" onSubmit={handleSubmitActivity}>{i18next.t('profile_diary.submit_button')}</Button>
+                                </div>
+                            </>
+                        )}
+                        {showText2 && <p className='little_text_diary'>{i18next.t('profile_diary.select_text')}</p>}
+                        {showSearch2 ? (
+                            <Button buttonClass="cancel_button_diary" handleClick={handleCancel2}>{i18next.t('profile_diary.cancel_button')}</Button>
+                        ) : (
+                            <Button buttonClass="add_button_diary" handleClick={handlePlusButtonClick2}>+</Button>
+                        )}
+                    </form>
+                </div>
+            </main>
         </div>
     );
 };
