@@ -583,20 +583,22 @@ html {
   background: url(../images/bg_profile.jpg) no-repeat;
   background-size: cover;
   position: relative;
-  min-height: 100vh;
+  /* height: 100%; */
+  /* min-height: 110vh; */
 }
-.main_profile {
-  flex: 1; /* Додаємо flex: 1 для заповнення вільного простору */
+.main_profile{
+  height: 87.3%;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+ 
 
+}
 .form_profile {
-  /* margin-top: 57px; */
-  /* margin-bottom: 57px; */
+  margin-top: 57px;
+  margin-bottom: 57px;
   width: 90%;
   height: 90%;
   background-color: #faf7e8;
@@ -815,7 +817,7 @@ html {
 
 .form_sex_editing .label_sex_editing,
 .form_goal_editing .label_goal_editing {
-  width: 22.1%;
+  width: 175px;
   font-family: "arsenal";
   font-size: 40px;
   text-align: left;
@@ -933,25 +935,28 @@ html {
   background: url(../images/diary2.jpg) no-repeat;
   background-size: cover;
   position: relative;
-  /* height: 100%; */
-  /* min-height: 100vh; */
+  min-height: 100vh;
+}
+
+.container_form_dairy {
+  min-height: 85vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .form_diary {
-  /* margin-top: 2%;
-  margin-left: 5%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 90%;
-  height: 75vh;
+  height: 70vh;
   background-color: #faf7e8;
-  padding: 6px;
+  padding: 30px;
   text-align: center;
-  /* height: 600px; */
   border-radius: 30px;
-  box-sizing: border-box;
 }
 
 
@@ -1010,11 +1015,13 @@ html {
 
 .search-container {
   display: grid;
+  /* font-size: 1.3vw; */
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 5px;
   grid-auto-rows: 90px;
   width: 50%;
 }
+
 
 @media only screen and (max-width: 1800px) and (min-width: 1441px) {
   .text_diary {
