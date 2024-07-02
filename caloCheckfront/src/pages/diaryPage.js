@@ -29,6 +29,17 @@ export const DiaryPage = () => {
     const [isFoodSectionActive, setIsFoodSectionActive] = useState(false);
     const [isActivitySectionActive, setIsActivitySectionActive] = useState(false);
 
+
+    const [isInitialized, setIsInitialized] = useState(false);
+    useEffect(() => {
+        i18next.on('initialized', () => {
+          setIsInitialized(true);
+        });
+        if (i18next.isInitialized) {
+          setIsInitialized(true);
+        }
+      }, []);
+
     useEffect(() => {
         const loadData = () => {
             if (currentLanguage === 'ua') {
@@ -148,6 +159,10 @@ export const DiaryPage = () => {
             setErrorMessage(error.message);
         }
     };
+
+    if (!isInitialized) {
+        return <div>Завантаження...</div>;
+      }
 
     return (
         <div className="page_diary">

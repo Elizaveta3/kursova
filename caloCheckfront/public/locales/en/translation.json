@@ -55,7 +55,8 @@
       "send_button": "Send",
       "contact_info": "CONTACT INFORMATION",
       "suggestions" : "If you have comments or suggestions, or questions about cooperation, write or call us.",
-      "email_info": "E-mail: admincalo@ukr.net."
+      "email_info": "E-mail: admincalo@ukr.net.",
+      "successfull_send":"Your message has been successfully sent!"
     },
     "header":{
       "sign_up": "Sign up",

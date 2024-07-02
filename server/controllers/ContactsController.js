@@ -28,9 +28,9 @@ export const sendEmail = async (req,res) =>{
         let info = await transporter.sendMail(mailOptions);
 
         console.log('Message sent: %s', info.messageId);
-        res.status(200).send('Email sent successfully');
+        res.status(200).json({ message: 'Email sent successfully' });
     } catch (err) {
         console.error('Error sending email: ', err);
-        res.status(500).send('Error sending email');
+        res.status(500).json({ message: 'Error' });
     }
 };

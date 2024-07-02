@@ -1,7 +1,7 @@
 import React from 'react';
 import './FormRowForEmail.css';
 
-const FormRowForEmail = ({ label, type, id, name, placeholder, onChange, className }) => {
+const FormRowForEmail = ({ label, type, id, name, placeholder, onChange, className, value }) => {
     return (
         <div className={`form_row_email ${type === 'textarea' ? 'textarea-row' : ''}`}>
             <label htmlFor={id} className={type === 'textarea' ? 'textarea-label' : ''}>{label}</label>
@@ -12,6 +12,7 @@ const FormRowForEmail = ({ label, type, id, name, placeholder, onChange, classNa
                     placeholder={placeholder}
                     onChange={onChange}
                     className={`contact_welcome_input ${className}`}
+                    value={value}
                 />
             ) : (
                 <input
@@ -21,6 +22,7 @@ const FormRowForEmail = ({ label, type, id, name, placeholder, onChange, classNa
                     placeholder={placeholder}
                     onChange={onChange}
                     className={`contact_welcome_input ${className}`}
+                    value={value}
                 />
             )}
         </div>

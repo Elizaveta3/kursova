@@ -55,7 +55,8 @@
     "send_button": "Надіслати",
     "contact_info": "КОНТАКТНА ІНФОРМАЦІЯ",
     "suggestions": "Якщо у вас є зауваження чи пропозиції, або питання щодо співпраці, пишіть або телефонуйте нам.",
-    "email_info": "Пошта: admincalo@ukr.net."
+    "email_info": "Пошта: admincalo@ukr.net.",
+    "successfull_send":"Ваше повідомлення успішно відправлено!"
   },
   "header": {
     "sign_up": "Зареєструватися",
