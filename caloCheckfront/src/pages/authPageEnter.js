@@ -1,3 +1,4 @@
+import './static/styles/all.css'
 import React from 'react';
 import Header from '../components/Header/Header';
 import { Alert } from '@mui/material';

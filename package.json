@@ -50,6 +50,9 @@
         "@testing-library/user-event": "^13.5.0",
         "autoprefixer": "^10.4.19",
         "concurrently": "^8.2.2",
+        "gulp": "^5.0.0",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-concat": "^2.6.1",
         "postcss": "^8.4.38",
         "tailwindcss": "^3.4.3"
     },
@@ -60,7 +63,8 @@
         "eject": "react-scripts eject",
         "server": "nodemon ./server/index.js",
         "caloCheckfront": "npm run start --prefix caloCheckfront",
-        "dev": "concurrently \"npm run server\" \"npm run caloCheckfront\""
+        "dev": "concurrently \"npm run gulp\" \"npm run server\" \"npm run caloCheckfront\"",
+        "gulp": "gulp styles"
     },
     "keywords": [],
     "author": "",

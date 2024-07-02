@@ -1,0 +1,184 @@
+/*Styles for Profile Page starts*/
+
+.page_profile,
+.page_profile_editing {
+  font-family: "inter";
+  color: #655247;
+  font-size: 24px;
+  font-weight: 400;
+  background: url(../images/bg_profile.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  /* height: 100%; */
+  /* min-height: 110vh; */
+}
+.main_profile{
+  height: 87.3%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+
+}
+.form_profile {
+  margin-top: 57px;
+  margin-bottom: 57px;
+  width: 90%;
+  height: 90%;
+  background-color: #faf7e8;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+
+/* header for form in profile */
+.header_form_profile {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.header_wrappper_form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 31px 3px 31px;
+}
+
+.header_username h1 {
+  margin: 0;
+  font-family: "arsenal";
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.profile_item {
+  font-family: "arsenal";
+  font-size: 2vw;
+  margin: 0 15px;
+}
+
+.profile_section_wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.profile_section_calories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 9px 31px 0 #dfd5cd;
+  border-radius: 30px;
+  margin-top: 66px;
+  padding: 18px 0 19px 0;
+  width: 70%;
+  height: 78.2%;
+}
+
+.profile_user_info,
+.measurement {
+  font-weight: 700;
+  font-size: 2vw;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
+.profile_calories {
+  width: 22%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  /* Заокруглені кути для створення кола */
+  background-color: #7fac84;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  font-family: "arsenal";
+}
+.profile_calories_container {
+  width: 63%;
+  height: 68%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "arsenal";
+  color: #FAF7E8;
+}
+.word_left{
+  font-size: 1.875vw;
+
+}
+.rest_calories{
+  font-size: 4.166vw;
+  font-weight: 700;
+}
+.calories_norm{
+  font-size: 1.875vw;
+}
+
+.profile_calories_user {
+  font-weight: 700;
+  font-size:2.5vw;
+  text-align: center;
+}
+
+
+
+.profile_section_inf {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 3px 9px 31px 0 #dfd5cd;
+  margin-top: 32px;
+  margin-bottom: 90px;
+  padding-top: 60px;
+  padding-bottom: 38px;
+  width: 68.5%;
+  border-radius: 30px;
+}
+
+.profile_info_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.profile_item_container {
+  display: flex;
+  gap: 10px;
+  flex: 1 1 calc(40% - 20px);
+  /* Настроить ширину колонок */
+  justify-content: center;
+  text-align: right;
+}
+
+.profile_section_calories>div {
+  margin: 0 40px;
+  /* Встановлюємо відступи між елементами */
+}
+
+
+
+.profile_goal {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile_goal p {
+  font-size: 2.5vw;
+  margin: 0 10px;
+}

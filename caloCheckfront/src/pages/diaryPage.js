@@ -1,3 +1,4 @@
+import './static/styles/all.css'
 import React, { useState, useEffect, useContext } from 'react';
 import HeaderProfile from '../components/HeaderProfile/HeaderProfile';
 import { useNavigate } from 'react-router-dom';
