@@ -30,7 +30,9 @@ export const DiaryPage = () => {
     const [isFoodSectionActive, setIsFoodSectionActive] = useState(false);
     const [isActivitySectionActive, setIsActivitySectionActive] = useState(false);
 
+    const [foodItems, setFoodItems] = useState([]);
 
+    //Loading
     const [isInitialized, setIsInitialized] = useState(false);
     useEffect(() => {
         i18next.on('initialized', () => {
@@ -41,6 +43,7 @@ export const DiaryPage = () => {
         }
       }, []);
 
+    //Change dataset (language)
     useEffect(() => {
         const loadData = () => {
             if (currentLanguage === 'ua') {
@@ -54,6 +57,32 @@ export const DiaryPage = () => {
 
         loadData();
     }, [currentLanguage]);
+
+    //Products of user
+    useEffect(() => {
+        const fetchFoodItems = async () => {
+            try {
+                const accountId = currentUser._id;
+                const res = await fetch(`/auth/diary/food/${accountId}`, {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                });
+                const data = await res.json();
+                if (res.ok) {
+                    setFoodItems(data);
+                } else {
+                    throw new Error(data.message);
+                }
+            } catch (error) {
+                console.error('Error fetching food items:', error.message);
+                setErrorMessage(error.message);
+            }
+        };
+
+        fetchFoodItems();
+    }, [currentUser]);
 
     const handleGoToProfile = () => {
         navigate('/profile');
@@ -201,6 +230,10 @@ export const DiaryPage = () => {
                         ) : (
                             <Button buttonClass="add_button_diary" handleClick={handlePlusButtonClick1}>+</Button>
                         )}
+                     
+                        <div>
+                            <p style={{color: "black"}}> {foodItems && foodItems.foodItem}</p>
+                        </div>
                     </form>
                     <form className={`section_diary ${isActivitySectionActive ? 'active' : ''}`} onSubmit={handleSubmitActivity}>
                         <p className='text_diary'>{i18next.t('profile_diary.activity')}</p>
