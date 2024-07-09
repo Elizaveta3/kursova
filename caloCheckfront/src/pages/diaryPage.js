@@ -31,6 +31,7 @@ export const DiaryPage = () => {
     const [isActivitySectionActive, setIsActivitySectionActive] = useState(false);
 
     const [foodItems, setFoodItems] = useState([]);
+    const [activityItems, setActivityItems] = useState([]);
 
     //Loading
     const [isInitialized, setIsInitialized] = useState(false);
@@ -87,7 +88,38 @@ export const DiaryPage = () => {
         };
 
         fetchFoodItems();
-    }, [currentUser]); // Ensure useEffect dependency
+    }, [currentUser]);
+
+    // Activities of user
+    useEffect(() => {
+        const fetchActivityItems = async () => {
+            try {
+                const accountId = currentUser._id;
+                const response = await fetch(`/auth/diary/activity/${accountId}`);
+
+                if (!response.ok) {
+                    throw new Error('Не вдалося отримати дані про їжу');
+                }
+
+                let data = await response.json();
+
+                // Перевірка, що дані є масивом об'єктів
+                if (!Array.isArray(data)) {
+                    // Якщо дані не є масивом, то перетворюємо їх у масив
+                    data = [data];
+                }
+
+                // Оновлення стану з отриманими даними
+                setActivityItems(data);
+
+            } catch (error) {
+                console.error('Помилка отримання даних про їжу:', error.message);
+                setFoodItems([]); // Встановлення порожнього масиву або обробка стану помилки
+            }
+        };
+
+        fetchActivityItems();
+    }, [currentUser]);
 
     useEffect(() => {
         console.log(foodItems); // Перевірка стану foodItems
@@ -246,7 +278,7 @@ export const DiaryPage = () => {
                                 foodItems.map((item) => (
                                     <div key={item._id}>
                                         {item.foodItem.map((food, index) => (
-                                            <p key={index}><strong>{food}</strong>: {item.quantityGrams[index]} гр, {item.caloriesForProduct[index]} калорій</p>
+                                            <p key={index}><strong>{food}</strong>: {item.quantityGrams[index]} гр, {item.caloriesForProduct[index]} кк</p>
                                         ))}
                                     </div>
                                 ))
@@ -254,11 +286,6 @@ export const DiaryPage = () => {
                                 <p>No food items found.</p>
                             )}
                         </div>
-
-
-
-
-
                     </form>
                     <form className={`section_diary ${isActivitySectionActive ? 'active' : ''}`} onSubmit={handleSubmitActivity}>
                         <p className='text_diary'>{i18next.t('profile_diary.activity')}</p>
@@ -289,6 +316,20 @@ export const DiaryPage = () => {
                         ) : (
                             <Button buttonClass="add_button_diary" handleClick={handlePlusButtonClick2}>+</Button>
                         )}
+
+                        <div style={{ color: 'black' }}>
+                            {activityItems.length > 0 ? (
+                                activityItems.map((item) => (
+                                    <div key={item._id}>
+                                        {item.activityItem.map((activity, index) => (
+                                            <p key={index}><strong>{activity}</strong>: {item.quantityMinutes[index]} хв, {item.caloriesForActivity[index]} кк</p>
+                                        ))}
+                                    </div>
+                                ))
+                            ) : (
+                                <p>No food items found.</p>
+                            )}
+                        </div>
                     </form>
                 </div>
             </main>

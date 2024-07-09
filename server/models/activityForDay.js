@@ -10,6 +10,14 @@ const ActivityForDaySchema = new mongoose.Schema({
         type: Number,
         required: true,
     }, 
+    caloriesForActivity: {
+        type:Array,
+        default: [],
+    }, 
+    quantityMinutes: {
+        type:Array,
+        default: [],
+    },
     activityItem: {
         type: Array,
         default: [],

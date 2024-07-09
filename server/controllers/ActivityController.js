@@ -24,11 +24,15 @@ export const calculateActivityForDay = async (req, res) => {
             activityForDay = new ActivityForDayModel({
                 account: accountId,
                 quantityCalories: calories,
+                caloriesForActivity: [calories],
+                quantityMinutes: [quantityMinutes],
                 activityItem: [activityItemName],
             });
         } else {
             // Якщо запис існує, оновити його
             activityForDay.quantityCalories += calories;
+            activityForDay.caloriesForActivity.push(calories);
+            activityForDay.quantityMinutes.push(quantityMinutes);
             activityForDay.activityItem.push(activityItemName);
         }
 
