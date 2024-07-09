@@ -28,11 +28,15 @@ export const calculateFoodForDay = async (req, res) => {
             foodForDay = new FoodForDayModel({
                 account: accountId,
                 quantityCalories: calories,
+                caloriesForProduct: [calories],
+                quantityGrams: [quantityGrams],
                 foodItem: [foodItemName],
             });
         } else {
             // If a record exists, update it
             foodForDay.quantityCalories += calories;
+            foodForDay.caloriesForProduct.push(calories);
+            foodForDay.quantityGrams.push(quantityGrams);
             foodForDay.foodItem.push(foodItemName);
         }
 

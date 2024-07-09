@@ -10,6 +10,14 @@ const FoodForDaySchema = new mongoose.Schema({
         type: Number,
         required: true,
     }, 
+    caloriesForProduct: {
+        type:Array,
+        default: [],
+    }, 
+    quantityGrams: {
+        type:Array,
+        default: [],
+    },
     foodItem: {
         type: Array,
         default: [],

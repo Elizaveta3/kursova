@@ -36,12 +36,12 @@ export const DiaryPage = () => {
     const [isInitialized, setIsInitialized] = useState(false);
     useEffect(() => {
         i18next.on('initialized', () => {
-          setIsInitialized(true);
+            setIsInitialized(true);
         });
         if (i18next.isInitialized) {
-          setIsInitialized(true);
+            setIsInitialized(true);
         }
-      }, []);
+    }, []);
 
     //Change dataset (language)
     useEffect(() => {
@@ -58,31 +58,41 @@ export const DiaryPage = () => {
         loadData();
     }, [currentLanguage]);
 
-    //Products of user
+    // Products of user
     useEffect(() => {
         const fetchFoodItems = async () => {
             try {
                 const accountId = currentUser._id;
-                const res = await fetch(`/auth/diary/food/${accountId}`, {
-                    method: 'GET',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                });
-                const data = await res.json();
-                if (res.ok) {
-                    setFoodItems(data);
-                } else {
-                    throw new Error(data.message);
+                const response = await fetch(`/auth/diary/food/${accountId}`);
+
+                if (!response.ok) {
+                    throw new Error('Не вдалося отримати дані про їжу');
                 }
+
+                let data = await response.json();
+
+                // Перевірка, що дані є масивом об'єктів
+                if (!Array.isArray(data)) {
+                    // Якщо дані не є масивом, то перетворюємо їх у масив
+                    data = [data];
+                }
+
+                // Оновлення стану з отриманими даними
+                setFoodItems(data);
+
             } catch (error) {
-                console.error('Error fetching food items:', error.message);
-                setErrorMessage(error.message);
+                console.error('Помилка отримання даних про їжу:', error.message);
+                setFoodItems([]); // Встановлення порожнього масиву або обробка стану помилки
             }
         };
 
         fetchFoodItems();
-    }, [currentUser]);
+    }, [currentUser]); // Ensure useEffect dependency
+
+    useEffect(() => {
+        console.log(foodItems); // Перевірка стану foodItems
+    }, [foodItems]);
+
 
     const handleGoToProfile = () => {
         navigate('/profile');
@@ -192,7 +202,7 @@ export const DiaryPage = () => {
 
     if (!isInitialized) {
         return <div>Завантаження...</div>;
-      }
+    }
 
     return (
         <div className="page_diary">
@@ -207,7 +217,7 @@ export const DiaryPage = () => {
                                     <Autocomplete
                                         options={jsonResults}
                                         name="foodItemName"
-                                        sx={{ width: '80%'}}
+                                        sx={{ width: '80%' }}
                                         renderInput={(params) => <TextField {...params} label={i18next.t('profile_diary.product_search')} />}
                                         onChange={(e, value) => handleChange(value, 'foodItemName')}
                                     />
@@ -230,10 +240,25 @@ export const DiaryPage = () => {
                         ) : (
                             <Button buttonClass="add_button_diary" handleClick={handlePlusButtonClick1}>+</Button>
                         )}
-                     
-                        <div>
-                            <p style={{color: "black"}}> {foodItems && foodItems.foodItem}</p>
+
+                        <div style={{ color: 'black' }}>
+                            {foodItems.length > 0 ? (
+                                foodItems.map((item) => (
+                                    <div key={item._id}>
+                                        {item.foodItem.map((food, index) => (
+                                            <p key={index}><strong>{food}</strong>: {item.quantityGrams[index]} гр, {item.caloriesForProduct[index]} калорій</p>
+                                        ))}
+                                    </div>
+                                ))
+                            ) : (
+                                <p>No food items found.</p>
+                            )}
                         </div>
+
+
+
+
+
                     </form>
                     <form className={`section_diary ${isActivitySectionActive ? 'active' : ''}`} onSubmit={handleSubmitActivity}>
                         <p className='text_diary'>{i18next.t('profile_diary.activity')}</p>
