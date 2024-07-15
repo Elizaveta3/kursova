@@ -1,4 +1,4 @@
-import './static/styles/all.css'
+import './static/styles/style.min.css'
 import React, { useState, useEffect, useContext } from 'react';
 import { updateUserNameSuccess } from '../redux/user/userSlice';
 

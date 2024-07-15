@@ -41,6 +41,7 @@
         "redux-persist": "^6.0.0",
         "sass": "^1.52.1",
         "styled-components": "^6.1.9",
+        "url": "^0.11.3",
         "web-vitals": "^2.1.4"
     },
     "devDependencies": {
@@ -49,7 +50,9 @@
         "@testing-library/react": "^13.2.0",
         "@testing-library/user-event": "^13.5.0",
         "autoprefixer": "^10.4.19",
+        "browser-sync": "^3.0.2",
         "concurrently": "^8.2.2",
+        "del": "^7.1.0",
         "gulp": "^5.0.0",
         "gulp-clean-css": "^4.3.0",
         "gulp-concat": "^2.6.1",
@@ -64,7 +67,7 @@
         "server": "nodemon ./server/index.js",
         "caloCheckfront": "npm run start --prefix caloCheckfront",
         "dev": "concurrently \"npm run gulp\" \"npm run server\" \"npm run caloCheckfront\"",
-        "gulp": "gulp styles"
+        "gulp": "gulp"
     },
     "keywords": [],
     "author": "",

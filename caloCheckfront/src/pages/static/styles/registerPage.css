@@ -1,5 +1,4 @@
-.page_reg,
-.page_enter {
+.page_reg {
     font-family: "inter";
     color: #655247;
     font-size: 24px;
@@ -23,7 +22,6 @@
     /* Центрування по горизонталі */
 }
 
-.form_enter,
 .form_reg {
     margin-top: 42px;
     margin-bottom: 60px;
@@ -57,10 +55,9 @@
     padding-top: 7px;
 }
 
-.form_enter h1,
 .form_reg h1 {
     font-family: "arsenal";
-    font-size: 100px;
+    font-size: 80px;
     text-align: center;
     font-weight: bold;
     padding-top: 54px;

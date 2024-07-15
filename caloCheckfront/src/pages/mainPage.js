@@ -1,4 +1,4 @@
-import './static/styles/all.css'
+import './static/styles/style.min.css'
 import Button from "../components/Button/Button";
 import HeaderMain from "../components/HeaderMain/HeaderMain";
 import Footer from "../components/Footer/Footer";
