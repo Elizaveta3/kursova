@@ -22,8 +22,7 @@ function browsersync() {
     browserSync.init({
         proxy: "http://localhost:3000", 
         port: 3001,
-        open: false,
-        browser: "google chrome"
+        open: false
     });
 }
 
