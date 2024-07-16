@@ -2,7 +2,7 @@ import React, { useState, useContext, useEffect } from 'react';
 import Button from '../components/Button/Button';
 import RadioBox from '../components/RadioBox/RadioBox';
 import FormInput from '../components/FormInputFillProf/FormInputFillProf';
-import './static/styles/all.css';
+import './static/styles/style.min.css';
 import { useNavigate } from 'react-router-dom';
 import { Alert } from '@mui/material';
 import { useSelector } from 'react-redux';

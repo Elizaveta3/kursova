@@ -1,7 +1,7 @@
  import React, { useState, useContext, useEffect } from 'react'
 import Header from '../components/Header/Header'
 import { Alert } from '@mui/material';
-import './static/styles/styles.css'
+import './static/styles/style.min.css'
 import Button from "../components/Button/Button";
 import { useNavigate } from "react-router-dom";
 import { LanguageContext } from '../LanguageContext';

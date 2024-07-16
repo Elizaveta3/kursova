@@ -17,8 +17,7 @@
     /* Центрування по горизонталі */
 }
 
-.form_enter,
-.form_reg {
+.form_enter {
     margin-top: 42px;
     margin-bottom: 60px;
     width: 1030px;
@@ -51,8 +50,7 @@
     padding-top: 7px;
 }
 
-.form_enter h1,
-.form_reg h1 {
+.form_enter h1 {
     font-family: "arsenal";
     font-size: 100px;
     text-align: center;

@@ -1,4 +1,4 @@
-import './static/styles/all.css'
+import './static/styles/style.min.css'
 import React, { useState, useContext, useEffect } from 'react';
 import HeaderContacts from '../components/HeaderContacts/Header';
 import FormRowForEmail from '../components/FormRowForEmail/FormRowForEmail';
