@@ -140,10 +140,12 @@ export const DiaryPage = () => {
         setIsFoodSectionActive(true);
     };
 
-    const handleCancel1 = () => {
+    const handleCancel1 = (e) => {
+        e.preventDefault(); 
         setShowText1(true);
         setShowSearch1(false);
         setIsFoodSectionActive(false);
+        setFormData({ ...formData, foodItemName: '', quantityGrams: '' });
     };
 
     const handlePlusButtonClick2 = () => {
@@ -152,10 +154,12 @@ export const DiaryPage = () => {
         setIsActivitySectionActive(true);
     };
 
-    const handleCancel2 = () => {
+    const handleCancel2 = (e) => {
+        e.preventDefault();
         setShowText2(true);
         setShowSearch2(false);
         setIsActivitySectionActive(false);
+        setFormData({ ...formData, activityItemName: '', quantityMinutes: '' });
     };
 
 
@@ -272,13 +276,12 @@ export const DiaryPage = () => {
                         ) : (
                             <Button buttonClass="add_button_diary" handleClick={handlePlusButtonClick1}>+</Button>
                         )}
-
                         <div style={{ color: 'black' }}>
-                            {foodItems.length > 0 ? (
-                                foodItems.map((item) => (
-                                    <div key={item._id}>
-                                        {item.foodItem.map((food, index) => (
-                                            <p key={index}><strong>{food}</strong>: {item.quantityGrams[index]} гр, {item.caloriesForProduct[index]} кк</p>
+                            {(foodItems && foodItems.filter(item => item).length > 0) ? (
+                                foodItems.filter(item => item).map((item, index) => (
+                                    <div key={item._id || index}>
+                                        {item.foodItem && item.foodItem.map((activity, idx) => (
+                                            <p key={idx}><strong>{activity}</strong>: {item.quantityGrams[idx]} хв, {item.caloriesForProduct[idx]} кк</p>
                                         ))}
                                     </div>
                                 ))
@@ -318,18 +321,21 @@ export const DiaryPage = () => {
                         )}
 
                         <div style={{ color: 'black' }}>
-                            {activityItems.length > 0 ? (
-                                activityItems.map((item) => (
-                                    <div key={item._id}>
-                                        {item.activityItem.map((activity, index) => (
-                                            <p key={index}><strong>{activity}</strong>: {item.quantityMinutes[index]} хв, {item.caloriesForActivity[index]} кк</p>
+                            {(activityItems && activityItems.filter(item => item).length > 0) ? (
+                                activityItems.filter(item => item).map((item, index) => (
+                                    <div key={item._id || index}>
+                                        {item.activityItem && item.activityItem.map((activity, idx) => (
+                                            <p key={idx}><strong>{activity}</strong>: {item.quantityMinutes[idx]} хв, {item.caloriesForActivity[idx]} кк</p>
                                         ))}
                                     </div>
                                 ))
                             ) : (
-                                <p>No food items found.</p>
+                                <p>No activity items found.</p>
                             )}
                         </div>
+
+
+
                     </form>
                 </div>
             </main>
