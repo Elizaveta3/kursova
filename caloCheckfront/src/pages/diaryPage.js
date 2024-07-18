@@ -189,6 +189,7 @@ export const DiaryPage = () => {
             }
             if (res.ok) {
                 console.log('Added');
+                setFoodItems([...foodItems, { ...formData, foodItem: [formData.foodItemName], quantityGrams: [formData.quantityGrams], caloriesForProduct: [data.caloriesForProduct] }]);
                 // Reset form data after successful submission
                 setFormData({ foodItemName: '', quantityGrams: '' });
                 // Show the add button again
@@ -218,14 +219,16 @@ export const DiaryPage = () => {
             });
             const data = await res.json();
             if (!res.ok) {
-                const data = await res.json();
-                throw new Error(data.message);
+                const errorData = await res.json();
+                throw new Error(errorData.message);
             }
             if (res.ok) {
-                console.log('Added');
-                // Reset form data after successful submission
+                console.log('Added activity:', data);
+                // Обновление состояния activityItems
+                setActivityItems([...activityItems, { ...formData, activityItem: [formData.activityItemName], quantityMinutes: [formData.quantityMinutes], caloriesForActivity: [data.caloriesForActivity] }]);
+                // Сброс формы после успешной отправки
                 setFormData({ activityItemName: '', quantityMinutes: '' });
-                // Show the add button again
+                // Показ кнопки добавления снова
                 setShowSearch2(false);
                 setShowText2(true);
             }
@@ -235,6 +238,8 @@ export const DiaryPage = () => {
             setErrorMessage(error.message);
         }
     };
+    
+    
 
     if (!isInitialized) {
         return <div>Завантаження...</div>;
@@ -276,12 +281,13 @@ export const DiaryPage = () => {
                         ) : (
                             <Button buttonClass="add_button_diary" handleClick={handlePlusButtonClick1}>+</Button>
                         )}
+                        
                         <div style={{ color: 'black' }}>
                             {(foodItems && foodItems.filter(item => item).length > 0) ? (
                                 foodItems.filter(item => item).map((item, index) => (
                                     <div key={item._id || index}>
                                         {item.foodItem && item.foodItem.map((activity, idx) => (
-                                            <p key={idx}><strong>{activity}</strong>: {item.quantityGrams[idx]} хв, {item.caloriesForProduct[idx]} кк</p>
+                                            <p key={idx}><strong>{activity}</strong>: {item.quantityGrams[idx]} гр, {item.caloriesForProduct[idx]} кк</p>
                                         ))}
                                     </div>
                                 ))

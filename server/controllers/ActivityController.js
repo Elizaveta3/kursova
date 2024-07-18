@@ -39,7 +39,10 @@ export const calculateActivityForDay = async (req, res) => {
         // Зберегти або оновити запис foodForDay
         await activityForDay.save();
 
-        res.status(200).json({ message: 'Кількість калорій успішно розрахована і збережена' });
+        res.status(200).json({ 
+            message: 'Кількість калорій успішно розрахована і збережена',
+            caloriesForActivity: calories
+        });
     } catch (error) {
         console.error(error);
         res.status(500).json({ message: 'Не вдалося зробити обрахунки' });
