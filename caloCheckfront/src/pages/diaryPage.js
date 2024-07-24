@@ -3,6 +3,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import HeaderProfile from '../components/HeaderProfile/HeaderProfile';
 import { useNavigate } from 'react-router-dom';
 import Button from '../components/Button/Button';
+import ListInDiary from '../components/ListInDiary/ListInDiary';
 import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
 import jsonDataEN from '../data/calories.json';
@@ -11,7 +12,7 @@ import jsonDataUKR from '../data/caloriesUKR.json';
 import jsonDataUKR2 from '../data/sportUKR.json';
 import { useSelector } from 'react-redux';
 import { LanguageContext } from '../LanguageContext';
-import i18next from '../i18n';
+import i18next from '../i18n';  
 
 export const DiaryPage = () => {
     const navigate = useNavigate();
@@ -141,7 +142,7 @@ export const DiaryPage = () => {
     };
 
     const handleCancel1 = (e) => {
-        e.preventDefault(); 
+        e.preventDefault();
         setShowText1(true);
         setShowSearch1(false);
         setIsFoodSectionActive(false);
@@ -238,8 +239,8 @@ export const DiaryPage = () => {
             setErrorMessage(error.message);
         }
     };
-    
-    
+
+
 
     if (!isInitialized) {
         return <div>Завантаження...</div>;
@@ -281,21 +282,8 @@ export const DiaryPage = () => {
                         ) : (
                             <Button buttonClass="add_button_diary" handleClick={handlePlusButtonClick1}>+</Button>
                         )}
-                        
-                        <div style={{ color: 'black' }}>
-                            {(foodItems && foodItems.filter(item => item).length > 0) ? (
-                                foodItems.filter(item => item).map((item, index) => (
-                                    <div key={item._id || index}>
-                                        {item.foodItem && item.foodItem.map((activity, idx) => (
-                                            <p key={idx}><strong>{activity}</strong>: {item.quantityGrams[idx]} гр, {item.caloriesForProduct[idx]} кк</p>
-                                        ))}
-                                    </div>
-                                ))
-                            ) : (
-                                <p>No food items found.</p>
-                            )}
-                        </div>
                     </form>
+                    <ListInDiary items={foodItems} type='foodItem' />
                     <form className={`section_diary ${isActivitySectionActive ? 'active' : ''}`} onSubmit={handleSubmitActivity}>
                         <p className='text_diary'>{i18next.t('profile_diary.activity')}</p>
                         {showSearch2 && (
@@ -325,24 +313,8 @@ export const DiaryPage = () => {
                         ) : (
                             <Button buttonClass="add_button_diary" handleClick={handlePlusButtonClick2}>+</Button>
                         )}
-
-                        <div style={{ color: 'black' }}>
-                            {(activityItems && activityItems.filter(item => item).length > 0) ? (
-                                activityItems.filter(item => item).map((item, index) => (
-                                    <div key={item._id || index}>
-                                        {item.activityItem && item.activityItem.map((activity, idx) => (
-                                            <p key={idx}><strong>{activity}</strong>: {item.quantityMinutes[idx]} хв, {item.caloriesForActivity[idx]} кк</p>
-                                        ))}
-                                    </div>
-                                ))
-                            ) : (
-                                <p>No activity items found.</p>
-                            )}
-                        </div>
-
-
-
                     </form>
+                    <ListInDiary items={activityItems} type='activityItem' />
                 </div>
             </main>
         </div>
