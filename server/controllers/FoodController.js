@@ -62,3 +62,39 @@ export const getCalculateEaten = async (req, res) => {
         });
     }
 };
+
+export const deleteProduct = async (req, res) => {
+    try {
+        const accountId = req.params.id;
+        const food = req.body.foodItem;
+
+        let foodForDay = await FoodForDayModel.findOne({ account: accountId });
+
+        if (!foodForDay) {
+            return res.status(404).json({ message: 'Акаунт не знайдено' });
+        }
+
+        const index = foodForDay.foodItem.indexOf(food);
+
+        if (index === -1) {
+            return res.status(404).json({ message: 'Продукт не знайдено' });
+        }
+        
+        const removedCalories = foodForDay.caloriesForProduct[index];
+
+        foodForDay.foodItem.splice(index, 1);
+        foodForDay.quantityGrams.splice(index, 1);
+        foodForDay.caloriesForProduct.splice(index, 1);
+    
+        foodForDay.quantityCalories -= removedCalories;
+
+        await foodForDay.save();
+
+        res.status(200).json({ message: 'Продукт успішно видалений' });
+    } catch (err) {
+        console.log(err);
+        res.status(500).json({
+            message: 'Не вдалося видалити продукт',
+        });
+    }
+};

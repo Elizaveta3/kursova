@@ -51,6 +51,9 @@ app.patch('/auth/updateProfile/:id', AccountController.updateAccountAndProfile);
 //Запит для обрахунку калорій, що залишились
 app.get('/auth/leftCalories/:id', CaloriesNormController.getLeftCalories);
 
+//Запит для видалення продукту
+app.delete('/auth/deleteProduct/:id', FoodController.deleteProduct);
+
 cron.schedule('0 0 * * *', () => {
     // Видаляємо всі дані з колекції CaloriesForDay
     foodForDay.deleteMany({})
